@@ -1,0 +1,423 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-F1A81939C2D76F74B7",
+      "evidence": [
+        {
+          "doc_id": "DOC-AA130EEEE880F73649",
+          "quote": "围绕“学术表达与个人贡献”展开，记录了 audience adaptation",
+          "family_key": "SRC-63FDBD3050386B",
+          "polarity": "context",
+          "observables": [
+            "audience adaptation"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-8882A8FD169BD9F1E4",
+          "quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement",
+          "family_key": "SRC-63FDBD3050386B",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-63FDBD3050386B"
+        ],
+        "reason_code": "partial_observable_coverage"
+      }
+    },
+    {
+      "sample_id": "SID-A53A1947FB15281509",
+      "evidence": [
+        {
+          "doc_id": "DOC-8BE68DD1094F6E5C88",
+          "quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment",
+          "family_key": "SRC-4078805A9E7F0C",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-E2ACE6195B5189DF3C",
+          "quote": "围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale",
+          "family_key": "SRC-4078805A9E7F0C",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-4078805A9E7F0C"
+        ],
+        "reason_code": "strong_coherence_and_alignment"
+      }
+    },
+    {
+      "sample_id": "SID-DA04F3597F9E8B3CAE",
+      "evidence": [
+        {
+          "doc_id": "DOC-AA130EEEE880F73649",
+          "quote": "围绕“学术表达与个人贡献”展开，记录了 audience adaptation",
+          "family_key": "SRC-63FDBD3050386B",
+          "polarity": "context",
+          "observables": [
+            "audience adaptation"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-8882A8FD169BD9F1E4",
+          "quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement",
+          "family_key": "SRC-63FDBD3050386B",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-63FDBD3050386B"
+        ],
+        "reason_code": "partial_observable_coverage"
+      }
+    },
+    {
+      "sample_id": "SID-79E85433F66E8A1224",
+      "evidence": [
+        {
+          "doc_id": "DOC-8BE68DD1094F6E5C88",
+          "quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment",
+          "family_key": "SRC-4078805A9E7F0C",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-E2ACE6195B5189DF3C",
+          "quote": "围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale",
+          "family_key": "SRC-4078805A9E7F0C",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-4078805A9E7F0C"
+        ],
+        "reason_code": "strong_coherence_and_alignment"
+      }
+    },
+    {
+      "sample_id": "SID-7A12979F0D10029F3B",
+      "evidence": [
+        {
+          "doc_id": "DOC-10ED2571D97A7E6290",
+          "quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit",
+          "family_key": "SRC-001340DA492900",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-0EE593DC1BC808BD51",
+          "quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit",
+          "family_key": "SRC-001340DA492900",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-209346BF2A0918AA87",
+          "quote": "围绕“研究问题与方法匹配”展开，记录了 limitations",
+          "family_key": "SRC-001340DA492900",
+          "polarity": "context",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-001340DA492900"
+        ],
+        "reason_code": "coherent_chain_with_adjustment"
+      }
+    },
+    {
+      "sample_id": "SID-ACEE7F048712FAE8D0",
+      "evidence": [
+        {
+          "doc_id": "DOC-1809D79E9F4B7A1E09",
+          "quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit",
+          "family_key": "SRC-525209B6696845",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-7149205A5492BFEFC5",
+          "quote": "围绕“研究问题与方法匹配”展开，记录了 limitations",
+          "family_key": "SRC-525209B6696845",
+          "polarity": "context",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-525209B6696845"
+        ],
+        "reason_code": "basic_practice_established"
+      }
+    },
+    {
+      "sample_id": "SID-32F1B2964D0F2976A3",
+      "evidence": [
+        {
+          "doc_id": "DOC-72BF3DA8365A85E7D9",
+          "quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop",
+          "family_key": "SRC-AACCD14EF68B90",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-487C3319365DEAC6CC",
+          "quote": "围绕“学习评价与反馈设计”展开，记录了 formative check",
+          "family_key": "SRC-AACCD14EF68B90",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-AACCD14EF68B90"
+        ],
+        "reason_code": "loose_relationship_single_attempt"
+      }
+    },
+    {
+      "sample_id": "SID-4C9676F2233DA55562",
+      "evidence": [
+        {
+          "doc_id": "DOC-32B2B618B50AA2169A",
+          "quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard",
+          "family_key": "SRC-EACA9AA381AAAD",
+          "polarity": "support",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-28C68B9EA56F335B7D",
+          "quote": "围绕“AI 风险、隐私与版权治理”展开，记录了 bias check",
+          "family_key": "SRC-EACA9AA381AAAD",
+          "polarity": "context",
+          "observables": [
+            "bias check"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-EACA9AA381AAAD"
+        ],
+        "reason_code": "continuous_improvement_mechanism"
+      }
+    },
+    {
+      "sample_id": "SID-7B07883415FDF5583E",
+      "evidence": [
+        {
+          "doc_id": "DOC-871CF908E3AFF60FBE",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace",
+          "family_key": "SRC-38AE6CA7E92DD9",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-5266721D99918D4D35",
+          "quote": "围绕“数据支持的教学决策”展开，记录了 privacy safeguard",
+          "family_key": "SRC-38AE6CA7E92DD9",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-38AE6CA7E92DD9"
+        ],
+        "reason_code": "continuous_improvement_mechanism"
+      }
+    },
+    {
+      "sample_id": "SID-03B8BC67734334EF12",
+      "evidence": [
+        {
+          "doc_id": "DOC-10ED2571D97A7E6290",
+          "quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit",
+          "family_key": "SRC-001340DA492900",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-0EE593DC1BC808BD51",
+          "quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit",
+          "family_key": "SRC-001340DA492900",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-209346BF2A0918AA87",
+          "quote": "围绕“研究问题与方法匹配”展开，记录了 limitations",
+          "family_key": "SRC-001340DA492900",
+          "polarity": "context",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-001340DA492900"
+        ],
+        "reason_code": "coherent_chain_with_adjustment"
+      }
+    },
+    {
+      "sample_id": "SID-275664DAD34B2D5B23",
+      "evidence": [
+        {
+          "doc_id": "DOC-331CCE4C4345893CCB",
+          "quote": "围绕“人机协同流程设计”展开，记录了 error handling",
+          "family_key": "SRC-1125CA507B8828",
+          "polarity": "context",
+          "observables": [
+            "error handling"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-1125CA507B8828"
+        ],
+        "reason_code": "limited_substantive_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-9AD0C10D7CEF9A90D3",
+      "evidence": [
+        {
+          "doc_id": "DOC-871CF908E3AFF60FBE",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace",
+          "family_key": "SRC-38AE6CA7E92DD9",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-5266721D99918D4D35",
+          "quote": "围绕“数据支持的教学决策”展开，记录了 privacy safeguard",
+          "family_key": "SRC-38AE6CA7E92DD9",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-38AE6CA7E92DD9"
+        ],
+        "reason_code": "continuous_improvement_mechanism"
+      }
+    }
+  ]
+}

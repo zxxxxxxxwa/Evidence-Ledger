@@ -1,0 +1,390 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-ACE468940E66ED9132",
+      "evidence": [
+        {
+          "doc_id": "DOC-A0917744F6100E822C",
+          "quote": "记录了 error handling、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-3D32E454473A2D",
+          "polarity": "context",
+          "observables": [
+            "error handling"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-3D32E454473A2D"
+        ],
+        "reason_code": "partial_summary_only"
+      }
+    },
+    {
+      "sample_id": "SID-7434C7892B0743AFF5",
+      "evidence": [
+        {
+          "doc_id": "DOC-19F42CDC511CE54959",
+          "quote": "记录了 bias check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-F055BAFFE0B0BF",
+          "polarity": "context",
+          "observables": [
+            "bias check"
+          ],
+          "extraction_confidence": 0.5
+        },
+        {
+          "doc_id": "DOC-65214993DC9B64F467",
+          "quote": "材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。已用多轮证据持续迭代，并形成可共享的做法。",
+          "family_key": "SRC-F055BAFFE0B0BF",
+          "polarity": "support",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 4,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-F055BAFFE0B0BF"
+        ],
+        "reason_code": "strong_iterative_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-EDAA1933223635ABA8",
+      "evidence": [
+        {
+          "doc_id": "DOC-DE3A60B3B0B80A88A7",
+          "quote": "记录了 error handling、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-D719ED29AC0B3C",
+          "polarity": "context",
+          "observables": [
+            "error handling"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-D719ED29AC0B3C"
+        ],
+        "reason_code": "partial_summary_only"
+      }
+    },
+    {
+      "sample_id": "SID-191CCBBB04AD36169A",
+      "evidence": [
+        {
+          "doc_id": "DOC-48D934272CBADBAB48",
+          "quote": "材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "family_key": "SRC-FC544487FD060B",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.7
+        },
+        {
+          "doc_id": "DOC-4D53C5131205E73379",
+          "quote": "记录了 audience adaptation、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-FC544487FD060B",
+          "polarity": "context",
+          "observables": [
+            "audience adaptation"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-FC544487FD060B"
+        ],
+        "reason_code": "single_attempt_loose"
+      }
+    },
+    {
+      "sample_id": "SID-03489BA64CF7C95194",
+      "evidence": [
+        {
+          "doc_id": "DOC-923AE3B616AECF8C0B",
+          "quote": "记录了 activity-to-outcome rationale、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-0AA9C89C600466",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.5
+        },
+        {
+          "doc_id": "DOC-7156352BA451E4D7D2",
+          "quote": "材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "family_key": "SRC-0AA9C89C600466",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-7B70DFA891B6D04573",
+          "quote": "材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "family_key": "SRC-0AA9C89C600466",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-0AA9C89C600466"
+        ],
+        "reason_code": "coherent_traceable_chain"
+      }
+    },
+    {
+      "sample_id": "SID-37705E2CF6CFD2303D",
+      "evidence": [
+        {
+          "doc_id": "DOC-C661D172D7CAA82A69",
+          "quote": "材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "family_key": "SRC-2489A625D6C8DA",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.7
+        },
+        {
+          "doc_id": "DOC-8ABE55100A8C0BFF4B",
+          "quote": "记录了 accessibility、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-2489A625D6C8DA",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-2489A625D6C8DA"
+        ],
+        "reason_code": "single_attempt_loose"
+      }
+    },
+    {
+      "sample_id": "SID-ECB7DA4479CD98FF8F",
+      "evidence": [
+        {
+          "doc_id": "DOC-0F50B0FC4F86641C71",
+          "quote": "材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "family_key": "SRC-451746478B142B",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.75
+        },
+        {
+          "doc_id": "DOC-91A62C84147604B79D",
+          "quote": "记录了 accessibility、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-451746478B142B",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.75,
+        "cited_family_keys": [
+          "SRC-451746478B142B"
+        ],
+        "reason_code": "basic_practice_established"
+      }
+    },
+    {
+      "sample_id": "SID-CC4DD6ABEA1EFCC4BF",
+      "evidence": [
+        {
+          "doc_id": "DOC-ED187460ADABBA81FC",
+          "quote": "材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "family_key": "SRC-1CE87236B9560F",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.75
+        },
+        {
+          "doc_id": "DOC-915302EAA0847C8974",
+          "quote": "记录了 accessibility、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-1CE87236B9560F",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.75,
+        "cited_family_keys": [
+          "SRC-1CE87236B9560F"
+        ],
+        "reason_code": "basic_practice_established"
+      }
+    },
+    {
+      "sample_id": "SID-4D9FBE8D369A4335E4",
+      "evidence": [
+        {
+          "doc_id": "DOC-089965F1223F74444A",
+          "quote": "材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。工作链较完整，可依据对象作调整并追溯理由。",
+          "family_key": "SRC-D80EF305EC1CE0",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-296B463EA3054C502E",
+          "quote": "记录了 limitations、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-D80EF305EC1CE0",
+          "polarity": "context",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-D80EF305EC1CE0"
+        ],
+        "reason_code": "complete_adjustable_chain"
+      }
+    },
+    {
+      "sample_id": "SID-525ABD494C27337D98",
+      "evidence": [
+        {
+          "doc_id": "DOC-1D62DAA614E3B56B6F",
+          "quote": "记录了 activity-to-outcome rationale、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-5DE4A52D11E8C4",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-5DE4A52D11E8C4"
+        ],
+        "reason_code": "partial_summary_only"
+      }
+    },
+    {
+      "sample_id": "SID-616F8FF505F703607C",
+      "evidence": [
+        {
+          "doc_id": "DOC-F3A71DFF0AE214E55E",
+          "quote": "记录了 privacy safeguard、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-E0E64FECD1C978",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.5
+        },
+        {
+          "doc_id": "DOC-CFB7152C42592AE207",
+          "quote": "材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "family_key": "SRC-E0E64FECD1C978",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-E0E64FECD1C978"
+        ],
+        "reason_code": "coherent_traceable_chain"
+      }
+    },
+    {
+      "sample_id": "SID-86CE99AFE66D11A197",
+      "evidence": [
+        {
+          "doc_id": "DOC-089965F1223F74444A",
+          "quote": "材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。工作链较完整，可依据对象作调整并追溯理由。",
+          "family_key": "SRC-D80EF305EC1CE0",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-296B463EA3054C502E",
+          "quote": "记录了 limitations、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-D80EF305EC1CE0",
+          "polarity": "context",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-D80EF305EC1CE0"
+        ],
+        "reason_code": "complete_adjustable_chain"
+      }
+    }
+  ]
+}

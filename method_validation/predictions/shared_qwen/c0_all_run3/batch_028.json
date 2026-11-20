@@ -1,0 +1,441 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-3977CACB210146D13C",
+      "evidence": [
+        {
+          "doc_id": "DOC-00C0171E2821E9ECA1",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据",
+          "family_key": "SRC-40CE5312FE2426",
+          "polarity": "support",
+          "observables": [
+            "data interpretation"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-00C0171E2821E9ECA1",
+          "quote": "同时呈现 decision trace：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "family_key": "SRC-40CE5312FE2426",
+          "polarity": "support",
+          "observables": [
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-04D77F9953045A08BF",
+          "quote": "本人在自填汇总中声明：data interpretation 与 decision trace 均已完成。本页仅记录本人陈述，未附相应成果片段。",
+          "family_key": "SRC-40CE5312FE2426",
+          "polarity": "context",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.3
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-40CE5312FE2426"
+        ],
+        "reason_code": "basic_practice_established"
+      }
+    },
+    {
+      "sample_id": "SID-20C259419EDE006A36",
+      "evidence": [
+        {
+          "doc_id": "DOC-CD33548AB14A168D16",
+          "quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据",
+          "family_key": "SRC-C9A8BB04951C81",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-CD33548AB14A168D16",
+          "quote": "同时呈现 assessment alignment：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "family_key": "SRC-C9A8BB04951C81",
+          "polarity": "support",
+          "observables": [
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-7C151D4765848534B0",
+          "quote": "该项工作围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-C9A8BB04951C81",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.2
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-C9A8BB04951C81"
+        ],
+        "reason_code": "basic_practice_established"
+      }
+    },
+    {
+      "sample_id": "SID-C4229EDCCD382DE1F6",
+      "evidence": [
+        {
+          "doc_id": "DOC-A50AC262704C11932B",
+          "quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据",
+          "family_key": "SRC-5659C270009C0A",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-A50AC262704C11932B",
+          "quote": "同时呈现 feedback loop：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "family_key": "SRC-5659C270009C0A",
+          "polarity": "support",
+          "observables": [
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-4CD582B1E7AB27813A",
+          "quote": "该项工作围绕“学习评价与反馈设计”展开，记录了 formative check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-5659C270009C0A",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.2
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-5659C270009C0A"
+        ],
+        "reason_code": "coherent_traceable_chain"
+      }
+    },
+    {
+      "sample_id": "SID-EA354AD91A91EC7D6D",
+      "evidence": [
+        {
+          "doc_id": "DOC-19DA3C7512F963058E",
+          "quote": "该项工作围绕“学术表达与个人贡献”展开，记录了 audience adaptation、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-4E2BA4A0F48040",
+          "polarity": "context",
+          "observables": [
+            "audience adaptation"
+          ],
+          "extraction_confidence": 0.2
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-4E2BA4A0F48040"
+        ],
+        "reason_code": "insufficient_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-BD4A2DCCA34FD626FB",
+      "evidence": [
+        {
+          "doc_id": "DOC-22C9D59AA96D0FD871",
+          "quote": "该项工作围绕“数字资源设计”展开，记录了 accessibility、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-45DE805394F4AF",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.2
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-45DE805394F4AF"
+        ],
+        "reason_code": "insufficient_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-819B519E237FA44107",
+      "evidence": [
+        {
+          "doc_id": "DOC-223C4A089E15F4B65A",
+          "quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据",
+          "family_key": "SRC-D15A76655C692D",
+          "polarity": "support",
+          "observables": [
+            "selection rationale"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-223C4A089E15F4B65A",
+          "quote": "同时呈现 resource adaptation：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "family_key": "SRC-D15A76655C692D",
+          "polarity": "support",
+          "observables": [
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.7
+        },
+        {
+          "doc_id": "DOC-3E6E337F0C783BC596",
+          "quote": "该项工作围绕“数字资源设计”展开，记录了 accessibility、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-D15A76655C692D",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.2
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.75,
+        "cited_family_keys": [
+          "SRC-D15A76655C692D"
+        ],
+        "reason_code": "loose_relations_single_attempt"
+      }
+    },
+    {
+      "sample_id": "SID-954382F14479E191E9",
+      "evidence": [
+        {
+          "doc_id": "DOC-D32ABEEBB604E22C42",
+          "quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据",
+          "family_key": "SRC-38D4BB671B77EE",
+          "polarity": "support",
+          "observables": [
+            "risk assessment"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-D32ABEEBB604E22C42",
+          "quote": "同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "family_key": "SRC-38D4BB671B77EE",
+          "polarity": "support",
+          "observables": [
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-2D38D1ED2202302E8C",
+          "quote": "该项工作围绕“AI 风险、隐私与版权治理”展开，记录了 bias check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-38D4BB671B77EE",
+          "polarity": "context",
+          "observables": [
+            "bias check"
+          ],
+          "extraction_confidence": 0.2
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-38D4BB671B77EE"
+        ],
+        "reason_code": "continuous_improvement_reusable"
+      }
+    },
+    {
+      "sample_id": "SID-AC110AF7CFE09C530F",
+      "evidence": [
+        {
+          "doc_id": "DOC-7CA02322393B12C486",
+          "quote": "该项工作围绕“学术表达与个人贡献”展开，记录了 audience adaptation、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-DBAC149D9EE2E9",
+          "polarity": "context",
+          "observables": [
+            "audience adaptation"
+          ],
+          "extraction_confidence": 0.2
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-DBAC149D9EE2E9"
+        ],
+        "reason_code": "insufficient_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-CAC53B2888137BBF72",
+      "evidence": [
+        {
+          "doc_id": "DOC-914897954D88545957",
+          "quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据",
+          "family_key": "SRC-C16D5AAFBA3CC9",
+          "polarity": "support",
+          "observables": [
+            "selection rationale"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-914897954D88545957",
+          "quote": "同时呈现 resource adaptation：逐项记录设计选择和核验结果。工作链较完整，可依据对象作调整并追溯理由。",
+          "family_key": "SRC-C16D5AAFBA3CC9",
+          "polarity": "support",
+          "observables": [
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-2EC9387BB61DFE8C70",
+          "quote": "该项工作围绕“数字资源设计”展开，记录了 accessibility、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-C16D5AAFBA3CC9",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.2
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-C16D5AAFBA3CC9"
+        ],
+        "reason_code": "complete_chain_adjustable"
+      }
+    },
+    {
+      "sample_id": "SID-BD4C144A291B8B840E",
+      "evidence": [
+        {
+          "doc_id": "DOC-C8400157424E2418EC",
+          "quote": "该项工作围绕“学术表达与个人贡献”展开，记录了 audience adaptation、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-8B9CA8CBBEDDE1",
+          "polarity": "context",
+          "observables": [
+            "audience adaptation"
+          ],
+          "extraction_confidence": 0.2
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-8B9CA8CBBEDDE1"
+        ],
+        "reason_code": "insufficient_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-56128988EFD2D85C77",
+      "evidence": [
+        {
+          "doc_id": "DOC-684F5656EC9B2E71BF",
+          "quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据",
+          "family_key": "SRC-E54EF5CDB9D8FD",
+          "polarity": "support",
+          "observables": [
+            "risk assessment"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-684F5656EC9B2E71BF",
+          "quote": "同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "family_key": "SRC-E54EF5CDB9D8FD",
+          "polarity": "support",
+          "observables": [
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-E7473CD3F933AE2665",
+          "quote": "该项工作围绕“AI 风险、隐私与版权治理”展开，记录了 bias check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-E54EF5CDB9D8FD",
+          "polarity": "context",
+          "observables": [
+            "bias check"
+          ],
+          "extraction_confidence": 0.2
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-E54EF5CDB9D8FD"
+        ],
+        "reason_code": "basic_practice_established"
+      }
+    },
+    {
+      "sample_id": "SID-44F40761B1B545847D",
+      "evidence": [
+        {
+          "doc_id": "DOC-E0B1EAB5ED2855F325",
+          "quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据",
+          "family_key": "SRC-B527E4488BBCF4",
+          "polarity": "support",
+          "observables": [
+            "selection rationale"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-E0B1EAB5ED2855F325",
+          "quote": "同时呈现 resource adaptation：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "family_key": "SRC-B527E4488BBCF4",
+          "polarity": "support",
+          "observables": [
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.7
+        },
+        {
+          "doc_id": "DOC-0DD82A6213CC137B57",
+          "quote": "该项工作围绕“数字资源设计”展开，记录了 accessibility、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-B527E4488BBCF4",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.2
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.75,
+        "cited_family_keys": [
+          "SRC-B527E4488BBCF4"
+        ],
+        "reason_code": "loose_relations_single_attempt"
+      }
+    }
+  ]
+}

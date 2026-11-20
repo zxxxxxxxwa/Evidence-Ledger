@@ -1,0 +1,460 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-2DB60BAF76186B078C",
+      "evidence": [
+        {
+          "doc_id": "DOC-62199F1E7C72858C44",
+          "quote": "该项工作围绕“数字资源设计”展开，记录了 accessibility、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-9159027117F765",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-105FA1031A13D4DBFD",
+          "quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "family_key": "SRC-9159027117F765",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-9159027117F765"
+        ],
+        "reason_code": "partial_observable_coverage"
+      }
+    },
+    {
+      "sample_id": "SID-54FBA05CEDC771F03A",
+      "evidence": [
+        {
+          "doc_id": "DOC-3F0F6ABBA2A339DE10",
+          "quote": "该项工作围绕“AI 风险、隐私与版权治理”展开，记录了 bias check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-5A0B756B87218E",
+          "polarity": "context",
+          "observables": [
+            "bias check"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-F748881F96D4EB088C",
+          "quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "family_key": "SRC-5A0B756B87218E",
+          "polarity": "support",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-5A0B756B87218E"
+        ],
+        "reason_code": "partial_observable_coverage"
+      }
+    },
+    {
+      "sample_id": "SID-5BD734D26A529E16CB",
+      "evidence": [
+        {
+          "doc_id": "DOC-3F0F6ABBA2A339DE10",
+          "quote": "该项工作围绕“AI 风险、隐私与版权治理”展开，记录了 bias check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-5A0B756B87218E",
+          "polarity": "context",
+          "observables": [
+            "bias check"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-316AC2DB1BC8C3412A",
+          "quote": "复核未发现可核查的 risk assessment，且 privacy or copyright safeguard 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "family_key": "SRC-54423F9A95E2F5",
+          "polarity": "contradict",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-F748881F96D4EB088C",
+          "quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "family_key": "SRC-5A0B756B87218E",
+          "polarity": "support",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-5A0B756B87218E",
+          "SRC-54423F9A95E2F5"
+        ],
+        "reason_code": "conflicting_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-2BDB24EC7208DB8B9C",
+      "evidence": [
+        {
+          "doc_id": "DOC-FF751C6EECB29F0875",
+          "quote": "该项工作围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-090C7149C88004",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-AB96D242AD6C055B6C",
+          "quote": "复核未发现可核查的 data interpretation，且 decision trace 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "family_key": "SRC-E3A5DF20DCBCC4",
+          "polarity": "contradict",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-8D97B610DA5B7AC474",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "family_key": "SRC-090C7149C88004",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-090C7149C88004",
+          "SRC-E3A5DF20DCBCC4"
+        ],
+        "reason_code": "conflicting_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-16D16C59EF643E2A6F",
+      "evidence": [
+        {
+          "doc_id": "DOC-19F42CDC511CE54959",
+          "quote": "该项工作围绕“AI 风险、隐私与版权治理”展开，记录了 bias check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-F055BAFFE0B0BF",
+          "polarity": "context",
+          "observables": [
+            "bias check"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-65214993DC9B64F467",
+          "quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。已用多轮证据持续迭代，并形成可共享的做法。",
+          "family_key": "SRC-F055BAFFE0B0BF",
+          "polarity": "support",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-F055BAFFE0B0BF"
+        ],
+        "reason_code": "partial_observable_coverage"
+      }
+    },
+    {
+      "sample_id": "SID-3CDEFF5311AB70E7CB",
+      "evidence": [
+        {
+          "doc_id": "DOC-97D7A7F5E3E0B5B7F0",
+          "quote": "该项工作围绕“数字资源设计”展开，记录了 accessibility、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-ED1F9111B20919",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-C69B2F4397819222F8",
+          "quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "family_key": "SRC-ED1F9111B20919",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-ED1F9111B20919"
+        ],
+        "reason_code": "partial_observable_coverage"
+      }
+    },
+    {
+      "sample_id": "SID-32E294A56C9F9996AC",
+      "evidence": [
+        {
+          "doc_id": "DOC-A443AAD8BE122D1BAE",
+          "quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "family_key": "SRC-AA405CB774113F",
+          "polarity": "support",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-9C692EF11A95ABAD8D",
+          "quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "family_key": "SRC-AA405CB774113F",
+          "polarity": "support",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-9630F2045669D95AA5",
+          "quote": "该项工作围绕“AI 风险、隐私与版权治理”展开，记录了 bias check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-AA405CB774113F",
+          "polarity": "context",
+          "observables": [
+            "bias check"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-AA405CB774113F"
+        ],
+        "reason_code": "partial_observable_coverage"
+      }
+    },
+    {
+      "sample_id": "SID-468338615F618E0940",
+      "evidence": [
+        {
+          "doc_id": "DOC-71E1A2231487EAEF10",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "family_key": "SRC-CAB54546721563",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-8137E93386601499FD",
+          "quote": "该项工作围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-CAB54546721563",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-CAB54546721563"
+        ],
+        "reason_code": "partial_observable_coverage"
+      }
+    },
+    {
+      "sample_id": "SID-BC02FD192B61904147",
+      "evidence": [
+        {
+          "doc_id": "DOC-8137E93386601499FD",
+          "quote": "该项工作围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-CAB54546721563",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-CAB54546721563"
+        ],
+        "reason_code": "minimal_coverage"
+      }
+    },
+    {
+      "sample_id": "SID-59AEEF8E6E2160A2FA",
+      "evidence": [
+        {
+          "doc_id": "DOC-BD382A5D118A4CFE31",
+          "quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "family_key": "SRC-27A29F168AEC4C",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-9CA4538F86912FE60E",
+          "quote": "复核未发现可核查的 rubric or criteria，且 feedback loop 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "family_key": "SRC-39AD1E807BB28C",
+          "polarity": "contradict",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-437D6F5657569C70C6",
+          "quote": "该项工作围绕“学习评价与反馈设计”展开，记录了 formative check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-27A29F168AEC4C",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-27A29F168AEC4C",
+          "SRC-39AD1E807BB28C"
+        ],
+        "reason_code": "conflicting_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-13AFE037A52EE3A830",
+      "evidence": [
+        {
+          "doc_id": "DOC-FF751C6EECB29F0875",
+          "quote": "该项工作围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-090C7149C88004",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-AB96D242AD6C055B6C",
+          "quote": "复核未发现可核查的 data interpretation，且 decision trace 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "family_key": "SRC-E3A5DF20DCBCC4",
+          "polarity": "contradict",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-8D97B610DA5B7AC474",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "family_key": "SRC-090C7149C88004",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-090C7149C88004",
+          "SRC-E3A5DF20DCBCC4"
+        ],
+        "reason_code": "conflicting_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-ABCDC655C7F6D96842",
+      "evidence": [
+        {
+          "doc_id": "DOC-3F0F6ABBA2A339DE10",
+          "quote": "该项工作围绕“AI 风险、隐私与版权治理”展开，记录了 bias check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-5A0B756B87218E",
+          "polarity": "context",
+          "observables": [
+            "bias check"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-F748881F96D4EB088C",
+          "quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "family_key": "SRC-5A0B756B87218E",
+          "polarity": "support",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-5A0B756B87218E"
+        ],
+        "reason_code": "partial_observable_coverage"
+      }
+    }
+  ]
+}

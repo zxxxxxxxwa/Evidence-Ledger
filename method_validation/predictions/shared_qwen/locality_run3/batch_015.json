@@ -1,0 +1,292 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-BE2CEE665547AED9F0",
+      "evidence": [
+        {
+          "doc_id": "DOC-3637ED1710CB3D365E",
+          "quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-7698A6A6EA58F4",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-7698A6A6EA58F4"
+        ],
+        "reason_code": "partial_observables_present_loose_relations"
+      }
+    },
+    {
+      "sample_id": "SID-12FAA82A368969C0FB",
+      "evidence": [
+        {
+          "doc_id": "DOC-1BC08AC0D44FC66B53",
+          "quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-4344A120BF9CCF",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-4344A120BF9CCF"
+        ],
+        "reason_code": "partial_observables_present_unstable_relations"
+      }
+    },
+    {
+      "sample_id": "SID-FF9CCF3C0A54818EF2",
+      "evidence": [
+        {
+          "doc_id": "DOC-BFDAC39FF61363E422",
+          "quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-8AA5B829CC3126",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-8AA5B829CC3126"
+        ],
+        "reason_code": "basic_practices_established_partial_rationale"
+      }
+    },
+    {
+      "sample_id": "SID-BA50E6A7EB5321893B",
+      "evidence": [
+        {
+          "doc_id": "DOC-9E9FA9C7909EDD2791",
+          "quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-16BFFB57511DD6",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-16BFFB57511DD6"
+        ],
+        "reason_code": "basic_practices_established_partial_rationale"
+      }
+    },
+    {
+      "sample_id": "SID-D736C64E65095F5E97",
+      "evidence": [
+        {
+          "doc_id": "DOC-DB5AF4899C24C96133",
+          "quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-7F40CF219FC443",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-7F40CF219FC443"
+        ],
+        "reason_code": "continuous_improvement_reusable_mechanism"
+      }
+    },
+    {
+      "sample_id": "SID-4AAFB78C6425EF807C",
+      "evidence": [
+        {
+          "doc_id": "DOC-75BEA1E341EF8AAB94",
+          "quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-8C77E482002065",
+          "polarity": "support",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-8C77E482002065"
+        ],
+        "reason_code": "coherent_chain_adjustable_to_needs"
+      }
+    },
+    {
+      "sample_id": "SID-5E6940B009B12724EA",
+      "evidence": [
+        {
+          "doc_id": "DOC-1ED169F893389FB461",
+          "quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-063BA0041D5172",
+          "polarity": "support",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-063BA0041D5172"
+        ],
+        "reason_code": "basic_practices_established_partial_rationale"
+      }
+    },
+    {
+      "sample_id": "SID-1C1514F36D5099BBC3",
+      "evidence": [
+        {
+          "doc_id": "DOC-DB5AF4899C24C96133",
+          "quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-7F40CF219FC443",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-7F40CF219FC443"
+        ],
+        "reason_code": "continuous_improvement_reusable_mechanism"
+      }
+    },
+    {
+      "sample_id": "SID-7B8C9D252DE0F05EFD",
+      "evidence": [
+        {
+          "doc_id": "DOC-1F9CCAD088E4B15BC6",
+          "quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-59899454E2FA6F",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-59899454E2FA6F"
+        ],
+        "reason_code": "iterative_iteration_sharing_practice"
+      }
+    },
+    {
+      "sample_id": "SID-545990038719206F7B",
+      "evidence": [
+        {
+          "doc_id": "DOC-72108F86186722BCB7",
+          "quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-8052198A1FDA2F",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-8052198A1FDA2F"
+        ],
+        "reason_code": "coherent_chain_adjustable_to_needs"
+      }
+    },
+    {
+      "sample_id": "SID-E7A235EE0055FFBD09",
+      "evidence": [
+        {
+          "doc_id": "DOC-D4F5A4F853A26A0EA4",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-4B1B6256C5D8A7",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-4B1B6256C5D8A7"
+        ],
+        "reason_code": "coherent_chain_adjustable_to_needs"
+      }
+    },
+    {
+      "sample_id": "SID-DB292C5DC0106D38F8",
+      "evidence": [
+        {
+          "doc_id": "DOC-FDDCCCDBC21E04F848",
+          "quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-3B5DD555994A72",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-3B5DD555994A72"
+        ],
+        "reason_code": "coherent_chain_adjustable_to_needs"
+      }
+    }
+  ]
+}

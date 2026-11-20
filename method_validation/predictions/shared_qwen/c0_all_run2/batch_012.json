@@ -1,0 +1,326 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-1775E0FC712B67A095",
+      "evidence": [
+        {
+          "doc_id": "DOC-0509F69FFE93BEDDC3",
+          "quote": "材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-027D85BC718562",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-027D85BC718562"
+        ],
+        "reason_code": "coherent_work_chain"
+      }
+    },
+    {
+      "sample_id": "SID-A636CE757E722AA611",
+      "evidence": [
+        {
+          "doc_id": "DOC-40F1FDCE8EF6337A3A",
+          "quote": "材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-ED4E90FFB93F8F",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.7
+        },
+        {
+          "doc_id": "DOC-FBD1842D6E6372201F",
+          "quote": "复核未发现可核查的 rubric or criteria，且 feedback loop 的记录与已提交结论相反",
+          "family_key": "SRC-CDCB6BDB2EDC0C",
+          "polarity": "contradict",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-ED4E90FFB93F8F",
+          "SRC-CDCB6BDB2EDC0C"
+        ],
+        "reason_code": "loose_relations_single_attempt"
+      }
+    },
+    {
+      "sample_id": "SID-DD845938D98413B6A0",
+      "evidence": [
+        {
+          "doc_id": "DOC-353F65E73A88574618",
+          "quote": "材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-E2E7B01BD17237",
+          "polarity": "support",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-8B208BE9784F18ED8B",
+          "quote": "复核未发现可核查的 risk assessment，且 privacy or copyright safeguard 的记录与已提交结论相反",
+          "family_key": "SRC-5DD857FE7084F7",
+          "polarity": "contradict",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-E2E7B01BD17237",
+          "SRC-5DD857FE7084F7"
+        ],
+        "reason_code": "strong_description_contradicted"
+      }
+    },
+    {
+      "sample_id": "SID-E9A1B798D5245BB199",
+      "evidence": [
+        {
+          "doc_id": "DOC-530B92BCC6B6EC2D0D",
+          "quote": "材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-2CC0888D4E6C63",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 4,
+        "self_confidence": 0.9,
+        "cited_family_keys": [
+          "SRC-2CC0888D4E6C63"
+        ],
+        "reason_code": "multi_round_evidence_reusable"
+      }
+    },
+    {
+      "sample_id": "SID-7E45A836D30C8C20FF",
+      "evidence": [
+        {
+          "doc_id": "DOC-02CFE7092AEE791968",
+          "quote": "材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-B90119038E5B2A",
+          "polarity": "support",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-B90119038E5B2A"
+        ],
+        "reason_code": "loose_relations_single_attempt"
+      }
+    },
+    {
+      "sample_id": "SID-63E02FA1953B12DB7A",
+      "evidence": [
+        {
+          "doc_id": "DOC-07BE21558A1226BB05",
+          "quote": "材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-827BD11359503F",
+          "polarity": "support",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-7E6169BABD1022E441",
+          "quote": "复核未发现可核查的 task allocation，且 verification protocol 的记录与已提交结论相反",
+          "family_key": "SRC-DAFB01039615CD",
+          "polarity": "contradict",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-827BD11359503F",
+          "SRC-DAFB01039615CD"
+        ],
+        "reason_code": "coherent_chain_independent_review"
+      }
+    },
+    {
+      "sample_id": "SID-AFAE811D3A1141540E",
+      "evidence": [
+        {
+          "doc_id": "DOC-04C83B521D170C2454",
+          "quote": "材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-CDAE73C55A33D4",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-CDAE73C55A33D4"
+        ],
+        "reason_code": "coherent_chain_adjustable"
+      }
+    },
+    {
+      "sample_id": "SID-1FB56BEC268093E2DF",
+      "evidence": [
+        {
+          "doc_id": "DOC-B9DBB073E68292A0D3",
+          "quote": "材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-94D73A6794567E",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-94D73A6794567E"
+        ],
+        "reason_code": "loose_relations_single_attempt"
+      }
+    },
+    {
+      "sample_id": "SID-60418578AFC6A946DF",
+      "evidence": [
+        {
+          "doc_id": "DOC-76BCA39A970AEB3BC6",
+          "quote": "材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-D6FDC1C18FB663",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-D6FDC1C18FB663"
+        ],
+        "reason_code": "basic_practices_explained"
+      }
+    },
+    {
+      "sample_id": "SID-B14A3BCC42BE7B70D5",
+      "evidence": [
+        {
+          "doc_id": "DOC-C19CBFEE548C91E12B",
+          "quote": "该项工作围绕“学术表达与个人贡献”展开，记录了 audience adaptation、会议日期、版本号与后续安排；",
+          "family_key": "SRC-3BD2438F9D25D2",
+          "polarity": "context",
+          "observables": [
+            "audience adaptation"
+          ],
+          "extraction_confidence": 0.4
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-3BD2438F9D25D2"
+        ],
+        "reason_code": "summary_only_no_chain"
+      }
+    },
+    {
+      "sample_id": "SID-5C3E5F6D42BE272FEB",
+      "evidence": [
+        {
+          "doc_id": "DOC-8F9B91FFB78738058F",
+          "quote": "该项工作围绕“AI 风险、隐私与版权治理”展开，记录了 bias check、会议日期、版本号与后续安排；",
+          "family_key": "SRC-BB8AD31EEFA7B1",
+          "polarity": "context",
+          "observables": [
+            "bias check"
+          ],
+          "extraction_confidence": 0.4
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-BB8AD31EEFA7B1"
+        ],
+        "reason_code": "summary_only_no_chain"
+      }
+    },
+    {
+      "sample_id": "SID-F25B8414BE5FF06DE8",
+      "evidence": [
+        {
+          "doc_id": "DOC-52AE29C48D22065B08",
+          "quote": "材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-6E60AC9E8A5BBE",
+          "polarity": "support",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-6E60AC9E8A5BBE"
+        ],
+        "reason_code": "basic_practices_explained"
+      }
+    }
+  ]
+}

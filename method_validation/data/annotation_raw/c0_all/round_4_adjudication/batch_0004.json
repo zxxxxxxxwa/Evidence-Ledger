@@ -1,0 +1,204 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-F66AD26E69615DE38E",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-3654342BCA7C14E441",
+          "verbatim_quote": "摘要未展开附件中的具体设计链。",
+          "observable": "explicit learning outcomes, assessment alignment"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_obs",
+      "rationale": "档案仅含归档摘要且明确未展开具体设计链，缺乏两项关键可观察项的直接证据。"
+    },
+    {
+      "sample_id": "SID-16B9874BF81B3BC9F4",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-831D431C24749C2568",
+          "verbatim_quote": "摘要未展开附件中的具体设计链。",
+          "observable": "rubric or criteria, feedback loop"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_obs",
+      "rationale": "核心材料缺失，仅有记录次要观测项的归档摘要，未提供关键可观察项设计链。"
+    },
+    {
+      "sample_id": "SID-FBDF76BBA0612CED7A",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-909610410C8D7F45F4",
+          "verbatim_quote": "材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。",
+          "observable": "research gap, question-method fit"
+        },
+        {
+          "doc_id": "DOC-115AA09012F57DF314",
+          "verbatim_quote": "复核未发现可核查的 research gap，且 question-method fit 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_conflict",
+      "rationale": "自报高水准材料与独立复核结论直接矛盾，存在关键独立证据冲突需人工裁定。"
+    },
+    {
+      "sample_id": "SID-11B3EF70DA3E453183",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-EB86E76A0C843DE5B4",
+          "verbatim_quote": "材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        },
+        {
+          "doc_id": "DOC-BB26768137238DE770",
+          "verbatim_quote": "复核未发现可核查的 risk assessment，且 privacy or copyright safeguard 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_conflict",
+      "rationale": "主体材料自评与独立复核对关键可观察项的判定直接相悖，触发人工复核。"
+    },
+    {
+      "sample_id": "SID-A541D2D2930471D5E0",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-591D840DE10C1326E5",
+          "verbatim_quote": "摘要未展开附件中的具体设计链。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_obs",
+      "rationale": "档案仅记录其他指标摘要且明确未展开设计链，缺失两项关键可观察项证据。"
+    },
+    {
+      "sample_id": "SID-AE5B32F972A3D38F0A",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-41C7EFB652CBE84D5B",
+          "verbatim_quote": "材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "data interpretation, decision trace"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_established",
+      "rationale": "核心材料完整呈现两项关键可观察项并形成基本做法，证据充分无冲突。"
+    },
+    {
+      "sample_id": "SID-5292D22B11E3843191",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-AA5EF5FE14994B58E6",
+          "verbatim_quote": "材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_improvement_shareable",
+      "rationale": "材料完整呈现关键可观察项并具备多轮改进与可分享特征，符合最高等级标准。"
+    },
+    {
+      "sample_id": "SID-D98FDE498431C073C0",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-CE3FF05CB502BCAB65",
+          "verbatim_quote": "材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        },
+        {
+          "doc_id": "DOC-47A5A9C957C8115212",
+          "verbatim_quote": "复核未发现可核查的 risk assessment，且 privacy or copyright safeguard 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_conflict",
+      "rationale": "正向成果与独立复核对同一关键可观察项作出相反判定，需人工复核。"
+    },
+    {
+      "sample_id": "SID-69454CFB3DAC7A8B77",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-340D2C3288E1F8AAE3",
+          "verbatim_quote": "摘要未展开附件中的具体设计链。",
+          "observable": "explicit learning outcomes, assessment alignment"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_obs",
+      "rationale": "档案仅含相关主题摘要且明确未展开具体设计链，缺乏关键可观察项证据。"
+    },
+    {
+      "sample_id": "SID-0E3D28642D555BF35E",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-185D91580769671188",
+          "verbatim_quote": "摘要未展开附件中的具体设计链。",
+          "observable": "rubric or criteria, feedback loop"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_obs",
+      "rationale": "核心材料缺失，仅有记录次要观测项的归档摘要，未提供关键可观察项设计链。"
+    },
+    {
+      "sample_id": "SID-2EFB6A3FAE6595B888",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-A03735A4A97098B649",
+          "verbatim_quote": "材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链。",
+          "observable": "research gap, question-method fit"
+        },
+        {
+          "doc_id": "DOC-77FDC034507938F531",
+          "verbatim_quote": "复核未发现可核查的 research gap，且 question-method fit 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_conflict",
+      "rationale": "自报材料与独立复核结论直接矛盾，存在关键独立证据冲突需人工裁定。"
+    },
+    {
+      "sample_id": "SID-4C024C27A367630E12",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-1FD6A127925479EDA3",
+          "verbatim_quote": "材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_established",
+      "rationale": "核心材料明确呈现两项关键可观察项并形成基本做法，证据充分无冲突。"
+    }
+  ]
+}

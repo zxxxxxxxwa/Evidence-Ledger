@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "round": 1,
+  "sample_ids": [
+    "SID-9C98B5387F3E10BCC9",
+    "SID-D643FE438D269C50EB",
+    "SID-11DDDA1025BE57E7D7",
+    "SID-45A4F50E56AE585603"
+  ],
+  "input_records_sha256": "3906d17aef40485cfaf7b5800114a9908d3284025a9680b9d9df7fba64854199",
+  "preliminary_rubric_sha256": "e835ed8dd14ada4dd2f33ff8e7ff0f48dcf44405fe634e75dc8f54e2fdd42a95",
+  "system_prompt_sha256": "b65de7b73b0798612dcf75c7eddac276c105375435af66c891a7a2f7dbe5a8a0",
+  "user_template_sha256": "6d7f88066bbe87cc1b188ef2ab5f4327c94049130dc9333868383f6e0a8c7359",
+  "model": "qwen3.7-flash",
+  "temperature": 0.2,
+  "max_tokens": 24000,
+  "timeout_seconds": 180,
+  "request_sha256": "42d509bc0f4eca5942815158b292c37e4f2276d48ff3c803d3d347466f4077fa",
+  "parsed_response_sha256": "d04ce615327f89741f1a0899914fb4fcfdd59aa5bcae85489ea4c1521f4fd21f",
+  "raw_response_sha256": "668f7d6e35241b919d4b91c45cad4e7e0819d0b1f3924fe3d565fae0b93ab3da"
+}

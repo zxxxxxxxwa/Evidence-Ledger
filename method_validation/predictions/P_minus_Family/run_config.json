@@ -1,0 +1,22 @@
+{
+  "method": "P_minus_Family",
+  "runs": [
+    1,
+    2,
+    3
+  ],
+  "tasks": {
+    "main": 288,
+    "c0_all": 384,
+    "locality": 240
+  },
+  "seed": 20261118,
+  "shared_model": "qwen3.7-flash",
+  "b1_selected_config": null,
+  "b1_calibration_artifact": null,
+  "b3_threshold": null,
+  "b2_selected_config": null,
+  "framework_version": "2026-11-18.1",
+  "resource_version": "2026-11-18.seed1",
+  "calibration_artifact": "expert_ratability_calibration.json"
+}

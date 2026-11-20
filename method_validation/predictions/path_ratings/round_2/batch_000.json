@@ -1,0 +1,100 @@
+{
+  "ratings": [
+    {
+      "blind_output_id": "RY8JBZMCTKUK",
+      "target_match": 4,
+      "prerequisite_coherence": 4,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "EQUATOR规范直接服务研究问题指标；单步设计无需递进；任务描述为通用模板，未界定证据收集边界；来源权威可查。"
+    },
+    {
+      "blind_output_id": "RJ6KUD594S68",
+      "target_match": 4,
+      "prerequisite_coherence": 4,
+      "executability": 2,
+      "source_support": 5,
+      "brief_reason": "数字能力框架与高校自评工具契合数据素养目标；先修关系明确（框架→反思）；实践任务泛化，缺乏可观测行为锚点；官方资源支撑充分。"
+    },
+    {
+      "blind_output_id": "R2BJ8X2ARGE7",
+      "target_match": 4,
+      "prerequisite_coherence": 4,
+      "executability": 2,
+      "source_support": 5,
+      "brief_reason": "AI能力框架与伦理建议书对应响应责任指标；能力认知先行、伦理审视跟进，逻辑合理；任务表述空泛，未跨越证据边界；UNESCO文献可靠。"
+    },
+    {
+      "blind_output_id": "RWMUK9DY3SYZ",
+      "target_match": 4,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "框架与数据课程均指向数据指标；两步资源标记为先修无关联，缺乏难度递进设计；任务模板化；来源可识别。"
+    },
+    {
+      "blind_output_id": "RFGBQCC8RTKF",
+      "target_match": 5,
+      "prerequisite_coherence": 5,
+      "executability": 2,
+      "source_support": 5,
+      "brief_reason": "能力框架-伦理规范-风险管理手册三步链完整覆盖AI响应指标；从概念理解到实操适配难度递进清晰；任务描述重复限制执行度；权威来源支撑强。"
+    },
+    {
+      "blind_output_id": "R3JC6KPV2H37",
+      "target_match": 5,
+      "prerequisite_coherence": 5,
+      "executability": 2,
+      "source_support": 5,
+      "brief_reason": "路径结构与资源链同前项；先修依赖严密，递进合理；任务缺乏针对性测量细节；来源可靠。"
+    },
+    {
+      "blind_output_id": "R82RDBFNBQ2P",
+      "target_match": 3,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "CMU指南贴合反馈指标，但DigCompEdu侧重数字教学而非反馈策略；两步并行无依赖或递进；任务模糊；资源真实可用。"
+    },
+    {
+      "blind_output_id": "R4C9EF3G464H",
+      "target_match": 3,
+      "prerequisite_coherence": 5,
+      "executability": 2,
+      "source_support": 5,
+      "brief_reason": "AI框架链更侧重能力发展而非通用工作流，匹配度中等；先修递进逻辑严密；任务描述模板化；来源可查。"
+    },
+    {
+      "blind_output_id": "RLSAGXF3SAK8",
+      "target_match": 4,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "OSF协作指南与EQUATOR规范共同支持开放科学沟通；两步独立无递进设计；任务未界定证据边界；来源明确。"
+    },
+    {
+      "blind_output_id": "RQQQW2A84D9W",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "EQUATOR契合研究问题，但AI伦理资源偏离主题且第二步先修引用了未列入路径的资源，逻辑断裂并可能越过证据边界；任务空泛；来源存在但关联弱。"
+    },
+    {
+      "blind_output_id": "R7QELR6XZRLR",
+      "target_match": 4,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "CMU对齐指南贴合目标，但第二步先修资源（DigCompEdu框架）未在路径中提供，链条不完整；任务不具体；来源可查。"
+    },
+    {
+      "blind_output_id": "RCAD9EV2BW44",
+      "target_match": 4,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源组合与RLSAGXF3SAK8一致，支持沟通指标；两步无先修关联与递进设计；任务模板化；来源可靠。"
+    }
+  ]
+}

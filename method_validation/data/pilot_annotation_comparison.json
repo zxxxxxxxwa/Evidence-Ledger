@@ -1,0 +1,575 @@
+{
+  "pilot_n": 12,
+  "rounds": 2,
+  "model": "qwen3.7-flash",
+  "blind_annotation": {
+    "input_file": "pilot_annotation_records.jsonl",
+    "construction_reference_opened_after_both_rounds": true,
+    "method_predictions_visible": false,
+    "condition_names_visible": false,
+    "teacher_clusters_visible": false
+  },
+  "round_files": [
+    "pilot_annotation_round_1.jsonl",
+    "pilot_annotation_round_2.jsonl"
+  ],
+  "raw_response_directories": [
+    "annotation_raw/pilot/round_1",
+    "annotation_raw/pilot/round_2"
+  ],
+  "summary": {
+    "state_exact_agreement": {
+      "raw_numerator": 12,
+      "raw_denominator": 12,
+      "jeffreys_rate": 0.9615384615384616
+    },
+    "level_exact_agreement_when_both_e": {
+      "raw_numerator": 9,
+      "raw_denominator": 9,
+      "jeffreys_rate": 0.95
+    },
+    "mean_evidence_doc_jaccard": {
+      "raw_numerator": 12.0,
+      "raw_denominator": 12,
+      "jeffreys_rate": 0.9615384615384616
+    },
+    "all_saved_quotes_exactly_located": true,
+    "issue_counts": {
+      "action_not_aligned_with_final_mapping": 4,
+      "round_action_disagreement": 2
+    }
+  },
+  "items": [
+    {
+      "sample_id": "SID-E689A93810F3476B0D",
+      "round_1": {
+        "state": "E",
+        "level": 2,
+        "reported_level": 2,
+        "reported_action": "strengthen",
+        "action": "strengthen",
+        "evidence_doc_ids": [
+          "DOC-DD7EF9BFA9C40E63F9"
+        ],
+        "evidence_families": [
+          "SRC-92DA141E1D0FC5"
+        ]
+      },
+      "round_2": {
+        "state": "E",
+        "level": 2,
+        "reported_level": 2,
+        "reported_action": "strengthen",
+        "action": "strengthen",
+        "evidence_doc_ids": [
+          "DOC-DD7EF9BFA9C40E63F9"
+        ],
+        "evidence_families": [
+          "SRC-92DA141E1D0FC5"
+        ]
+      },
+      "post_round_reference": {
+        "state": "E",
+        "level": 2,
+        "action": "strengthen",
+        "evidence_doc_ids": [
+          "DOC-DD7EF9BFA9C40E63F9"
+        ]
+      },
+      "evidence_doc_overlap": {
+        "intersection": 1,
+        "union": 1,
+        "exact_set_match": true
+      },
+      "issue_flags": []
+    },
+    {
+      "sample_id": "SID-F5F4B7BF6DF72A430A",
+      "round_1": {
+        "state": "I",
+        "level": null,
+        "reported_level": null,
+        "reported_action": "request_evidence",
+        "action": "request_evidence",
+        "evidence_doc_ids": [
+          "DOC-AACE5F6ADDA38A2169"
+        ],
+        "evidence_families": [
+          "SRC-61076E62191E75"
+        ]
+      },
+      "round_2": {
+        "state": "I",
+        "level": null,
+        "reported_level": null,
+        "reported_action": "request_evidence",
+        "action": "request_evidence",
+        "evidence_doc_ids": [
+          "DOC-AACE5F6ADDA38A2169"
+        ],
+        "evidence_families": [
+          "SRC-61076E62191E75"
+        ]
+      },
+      "post_round_reference": {
+        "state": "I",
+        "level": null,
+        "action": "request_evidence",
+        "evidence_doc_ids": [
+          "DOC-AACE5F6ADDA38A2169"
+        ]
+      },
+      "evidence_doc_overlap": {
+        "intersection": 1,
+        "union": 1,
+        "exact_set_match": true
+      },
+      "issue_flags": []
+    },
+    {
+      "sample_id": "SID-35C8DF5E9F6AF60638",
+      "round_1": {
+        "state": "I",
+        "level": null,
+        "reported_level": null,
+        "reported_action": "request_evidence",
+        "action": "request_evidence",
+        "evidence_doc_ids": [
+          "DOC-351E4F63FC2D8BD076"
+        ],
+        "evidence_families": [
+          "SRC-79566CA140C711"
+        ]
+      },
+      "round_2": {
+        "state": "I",
+        "level": null,
+        "reported_level": null,
+        "reported_action": "request_evidence",
+        "action": "request_evidence",
+        "evidence_doc_ids": [
+          "DOC-351E4F63FC2D8BD076"
+        ],
+        "evidence_families": [
+          "SRC-79566CA140C711"
+        ]
+      },
+      "post_round_reference": {
+        "state": "I",
+        "level": null,
+        "action": "request_evidence",
+        "evidence_doc_ids": [
+          "DOC-351E4F63FC2D8BD076"
+        ]
+      },
+      "evidence_doc_overlap": {
+        "intersection": 1,
+        "union": 1,
+        "exact_set_match": true
+      },
+      "issue_flags": []
+    },
+    {
+      "sample_id": "SID-892D9B9C52AB84326B",
+      "round_1": {
+        "state": "E",
+        "level": 1,
+        "reported_level": 1,
+        "reported_action": "strengthen",
+        "action": "strengthen",
+        "evidence_doc_ids": [
+          "DOC-52A9D52D2432F8B61B"
+        ],
+        "evidence_families": [
+          "SRC-97832FEAD33849"
+        ]
+      },
+      "round_2": {
+        "state": "E",
+        "level": 1,
+        "reported_level": 1,
+        "reported_action": "strengthen",
+        "action": "strengthen",
+        "evidence_doc_ids": [
+          "DOC-52A9D52D2432F8B61B"
+        ],
+        "evidence_families": [
+          "SRC-97832FEAD33849"
+        ]
+      },
+      "post_round_reference": {
+        "state": "E",
+        "level": 1,
+        "action": "strengthen",
+        "evidence_doc_ids": [
+          "DOC-52A9D52D2432F8B61B"
+        ]
+      },
+      "evidence_doc_overlap": {
+        "intersection": 1,
+        "union": 1,
+        "exact_set_match": true
+      },
+      "issue_flags": []
+    },
+    {
+      "sample_id": "SID-9C98B5387F3E10BCC9",
+      "round_1": {
+        "state": "E",
+        "level": 2,
+        "reported_level": 2,
+        "reported_action": "strengthen",
+        "action": "strengthen",
+        "evidence_doc_ids": [
+          "DOC-668D7D4E387D094215"
+        ],
+        "evidence_families": [
+          "SRC-711CBCE43DE315"
+        ]
+      },
+      "round_2": {
+        "state": "E",
+        "level": 2,
+        "reported_level": 2,
+        "reported_action": "strengthen",
+        "action": "strengthen",
+        "evidence_doc_ids": [
+          "DOC-668D7D4E387D094215"
+        ],
+        "evidence_families": [
+          "SRC-711CBCE43DE315"
+        ]
+      },
+      "post_round_reference": {
+        "state": "E",
+        "level": 2,
+        "action": "strengthen",
+        "evidence_doc_ids": [
+          "DOC-668D7D4E387D094215"
+        ]
+      },
+      "evidence_doc_overlap": {
+        "intersection": 1,
+        "union": 1,
+        "exact_set_match": true
+      },
+      "issue_flags": []
+    },
+    {
+      "sample_id": "SID-D643FE438D269C50EB",
+      "round_1": {
+        "state": "E",
+        "level": 3,
+        "reported_level": 3,
+        "reported_action": "deepen_integrate",
+        "action": "deepen_integrate",
+        "evidence_doc_ids": [
+          "DOC-BFED9900BE55E19BE1"
+        ],
+        "evidence_families": [
+          "SRC-CBD920B451114D"
+        ]
+      },
+      "round_2": {
+        "state": "E",
+        "level": 3,
+        "reported_level": 3,
+        "reported_action": "deepen_integrate",
+        "action": "deepen_integrate",
+        "evidence_doc_ids": [
+          "DOC-BFED9900BE55E19BE1"
+        ],
+        "evidence_families": [
+          "SRC-CBD920B451114D"
+        ]
+      },
+      "post_round_reference": {
+        "state": "E",
+        "level": 3,
+        "action": "deepen_integrate",
+        "evidence_doc_ids": [
+          "DOC-BFED9900BE55E19BE1"
+        ]
+      },
+      "evidence_doc_overlap": {
+        "intersection": 1,
+        "union": 1,
+        "exact_set_match": true
+      },
+      "issue_flags": []
+    },
+    {
+      "sample_id": "SID-11DDDA1025BE57E7D7",
+      "round_1": {
+        "state": "C",
+        "level": null,
+        "reported_level": null,
+        "reported_action": "human_review",
+        "action": "human_review",
+        "evidence_doc_ids": [
+          "DOC-B1A127E2554E9980DC",
+          "DOC-03899D16D0CEA3648A"
+        ],
+        "evidence_families": [
+          "SRC-539F90F602A7F0",
+          "SRC-114E0F79A264BE"
+        ]
+      },
+      "round_2": {
+        "state": "C",
+        "level": null,
+        "reported_level": null,
+        "reported_action": "request_evidence",
+        "action": "human_review",
+        "evidence_doc_ids": [
+          "DOC-03899D16D0CEA3648A",
+          "DOC-B1A127E2554E9980DC"
+        ],
+        "evidence_families": [
+          "SRC-114E0F79A264BE",
+          "SRC-539F90F602A7F0"
+        ]
+      },
+      "post_round_reference": {
+        "state": "C",
+        "level": null,
+        "action": "human_review",
+        "evidence_doc_ids": [
+          "DOC-B1A127E2554E9980DC",
+          "DOC-03899D16D0CEA3648A"
+        ]
+      },
+      "evidence_doc_overlap": {
+        "intersection": 2,
+        "union": 2,
+        "exact_set_match": true
+      },
+      "issue_flags": [
+        "round_action_disagreement",
+        "action_not_aligned_with_final_mapping"
+      ]
+    },
+    {
+      "sample_id": "SID-45A4F50E56AE585603",
+      "round_1": {
+        "state": "E",
+        "level": 1,
+        "reported_level": 1,
+        "reported_action": "strengthen",
+        "action": "strengthen",
+        "evidence_doc_ids": [
+          "DOC-894730517C257A05E7"
+        ],
+        "evidence_families": [
+          "SRC-188BD7FB64B415"
+        ]
+      },
+      "round_2": {
+        "state": "E",
+        "level": 1,
+        "reported_level": 1,
+        "reported_action": "strengthen",
+        "action": "strengthen",
+        "evidence_doc_ids": [
+          "DOC-894730517C257A05E7"
+        ],
+        "evidence_families": [
+          "SRC-188BD7FB64B415"
+        ]
+      },
+      "post_round_reference": {
+        "state": "E",
+        "level": 1,
+        "action": "strengthen",
+        "evidence_doc_ids": [
+          "DOC-894730517C257A05E7"
+        ]
+      },
+      "evidence_doc_overlap": {
+        "intersection": 1,
+        "union": 1,
+        "exact_set_match": true
+      },
+      "issue_flags": []
+    },
+    {
+      "sample_id": "SID-8F4433B5807D4EE150",
+      "round_1": {
+        "state": "E",
+        "level": 3,
+        "reported_level": 3,
+        "reported_action": "deepen_integrate",
+        "action": "deepen_integrate",
+        "evidence_doc_ids": [
+          "DOC-EE6AC3A6D469BF9447"
+        ],
+        "evidence_families": [
+          "SRC-76361F93282FA6"
+        ]
+      },
+      "round_2": {
+        "state": "E",
+        "level": 3,
+        "reported_level": 3,
+        "reported_action": "deepen_integrate",
+        "action": "deepen_integrate",
+        "evidence_doc_ids": [
+          "DOC-EE6AC3A6D469BF9447"
+        ],
+        "evidence_families": [
+          "SRC-76361F93282FA6"
+        ]
+      },
+      "post_round_reference": {
+        "state": "E",
+        "level": 3,
+        "action": "deepen_integrate",
+        "evidence_doc_ids": [
+          "DOC-EE6AC3A6D469BF9447"
+        ]
+      },
+      "evidence_doc_overlap": {
+        "intersection": 1,
+        "union": 1,
+        "exact_set_match": true
+      },
+      "issue_flags": []
+    },
+    {
+      "sample_id": "SID-0FA775C7FA962F2B6E",
+      "round_1": {
+        "state": "E",
+        "level": 4,
+        "reported_level": 4,
+        "reported_action": "strengthen",
+        "action": "deepen_integrate",
+        "evidence_doc_ids": [
+          "DOC-8EF3C6C35E18FC8B4A"
+        ],
+        "evidence_families": [
+          "SRC-A9582E7395B41B"
+        ]
+      },
+      "round_2": {
+        "state": "E",
+        "level": 4,
+        "reported_level": 4,
+        "reported_action": "strengthen",
+        "action": "deepen_integrate",
+        "evidence_doc_ids": [
+          "DOC-8EF3C6C35E18FC8B4A"
+        ],
+        "evidence_families": [
+          "SRC-A9582E7395B41B"
+        ]
+      },
+      "post_round_reference": {
+        "state": "E",
+        "level": 4,
+        "action": "deepen_integrate",
+        "evidence_doc_ids": [
+          "DOC-8EF3C6C35E18FC8B4A"
+        ]
+      },
+      "evidence_doc_overlap": {
+        "intersection": 1,
+        "union": 1,
+        "exact_set_match": true
+      },
+      "issue_flags": [
+        "action_not_aligned_with_final_mapping"
+      ]
+    },
+    {
+      "sample_id": "SID-64F516BC9354FED6D4",
+      "round_1": {
+        "state": "E",
+        "level": 1,
+        "reported_level": 1,
+        "reported_action": "request_evidence",
+        "action": "strengthen",
+        "evidence_doc_ids": [
+          "DOC-2C73149612D31415D0"
+        ],
+        "evidence_families": [
+          "SRC-21A4570511754F"
+        ]
+      },
+      "round_2": {
+        "state": "E",
+        "level": 1,
+        "reported_level": 1,
+        "reported_action": "request_evidence",
+        "action": "strengthen",
+        "evidence_doc_ids": [
+          "DOC-2C73149612D31415D0"
+        ],
+        "evidence_families": [
+          "SRC-21A4570511754F"
+        ]
+      },
+      "post_round_reference": {
+        "state": "E",
+        "level": 1,
+        "action": "strengthen",
+        "evidence_doc_ids": [
+          "DOC-2C73149612D31415D0"
+        ]
+      },
+      "evidence_doc_overlap": {
+        "intersection": 1,
+        "union": 1,
+        "exact_set_match": true
+      },
+      "issue_flags": [
+        "action_not_aligned_with_final_mapping"
+      ]
+    },
+    {
+      "sample_id": "SID-62AB0B927549BFBC71",
+      "round_1": {
+        "state": "E",
+        "level": 2,
+        "reported_level": 2,
+        "reported_action": "deepen_integrate",
+        "action": "strengthen",
+        "evidence_doc_ids": [
+          "DOC-77C308AB0E1FACA0F6"
+        ],
+        "evidence_families": [
+          "SRC-4B64C24996D79A"
+        ]
+      },
+      "round_2": {
+        "state": "E",
+        "level": 2,
+        "reported_level": 2,
+        "reported_action": "strengthen",
+        "action": "strengthen",
+        "evidence_doc_ids": [
+          "DOC-77C308AB0E1FACA0F6"
+        ],
+        "evidence_families": [
+          "SRC-4B64C24996D79A"
+        ]
+      },
+      "post_round_reference": {
+        "state": "E",
+        "level": 2,
+        "action": "strengthen",
+        "evidence_doc_ids": [
+          "DOC-77C308AB0E1FACA0F6"
+        ]
+      },
+      "evidence_doc_overlap": {
+        "intersection": 1,
+        "union": 1,
+        "exact_set_match": true
+      },
+      "issue_flags": [
+        "round_action_disagreement",
+        "action_not_aligned_with_final_mapping"
+      ]
+    }
+  ]
+}

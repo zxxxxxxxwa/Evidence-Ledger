@@ -1,0 +1,194 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-0BD314CE22D77C5EAB",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-662FB838D8278992BE",
+          "verbatim_quote": "要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "single_attempt_gap",
+      "rationale": "材料明确呈现两项关键可观察项，但关系松散且仅单次尝试，符合基础水平。"
+    },
+    {
+      "sample_id": "SID-AF96C95EEE968B4B63",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-BD382A5D118A4CFE31",
+          "verbatim_quote": "要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "rubric or criteria, feedback loop"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "single_attempt_feedback",
+      "rationale": "核心成果明确覆盖两项关键指标，但描述为关系松散的单次尝试，证据充分但能力等级较低。"
+    },
+    {
+      "sample_id": "SID-C9EDF6B0735FB86D7D",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-8D2173C0C187545004",
+          "verbatim_quote": "已经建立基础流程，并能解释若干选择与步骤。",
+          "observable": "task allocation, verification protocol"
+        },
+        {
+          "doc_id": "DOC-9F006F91D02CF03AED",
+          "verbatim_quote": "复核未发现可核查的 task allocation，且 verification protocol 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_conflict_workflow",
+      "rationale": "独立复核明确指出关键做法未建立且与自述结论相反，存在不可调和的时间与来源冲突。"
+    },
+    {
+      "sample_id": "SID-16D16C59EF643E2A6F",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-65214993DC9B64F467",
+          "verbatim_quote": "已用多轮证据持续迭代，并形成可共享的做法。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_shareable_resp",
+      "rationale": "材料完整呈现两项关键指标，明确说明多轮迭代及可共享机制，达到最高能力等级。"
+    },
+    {
+      "sample_id": "SID-8921651877A2BF6A7B",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-8ABE55100A8C0BFF4B",
+          "verbatim_quote": "摘要未展开附件中的具体设计链。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_obs_resource",
+      "rationale": "目标指标的关键可观察项在现有材料中完全缺失，仅有归档摘要提及主题但未展开实质设计链。"
+    },
+    {
+      "sample_id": "SID-03AF15A761E860C3D8",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-72158D45AAB5EA18BB",
+          "verbatim_quote": "工作链较完整，可依据对象作调整并追溯理由。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_adjustable_question",
+      "rationale": "材料完整呈现两项关键指标，明确说明工作链完整、可调整并追溯理由，具备连贯可追溯能力。"
+    },
+    {
+      "sample_id": "SID-273049DC281B57232C",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-DD86FE5E89F7F7FD88",
+          "verbatim_quote": "已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_question",
+      "rationale": "材料明确覆盖两项关键指标，描述为形成基本做法并能说明部分理由，符合中等能力等级。"
+    },
+    {
+      "sample_id": "SID-191CCBBB04AD36169A",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-48D934272CBADBAB48",
+          "verbatim_quote": "要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "single_attempt_comm",
+      "rationale": "核心成果明确呈现两项关键指标，但明确表述为关系松散的单次尝试，证据充分但等级较低。"
+    },
+    {
+      "sample_id": "SID-029C3969F76C2436DD",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-D32ABEEBB604E22C42",
+          "verbatim_quote": "能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        },
+        {
+          "doc_id": "DOC-E368A26BE9F2C494B5",
+          "verbatim_quote": "复核未发现可核查的 risk assessment，且 privacy or copyright safeguard 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_conflict_resp",
+      "rationale": "独立复核明确指出关键做法未建立且与自述结论相反，存在不可调和的独立证据冲突。"
+    },
+    {
+      "sample_id": "SID-4FCE08470BC15899FD",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-71E1A2231487EAEF10",
+          "verbatim_quote": "要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "data interpretation, decision trace"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "single_attempt_data",
+      "rationale": "材料明确呈现两项关键指标，但明确表述为关系松散的单次尝试，符合基础能力特征。"
+    },
+    {
+      "sample_id": "SID-96ED941FC6CE6CEB41",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-032C4199B22E79DFA6",
+          "verbatim_quote": "摘要未展开附件中的具体设计链。",
+          "observable": "rubric or criteria, feedback loop"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_obs_feedback",
+      "rationale": "目标指标的关键可观察项在现有材料中完全缺失，仅有归档摘要提及主题但未展开实质设计链。"
+    },
+    {
+      "sample_id": "SID-8B84A6FA9BF1DDD9CB",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-21F2CE8FF8B3060C94",
+          "verbatim_quote": "要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "single_attempt_comm_v2",
+      "rationale": "材料明确呈现两项关键指标，但明确表述为关系松散的单次尝试，证据充分但等级较低。"
+    }
+  ]
+}

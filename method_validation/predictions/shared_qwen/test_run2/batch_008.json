@@ -1,0 +1,289 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-757B374B999B64F882",
+      "evidence": [
+        {
+          "doc_id": "DOC-E625D4844830289391",
+          "quote": "材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-F224AE28FF41C6",
+          "polarity": "support",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-F224AE28FF41C6"
+        ],
+        "reason_code": "direct_claim_supports_target"
+      }
+    },
+    {
+      "sample_id": "SID-35325BA2EE9D1670E3",
+      "evidence": [
+        {
+          "doc_id": "DOC-8C2DF9114A4B423462",
+          "quote": "本人在自填汇总中声明：data interpretation 与 decision trace 均已完成。本页仅记录本人陈述，未附相应成果片段。",
+          "family_key": "SRC-56636A432F23CF",
+          "polarity": "context",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-56636A432F23CF"
+        ],
+        "reason_code": "insufficient_substantive_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-50FAD3CA696C337226",
+      "evidence": [
+        {
+          "doc_id": "DOC-9A9C4CEE2BDA1E3C24",
+          "quote": "该项工作围绕“人机协同流程设计”展开，记录了 error handling、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-D81AD402036C53",
+          "polarity": "context",
+          "observables": [
+            "error handling"
+          ],
+          "extraction_confidence": 0.4
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-D81AD402036C53"
+        ],
+        "reason_code": "summary_only_no_details"
+      }
+    },
+    {
+      "sample_id": "SID-90C85BAEBBFE237AC7",
+      "evidence": [
+        {
+          "doc_id": "DOC-2EC9387BB61DFE8C70",
+          "quote": "该项工作围绕“数字资源设计”展开，记录了 accessibility、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-C16D5AAFBA3CC9",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.4
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-C16D5AAFBA3CC9"
+        ],
+        "reason_code": "summary_only_no_details"
+      }
+    },
+    {
+      "sample_id": "SID-9EF3BB6433E5F795C6",
+      "evidence": [
+        {
+          "doc_id": "DOC-BB2EDECFEA54A866E7",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "family_key": "SRC-771A80395E3CEF",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-771A80395E3CEF"
+        ],
+        "reason_code": "partial_implementation_single_attempt"
+      }
+    },
+    {
+      "sample_id": "SID-261EC0E49A4D279733",
+      "evidence": [
+        {
+          "doc_id": "DOC-03A8FFF8EDDAE7A720",
+          "quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "family_key": "SRC-2D1B8856FE0FB7",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-2D1B8856FE0FB7"
+        ],
+        "reason_code": "strong_implementation_reusable"
+      }
+    },
+    {
+      "sample_id": "SID-8819A53ED6E1E44DC9",
+      "evidence": [
+        {
+          "doc_id": "DOC-8D97B610DA5B7AC474",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "family_key": "SRC-090C7149C88004",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-090C7149C88004"
+        ],
+        "reason_code": "strong_implementation_reusable"
+      }
+    },
+    {
+      "sample_id": "SID-C7C65B8BF9B48F666C",
+      "evidence": [
+        {
+          "doc_id": "DOC-BFAE45E9FBBE0599EF",
+          "quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "family_key": "SRC-FD55E387B28E83",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-FD55E387B28E83"
+        ],
+        "reason_code": "partial_implementation_single_attempt"
+      }
+    },
+    {
+      "sample_id": "SID-EBE98032E4957975C3",
+      "evidence": [
+        {
+          "doc_id": "DOC-BA9ABA178720489AB2",
+          "quote": "围绕“学习评价与反馈设计”，材料明确呈现 明确的评价标准：给出对象、目的与判断依据；同时呈现 可追踪的反馈闭环：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "family_key": "SRC-DF09ADC4578F67",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-DF09ADC4578F67"
+        ],
+        "reason_code": "strong_implementation_reusable"
+      }
+    },
+    {
+      "sample_id": "SID-3E4F5F38E68C237BD2",
+      "evidence": [
+        {
+          "doc_id": "DOC-1A99FCBDB6ABD27F13",
+          "quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "family_key": "SRC-48A3EA88F6DDCC",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-48A3EA88F6DDCC"
+        ],
+        "reason_code": "strong_implementation_adjustable"
+      }
+    },
+    {
+      "sample_id": "SID-6B35900A231BBE6B5F",
+      "evidence": [
+        {
+          "doc_id": "DOC-4D53C5131205E73379",
+          "quote": "该项工作围绕“学术表达与个人贡献”展开，记录了 audience adaptation、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-FC544487FD060B",
+          "polarity": "context",
+          "observables": [
+            "audience adaptation"
+          ],
+          "extraction_confidence": 0.4
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-FC544487FD060B"
+        ],
+        "reason_code": "no_direct_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-124A6CC5F4A50DB326",
+      "evidence": [
+        {
+          "doc_id": "DOC-2261D4B956F37DD145",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。已用多轮证据持续迭代，并形成可共享的做法。",
+          "family_key": "SRC-D7F6F6DA27BD72",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-D7F6F6DA27BD72"
+        ],
+        "reason_code": "strong_implementation_iterative"
+      }
+    }
+  ]
+}

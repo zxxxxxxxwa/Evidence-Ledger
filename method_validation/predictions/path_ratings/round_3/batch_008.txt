@@ -1,0 +1,102 @@
+```json
+{
+  "ratings": [
+    {
+      "blind_output_id": "RQNJ4MVQMLGW",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "步骤文本为固定占位符，未针对T_FEEDBACK指标进行差异化设计；步骤1与步骤2内容完全重复，无递进关系；资源列表中CAST-UDL-3的先修要求为CMU-COURSE-DESIGN，但路径顺序将其颠倒，且步骤未明确调用具体资源，来源与路径陈述一致性弱。"
+    },
+    {
+      "blind_output_id": "RWP5GWFESMCB",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "步骤内容未体现D_RESOURCE指标特性，全为通用模板；两步骤完全一致，缺乏能力进阶逻辑；资源先修关系（W3C-WAI-TEACHING依赖CAST-UDL-3）未在路径步骤中落实，任务描述过于宽泛，无法验证资源对具体建议的支持度。"
+    },
+    {
+      "blind_output_id": "RF7R4FGT9A7A",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "路径未结合T_ALIGN指标展开，步骤文本高度同质化；CMU-COURSE-DESIGN与EU-CHECKIN-HE的先后顺序虽符合部分逻辑，但步骤描述未说明如何基于资源进行对齐审查，先修依赖仅停留在资源元数据中，路径可执行性不足。"
+    },
+    {
+      "blind_output_id": "R8LDU2Q39D7V",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "步骤未响应A_RESP指标的具体需求，内容重复；UNESCO-AI-CFT与UNESCO-AI-ETHICS的先修关系正确，但步骤未指明如何结合伦理建议书开展响应式实践，任务缺乏场景约束，资源支持路径的映射不清晰。"
+    },
+    {
+      "blind_output_id": "RPN3HEJC689M",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "步骤未针对D_DATA指标定制，全为通用占位符；两项资源均标注无先修，但步骤间无难度或技能递进；Data Carpentry与DigCompEdu的摘要提及学科适配与进阶实例，路径却未给出具体应用指引，来源与步骤脱节。"
+    },
+    {
+      "blind_output_id": "RZX259JRR62N",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "单步路径无法构成“发展进阶”，未体现R_QUESTION指标特征；EQUATOR-TOOLKIT摘要强调按研究设计匹配规范，但步骤仅泛泛要求“应用要点”，未说明如何检索或使用报告规范，资源支持路径的合理性存疑。"
+    },
+    {
+      "blind_output_id": "RE9M23WHP6DG",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "步骤未区分T_FEEDBACK与其他指标，内容完全复制模板；DigCompEdu与CMU指南均列无先修，但步骤间无逻辑关联或反馈循环设计；任务描述未指定如何利用框架或指南收集/处理反馈，来源与路径陈述一致性低。"
+    },
+    {
+      "blind_output_id": "R2VK2UEB6ADT",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "步骤未回应R_QUESTION指标，两步骤完全相同；UNESCO-AI-ETHICS先修UNESCO-AI-CFT的逻辑未在路径中体现，EQUATOR工具与AI伦理资源并列使用缺乏协同说明，任务过于抽象，无法评估资源对提问设计的实际支撑。"
+    },
+    {
+      "blind_output_id": "RJCX4KF2RHAB",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "三步骤内容仍为重复占位符，未体现A_WORKFLOW指标的流程重构需求；资源先修链（CFT→ETHICS→NIST-RMF）完整，但步骤未说明如何将风险管理框架嵌入教学/科研流程，任务缺乏阶段划分与产出标准，路径可执行性差。"
+    },
+    {
+      "blind_output_id": "RAAQHHHQT3EM",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "步骤未针对R_COMM指标设计，内容同质化；OSF指南与EQUATOR工具均无先修要求，但步骤间无协作或共享机制的递进说明；任务未指明如何利用开放科学工具进行成果传播或同行交流，资源支持路径的针对性不足。"
+    },
+    {
+      "blind_output_id": "R2G2J7AR4R8D",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "步骤未响应A_RESP指标，内容重复；NIST-AI-RMF-PLAYBOOK先修UNESCO-AI-ETHICS，后者又先修UNESCO-AI-CFT，路径仅含两步且顺序颠倒，违背先修逻辑；任务描述未结合风险管理框架提出具体响应策略，来源与路径一致性弱。"
+    },
+    {
+      "blind_output_id": "RJLXNREUSB66",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "步骤未体现D_RESOURCE指标的资源筛选/整合特性，全为通用模板；DigCompEdu与CheckIn工具存在明确先修关系，但步骤内容完全一致且未利用CheckIn的自我反思功能进行进阶；任务缺乏具体操作指引，资源支持路径的映射缺失。"
+    }
+  ]
+}
+```

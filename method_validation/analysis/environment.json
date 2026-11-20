@@ -1,0 +1,8 @@
+{
+  "python": "3.12.3",
+  "numpy": "2.5.5",
+  "platform": "linux",
+  "shared_model": "qwen3.7-flash",
+  "api_key_environment_variable": "V_API_KEY",
+  "secrets_persisted": false
+}

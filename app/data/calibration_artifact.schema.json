@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.example/evidence-ledger/ratability-calibration.schema.json",
+  "title": "Ratability calibration artifact",
+  "description": "Interface for a future, externally produced and versioned expert-calibration artifact. This repository does not contain such an artifact.",
+  "type": "object",
+  "required": ["artifact_type", "version", "expert_calibrated", "source_manifest", "indicator_policies"],
+  "properties": {
+    "artifact_type": {"const": "ratability_calibration"},
+    "version": {"type": "string", "minLength": 1},
+    "expert_calibrated": {"const": true},
+    "source_manifest": {
+      "type": "object",
+      "required": ["created_at", "framework_version", "method", "data_fingerprint"],
+      "properties": {
+        "created_at": {"type": "string"},
+        "framework_version": {"type": "string"},
+        "method": {"type": "string"},
+        "data_fingerprint": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "indicator_policies": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "min_independent_families": {"type": "integer", "minimum": 1},
+          "contribution_required": {"type": "boolean"},
+          "ratability_model": {
+            "type": "object",
+            "required": ["type", "intercept", "coefficients", "threshold"],
+            "properties": {
+              "type": {"const": "logistic"},
+              "intercept": {"type": "number"},
+              "coefficients": {
+                "type": "object",
+                "propertyNames": {
+                  "enum": [
+                    "family_count",
+                    "log1p_family_count",
+                    "critical_coverage",
+                    "attributable_family_fraction",
+                    "temporally_relevant_family_fraction",
+                    "conflict_pair_count"
+                  ]
+                },
+                "additionalProperties": {"type": "number"}
+              },
+              "threshold": {"type": "number", "minimum": 0, "maximum": 1}
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
+

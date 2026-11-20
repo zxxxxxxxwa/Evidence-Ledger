@@ -1,0 +1,15 @@
+{
+  "request_sha256": "d8353987b643f4a8875bfc6dda73ab6d0f4491fedf3cd0cf3679c29005dc62a1",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "error",
+      "type": "URLError",
+      "message": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+    },
+    {
+      "attempt": 2,
+      "status": "success"
+    }
+  ]
+}

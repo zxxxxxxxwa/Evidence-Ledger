@@ -1,0 +1,92 @@
+{
+  "ratings": [
+    {
+      "blind_output_id": "RYTGF8AB4X8G",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤描述高度模板化，未针对T_ALIGN指标展示课程对齐的具体审查流程或工具应用；两步内容完全重复，缺乏认知或实践递进；任务‘应用一个要点’过于宽泛。但所引CMU等资源真实可查且主题相关。"
+    },
+    {
+      "blind_output_id": "RCAUYBK2B8BM",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "路径未说明如何依据D_RESOURCE指标筛选或整合无障碍与数字能力资源；步骤1与2描述一致，无先修与进阶关系；任务缺乏操作细则。W3C与DigCompEdu来源权威且链接完整。"
+    },
+    {
+      "blind_output_id": "RKRNW5QY2PYZ",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "同前资源类路径结构，未体现数字资源建设的技术标准或迭代机制；步骤重复无递进。资源引用规范可追溯。"
+    },
+    {
+      "blind_output_id": "RHMN88VPXRKG",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "针对A_RESP指标的路径未将NIST AI RMF或UNESCO伦理建议书转化为具体的教学/科研风险排查清单；步骤雷同。资源标识清晰且契合AI治理主题。"
+    },
+    {
+      "blind_output_id": "RF64WFYAC2MW",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "D_DATA指标路径未细化数据组织、清洗与分析的技能学习序列；步骤无难度递进。Data Carpentry等平台资源丰富且来源明确。"
+    },
+    {
+      "blind_output_id": "RR4HW8ADYF8E",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "R_QUESTION指标路径未结合EQUATOR规范提供研究设计检查点；步骤模板化。EQUATOR来源可靠，但UNESCO AI伦理与研究报告规范的直接关联度较弱。"
+    },
+    {
+      "blind_output_id": "RRPQSCTKUEY4",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "同第4项AI责任路径，缺乏针对指标的行动转化逻辑；步骤重复。资源引用完整可验证。"
+    },
+    {
+      "blind_output_id": "RM87NDG4PHM3",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "同前数据类路径，未体现数据素养发展的阶段性目标；步骤描述完全一致。资源来源清晰。"
+    },
+    {
+      "blind_output_id": "R96MSJPVBT7H",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "R_COMM指标路径未说明如何利用OSF进行项目版本管理或协作分享的具体操作；步骤无递进。OSF与EQUATOR均为开放科学领域标准指南。"
+    },
+    {
+      "blind_output_id": "RYK5MLR24X4T",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "同前数据发展路径，任务缺乏学科适配的具体指引；步骤重复。资源引用规范。"
+    },
+    {
+      "blind_output_id": "RVJ5MXABCTBL",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "同前资源类路径，未展示数字资源开发的标准流程或质量评估方法；步骤雷同。来源可识别且摘要准确。"
+    }
+  ]
+}

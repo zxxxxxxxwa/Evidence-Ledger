@@ -1,0 +1,396 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-DD845938D98413B6A0",
+      "evidence": [
+        {
+          "doc_id": "DOC-353F65E73A88574618",
+          "quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-E2E7B01BD17237",
+          "polarity": "support",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-7AC11A100660F214B4",
+          "quote": "围绕“AI 风险、隐私与版权治理”展开，记录了 bias check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-E2E7B01BD17237",
+          "polarity": "context",
+          "observables": [
+            "bias check"
+          ],
+          "extraction_confidence": 0.6
+        },
+        {
+          "doc_id": "DOC-8B208BE9784F18ED8B",
+          "quote": "复核未发现可核查的 risk assessment，且 privacy or copyright safeguard 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "family_key": "SRC-5DD857FE7084F7",
+          "polarity": "contradict",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-E2E7B01BD17237",
+          "SRC-5DD857FE7084F7"
+        ],
+        "reason_code": "mixed_support_and_contradiction"
+      }
+    },
+    {
+      "sample_id": "SID-B02361A5AD9A78CE03",
+      "evidence": [
+        {
+          "doc_id": "DOC-400B5BC7E618D793BA",
+          "quote": "围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-8F5962F55E229E",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-8F5962F55E229E"
+        ],
+        "reason_code": "single_contextual_record"
+      }
+    },
+    {
+      "sample_id": "SID-4D132CDB13EF927F48",
+      "evidence": [
+        {
+          "doc_id": "DOC-27343608574410BC81",
+          "quote": "围绕“人机协同流程设计”展开，记录了 error handling、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。 本人在自填汇总中声明：task allocation 与 verification protocol 均已完成。本页仅记录本人陈述，未附相应成果片段。",
+          "family_key": "SRC-43E6E4CB5B9F2A",
+          "polarity": "context",
+          "observables": [
+            "error handling",
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.5,
+        "cited_family_keys": [
+          "SRC-43E6E4CB5B9F2A"
+        ],
+        "reason_code": "self_claim_without_artifacts"
+      }
+    },
+    {
+      "sample_id": "SID-443F40D8F8B8712B64",
+      "evidence": [
+        {
+          "doc_id": "DOC-697975B3DFBB913F74",
+          "quote": "围绕“学习评价与反馈设计”展开，记录了 formative check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-9F95932C81EF83",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.6
+        },
+        {
+          "doc_id": "DOC-C8B12A11F6C749A6AF",
+          "quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "family_key": "SRC-9F95932C81EF83",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-9F95932C81EF83"
+        ],
+        "reason_code": "strong_coherent_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-249F0068AEEA8E77D9",
+      "evidence": [
+        {
+          "doc_id": "DOC-52CB3E00AA613983CA",
+          "quote": "在旧版本中尚未形成 selection rationale，resource adaptation 当时也未完整记录。本记录形成于改进前，已由成果编号 SRC-4F0116630184CB 的 2025 年现行版本明确替代。",
+          "family_key": "SRC-A306C0F5DFD86D",
+          "polarity": "context",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.7
+        },
+        {
+          "doc_id": "DOC-96EC3CE04F34652BD1",
+          "quote": "围绕“数字资源设计”展开，记录了 accessibility、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-4F0116630184CB",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.6
+        },
+        {
+          "doc_id": "DOC-C7482B5B43524C1331",
+          "quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "family_key": "SRC-4F0116630184CB",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-A306C0F5DFD86D",
+          "SRC-4F0116630184CB"
+        ],
+        "reason_code": "improved_version_with_coherence"
+      }
+    },
+    {
+      "sample_id": "SID-783204BEB6AE4417F7",
+      "evidence": [
+        {
+          "doc_id": "DOC-DD86FE5E89F7F7FD88",
+          "quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "family_key": "SRC-A0631F718DEB16",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-2825EAB2AF61F6796A",
+          "quote": "围绕“研究问题与方法匹配”展开，记录了 limitations、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-A0631F718DEB16",
+          "polarity": "context",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-A0631F718DEB16"
+        ],
+        "reason_code": "basic_practice_with_summary"
+      }
+    },
+    {
+      "sample_id": "SID-E3BCDF23330573227E",
+      "evidence": [
+        {
+          "doc_id": "DOC-10F718892A3D7EDA18",
+          "quote": "围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-4B1B6256C5D8A7",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.6
+        },
+        {
+          "doc_id": "DOC-D4F5A4F853A26A0EA4",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "family_key": "SRC-4B1B6256C5D8A7",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-4B1B6256C5D8A7"
+        ],
+        "reason_code": "coherent_traceable_chain"
+      }
+    },
+    {
+      "sample_id": "SID-0E3D28642D555BF35E",
+      "evidence": [
+        {
+          "doc_id": "DOC-185D91580769671188",
+          "quote": "围绕“学习评价与反馈设计”展开，记录了 formative check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-C598D4025B963D",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-C598D4025B963D"
+        ],
+        "reason_code": "summary_only_record"
+      }
+    },
+    {
+      "sample_id": "SID-1F9FEF79A118D4E880",
+      "evidence": [
+        {
+          "doc_id": "DOC-A0A84DE7B29BEB468C",
+          "quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "family_key": "SRC-E20B9A7EB5CD58",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.7
+        },
+        {
+          "doc_id": "DOC-C538E20AA46B175803",
+          "quote": "围绕“学习评价与反馈设计”展开，记录了 formative check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-E20B9A7EB5CD58",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-E20B9A7EB5CD58"
+        ],
+        "reason_code": "scattered_elements_single_attempt"
+      }
+    },
+    {
+      "sample_id": "SID-E26643B5BA77F31B6C",
+      "evidence": [
+        {
+          "doc_id": "DOC-E2C02246CC7FF94A30",
+          "quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "family_key": "SRC-D3B44307F7664C",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-80FC1FE1024E478546",
+          "quote": "围绕“学习评价与反馈设计”展开，记录了 formative check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-D3B44307F7664C",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-D3B44307F7664C"
+        ],
+        "reason_code": "coherent_adjustable_chain"
+      }
+    },
+    {
+      "sample_id": "SID-3E8DC7D06F602B4DD8",
+      "evidence": [
+        {
+          "doc_id": "DOC-01F13E0A6123073B84",
+          "quote": "围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。 本人在自填汇总中声明：explicit learning outcomes 与 assessment alignment 均已完成。本页仅记录本人陈述，未附相应成果片段。",
+          "family_key": "SRC-FFE031892EEDB4",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale",
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.5
+        },
+        {
+          "doc_id": "DOC-AA445E37B54753FF31",
+          "quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "family_key": "SRC-FFE031892EEDB4",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-FFE031892EEDB4"
+        ],
+        "reason_code": "loose_relationships_single_attempt"
+      }
+    },
+    {
+      "sample_id": "SID-0EA5ECC2B17C067CE8",
+      "evidence": [
+        {
+          "doc_id": "DOC-E8F8CB631BD2960B41",
+          "quote": "围绕“数字资源设计”展开，记录了 accessibility、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-52E3E94B3588EC",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-52E3E94B3588EC"
+        ],
+        "reason_code": "summary_only_record"
+      }
+    }
+  ]
+}

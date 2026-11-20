@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Evidence Ledger</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content" data-i18n="a11y.skip">Skip to content</a>
+
+  <header class="topbar">
+    <div class="brand-lockup" aria-label="Evidence Ledger">
+      <svg class="brand-mark" viewBox="0 0 38 38" aria-hidden="true">
+        <path d="M8 5v28M8 10h11l4 5 7-7M8 20h8l5 5 9-9M8 30h11" />
+        <circle cx="30" cy="8" r="2.5" />
+        <circle cx="30" cy="16" r="2.5" />
+      </svg>
+      <div>
+        <div class="brand-name" data-i18n="brand.name">Evidence Ledger</div>
+        <div class="brand-subtitle" data-i18n="brand.subtitle">Professional growth from traceable evidence</div>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <div class="language-switch" role="group" aria-label="Language / 语言" data-i18n-aria="a11y.language">
+        <button type="button" class="language-button" data-language="en">English</button>
+        <button type="button" class="language-button" data-language="zh">中文</button>
+      </div>
+      <button type="button" class="quiet-button" id="data-controls-button" data-i18n="controls.data">Data controls</button>
+    </div>
+  </header>
+
+  <div class="development-ribbon">
+    <span class="ribbon-symbol" aria-hidden="true">◇</span>
+    <span data-i18n="scope.ribbon">Developmental support only — never use this workspace for hiring, promotion or discipline.</span>
+  </div>
+
+  <div class="app-shell" id="app-shell">
+    <nav class="step-rail" aria-label="Workspace steps" data-i18n-aria="a11y.steps">
+      <div class="rail-heading" data-i18n="nav.heading">Your evidence cycle</div>
+      <button type="button" class="step-link is-active" data-view="context">
+        <span class="step-node" aria-hidden="true">1</span>
+        <span><strong data-i18n="nav.context">Context</strong><small data-i18n="nav.contextHint">Name the goal</small></span>
+      </button>
+      <button type="button" class="step-link" data-view="materials">
+        <span class="step-node" aria-hidden="true">2</span>
+        <span><strong data-i18n="nav.materials">Materials</strong><small data-i18n="nav.materialsHint">Add source evidence</small></span>
+      </button>
+      <button type="button" class="step-link" data-view="evidence">
+        <span class="step-node" aria-hidden="true">3</span>
+        <span><strong data-i18n="nav.evidence">Evidence map</strong><small data-i18n="nav.evidenceHint">Review what can be judged</small></span>
+      </button>
+      <button type="button" class="step-link" data-view="pathway">
+        <span class="step-node" aria-hidden="true">4</span>
+        <span><strong data-i18n="nav.pathway">Development path</strong><small data-i18n="nav.pathwayHint">Act on the right state</small></span>
+      </button>
+
+      <div class="rail-note">
+        <span aria-hidden="true">i</span>
+        <p data-i18n="scope.note">A score, when shown, describes only what the submitted evidence can support.</p>
+      </div>
+      <div class="rail-system" id="rail-system"></div>
+    </nav>
+
+    <main id="main-content" class="workspace" tabindex="-1">
+      <section class="view is-active" id="view-context" data-view-panel="context">
+        <div class="intro-ledger">
+          <div class="intro-spine" aria-hidden="true"><span></span><span></span><span></span></div>
+          <div>
+            <p class="plain-kicker" data-i18n="context.kicker">Start with the purpose, not a score.</p>
+            <h1 data-i18n="context.title">What are you trying to develop?</h1>
+            <p class="lede" data-i18n="context.lede">Your background and goal shape the evidence interpretation and the learning path. They never turn missing material into low ability.</p>
+          </div>
+        </div>
+
+        <div class="method-notice" id="calibration-notice" role="note"></div>
+
+        <form id="context-form" class="ledger-form" novalidate>
+          <div class="form-row two-up">
+            <label>
+              <span data-i18n="context.name">Workspace name or pseudonym</span>
+              <input name="display_name" autocomplete="off" maxlength="80" data-i18n-placeholder="context.namePlaceholder" placeholder="Optional; avoid personal identifiers">
+              <small data-i18n="context.nameHelp">A pseudonym is enough for this local workspace.</small>
+            </label>
+            <label>
+              <span data-i18n="context.discipline">Discipline</span>
+              <input name="discipline" maxlength="120" required data-i18n-placeholder="context.disciplinePlaceholder" placeholder="e.g. Mechanical engineering">
+            </label>
+          </div>
+          <div class="form-row two-up">
+            <label>
+              <span data-i18n="context.stage">Career stage</span>
+              <select name="career_stage" required>
+                <option value="" data-i18n="common.choose">Choose…</option>
+                <option value="early" data-i18n="stage.early">Early career</option>
+                <option value="mid" data-i18n="stage.mid">Mid career</option>
+                <option value="senior" data-i18n="stage.senior">Senior</option>
+                <option value="other" data-i18n="stage.other">Other / prefer to self-describe</option>
+              </select>
+            </label>
+            <label>
+              <span data-i18n="context.role">Primary role</span>
+              <input name="role" maxlength="120" required data-i18n-placeholder="context.rolePlaceholder" placeholder="e.g. Teaching and research">
+            </label>
+          </div>
+          <fieldset>
+            <legend data-i18n="context.goals">Development goals</legend>
+            <p class="field-help" data-i18n="context.goalsHelp">Use one goal per line. Make the first goal your current priority.</p>
+            <textarea name="goals" rows="5" required maxlength="1600" data-i18n-placeholder="context.goalsPlaceholder" placeholder="Integrate verifiable AI use into my assessment design"></textarea>
+          </fieldset>
+          <div class="form-row two-up">
+            <label>
+              <span data-i18n="context.time">Minutes available each week</span>
+              <input name="weekly_minutes" type="number" min="15" max="600" step="15" value="60" required>
+            </label>
+            <label>
+              <span data-i18n="context.constraints">Constraints or preferences</span>
+              <input name="constraints" maxlength="1000" data-i18n-placeholder="context.constraintsPlaceholder" placeholder="Language, accessibility, tools or schedule">
+            </label>
+          </div>
+          <label class="check-row">
+            <input type="checkbox" name="developmental_use_acknowledged" required>
+            <span data-i18n="context.ack">I understand this is evidence-bounded developmental support, not an employment or promotion assessment.</span>
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="primary-button" data-i18n="context.save">Save context</button>
+            <span class="inline-status" id="context-status" aria-live="polite"></span>
+          </div>
+        </form>
+      </section>
+
+      <section class="view" id="view-materials" data-view-panel="materials" hidden>
+        <header class="section-heading">
+          <div>
+            <p class="plain-kicker" data-i18n="materials.kicker">Source before interpretation</p>
+            <h1 data-i18n="materials.title">Add professional materials</h1>
+          </div>
+          <span class="count-mark" id="material-count">0</span>
+        </header>
+        <div class="privacy-gate">
+          <strong data-i18n="materials.beforeUpload">Before you upload</strong>
+          <p data-i18n="materials.privacy">Remove student names, individual grades, confidential partner information, unpublished secrets and anything you are not permitted to send to an external model.</p>
+        </div>
+
+        <form id="material-form" class="upload-ledger" novalidate>
+          <label class="file-drop" id="file-drop">
+            <input type="file" name="file" accept=".pdf,.docx,.pptx,.txt,.md,.csv,.json,.html" required>
+            <span class="file-symbol" aria-hidden="true">＋</span>
+            <strong data-i18n="materials.chooseFile">Choose a document</strong>
+            <small id="file-help" data-i18n="materials.fileHelp">PDF, DOCX, PPTX, TXT, MD, CSV, JSON or HTML; subject to the configured size limit</small>
+            <span id="selected-file-name"></span>
+          </label>
+          <div class="upload-fields">
+            <label>
+              <span data-i18n="materials.documentTitle">Document title</span>
+              <input name="title" maxlength="180" required>
+            </label>
+            <div class="form-row two-up">
+              <label>
+                <span data-i18n="materials.type">Material type</span>
+                <select name="material_type" required>
+                  <option value="paper" data-i18n="material.paper">Academic paper</option>
+                  <option value="research_project" data-i18n="material.project">Research project</option>
+                  <option value="slides" data-i18n="material.slides">Teaching slides</option>
+                  <option value="lesson_plan" data-i18n="material.lesson">Lesson plan</option>
+                  <option value="teaching_achievement" data-i18n="material.achievement">Teaching achievement</option>
+                  <option value="other" data-i18n="material.other">Other relevant material</option>
+                </select>
+              </label>
+              <label>
+                <span data-i18n="materials.date">Formation date</span>
+                <input name="source_date" type="date">
+              </label>
+            </div>
+            <div class="form-row two-up">
+              <label>
+                <span data-i18n="materials.contribution">Your contribution</span>
+                <select name="contribution_level" required>
+                  <option value="sole" data-i18n="contribution.sole">Sole author / creator</option>
+                  <option value="lead" data-i18n="contribution.lead">Lead contribution</option>
+                  <option value="substantial" data-i18n="contribution.substantial">Substantial contribution</option>
+                  <option value="limited" data-i18n="contribution.limited">Limited contribution</option>
+                  <option value="unclear" data-i18n="contribution.unclear">Not yet clear</option>
+                </select>
+              </label>
+              <label>
+                <span data-i18n="materials.sourceRef">DOI, project number or source ID</span>
+                <input name="source_ref" maxlength="200" data-i18n-placeholder="materials.sourceRefPlaceholder" placeholder="Optional but useful for deduplication">
+              </label>
+            </div>
+            <label>
+              <span data-i18n="materials.contributionNote">Contribution note</span>
+              <textarea name="contribution_note" rows="3" maxlength="500" data-i18n-placeholder="materials.contributionNotePlaceholder" placeholder="What did you personally design, analyse or write?"></textarea>
+            </label>
+            <label class="check-row">
+              <input type="checkbox" name="privacy_confirmed" required>
+              <span data-i18n="materials.privacyConfirm">I have checked this file and removed or lawfully handled sensitive information.</span>
+            </label>
+            <div class="form-actions">
+              <button type="submit" class="primary-button" data-i18n="materials.add">Parse and add material</button>
+              <span class="inline-status" id="material-status" aria-live="polite"></span>
+            </div>
+          </div>
+        </form>
+
+        <div class="material-register">
+          <div class="subheading-row">
+            <h2 data-i18n="materials.register">Material register</h2>
+            <p data-i18n="materials.registerHint">Original binaries are not retained; extracted text and locators stay in the local database.</p>
+          </div>
+          <div id="materials-list" class="register-list"></div>
+        </div>
+      </section>
+
+      <section class="view" id="view-evidence" data-view-panel="evidence" hidden>
+        <header class="section-heading evidence-heading">
+          <div>
+            <p class="plain-kicker" data-i18n="evidence.kicker">No evidence, no forced score</p>
+            <h1 data-i18n="evidence.title">Evidence-bounded capability map</h1>
+            <p data-i18n="evidence.lede">Each row records what can be judged, what remains unknown and what requires human review.</p>
+          </div>
+          <button type="button" class="primary-button" id="run-assessment-button" data-i18n="evidence.run">Build evidence map</button>
+        </header>
+        <div id="assessment-status" class="assessment-status" aria-live="polite"></div>
+        <div id="state-summary" class="state-summary"></div>
+        <div class="ledger-column-head" aria-hidden="true">
+          <span data-i18n="evidence.indicator">Indicator</span>
+          <span data-i18n="evidence.state">Evidence state</span>
+          <span data-i18n="evidence.level">Conditional level</span>
+          <span data-i18n="evidence.action">Next action</span>
+        </div>
+        <div id="evidence-ledger" class="evidence-ledger"></div>
+      </section>
+
+      <section class="view" id="view-pathway" data-view-panel="pathway" hidden>
+        <header class="section-heading">
+          <div>
+            <p class="plain-kicker" data-i18n="path.kicker">State first, resource second</p>
+            <h1 data-i18n="path.title">Goal-linked development path</h1>
+            <p data-i18n="path.lede">Resources are retrieved from a governed catalogue. Unknown and conflicting states cannot silently become remedial advice.</p>
+          </div>
+        </header>
+        <div id="path-list" class="path-list"></div>
+
+        <section class="review-register" aria-labelledby="review-heading">
+          <div class="subheading-row">
+            <div>
+              <h2 id="review-heading" data-i18n="review.title">Human review queue</h2>
+              <p data-i18n="review.help">Conflict cases stay paused. No material is automatically sent to the external annotation service.</p>
+            </div>
+          </div>
+          <div id="review-list"></div>
+        </section>
+
+        <section class="resource-register" aria-labelledby="resource-heading">
+          <div class="subheading-row">
+            <div>
+              <h2 id="resource-heading" data-i18n="resources.title">Governed resource catalogue</h2>
+              <p data-i18n="resources.help">Authority, access terms, prerequisites and last check are visible before use.</p>
+            </div>
+            <label class="compact-search">
+              <span class="sr-only" data-i18n="resources.search">Search resources</span>
+              <input id="resource-search" type="search" data-i18n-placeholder="resources.searchPlaceholder" placeholder="Search topic or indicator">
+            </label>
+          </div>
+          <div id="resource-list" class="resource-list"></div>
+        </section>
+      </section>
+    </main>
+
+    <aside class="trace-drawer" id="trace-drawer" role="complementary" aria-labelledby="trace-heading" aria-hidden="true" inert>
+      <div class="drawer-header">
+        <div>
+          <p class="plain-kicker" data-i18n="trace.kicker">Evidence trace</p>
+          <h2 id="trace-heading" data-i18n="trace.title">Select an indicator</h2>
+        </div>
+        <button type="button" class="icon-button" id="close-trace" aria-label="Close evidence trace" data-i18n-aria="trace.close">×</button>
+      </div>
+      <div id="trace-content" class="trace-content"></div>
+    </aside>
+  </div>
+
+  <div class="status-bar">
+    <span id="save-state" data-i18n="status.local">Local workspace</span>
+    <span id="global-status" role="status" aria-live="polite"></span>
+  </div>
+
+  <dialog id="data-dialog" class="data-dialog">
+    <form method="dialog" class="dialog-shell">
+      <div class="drawer-header">
+        <div>
+          <p class="plain-kicker" data-i18n="controls.kicker">Workspace settings</p>
+          <h2 data-i18n="controls.title">Language and local data</h2>
+        </div>
+        <button value="cancel" class="icon-button" aria-label="Close" data-i18n-aria="common.close">×</button>
+      </div>
+      <div class="dialog-section">
+        <h3 data-i18n="controls.language">Language preference</h3>
+        <p data-i18n="controls.languageHelp">Clearing the preference returns the interface to English.</p>
+        <button type="button" class="secondary-button" id="clear-language" data-i18n="controls.clearLanguage">Clear saved language</button>
+      </div>
+      <div class="dialog-section danger-zone">
+        <h3 data-i18n="controls.deleteTitle">Delete this workspace</h3>
+        <p data-i18n="controls.deleteHelp">This removes the profile, extracted material text, assessments, paths and review queue from the local database. It cannot be undone.</p>
+        <label>
+          <span data-i18n="controls.typeDelete">Type DELETE to confirm</span>
+          <input id="delete-confirmation" autocomplete="off">
+        </label>
+        <button type="button" class="danger-button" id="delete-workspace" data-i18n="controls.delete">Delete workspace</button>
+      </div>
+    </form>
+  </dialog>
+</body>
+</html>
+

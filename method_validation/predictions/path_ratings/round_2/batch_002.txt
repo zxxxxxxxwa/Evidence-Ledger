@@ -1,0 +1,102 @@
+```json
+{
+  "ratings": [
+    {
+      "blind_output_id": "R6ZRMDXKN559",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "步骤内容完全模板化，未体现针对A_RESP指标的具体能力递进；先修关系仅存在于资源列表中，步骤间无逻辑衔接与难度分层；实践任务与完成证据过于宽泛，未设定可观察的表现锚点，建议易越过证据边界。"
+    },
+    {
+      "blind_output_id": "RDU7CRP22T6U",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "路径未结合D_DATA指标设计数据清洗或分析的具体进阶任务；步骤重复且无认知负荷递增设计；资源虽可识别，但未说明如何支撑步骤中的‘应用要点’，执行标准模糊。"
+    },
+    {
+      "blind_output_id": "RC9VUUCDM6LF",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "步骤内容雷同，未展现数字能力发展的阶梯性；EU-CHECKIN-HE的先修依赖未在步骤设计中转化为学习流程；实践要求缺乏情境约束，证据收集标准不明确。"
+    },
+    {
+      "blind_output_id": "RWWJV4G9EQVW",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "路径未针对科研沟通（R_COMM）指标定制协作或报告任务；步骤间无先后逻辑与难度提升；资源链接有效但教学转化指导缺失，任务描述空泛。"
+    },
+    {
+      "blind_output_id": "R6EUCKCGQRBU",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "步骤模板化严重，未体现反馈设计（T_FEEDBACK）的专业递进；两资源均标注无先修，步骤亦无难度分层；产出证据缺乏具体评价量规，难以验证达成度。"
+    },
+    {
+      "blind_output_id": "RVLZSUBQ2GKT",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "步骤未呈现AI响应能力的发展序列，与A_RESP指标脱节；UNESCO-AI-ETHICS的先修条件未融入学习流程；实践任务与证据描述通用化，无法界定能力边界。"
+    },
+    {
+      "blind_output_id": "R53JCR244QS9",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "路径未针对课程对齐（T_ALIGN）设计具体审查任务；步骤重复且无递进；资源先修未在步骤中落实，执行标准模糊，建议缺乏可测量的证据抓手。"
+    },
+    {
+      "blind_output_id": "RC5KSQJKMPGV",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "步骤未体现工作流程（A_WORKFLOW）的优化或重构进阶；NIST手册的先修依赖断裂于资源与步骤之间；任务描述缺乏学科情境，可执行性低。"
+    },
+    {
+      "blind_output_id": "RMGJC2M2NYW2",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "尽管资源存在明确先修链（CFT→ETHICS→NIST），但三个步骤内容完全一致，未体现难度递进与能力发展；任务与产出过于通用，未能跨越证据边界提供具体表现描述。"
+    },
+    {
+      "blind_output_id": "RAG98YY2XXEV",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "路径为通用模板，未结合科研沟通指标细化任务；步骤无先后逻辑与难度提升；资源可识别但教学应用指导缺失，证据标准抽象。"
+    },
+    {
+      "blind_output_id": "RW9T9ZNMEUC9",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "步骤顺序与资源先修关系（UDL需CMU基础）未体现于学习流程中；未展示反馈设计（T_FEEDBACK）的具体进阶路径；实践要求宽泛，证据收集标准不明确。"
+    },
+    {
+      "blind_output_id": "RW23QDTZQJ43",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "四步内容完全重复，彻底违背难度递进原则；资源先修链（CMU→CAST→W3C）未在步骤设计中转化为学习阶梯；任务与证据描述过于抽象，超出可测量边界。"
+    }
+  ]
+}
+```

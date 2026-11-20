@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "annotation_state_alpha_ge_0_70": true,
+    "annotation_level_reliability_ge_0_75": true,
+    "P_ewr_le_0_10": true,
+    "P_vs_B3_risk_difference_ci_below_zero": true,
+    "P_qwk_ge_0_70": true,
+    "P_qwk_noninferiority_lower_ge_minus_0_05": true,
+    "P_dup_retention_ge_0_95": true,
+    "P_irr_retention_ge_0_95": true,
+    "P_order_retention_ge_0_95": true,
+    "P_all_three_TOST": true,
+    "P_non_target_TOST": true,
+    "P_conflict_review_ge_0_85": true,
+    "no_fabricated_source_failure": true,
+    "P_high_risk_evidence_overlap_absent": true
+  },
+  "decision": "GO"
+}

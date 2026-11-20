@@ -1,0 +1,100 @@
+{
+  "ratings": [
+    {
+      "blind_output_id": "RT8FHT2BG4DJ",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "步骤描述为通用模板，未针对T_ALIGN指标设计具体课程对齐动作；CMU与DigCompEdu资源方向正确，但路径未建立资源与步骤的映射。"
+    },
+    {
+      "blind_output_id": "RMGW82AB8RA5",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "步骤内容同质化，缺乏面向A_WORKFLOW的差异化流程设计；UNESCO与NIST资源权威且匹配度高，但步骤未指明应用节点与演进逻辑。"
+    },
+    {
+      "blind_output_id": "RL757N6GYR5M",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "路径未体现D_DATA指标所需的数据处理技能进阶；Data Carpentry与DigCompEdu资源指向明确，但任务描述过于笼统，无法验证证据边界。"
+    },
+    {
+      "blind_output_id": "RX9S7HHX9WV4",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "步骤重复无递进，难以支撑A_RESP指标的能力发展；AI伦理与风险管理框架资源完整，但路径未说明如何将规范性建议转化为具体教学响应。"
+    },
+    {
+      "blind_output_id": "R3G5NGS5SAD2",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "模板化步骤无法有效服务T_FEEDBACK指标；DigCompEdu与CMU指南提供基础参考，但未说明如何转化为反馈改进动作与迭代证据。"
+    },
+    {
+      "blind_output_id": "RJ3Y6BDS9HB9",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "路径结构与RL757N6GYR5M相似，步骤无难度区分；资源组合合理，但实践任务缺乏可操作的具体指引，易越过证据边界。"
+    },
+    {
+      "blind_output_id": "RP8RX4E2QQKS",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "步骤未体现R_COMM指标所需的协作或沟通策略进阶；OSF与EQUATOR工具实用，但路径文本未展示如何应用于科研分享或报告规范场景。"
+    },
+    {
+      "blind_output_id": "RDQ5T3W8UUUQ",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "资源列表呈现清晰的先修链（CMU→CAST→W3C），但步骤描述仍为同一模板，未反映D_RESOURCE指标的难度递进；任务执行性弱，证据产出标准模糊。"
+    },
+    {
+      "blind_output_id": "RAZD5T9YB69V",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "步骤同质化严重，无法支撑R_QUESTION指标的研究问题设计进阶；EQUATOR与UNESCO资源相关，但路径未指明具体应用环节与能力跃迁点。"
+    },
+    {
+      "blind_output_id": "RB5K9Q3ZC7WN",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "与RAZD5T9YB69V结构一致，步骤无递进设计；资源引用规范，但实践任务过于宽泛，缺乏针对性指导与可观测的行为锚点。"
+    },
+    {
+      "blind_output_id": "RLKM52NGWZ6Y",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "路径未体现D_DATA指标的技能提升轨迹；DigCompEdu框架与CheckIn工具存在逻辑关联，但步骤描述未加以利用，先修关系仅在资源元数据中隐含。"
+    },
+    {
+      "blind_output_id": "RVJ62TDK2SEF",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "步骤内容完全重复，缺乏面向A_RESP指标的伦理与风险应对进阶；AI能力与风险管理资源权威，但路径未建立资源与任务的对应关系，建议越界。"
+    }
+  ]
+}

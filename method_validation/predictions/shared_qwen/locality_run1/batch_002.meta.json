@@ -1,0 +1,21 @@
+{
+  "request_sha256": "9f46e0e141bb30d7b159b153d4b11f412850de376b53528ed8ff7f34c4564ddd",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "error",
+      "type": "RemoteDisconnected",
+      "message": "Remote end closed connection without response"
+    },
+    {
+      "attempt": 2,
+      "status": "error",
+      "type": "URLError",
+      "message": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+    },
+    {
+      "attempt": 3,
+      "status": "success"
+    }
+  ]
+}

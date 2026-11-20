@@ -1,0 +1,102 @@
+```json
+{
+  "ratings": [
+    {
+      "blind_output_id": "RT8FHT2BG4DJ",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "路径步骤为通用模板，未针对T_ALIGN指标设计具体对齐活动；步骤1与2完全重复，无递进逻辑；任务描述空泛，缺乏操作标准；CMU与DigCompEdu资源真实可查且摘要相关。"
+    },
+    {
+      "blind_output_id": "RMGW82AB8RA5",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤未体现A_WORKFLOW指标所需的工作流构建过程；先修链仅在元数据标注，路径文本未衔接；实践任务缺乏情境与交付标准；UNESCO与NIST资源来源清晰、内容匹配。"
+    },
+    {
+      "blind_output_id": "RL757N6GYR5M",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "路径未结合D_DATA指标设计数据处理进阶；步骤描述一致，缺乏逻辑推进；“应用要点”无具体方法指引；Data Carpentry与DigCompEdu框架引用规范、可溯源。"
+    },
+    {
+      "blind_output_id": "RX9S7HHX9WV4",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "三步均为相同模板语句，未回应A_RESP指标要求；虽标注伦理到风险管理的先修顺序，但步骤文本未体现认知深化；任务不可执行；UNESCO与NIST资源可验证。"
+    },
+    {
+      "blind_output_id": "R3G5NGS5SAD2",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "路径未针对T_FEEDBACK指标设计反馈优化活动；步骤重复且无先后依赖；实践任务缺乏具体产出格式说明；CMU与DigCompEdu资源真实有效，但路径未说明调用方式。"
+    },
+    {
+      "blind_output_id": "RJ3Y6BDS9HB9",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "模板化路径未贴合D_DATA指标；步骤无逻辑递进；任务描述过于宽泛，无法直接执行；所列数字能力与数据技能资源可识别且摘要准确。"
+    },
+    {
+      "blind_output_id": "RP8RX4E2QQKS",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "未体现R_COMM指标所需的协作或沟通进阶；步骤完全雷同；实践任务缺乏开放科学或报告规范的具体应用场景；OSF与EQUATOR资源来源可靠。"
+    },
+    {
+      "blind_output_id": "RDQ5T3W8UUUQ",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "四步均为同一模板，未展现D_RESOURCE指标的开发进阶；先修依赖仅在资源元数据中列出，路径文本未整合；任务不可操作；CAST、W3C等权威资源引用规范。"
+    },
+    {
+      "blind_output_id": "RAZD5T9YB69V",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "路径未针对R_QUESTION指标展开探究设计；步骤重复；未说明如何将EQUATOR规范或AI伦理转化为具体问题设计；资源可识别且摘要相关。"
+    },
+    {
+      "blind_output_id": "RB5K9Q3ZC7WN",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "与上一条高度相似，模板化严重；缺乏针对研究问题设计的递进安排；任务模糊；UNESCO与EQUATOR资源引用准确、来源明确。"
+    },
+    {
+      "blind_output_id": "RLKM52NGWZ6Y",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤描述完全一致，未体现D_DATA指标的数据反思进阶；先修关系未在路径中落实；任务缺乏具体产出标准；DigCompEdu及CheckIn工具来源清晰。"
+    },
+    {
+      "blind_output_id": "RVJ62TDK2SEF",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "三步模板重复，未呼应A_RESP指标；虽标注了伦理到风险管理的先修链，但步骤文本未体现能力积累；任务不可执行；NIST与UNESCO资源可查证。"
+    }
+  ]
+}
+```

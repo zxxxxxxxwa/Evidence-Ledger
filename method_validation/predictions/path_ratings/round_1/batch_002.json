@@ -1,0 +1,100 @@
+{
+  "ratings": [
+    {
+      "blind_output_id": "R6ZRMDXKN559",
+      "target_match": 1,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "路径步骤完全采用通用模板，未针对A_RESP指标设计具体发展动作，目标匹配度低；步骤描述重复且无递进逻辑，实践任务‘应用一个要点’过于模糊，缺乏操作指引与验收标准；资源链接有效但路径未说明资源如何支撑步骤，先修关系仅停留在资源元数据层面。"
+    },
+    {
+      "blind_output_id": "RDU7CRP22T6U",
+      "target_match": 1,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "步骤文本未体现D_DATA指标要求的数据处理或分析能力进阶，目标指向脱节；两步骤内容同质化，无认知或技能递进设计；任务与证据描述空泛，教师无法据此开展具体实践；所引Data Carpentry与DigCompEdu来源可靠，但未在路径中建立资源与任务的映射关系。"
+    },
+    {
+      "blind_output_id": "RC9VUUCDM6LF",
+      "target_match": 1,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "同样为D_DATA指标，但路径未拆解数字能力评估的具体维度，目标服务缺失；步骤1与2任务完全一致，缺乏先修依赖与难度梯度；‘保留工作样例’未规定格式、范围或反思框架，可执行性差；DigCompEdu及CheckIn工具引用准确，但路径未展示如何利用其进阶描述指导实践。"
+    },
+    {
+      "blind_output_id": "RWWJV4G9EQVW",
+      "target_match": 1,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "R_COMM指标强调科研协作与沟通，但路径未涉及开放科学、版本管理或报告规范的具体应用，目标不匹配；步骤内容机械重复，无协作流程的阶段性设计；任务缺乏对OSF注册或EQUATOR规范检索的操作细节，难以落地；资源来源权威且链接完整，但路径文本未建立资源功能与教学/科研场景的关联。"
+    },
+    {
+      "blind_output_id": "R6EUCKCGQRBU",
+      "target_match": 1,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "T_FEEDBACK指标需聚焦反馈收集与分析机制，路径却使用通用占位符，未对齐指标内涵；两步时长不同但任务描述零差异，无能力进阶逻辑；‘应用要点’未指明反馈设计的具体环节（如形成性评价、同伴互评），产出证据标准模糊；CMU课程设计与DigCompEdu为有效参考，但路径未说明如何提取可用策略。"
+    },
+    {
+      "blind_output_id": "RVLZSUBQ2GKT",
+      "target_match": 1,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "再次面向A_RESP指标，路径仍为模板化表述，未构建AI响应能力的发展阶梯；步骤顺序虽对应资源先修链，但步骤本身无内容递进，逻辑连贯性弱；任务与证据描述高度抽象，教师无法明确执行边界与质量要求；NIST与UNESCO资源摘要准确，但路径未阐释风险管理框架如何转化为教学改进动作。"
+    },
+    {
+      "blind_output_id": "R53JCR244QS9",
+      "target_match": 1,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "T_ALIGN指标要求目标-评价-教学一致性审查，路径未提供对齐矩阵或审查清单，目标脱节；步骤内容完全复制模板，无诊断到修正的递进设计；‘保留理由’未规定论证结构或对照标准，执行可操作性低；CMU指南与CheckIn工具引用恰当，但路径未展示如何结合框架开展具体对齐实践。"
+    },
+    {
+      "blind_output_id": "RC5KSQJKMPGV",
+      "target_match": 1,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "A_WORKFLOW指标需优化工作流程，路径未界定流程类型（备课、批改、教研等），目标匹配不足；三步任务描述雷同，缺乏从梳理到优化的阶段划分；实践任务缺乏流程图绘制、瓶颈识别或工具引入等具体动作，难以执行；所引NIST手册与CMU指南来源可信，但路径未建立资源建议与流程改造的对应关系。"
+    },
+    {
+      "blind_output_id": "RMGJC2M2NYW2",
+      "target_match": 1,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "同为A_WORKFLOW指标，路径仍沿用静态模板，未体现工作流迭代特征；步骤间无任务复杂度或自主性提升，先修递进缺失；‘应用要点’未限定工作流节点，产出证据无结构化要求，执行指导性弱；UNESCO与NIST资源链条完整，但路径未说明如何将伦理或风险管理原则嵌入实际工作环节。"
+    },
+    {
+      "blind_output_id": "RAG98YY2XXEV",
+      "target_match": 1,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "R_COMM指标路径未涉及学术共同体互动或成果传播策略，目标服务缺位；步骤内容重复，无沟通广度或深度的进阶设计；任务描述空泛，未规定协作平台使用或规范检索的具体步骤，可执行性差；OSF与EQUATOR资源链接有效，但路径未展示如何利用工具实现科研透明化或规范化沟通。"
+    },
+    {
+      "blind_output_id": "RW9T9ZNMEUC9",
+      "target_match": 1,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "T_FEEDBACK指标需关注学习障碍消除与反馈有效性，路径未结合UDL原则设计差异化支持，目标不匹配；步骤顺序颠倒（CAST在前CMU在后）且描述一致，先修逻辑混乱；任务未指明审查哪些教学活动或收集何种反馈数据，执行标准缺失；CAST与CMU资源摘要准确，但路径未说明如何提取检查点转化为具体干预措施。"
+    },
+    {
+      "blind_output_id": "RW23QDTZQJ43",
+      "target_match": 1,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "D_RESOURCE指标要求筛选与整合教学资源，路径未提供资源评估维度或适配策略，目标脱节；四步任务完全相同，无从理念到规划再到实施的递进；‘应用要点’未限定资源类型或学科背景，产出证据无审核清单，执行可行性极低；CMU、CAST、W3C与DigCompEdu来源权威，但路径未建立资源特性与高校教学场景的映射说明。"
+    }
+  ]
+}

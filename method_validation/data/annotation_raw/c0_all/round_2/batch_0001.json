@@ -1,0 +1,189 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-EE2E99193C9BDD6A1C",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-7C3064C0197224CD4A",
+          "verbatim_quote": "复核未发现可核查的 explicit learning outcomes，且 assessment alignment 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "observable": "explicit learning outcomes"
+        },
+        {
+          "doc_id": "DOC-EAA30F276604C94A50",
+          "verbatim_quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "explicit learning outcomes"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_conflict",
+      "rationale": "独立复核与提交成果对同一指标的关键可观察项存在相反结论。"
+    },
+    {
+      "sample_id": "SID-F4528DA347CAAED492",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-5C6FE4FFF9793EB87B",
+          "verbatim_quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "rubric or criteria"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice",
+      "rationale": "现有材料仅展示基本做法，缺乏多轮调整或复用分享证据。"
+    },
+    {
+      "sample_id": "SID-F6FD4AD24195DB994A",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-1BC08AC0D44FC66B53",
+          "verbatim_quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。目前只展示零散要素，尚未形成稳定的关系。",
+          "observable": "research gap"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "scattered_elements",
+      "rationale": "材料仅呈现零散要素，未建立稳定关系，属单次尝试水平。"
+    },
+    {
+      "sample_id": "SID-AC110AF7CFE09C530F",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-7CA02322393B12C486",
+          "verbatim_quote": "该项工作围绕“学术表达与个人贡献”展开，记录了 audience adaptation、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "claim-evidence coherence"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_evidence",
+      "rationale": "归档摘要未展开具体设计链，缺乏关键可观察项的实质证据。"
+    },
+    {
+      "sample_id": "SID-96F57F85F210C44B8C",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-428C61DA78E5EC9CFA",
+          "verbatim_quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。已经建立基础流程，并能解释若干选择与步骤。",
+          "observable": "selection rationale"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice",
+      "rationale": "材料显示已建立基础流程并解释步骤，符合基本做法特征。"
+    },
+    {
+      "sample_id": "SID-760F31A74A296A832F",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-AD48E1CF52B7E2A217",
+          "verbatim_quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "data interpretation"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "scattered_elements",
+      "rationale": "关键要素记录松散，仅停留在单次尝试阶段。"
+    },
+    {
+      "sample_id": "SID-4F2328005A158FD2BB",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-3B8EA9447A86BA4072",
+          "verbatim_quote": "该项工作围绕“人机协同流程设计”展开，记录了 error handling、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。 本人在自填汇总中声明：task allocation 与 verification protocol 均已完成。本页仅记录本人陈述，未附相应成果片段。",
+          "observable": "task allocation"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "self_declaration_only",
+      "rationale": "仅有自填声明，未附成果片段，无法验证关键可观察项。"
+    },
+    {
+      "sample_id": "SID-6EC671868C86921A59",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-9A07D979ED086ABD10",
+          "verbatim_quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。已经建立基础流程，并能解释若干选择与步骤。",
+          "observable": "risk assessment"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice",
+      "rationale": "材料明确呈现两项关键可观察项的基础流程与步骤解释。"
+    },
+    {
+      "sample_id": "SID-6D513EF153EA321496",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-2481219A5F06CF4B64",
+          "verbatim_quote": "该项工作围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "explicit learning outcomes"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_evidence",
+      "rationale": "仅提供归档摘要，未展开关键可观察项的具体设计链证据。"
+    },
+    {
+      "sample_id": "SID-40624BAE3D8202DD3C",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-9E9FA9C7909EDD2791",
+          "verbatim_quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "rubric or criteria"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice",
+      "rationale": "材料清晰呈现两项关键可观察项的基本做法与操作说明。"
+    },
+    {
+      "sample_id": "SID-1A7D3BC5AFC4B6D3EA",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-329BC6F80743F1B790",
+          "verbatim_quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "research gap"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice",
+      "rationale": "材料明确呈现两项关键可观察项的基本做法及理由说明。"
+    },
+    {
+      "sample_id": "SID-519ED1DAF4CBC289E6",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-BFAE45E9FBBE0599EF",
+          "verbatim_quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "claim-evidence coherence"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "scattered_elements",
+      "rationale": "关键要素记录松散，仅停留在单次尝试阶段。"
+    }
+  ]
+}

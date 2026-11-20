@@ -1,0 +1,100 @@
+{
+  "ratings": [
+    {
+      "blind_output_id": "R3CEZLGQ67M3",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "路径步骤为通用模板，未针对D_DATA指标具体展开；资源（DigCompEdu、Data Carpentry）元数据完整可查，但步骤文本未明确引用或映射至资源，缺乏递进逻辑与可操作细节。"
+    },
+    {
+      "blind_output_id": "RFPAGHZAECWS",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "步骤内容完全重复，未体现R_QUESTION指标所需的探究设计特征；资源（EQUATOR、UNESCO AI框架）来源清晰且摘要相关，但路径陈述与资源无实质关联，先修关系未在步骤中落实。"
+    },
+    {
+      "blind_output_id": "RAPCCZDWBWYA",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "路径为占位符式描述，未服务R_COMM协作共享目标；资源（OSF指南、EQUATOR工具包）链接与发布者可验证，但任务“应用一个要点”过于模糊，无法评估执行质量。"
+    },
+    {
+      "blind_output_id": "RB8UFXEUN6WM",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "步骤未对齐A_RESP责任响应指标；资源（NIST AI RMF手册、UNESCO伦理建议书）具备权威性与可识别性，但路径文本未说明如何结合资源开展风险治理实践，步骤间无能力进阶。"
+    },
+    {
+      "blind_output_id": "RYEMBK7W62Z9",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "路径模板化严重，未体现T_ALIGN课程对齐目标；资源（DigCompEdu、CMU课程设计指南）来源可靠，但步骤未指定对齐审查的具体维度或产出标准，执行指向不清。"
+    },
+    {
+      "blind_output_id": "R6G9LAG66L2L",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "步骤内容与T_FEEDBACK反馈指标脱节；资源元数据完整可追溯，但路径仅要求“保留带日期样例”，未规定反馈收集、分析或迭代的具体动作，可操作性弱。"
+    },
+    {
+      "blind_output_id": "R8MGXJ6Z55TG",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "路径未服务D_RESOURCE资源开发目标；资源链（CMU→CAST UDL→W3C WAI）存在明确先修关系，但四个步骤文本完全一致，未反映无障碍与通用设计的递进学习过程。"
+    },
+    {
+      "blind_output_id": "R929R4UZLWZ5",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "步骤为通用占位符，未支撑R_QUESTION研究提问指标；资源（EQUATOR、UNESCO伦理）可识别且摘要准确，但路径未说明如何运用规范完善研究设计，任务缺乏学科情境。"
+    },
+    {
+      "blind_output_id": "RWZTRCHRVD9E",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "路径未针对T_ALIGN指标提供具体对齐策略；资源（CMU指南、DigCompEdu）来源清晰，但步骤未界定对齐范围（如目标-评价-活动），产出证据标准模糊。"
+    },
+    {
+      "blind_output_id": "R633S5QLX9QU",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "步骤模板化，未体现A_RESP负责任使用AI的目标；资源（NIST手册、UNESCO伦理）具备政策与实践参考价值，但路径未指导如何将风险管理框架适配至教学场景。"
+    },
+    {
+      "blind_output_id": "RCCDYKKZHQDH",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "路径未服务T_FEEDBACK指标；资源（CAST UDL、CMU指南）元数据完整，但步骤顺序与资源先修提示不一致，且任务描述泛化，无法保证反馈机制的可执行性。"
+    },
+    {
+      "blind_output_id": "R8TAFB6PCP3J",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "步骤未对齐A_WORKFLOW工作流优化目标；资源（NIST AI RMF、CMU指南）可验证且摘要相关，但路径未说明如何重构科研/教学流程，任务与产出缺乏具体验收标准。"
+    }
+  ]
+}

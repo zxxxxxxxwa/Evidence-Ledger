@@ -1,0 +1,94 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-8582E8901514D4BE67",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-EA1BCB7A54166A5572",
+          "verbatim_quote": "成果编号 SRC-E1CEA9C1BC8781 的归档摘要。该项工作围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "explicit learning outcomes, assessment alignment"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_observables",
+      "rationale": "仅存归档摘要提及关联指标，但未展开关键可观察项的具体设计与核验记录，证据不足。"
+    },
+    {
+      "sample_id": "SID-60E1AAABD33A36D18A",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-1127350B9EA97D301B",
+          "verbatim_quote": "成果编号 SRC-F3A91FB77FBAF8。围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。工作链较完整，可依据对象作调整并追溯理由。 本人负责核心设计、实施与修订。",
+          "observable": "rubric or criteria, feedback loop"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_adjustable",
+      "rationale": "成果材料明确呈现两项关键可观察项，具备完整工作链并可调整追溯，符合等级3标准。"
+    },
+    {
+      "sample_id": "SID-B468CE16F8FCD47C37",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-CA8D34D6298E26439E",
+          "verbatim_quote": "成果编号 SRC-562AEFA6DA9001。围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。 本人负责核心设计、实施与修订。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "single_attempt",
+      "rationale": "材料明确呈现关键可观察项，但自述关系松散且仅单次尝试，符合等级1特征。"
+    },
+    {
+      "sample_id": "SID-C8D12E467B09043F27",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-3211129D5AF2BBEDE5",
+          "verbatim_quote": "成果编号 SRC-19CD1AD117E320。围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。 本人负责核心设计、实施与修订。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_adjustable",
+      "rationale": "成果材料完整呈现两项关键可观察项，工作链连贯可追溯且能按需调整，达到等级3。"
+    },
+    {
+      "sample_id": "SID-ED55CB3C470FE4F878",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-EBE2EA8755F561F286",
+          "verbatim_quote": "成果编号 SRC-4C97C75F4B21E3 的归档摘要。该项工作围绕“数字资源设计”展开，记录了 accessibility、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_observables",
+      "rationale": "仅存归档摘要提及指标名称，明确说明未展开具体设计链，缺乏关键可观察项的可核查证据。"
+    },
+    {
+      "sample_id": "SID-AFAE811D3A1141540E",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-04C83B521D170C2454",
+          "verbatim_quote": "成果编号 SRC-CDAE73C55A33D4。围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。 本人负责核心设计、实施与修订。",
+          "observable": "data interpretation, decision trace"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_adjustable",
+      "rationale": "成果材料明确呈现两项关键可观察项，工作链连贯可追溯且能按需调整，符合等级3标准。"
+    }
+  ]
+}

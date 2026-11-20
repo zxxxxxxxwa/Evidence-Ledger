@@ -1,0 +1,100 @@
+{
+  "ratings": [
+    {
+      "blind_output_id": "RUYEKL9ADA2R",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 5,
+      "brief_reason": "步骤为通用模板，未体现课程对齐的具体操作；资源（CMU课程设计、DigCompEdu）来源权威、链接准确、摘要匹配，但路径陈述未明确引用具体资源，导致路径与资源一致性不足。"
+    },
+    {
+      "blind_output_id": "RS6F547JGWG3",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 5,
+      "brief_reason": "步骤重复且无递进逻辑，未支撑研究提问进阶；资源（EQUATOR规范、UNESCO伦理）来源可识别且摘要准确，但路径文本未说明如何将规范应用于提问设计，路径与资源脱节。"
+    },
+    {
+      "blind_output_id": "RH8SC3ETZKZY",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 5,
+      "brief_reason": "步骤内容同质化，缺乏数据处理技能进阶；资源（Data Carpentry、DigCompEdu）来源清晰、摘要精准，但路径未体现数据清洗/分析的具体任务指引，陈述与资源不匹配。"
+    },
+    {
+      "blind_output_id": "RBUQXCCF2K9V",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 5,
+      "brief_reason": "步骤机械重复，未构建研究提问的进阶路径；资源组合合理且先修关系在元数据中一致，来源可信，但路径陈述过于空泛，未落实资源建议。"
+    },
+    {
+      "blind_output_id": "R8RM84TZNXSU",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 5,
+      "brief_reason": "步骤未展示工作流优化步骤；资源（NIST AI RMF、CMU课程设计）来源权威，摘要与用途匹配，但路径文本缺乏流程适配的具体说明，路径陈述与资源不一致。"
+    },
+    {
+      "blind_output_id": "RGVB2TLQTM2Y",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 5,
+      "brief_reason": "步骤完全一致，无响应策略进阶；资源链完整且先修标注一致，来源可验证，但路径陈述未体现资源间的逻辑衔接与应用场景。"
+    },
+    {
+      "blind_output_id": "RCJFDXEHUV2U",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 5,
+      "brief_reason": "步骤模板化，未体现对齐审查的细化；资源（CMU课程设计、EU CheckIn）来源可靠，但路径未说明如何利用CheckIn工具澄清目标，路径与资源陈述脱节。"
+    },
+    {
+      "blind_output_id": "R8VWW4QQ3XWD",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 5,
+      "brief_reason": "步骤重复，缺乏响应能力发展阶梯；资源（UNESCO AI CFT、UNESCO伦理）来源权威，摘要准确，但路径陈述未体现资源间的逻辑衔接。"
+    },
+    {
+      "blind_output_id": "RDYNE6GEBDDP",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 5,
+      "brief_reason": "步骤无递进设计；资源（NIST AI RMF、UNESCO伦理）聚焦AI风险治理，来源清晰可查，但路径文本未说明如何将风险管理步骤转化为教学响应。"
+    },
+    {
+      "blind_output_id": "RZM4MSU667C3",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 5,
+      "brief_reason": "步骤机械复制，未支撑研究提问进阶；资源涵盖报告规范与AI伦理，来源可信，但路径陈述与资源应用脱节，缺乏具体操作指引。"
+    },
+    {
+      "blind_output_id": "R2MA9FMD44RE",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 5,
+      "brief_reason": "步骤未体现反馈机制设计；资源（CMU课程设计、DigCompEdu）来源权威，但路径任务“应用一个要点”过于模糊，缺乏可操作性与资源对应性。"
+    },
+    {
+      "blind_output_id": "RH9VDXF3TMQG",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 5,
+      "brief_reason": "步骤重复，无反馈迭代路径；资源（CAST UDL、CMU课程设计）来源可靠，先修标注合理，但路径陈述未说明如何结合UDL原则优化反馈，路径与资源一致性弱。"
+    }
+  ]
+}

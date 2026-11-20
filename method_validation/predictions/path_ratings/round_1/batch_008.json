@@ -1,0 +1,100 @@
+{
+  "ratings": [
+    {
+      "blind_output_id": "RQNJ4MVQMLGW",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "UDL与课程设计资源对反馈指标的支撑较弱，步骤描述高度模板化且无递进，实践任务缺乏针对反馈收集的具体操作指引。"
+    },
+    {
+      "blind_output_id": "RWP5GWFESMCB",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "无障碍规划与数字能力框架契合资源开发目标，但两步内容完全重复，未体现资源筛选到应用的进阶逻辑，任务过于宽泛。"
+    },
+    {
+      "blind_output_id": "RF7R4FGT9A7A",
+      "target_match": 4,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "课程对齐指南与DigCompEdu反思工具高度匹配对齐指标，先修关系清晰；但实践任务未说明如何基于工具输出对齐证据，可操作性一般。"
+    },
+    {
+      "blind_output_id": "R8LDU2Q39D7V",
+      "target_match": 4,
+      "prerequisite_coherence": 4,
+      "executability": 2,
+      "source_support": 5,
+      "brief_reason": "AI能力框架与伦理建议书精准对应责任指标，资源链呈“能力认知→伦理审视”合理递进；但任务仅要求应用单一要点，缺乏责任落地的具体场景。"
+    },
+    {
+      "blind_output_id": "RPN3HEJC689M",
+      "target_match": 4,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "数字能力框架与Data Carpentry课程直接支持数据素养发展指标；两项资源独立并行无先后依赖，任务描述通用性强但缺乏学科适配指引。"
+    },
+    {
+      "blind_output_id": "RZX259JRR62N",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "仅含单步设计，EQUATOR规范主要面向研究报告呈现，对研究问题提炼的直接指导有限，路径结构不足以支撑完整发展进阶。"
+    },
+    {
+      "blind_output_id": "RE9M23WHP6DG",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "数字能力与课程设计资源组合对反馈指标的解释力不足，两步内容与先一版完全一致，缺乏针对反馈机制设计的差异化任务。"
+    },
+    {
+      "blind_output_id": "R2VK2UEB6ADT",
+      "target_match": 1,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "研究报告规范与AI伦理建议书组合与研究问题指标严重脱节，逻辑断裂明显；任务描述空洞，无法支撑指标达成。"
+    },
+    {
+      "blind_output_id": "RJCX4KF2RHAB",
+      "target_match": 4,
+      "prerequisite_coherence": 4,
+      "executability": 3,
+      "source_support": 5,
+      "brief_reason": "三步结构体现流程推进，AI能力、伦理与NIST风险管理框架高度契合工作流指标，资源链严谨；任务虽仍偏宏观，但多步设计提升了落地可能性。"
+    },
+    {
+      "blind_output_id": "RAAQHHHQT3EM",
+      "target_match": 4,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "OSF操作指南与EQUATOR规范有效支持科研传播与共享目标；双资源互补但无递进关系，实践任务未明确传播载体与评估标准。"
+    },
+    {
+      "blind_output_id": "R2G2J7AR4R8D",
+      "target_match": 4,
+      "prerequisite_coherence": 4,
+      "executability": 2,
+      "source_support": 5,
+      "brief_reason": "NIST风险手册与伦理建议书构成完整的AI责任发展链条，来源权威且摘要准确；任务表述缺乏将风险管理嵌入教学/科研流程的具体动作。"
+    },
+    {
+      "blind_output_id": "RJLXNREUSB66",
+      "target_match": 3,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "能力框架配合高校CheckIn反思工具适合资源迭代开发，先修逻辑明确；但实践任务与证据标准仍较模糊，需补充具体产出格式要求。"
+    }
+  ]
+}

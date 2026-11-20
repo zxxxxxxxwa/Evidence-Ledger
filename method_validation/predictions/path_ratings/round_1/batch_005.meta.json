@@ -1,0 +1,21 @@
+{
+  "request_sha256": "3fc3837b1f7443fa7735c27979d14ddb156c982d8ac16d59f8bd900009808fcd",
+  "model": "qwen3.7-flash",
+  "temperature": 0.25,
+  "max_tokens": 16000,
+  "timeout_seconds": 180,
+  "blind_output_ids": [
+    "RBXFH8XYKCBF",
+    "R2FU9KS4UQ9Y",
+    "R6SUZ76GFGJH",
+    "RDQS59FGP3Z8",
+    "RNQWR8AWM828",
+    "RLCTWJ5K6NS2",
+    "RNF2V5GZVFYA",
+    "RG887E2T8GFA",
+    "R48LLGYZEKWH",
+    "RLS7BZBW3JWK",
+    "RZ2LPEMBMPEW",
+    "RJKRY7G3BDF2"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "method": "B1",
+  "runs": [
+    1,
+    2,
+    3
+  ],
+  "tasks": {
+    "main": 288,
+    "c0_all": 384,
+    "locality": 240
+  },
+  "seed": 20261118,
+  "shared_model": "qwen3.7-flash",
+  "b1_selected_config": {
+    "weight_profile": "strict",
+    "support_threshold": 0.45,
+    "evidence_quantity_threshold": 0.8,
+    "conflict_threshold": 0.35
+  },
+  "b1_calibration_artifact": "b1_rule_calibration.json",
+  "b3_threshold": null,
+  "b2_selected_config": null,
+  "framework_version": "2026-11-18.1",
+  "resource_version": "2026-11-18.seed1",
+  "calibration_artifact": null
+}

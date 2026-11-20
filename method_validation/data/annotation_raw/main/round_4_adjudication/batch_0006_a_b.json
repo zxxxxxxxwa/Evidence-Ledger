@@ -1,0 +1,59 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-BFD8598B2D910E3889",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-9A2C633A28E9141A7C",
+          "verbatim_quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "data interpretation"
+        },
+        {
+          "doc_id": "DOC-9A2C633A28E9141A7C",
+          "verbatim_quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "decision trace"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "exact_evidence_present",
+      "rationale": "核心材料明确呈现两项关键可观察项并形成基本做法，证据链完整无冲突。"
+    },
+    {
+      "sample_id": "SID-3E4F5F38E68C237BD2",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-1A99FCBDB6ABD27F13",
+          "verbatim_quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "explicit learning outcomes"
+        },
+        {
+          "doc_id": "DOC-85B77FC9458B9B618F",
+          "verbatim_quote": "复核未发现可核查的 explicit learning outcomes，且 assessment alignment 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "observable": "assessment alignment"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_conflict",
+      "rationale": "提交材料声称形成连贯链条，但独立复核明确指出关键做法未建立且记录相反，存在无法合理解释的独立冲突。"
+    },
+    {
+      "sample_id": "SID-F28ED2C6AF5F8C8453",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-468094D7705682AB5F",
+          "verbatim_quote": "该项工作围绕“学习评价与反馈设计”展开，记录了 formative check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "rubric or criteria"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "critical_observables_missing",
+      "rationale": "档案仅存主题归档摘要且明确声明未展开具体设计链，缺乏针对两项关键可观察项的可核查能力证据。"
+    }
+  ]
+}

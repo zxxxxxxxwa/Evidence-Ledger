@@ -1,0 +1,99 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-4E8592ED79D88E5CFE",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-915302EAA0847C8974",
+          "verbatim_quote": "围绕“数字资源设计”展开，记录了 accessibility、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "insufficient_critical_observables",
+      "rationale": "关键可观察项材料缺失，仅存未展开设计链的归档摘要。"
+    },
+    {
+      "sample_id": "SID-723093BC33FECCE296",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-9BC5EA547766B47D20",
+          "verbatim_quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。 本人负责核心设计、实施与修订。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traceable_adaptable",
+      "rationale": "关键可观察项有明确证据支撑，呈现连贯可追溯工作链并可调整。"
+    },
+    {
+      "sample_id": "SID-C5BEEF3F853701F90A",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-530B92BCC6B6EC2D0D",
+          "verbatim_quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。 本人负责核心设计、实施与修订。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_improvement_shareable",
+      "rationale": "关键可观察项证据充分，体现多轮改进及可复用分享机制。"
+    },
+    {
+      "sample_id": "SID-69791F31A37399BBBA",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-6611949603F7BFADE4",
+          "verbatim_quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。 本人负责核心设计、实施与修订。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_explained",
+      "rationale": "关键可观察项有基本做法证据，能说明选择理由与步骤。"
+    },
+    {
+      "sample_id": "SID-9356702E359CD51BB9",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-C69B2F4397819222F8",
+          "verbatim_quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。 本人负责核心设计、实施与修订。",
+          "observable": "selection rationale, resource adaptation"
+        },
+        {
+          "doc_id": "DOC-1B3CEF1239861653D2",
+          "verbatim_quote": "复核未发现可核查的 selection rationale，且 resource adaptation 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。材料来源独立于 SRC-ED1F9111B20919，复核日期晚于所提交成果。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_verification_conflict",
+      "rationale": "同一关键可观察项存在独立复核与自报结论的直接冲突，需人工审查。"
+    },
+    {
+      "sample_id": "SID-9BA62D61A9375BC9E5",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-6019606BEE9F2E965D",
+          "verbatim_quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。 本人负责核心设计、实施与修订。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traceable_adaptable",
+      "rationale": "关键可观察项证据完整，呈现连贯可追溯工作链并可调整。"
+    }
+  ]
+}

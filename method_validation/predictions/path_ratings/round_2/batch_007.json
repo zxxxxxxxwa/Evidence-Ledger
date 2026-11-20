@@ -1,0 +1,100 @@
+{
+  "ratings": [
+    {
+      "blind_output_id": "RVMTP9QMUD4A",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "资源顺序违背自身先修声明（CAST列于CMU前），破坏递进逻辑；步骤描述高度模板化，未体现反馈指标所需的诊断、干预与迭代环节；资源侧重通用设计与课程对齐，对反馈实践的直接支持有限。"
+    },
+    {
+      "blind_output_id": "RH2ANMHQ4R8M",
+      "target_match": 3,
+      "prerequisite_coherence": 4,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源引用严格遵循CMU→CAST→W3C→DigComp的先修链条，难度与复杂度递进清晰；但各步骤任务描述完全一致且缺乏差异化，限制了实际操作的可执行性；整体符合资源筛选与整合的进阶方向。"
+    },
+    {
+      "blind_output_id": "RQD9DVCD8ZUC",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "两个资源均无先修依赖，路径呈平行并列而非能力递进；步骤内容重复，未展现目标对齐指标核心的教学策略调整或评价一致性检验过程；资源选择部分相关但缺乏针对性设计。"
+    },
+    {
+      "blind_output_id": "RVFCKFC78XLR",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "资源排列再次违背先修声明（CAST先于CMU出现）；步骤为通用模板，未针对反馈指标展开具体进阶任务；资源偏向无障碍与课程设计，与反馈指标的证据边界关联较弱。"
+    },
+    {
+      "blind_output_id": "RTXQKVDCJKR2",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "Data Carpentry资源契合数据素养指标，但两资源无先修关联，路径缺乏从数据认知到清洗分析的递进阶梯；步骤任务高度同质化，未体现数据实践的具体操作要求。"
+    },
+    {
+      "blind_output_id": "REFZYM5QJZ63",
+      "target_match": 3,
+      "prerequisite_coherence": 4,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源引用严格遵循DigComp框架→高校自评工具的依赖逻辑，结构连贯；但步骤描述仍为通用模板，未体现数据素养维度的具体进阶任务；资源与指标有一定关联度且未越界。"
+    },
+    {
+      "blind_output_id": "R8B78TTDEDGJ",
+      "target_match": 3,
+      "prerequisite_coherence": 4,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源排序合理遵循了UNESCO能力框架→伦理建议书的先修依赖，并引入EQUATOR规范拓展研究设计维度；步骤内容重复且缺乏针对“提问/研究设计”指标的具体化任务；整体逻辑自洽。"
+    },
+    {
+      "blind_output_id": "R6V6AC6G2AR7",
+      "target_match": 4,
+      "prerequisite_coherence": 5,
+      "executability": 2,
+      "source_support": 5,
+      "brief_reason": "资源链条完整且严格遵循先修关系（能力框架→伦理规范→风险管理手册），难度与复杂度递进极佳；高度契合AI责任/问责指标；但步骤任务描述仍受限于通用模板，实操细节不足。"
+    },
+    {
+      "blind_output_id": "R74JFXZUXQRL",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "资源间无先修关联，路径缺乏递进设计；步骤描述模板化严重，未体现反馈指标所需的诊断、干预或迭代环节；资源组合偏重课程设计与数字能力，针对性一般。"
+    },
+    {
+      "blind_output_id": "R357HZ5EJGWH",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "第二步资源EU-CHECKIN明确标注需以DigComp为先修，但路径中未包含该基础资源，导致逻辑断裂；步骤内容重复，未展现目标对齐所需的教学策略调整或评价重构过程。"
+    },
+    {
+      "blind_output_id": "RR473TL4K2AH",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "W3C资源明确要求CAST为先修，但路径缺失该前置项，先修关系不成立；步骤描述高度同质化，未体现资源筛选的进阶维度；资源领域跨度较大，整合逻辑较弱。"
+    },
+    {
+      "blind_output_id": "RSC7CE344CTL",
+      "target_match": 3,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源顺序颠倒，NIST手册明确以伦理建议书为先修，但路径将其置于第一步，违反先修逻辑；虽资源本身契合AI责任指标，但递进结构失效；步骤任务缺乏差异化设计。"
+    }
+  ]
+}

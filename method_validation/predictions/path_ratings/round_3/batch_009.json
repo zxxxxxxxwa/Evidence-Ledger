@@ -1,0 +1,92 @@
+{
+  "ratings": [
+    {
+      "blind_output_id": "RYTGF8AB4X8G",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "步骤未针对T_ALIGN指标细化对齐逻辑；两步内容完全重复无递进；任务与证据要求宽泛；CMU与DigCompEdu来源可识别且摘要合理，但路径未展示资源如何具体支撑步骤建议。"
+    },
+    {
+      "blind_output_id": "RCAUYBK2B8BM",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "步骤未体现D_RESOURCE指标下的资源筛选与整合进阶；步骤1与2逻辑平行且描述一致；实践任务缺乏操作边界；W3C与EU框架来源明确，但路径陈述与资源摘要的衔接仅停留在声明层面。"
+    },
+    {
+      "blind_output_id": "RKRNW5QY2PYZ",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "同RCAUYBK2B8BM结构；D_RESOURCE发展路径未区分资源评估维度；步骤无先后依赖关系；任务描述模板化；所列资源链接有效且发布者权威，但路径未说明版本或适用场景一致性。"
+    },
+    {
+      "blind_output_id": "RHMN88VPXRKG",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "针对A_RESP指标的步骤未体现响应性设计或风险应对差异；两步内容雷同；产出证据缺乏结构化要求；NIST与UNESCO资源可追溯，但路径陈述未将框架条款转化为可执行动作。"
+    },
+    {
+      "blind_output_id": "RF64WFYAC2MW",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "步骤未结合D_DATA指标的数据处理特性定制；缺乏数据清洗/分析的技能递进；“应用一个要点”过于模糊；Data Carpentry与DigCompEdu来源清晰，但路径未说明资源版本或适用工具条件。"
+    },
+    {
+      "blind_output_id": "RR4HW8ADYF8E",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "针对R_QUESTION指标未提供研究问题设计的具体指引；步骤无逻辑推进；任务与证据要求通用；EQUATOR与UNESCO资源可查，但路径陈述未展示规范清单如何支撑步骤建议。"
+    },
+    {
+      "blind_output_id": "RRPQSCTKUEY4",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "同RHMN88VPXRKG模式；A_RESP进阶未落实责任分配或伦理审查流程；步骤重复；任务抽象；资源列表完整但实施指导缺失，路径与资源摘要的一致性仅靠声明维持。"
+    },
+    {
+      "blind_output_id": "RM87NDG4PHM3",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "同RF64WFYAC2MW模式；D_DATA指标下步骤未体现数据素养层级递进；步骤平行；资源可识别但路径未展示如何将课程模块转化为教师实际工作样例。"
+    },
+    {
+      "blind_output_id": "R96MSJPVBT7H",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "针对R_COMM指标的步骤未涉及沟通策略或协作流程；步骤内容一致；任务缺乏场景设定；OSF与EQUATOR来源可靠，但路径陈述模板化，未体现资源版本或更新状态对沟通实践的影响。"
+    },
+    {
+      "blind_output_id": "RYK5MLR24X4T",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "同RF64WFYAC2MW模式；D_DATA发展路径未区分定量/定性数据处理需求；步骤无逻辑推进；资源链接有效但路径未说明如何依据学科条件选择适配内容，支持链条薄弱。"
+    },
+    {
+      "blind_output_id": "RVJ5MXABCTBL",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "同RCAUYBK2B8BM模式；D_RESOURCE指标未体现资源可及性或版权评估标准；步骤描述完全一致；资源可追溯但路径陈述未展示资源迭代版本与教学实践的对应关系。"
+    }
+  ]
+}

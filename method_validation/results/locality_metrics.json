@@ -1,0 +1,988 @@
+{
+  "records": 240,
+  "teacher_clusters": 48,
+  "B1": {
+    "by_condition": {
+      "T-conflict": {
+        "pairs": 48,
+        "state_retention": 0.9897959183673469,
+        "state_retention_count": 48,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.00510204081632653,
+        "raw_absolute_score_delta_sum": 0.0,
+        "raw_absolute_score_delta_n": 48,
+        "raw_mean_absolute_score_delta": 0.0,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 48,
+          "mean_difference": 0.0,
+          "sd": 0.0,
+          "se": 0.0,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            0.0,
+            0.0
+          ],
+          "p_lower": 0.0,
+          "p_upper": 0.0,
+          "equivalent": true
+        }
+      },
+      "T-del": {
+        "pairs": 48,
+        "state_retention": 0.9897959183673469,
+        "state_retention_count": 48,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.33163265306122447,
+        "raw_absolute_score_delta_sum": 15.999999999999998,
+        "raw_absolute_score_delta_n": 48,
+        "raw_mean_absolute_score_delta": 0.3333333333333333,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 48,
+          "mean_difference": 0.33333333333333326,
+          "sd": 0.5954913341754136,
+          "se": 0.0859517705215661,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            0.18893435885710222,
+            0.4777323078095643
+          ],
+          "p_lower": 5.7343019221889335e-12,
+          "p_upper": 0.8338610791716141,
+          "equivalent": false
+        }
+      },
+      "T-dup": {
+        "pairs": 48,
+        "state_retention": 0.9897959183673469,
+        "state_retention_count": 48,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.8010204081632651,
+        "raw_absolute_score_delta_sum": 38.99999999999999,
+        "raw_absolute_score_delta_n": 48,
+        "raw_mean_absolute_score_delta": 0.8124999999999999,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 48,
+          "mean_difference": 0.47916666666666663,
+          "sd": 1.2375264163668076,
+          "se": 0.17862155240466232,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            0.17908245862683392,
+            0.7792508747064993
+          ],
+          "p_lower": 2.2306890750556363e-05,
+          "p_upper": 0.9002492692036022,
+          "equivalent": false
+        }
+      },
+      "T-irr": {
+        "pairs": 48,
+        "state_retention": 0.9897959183673469,
+        "state_retention_count": 48,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.00510204081632653,
+        "raw_absolute_score_delta_sum": 0.0,
+        "raw_absolute_score_delta_n": 48,
+        "raw_mean_absolute_score_delta": 0.0,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 48,
+          "mean_difference": 0.0,
+          "sd": 0.0,
+          "se": 0.0,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            0.0,
+            0.0
+          ],
+          "p_lower": 0.0,
+          "p_upper": 0.0,
+          "equivalent": true
+        }
+      },
+      "T-order": {
+        "pairs": 48,
+        "state_retention": 0.9897959183673469,
+        "state_retention_count": 48,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.00510204081632653,
+        "raw_absolute_score_delta_sum": 0.0,
+        "raw_absolute_score_delta_n": 48,
+        "raw_mean_absolute_score_delta": 0.0,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 48,
+          "mean_difference": 0.0,
+          "sd": 0.0,
+          "se": 0.0,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            0.0,
+            0.0
+          ],
+          "p_lower": 0.0,
+          "p_upper": 0.0,
+          "equivalent": true
+        }
+      }
+    },
+    "pooled_mean_absolute_score_delta": 0.22925311203319498,
+    "pooled_raw_absolute_score_delta_sum": 54.99999999999999,
+    "pooled_raw_absolute_score_delta_n": 240,
+    "pooled_raw_mean_absolute_score_delta": 0.22916666666666663,
+    "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+    "pooled_tost": {
+      "n": 240,
+      "mean_difference": 0.16249999999999998,
+      "sd": 0.6425058813204597,
+      "se": 0.04147357630324099,
+      "equivalence_bound": [
+        -0.25,
+        0.25
+      ],
+      "ci90": [
+        0.09282439181055512,
+        0.23217560818944483
+      ],
+      "p_lower": 0.0,
+      "p_upper": 0.017438781522449154,
+      "equivalent": true
+    }
+  },
+  "B2": {
+    "by_condition": {
+      "T-conflict": {
+        "pairs": 48,
+        "state_retention": 0.9897959183673469,
+        "state_retention_count": 48,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.06712683265306124,
+        "raw_absolute_score_delta_sum": 3.0392148000000008,
+        "raw_absolute_score_delta_n": 48,
+        "raw_mean_absolute_score_delta": 0.06331697500000001,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 48,
+          "mean_difference": -0.06331697500000001,
+          "sd": 0.2446269602617548,
+          "se": 0.035308860339541004,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            -0.1226358603704289,
+            -0.003998089629571128
+          ],
+          "p_lower": 6.212045711162517e-08,
+          "p_upper": 0.0,
+          "equivalent": true
+        }
+      },
+      "T-del": {
+        "pairs": 48,
+        "state_retention": 0.9897959183673469,
+        "state_retention_count": 48,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.20938349795918373,
+        "raw_absolute_score_delta_sum": 10.009791400000003,
+        "raw_absolute_score_delta_n": 48,
+        "raw_mean_absolute_score_delta": 0.2085373208333334,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 48,
+          "mean_difference": -0.0002597750000000269,
+          "sd": 0.5833903006042913,
+          "se": 0.08420513677412608,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            -0.14172440478053183,
+            0.1412048547805318
+          ],
+          "p_lower": 0.0015092138679744238,
+          "p_upper": 0.0014792127735276384,
+          "equivalent": true
+        }
+      },
+      "T-dup": {
+        "pairs": 48,
+        "state_retention": 0.9897959183673469,
+        "state_retention_count": 48,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.10749349387755101,
+        "raw_absolute_score_delta_sum": 5.0171812,
+        "raw_absolute_score_delta_n": 48,
+        "raw_mean_absolute_score_delta": 0.10452460833333332,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 48,
+          "mean_difference": -0.020502333333333334,
+          "sd": 0.3254385862460109,
+          "se": 0.04697301384345641,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            -0.09941699659034009,
+            0.05841232992367343
+          ],
+          "p_lower": 5.152203204072947e-07,
+          "p_upper": 4.2388305088181255e-09,
+          "equivalent": true
+        }
+      },
+      "T-irr": {
+        "pairs": 48,
+        "state_retention": 0.9897959183673469,
+        "state_retention_count": 48,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.04627842653061224,
+        "raw_absolute_score_delta_sum": 2.0176429,
+        "raw_absolute_score_delta_n": 48,
+        "raw_mean_absolute_score_delta": 0.04203422708333333,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 48,
+          "mean_difference": 0.00038292708333332687,
+          "sd": 0.20626820422500614,
+          "se": 0.029772250808642,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            -0.04963445427518524,
+            0.050400308441851886
+          ],
+          "p_lower": 0.0,
+          "p_upper": 0.0,
+          "equivalent": true
+        }
+      },
+      "T-order": {
+        "pairs": 48,
+        "state_retention": 0.9897959183673469,
+        "state_retention_count": 48,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.10719661632653063,
+        "raw_absolute_score_delta_sum": 5.002634200000001,
+        "raw_absolute_score_delta_n": 48,
+        "raw_mean_absolute_score_delta": 0.10422154583333336,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 48,
+          "mean_difference": -0.020836837499999993,
+          "sd": 0.3254794878640262,
+          "se": 0.04697891748349926,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            -0.09976141887227875,
+            0.05808774387227876
+          ],
+          "p_lower": 5.358344505879131e-07,
+          "p_upper": 4.081151583346099e-09,
+          "equivalent": true
+        }
+      }
+    },
+    "pooled_mean_absolute_score_delta": 0.10513055809128632,
+    "pooled_raw_absolute_score_delta_sum": 25.086464500000005,
+    "pooled_raw_absolute_score_delta_n": 240,
+    "pooled_raw_mean_absolute_score_delta": 0.10452693541666669,
+    "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+    "pooled_tost": {
+      "n": 240,
+      "mean_difference": -0.02090659875000001,
+      "sd": 0.3595315189615003,
+      "se": 0.023207659756242446,
+      "equivalence_bound": [
+        -0.25,
+        0.25
+      ],
+      "ci90": [
+        -0.05989546714048731,
+        0.018082269640487297
+      ],
+      "p_lower": 0.0,
+      "p_upper": 0.0,
+      "equivalent": true
+    }
+  },
+  "B3": {
+    "by_condition": {
+      "T-conflict": {
+        "pairs": 48,
+        "state_retention": 0.9897959183673469,
+        "state_retention_count": 48,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.1510204081632654,
+        "raw_absolute_score_delta_sum": 7.150000000000004,
+        "raw_absolute_score_delta_n": 48,
+        "raw_mean_absolute_score_delta": 0.14895833333333341,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 48,
+          "mean_difference": 0.06250000000000001,
+          "sd": 0.3824222908129681,
+          "se": 0.05519790313624512,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            -0.030232477268891778,
+            0.1552324772688918
+          ],
+          "p_lower": 7.505095878101997e-09,
+          "p_upper": 0.00034080898451377406,
+          "equivalent": true
+        }
+      },
+      "T-del": {
+        "pairs": 48,
+        "state_retention": 0.9897959183673469,
+        "state_retention_count": 48,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.11051020408163267,
+        "raw_absolute_score_delta_sum": 5.165000000000001,
+        "raw_absolute_score_delta_n": 48,
+        "raw_mean_absolute_score_delta": 0.10760416666666668,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 48,
+          "mean_difference": 0.020520833333333294,
+          "sd": 0.3268470258089277,
+          "se": 0.047176304583653246,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            -0.05873535836720416,
+            0.09977702503387074
+          ],
+          "p_lower": 4.897172112272585e-09,
+          "p_upper": 5.743456485962639e-07,
+          "equivalent": true
+        }
+      },
+      "T-dup": {
+        "pairs": 48,
+        "state_retention": 0.9897959183673469,
+        "state_retention_count": 48,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.1718367346938776,
+        "raw_absolute_score_delta_sum": 8.170000000000003,
+        "raw_absolute_score_delta_n": 48,
+        "raw_mean_absolute_score_delta": 0.1702083333333334,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 48,
+          "mean_difference": 0.1260416666666667,
+          "sd": 0.3948753618782004,
+          "se": 0.05699534911918247,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            0.030289480146440145,
+            0.22179385318689324
+          ],
+          "p_lower": 2.087074957302093e-11,
+          "p_upper": 0.014819365346854074,
+          "equivalent": true
+        }
+      },
+      "T-irr": {
+        "pairs": 48,
+        "state_retention": 0.9897959183673469,
+        "state_retention_count": 48,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.13040816326530616,
+        "raw_absolute_score_delta_sum": 6.140000000000002,
+        "raw_absolute_score_delta_n": 48,
+        "raw_mean_absolute_score_delta": 0.1279166666666667,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 48,
+          "mean_difference": 0.0006249999999999867,
+          "sd": 0.3573240156044085,
+          "se": 0.051575279149280825,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            -0.0860214689707918,
+            0.08727146897079177
+          ],
+          "p_lower": 5.887050713582198e-07,
+          "p_upper": 6.651752011976875e-07,
+          "equivalent": true
+        }
+      },
+      "T-order": {
+        "pairs": 48,
+        "state_retention": 0.9897959183673469,
+        "state_retention_count": 48,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.171530612244898,
+        "raw_absolute_score_delta_sum": 8.155000000000001,
+        "raw_absolute_score_delta_n": 48,
+        "raw_mean_absolute_score_delta": 0.16989583333333336,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 48,
+          "mean_difference": 0.04260416666666667,
+          "sd": 0.4111232532270239,
+          "se": 0.059340530230184235,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            -0.05708792412004284,
+            0.14229625745337618
+          ],
+          "p_lower": 4.091894345581437e-07,
+          "p_upper": 0.00023702069844100393,
+          "equivalent": true
+        }
+      }
+    },
+    "pooled_mean_absolute_score_delta": 0.14535269709543572,
+    "pooled_raw_absolute_score_delta_sum": 34.78000000000001,
+    "pooled_raw_absolute_score_delta_n": 240,
+    "pooled_raw_mean_absolute_score_delta": 0.1449166666666667,
+    "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+    "pooled_tost": {
+      "n": 240,
+      "mean_difference": 0.050458333333333334,
+      "sd": 0.3750285879386653,
+      "se": 0.02420799125730224,
+      "equivalence_bound": [
+        -0.25,
+        0.25
+      ],
+      "ci90": [
+        0.009788908021065572,
+        0.0911277586456011
+      ],
+      "p_lower": 0.0,
+      "p_upper": 1.1102230246251565e-16,
+      "equivalent": true
+    }
+  },
+  "P": {
+    "by_condition": {
+      "T-conflict": {
+        "pairs": 48,
+        "state_retention": 0.9489795918367347,
+        "state_retention_count": 46,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.026595744680851064,
+        "raw_absolute_score_delta_sum": 1.0,
+        "raw_absolute_score_delta_n": 46,
+        "raw_mean_absolute_score_delta": 0.021739130434782608,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 46,
+          "mean_difference": 0.021739130434782608,
+          "sd": 0.14744195615489714,
+          "se": 0.021739130434782608,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            -0.01478260869565217,
+            0.05826086956521739
+          ],
+          "p_lower": 0.0,
+          "p_upper": 0.0,
+          "equivalent": true
+        }
+      },
+      "T-del": {
+        "pairs": 48,
+        "state_retention": 0.9693877551020408,
+        "state_retention_count": 47,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.026041666666666668,
+        "raw_absolute_score_delta_sum": 1.0,
+        "raw_absolute_score_delta_n": 47,
+        "raw_mean_absolute_score_delta": 0.02127659574468085,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 47,
+          "mean_difference": 0.02127659574468085,
+          "sd": 0.14586499149789456,
+          "se": 0.02127659574468085,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            -0.014468085106382974,
+            0.05702127659574467
+          ],
+          "p_lower": 0.0,
+          "p_upper": 0.0,
+          "equivalent": true
+        }
+      },
+      "T-dup": {
+        "pairs": 48,
+        "state_retention": 0.9693877551020408,
+        "state_retention_count": 47,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.026041666666666668,
+        "raw_absolute_score_delta_sum": 1.0,
+        "raw_absolute_score_delta_n": 47,
+        "raw_mean_absolute_score_delta": 0.02127659574468085,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 47,
+          "mean_difference": 0.02127659574468085,
+          "sd": 0.14586499149789456,
+          "se": 0.02127659574468085,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            -0.014468085106382974,
+            0.05702127659574467
+          ],
+          "p_lower": 0.0,
+          "p_upper": 0.0,
+          "equivalent": true
+        }
+      },
+      "T-irr": {
+        "pairs": 48,
+        "state_retention": 0.9693877551020408,
+        "state_retention_count": 47,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.06770833333333333,
+        "raw_absolute_score_delta_sum": 2.9999999999999996,
+        "raw_absolute_score_delta_n": 47,
+        "raw_mean_absolute_score_delta": 0.06382978723404255,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 47,
+          "mean_difference": 0.02127659574468084,
+          "sd": 0.2544697557947625,
+          "se": 0.03711822876547434,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            -0.04108202858131605,
+            0.08363522007067772
+          ],
+          "p_lower": 1.3511414209688155e-13,
+          "p_upper": 3.591055786067443e-10,
+          "equivalent": true
+        }
+      },
+      "T-order": {
+        "pairs": 48,
+        "state_retention": 0.9693877551020408,
+        "state_retention_count": 47,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.046875,
+        "raw_absolute_score_delta_sum": 2.0,
+        "raw_absolute_score_delta_n": 47,
+        "raw_mean_absolute_score_delta": 0.0425531914893617,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 47,
+          "mean_difference": 0.0,
+          "sd": 0.20851441405707477,
+          "se": 0.030414953233623677,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            -0.05109712143248778,
+            0.05109712143248778
+          ],
+          "p_lower": 1.1102230246251565e-16,
+          "p_upper": 1.1102230246251565e-16,
+          "equivalent": true
+        }
+      }
+    },
+    "pooled_mean_absolute_score_delta": 0.035106382978723406,
+    "pooled_raw_absolute_score_delta_sum": 8.0,
+    "pooled_raw_absolute_score_delta_n": 234,
+    "pooled_raw_mean_absolute_score_delta": 0.03418803418803419,
+    "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+    "pooled_tost": {
+      "n": 234,
+      "mean_difference": 0.017094017094017092,
+      "sd": 0.1845028575051631,
+      "se": 0.01206132911195456,
+      "equivalence_bound": [
+        -0.25,
+        0.25
+      ],
+      "ci90": [
+        -0.0031690158140665683,
+        0.03735705000210075
+      ],
+      "p_lower": 0.0,
+      "p_upper": 0.0,
+      "equivalent": true
+    }
+  },
+  "P_minus_Family": {
+    "by_condition": {
+      "T-conflict": {
+        "pairs": 48,
+        "state_retention": 0.9897959183673469,
+        "state_retention_count": 48,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": null,
+        "raw_absolute_score_delta_sum": 0.0,
+        "raw_absolute_score_delta_n": 0,
+        "raw_mean_absolute_score_delta": null,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 0,
+          "mean_difference": null,
+          "sd": null,
+          "se": null,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": null,
+          "p_lower": null,
+          "p_upper": null,
+          "equivalent": null,
+          "note": "not estimable: no paired scores"
+        }
+      },
+      "T-del": {
+        "pairs": 48,
+        "state_retention": 0.9897959183673469,
+        "state_retention_count": 48,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": null,
+        "raw_absolute_score_delta_sum": 0.0,
+        "raw_absolute_score_delta_n": 0,
+        "raw_mean_absolute_score_delta": null,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 0,
+          "mean_difference": null,
+          "sd": null,
+          "se": null,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": null,
+          "p_lower": null,
+          "p_upper": null,
+          "equivalent": null,
+          "note": "not estimable: no paired scores"
+        }
+      },
+      "T-dup": {
+        "pairs": 48,
+        "state_retention": 0.9897959183673469,
+        "state_retention_count": 48,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": null,
+        "raw_absolute_score_delta_sum": 0.0,
+        "raw_absolute_score_delta_n": 0,
+        "raw_mean_absolute_score_delta": null,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 0,
+          "mean_difference": null,
+          "sd": null,
+          "se": null,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": null,
+          "p_lower": null,
+          "p_upper": null,
+          "equivalent": null,
+          "note": "not estimable: no paired scores"
+        }
+      },
+      "T-irr": {
+        "pairs": 48,
+        "state_retention": 0.9897959183673469,
+        "state_retention_count": 48,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": null,
+        "raw_absolute_score_delta_sum": 0.0,
+        "raw_absolute_score_delta_n": 0,
+        "raw_mean_absolute_score_delta": null,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 0,
+          "mean_difference": null,
+          "sd": null,
+          "se": null,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": null,
+          "p_lower": null,
+          "p_upper": null,
+          "equivalent": null,
+          "note": "not estimable: no paired scores"
+        }
+      },
+      "T-order": {
+        "pairs": 48,
+        "state_retention": 0.9897959183673469,
+        "state_retention_count": 48,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": null,
+        "raw_absolute_score_delta_sum": 0.0,
+        "raw_absolute_score_delta_n": 0,
+        "raw_mean_absolute_score_delta": null,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 0,
+          "mean_difference": null,
+          "sd": null,
+          "se": null,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": null,
+          "p_lower": null,
+          "p_upper": null,
+          "equivalent": null,
+          "note": "not estimable: no paired scores"
+        }
+      }
+    },
+    "pooled_mean_absolute_score_delta": null,
+    "pooled_raw_absolute_score_delta_sum": 0.0,
+    "pooled_raw_absolute_score_delta_n": 0,
+    "pooled_raw_mean_absolute_score_delta": null,
+    "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+    "pooled_tost": {
+      "n": 0,
+      "mean_difference": null,
+      "sd": null,
+      "se": null,
+      "equivalence_bound": [
+        -0.25,
+        0.25
+      ],
+      "ci90": null,
+      "p_lower": null,
+      "p_upper": null,
+      "equivalent": null,
+      "note": "not estimable: no paired scores"
+    }
+  },
+  "P_minus_Route": {
+    "by_condition": {
+      "T-conflict": {
+        "pairs": 48,
+        "state_retention": 0.9489795918367347,
+        "state_retention_count": 46,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.026595744680851064,
+        "raw_absolute_score_delta_sum": 1.0,
+        "raw_absolute_score_delta_n": 46,
+        "raw_mean_absolute_score_delta": 0.021739130434782608,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 46,
+          "mean_difference": 0.021739130434782608,
+          "sd": 0.14744195615489714,
+          "se": 0.021739130434782608,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            -0.01478260869565217,
+            0.05826086956521739
+          ],
+          "p_lower": 0.0,
+          "p_upper": 0.0,
+          "equivalent": true
+        }
+      },
+      "T-del": {
+        "pairs": 48,
+        "state_retention": 0.9693877551020408,
+        "state_retention_count": 47,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.026041666666666668,
+        "raw_absolute_score_delta_sum": 1.0,
+        "raw_absolute_score_delta_n": 47,
+        "raw_mean_absolute_score_delta": 0.02127659574468085,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 47,
+          "mean_difference": 0.02127659574468085,
+          "sd": 0.14586499149789456,
+          "se": 0.02127659574468085,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            -0.014468085106382974,
+            0.05702127659574467
+          ],
+          "p_lower": 0.0,
+          "p_upper": 0.0,
+          "equivalent": true
+        }
+      },
+      "T-dup": {
+        "pairs": 48,
+        "state_retention": 0.9693877551020408,
+        "state_retention_count": 47,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.026041666666666668,
+        "raw_absolute_score_delta_sum": 1.0,
+        "raw_absolute_score_delta_n": 47,
+        "raw_mean_absolute_score_delta": 0.02127659574468085,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 47,
+          "mean_difference": 0.02127659574468085,
+          "sd": 0.14586499149789456,
+          "se": 0.02127659574468085,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            -0.014468085106382974,
+            0.05702127659574467
+          ],
+          "p_lower": 0.0,
+          "p_upper": 0.0,
+          "equivalent": true
+        }
+      },
+      "T-irr": {
+        "pairs": 48,
+        "state_retention": 0.9693877551020408,
+        "state_retention_count": 47,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.06770833333333333,
+        "raw_absolute_score_delta_sum": 2.9999999999999996,
+        "raw_absolute_score_delta_n": 47,
+        "raw_mean_absolute_score_delta": 0.06382978723404255,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 47,
+          "mean_difference": 0.02127659574468084,
+          "sd": 0.2544697557947625,
+          "se": 0.03711822876547434,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            -0.04108202858131605,
+            0.08363522007067772
+          ],
+          "p_lower": 1.3511414209688155e-13,
+          "p_upper": 3.591055786067443e-10,
+          "equivalent": true
+        }
+      },
+      "T-order": {
+        "pairs": 48,
+        "state_retention": 0.9693877551020408,
+        "state_retention_count": 47,
+        "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+        "mean_absolute_score_delta": 0.046875,
+        "raw_absolute_score_delta_sum": 2.0,
+        "raw_absolute_score_delta_n": 47,
+        "raw_mean_absolute_score_delta": 0.0425531914893617,
+        "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+        "tost": {
+          "n": 47,
+          "mean_difference": 0.0,
+          "sd": 0.20851441405707477,
+          "se": 0.030414953233623677,
+          "equivalence_bound": [
+            -0.25,
+            0.25
+          ],
+          "ci90": [
+            -0.05109712143248778,
+            0.05109712143248778
+          ],
+          "p_lower": 1.1102230246251565e-16,
+          "p_upper": 1.1102230246251565e-16,
+          "equivalent": true
+        }
+      }
+    },
+    "pooled_mean_absolute_score_delta": 0.035106382978723406,
+    "pooled_raw_absolute_score_delta_sum": 8.0,
+    "pooled_raw_absolute_score_delta_n": 234,
+    "pooled_raw_mean_absolute_score_delta": 0.03418803418803419,
+    "absolute_delta_estimator": "finite-sample conservative mean: (sum_abs_delta+0.25)/(n+1)",
+    "pooled_tost": {
+      "n": 234,
+      "mean_difference": 0.017094017094017092,
+      "sd": 0.1845028575051631,
+      "se": 0.01206132911195456,
+      "equivalence_bound": [
+        -0.25,
+        0.25
+      ],
+      "ci90": [
+        -0.0031690158140665683,
+        0.03735705000210075
+      ],
+      "p_lower": 0.0,
+      "p_upper": 0.0,
+      "equivalent": true
+    }
+  }
+}

@@ -1,0 +1,379 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-6531912A7A6EEDDFBB",
+      "evidence": [
+        {
+          "doc_id": "DOC-FF751C6EECB29F0875",
+          "quote": "围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期、版本号与后续安排",
+          "family_key": "SRC-090C7149C88004",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-090C7149C88004"
+        ],
+        "reason_code": "limited_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-1AD13E2D0699D667E1",
+      "evidence": [
+        {
+          "doc_id": "DOC-B3E71C13D789AE8E8E",
+          "quote": "该项工作围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale、会议日期、版本号与后续安排",
+          "family_key": "SRC-48A3EA88F6DDCC",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.5
+        },
+        {
+          "doc_id": "DOC-1A99FCBDB6ABD27F13",
+          "quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "family_key": "SRC-48A3EA88F6DDCC",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-48A3EA88F6DDCC"
+        ],
+        "reason_code": "coherent_alignment"
+      }
+    },
+    {
+      "sample_id": "SID-FF41BC7B784F8C07DA",
+      "evidence": [
+        {
+          "doc_id": "DOC-97D7A7F5E3E0B5B7F0",
+          "quote": "该项工作围绕“数字资源设计”展开，记录了 accessibility、会议日期、版本号与后续安排",
+          "family_key": "SRC-ED1F9111B20919",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.5
+        },
+        {
+          "doc_id": "DOC-C69B2F4397819222F8",
+          "quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "family_key": "SRC-ED1F9111B20919",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-ED1F9111B20919"
+        ],
+        "reason_code": "strong_resource_design"
+      }
+    },
+    {
+      "sample_id": "SID-F8CADB9FBCF05E7548",
+      "evidence": [
+        {
+          "doc_id": "DOC-914897954D88545957",
+          "quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。工作链较完整，可依据对象作调整并追溯理由。",
+          "family_key": "SRC-C16D5AAFBA3CC9",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-2EC9387BB61DFE8C70",
+          "quote": "该项工作围绕“数字资源设计”展开，记录了 accessibility、会议日期、版本号与后续安排",
+          "family_key": "SRC-C16D5AAFBA3CC9",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-C16D5AAFBA3CC9"
+        ],
+        "reason_code": "complete_resource_chain"
+      }
+    },
+    {
+      "sample_id": "SID-468338615F618E0940",
+      "evidence": [
+        {
+          "doc_id": "DOC-71E1A2231487EAEF10",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "family_key": "SRC-CAB54546721563",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.7
+        },
+        {
+          "doc_id": "DOC-8137E93386601499FD",
+          "quote": "该项工作围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期、版本号与后续安排",
+          "family_key": "SRC-CAB54546721563",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-CAB54546721563"
+        ],
+        "reason_code": "partial_data_usage"
+      }
+    },
+    {
+      "sample_id": "SID-C5BEEF3F853701F90A",
+      "evidence": [
+        {
+          "doc_id": "DOC-97737059555402D4B6",
+          "quote": "该项工作围绕“研究问题与方法匹配”展开，记录了 limitations、会议日期、版本号与后续安排",
+          "family_key": "SRC-2CC0888D4E6C63",
+          "polarity": "context",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.5
+        },
+        {
+          "doc_id": "DOC-530B92BCC6B6EC2D0D",
+          "quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "family_key": "SRC-2CC0888D4E6C63",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-2CC0888D4E6C63"
+        ],
+        "reason_code": "robust_question_method"
+      }
+    },
+    {
+      "sample_id": "SID-35325BA2EE9D1670E3",
+      "evidence": [
+        {
+          "doc_id": "DOC-8C2DF9114A4B423462",
+          "quote": "该项工作围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期、版本号与后续安排",
+          "family_key": "SRC-56636A432F23CF",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.5,
+        "cited_family_keys": [
+          "SRC-56636A432F23CF"
+        ],
+        "reason_code": "minimal_data_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-90C85BAEBBFE237AC7",
+      "evidence": [
+        {
+          "doc_id": "DOC-914897954D88545957",
+          "quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。工作链较完整，可依据对象作调整并追溯理由。",
+          "family_key": "SRC-C16D5AAFBA3CC9",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-2EC9387BB61DFE8C70",
+          "quote": "该项工作围绕“数字资源设计”展开，记录了 accessibility、会议日期、版本号与后续安排",
+          "family_key": "SRC-C16D5AAFBA3CC9",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-C16D5AAFBA3CC9"
+        ],
+        "reason_code": "complete_resource_chain"
+      }
+    },
+    {
+      "sample_id": "SID-2B00021DD5D219A4F6",
+      "evidence": [
+        {
+          "doc_id": "DOC-9630F2045669D95AA5",
+          "quote": "该项工作围绕“AI 风险、隐私与版权治理”展开，记录了 bias check、会议日期、版本号与后续安排",
+          "family_key": "SRC-AA405CB774113F",
+          "polarity": "context",
+          "observables": [
+            "bias check"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.5,
+        "cited_family_keys": [
+          "SRC-AA405CB774113F"
+        ],
+        "reason_code": "minimal_ai_governance"
+      }
+    },
+    {
+      "sample_id": "SID-BC02FD192B61904147",
+      "evidence": [
+        {
+          "doc_id": "DOC-71E1A2231487EAEF10",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "family_key": "SRC-CAB54546721563",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.7
+        },
+        {
+          "doc_id": "DOC-8137E93386601499FD",
+          "quote": "该项工作围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期、版本号与后续安排",
+          "family_key": "SRC-CAB54546721563",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-CAB54546721563"
+        ],
+        "reason_code": "partial_data_usage"
+      }
+    },
+    {
+      "sample_id": "SID-5F5F61B32FC7F147CB",
+      "evidence": [
+        {
+          "doc_id": "DOC-70FEEAA68776EC0ED2",
+          "quote": "该项工作围绕“学习评价与反馈设计”展开，记录了 formative check、会议日期、版本号与后续安排",
+          "family_key": "SRC-FF8EA18E73A3BE",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.5
+        },
+        {
+          "doc_id": "DOC-D1C65F213F0CDC17A8",
+          "quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "family_key": "SRC-FF8EA18E73A3BE",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-C35A1A9A93BFF57520",
+          "quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "family_key": "SRC-FF8EA18E73A3BE",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 4,
+        "self_confidence": 0.9,
+        "cited_family_keys": [
+          "SRC-FF8EA18E73A3BE"
+        ],
+        "reason_code": "comprehensive_feedback"
+      }
+    },
+    {
+      "sample_id": "SID-DCD7CE1630485B35CB",
+      "evidence": [
+        {
+          "doc_id": "DOC-85AE710632AFC49685",
+          "quote": "该项工作围绕“学习评价与反馈设计”展开，记录了 formative check、会议日期、版本号与后续安排",
+          "family_key": "SRC-DF09ADC4578F67",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.5,
+        "cited_family_keys": [
+          "SRC-DF09ADC4578F67"
+        ],
+        "reason_code": "minimal_feedback_evidence"
+      }
+    }
+  ]
+}

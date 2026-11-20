@@ -1,0 +1,184 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-318E79B50A8881B610",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-ED187460ADABBA81FC",
+          "verbatim_quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_confirmed",
+      "rationale": "核心成果材料明确呈现两项关键可观察项并形成基本做法，证据可核查且无冲突。"
+    },
+    {
+      "sample_id": "SID-49485C95F2913D4976",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-DCB60CC87AC4FA4CF7",
+          "verbatim_quote": "该项工作围绕“学术表达与个人贡献”展开，记录了 audience adaptation、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_observables",
+      "rationale": "缺乏针对 claim-evidence coherence 与 contribution statement 的具体成果片段，现有材料多为摘要或指向其他指标。"
+    },
+    {
+      "sample_id": "SID-692042E5997148FD38",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-6EB33DA0FF30BBD4E0",
+          "verbatim_quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_improvement",
+      "rationale": "独立来源成果明确呈现两项关键可观察项，并具备多轮改进与共享机制特征，证据充分且等级达标。"
+    },
+    {
+      "sample_id": "SID-A83E7E225983442BB6",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-6611949603F7BFADE4",
+          "verbatim_quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_confirmed",
+      "rationale": "核心材料完整覆盖两项关键可观察项，描述符合基本做法标准，证据链清晰可追溯。"
+    },
+    {
+      "sample_id": "SID-3CDEFF5311AB70E7CB",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-C69B2F4397819222F8",
+          "verbatim_quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_improvement",
+      "rationale": "成果材料明确呈现两项关键可观察项，并具备多轮迭代与共享机制，达到最高能力等级。"
+    },
+    {
+      "sample_id": "SID-9637A2A8599B72DDCB",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-6019606BEE9F2E965D",
+          "verbatim_quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traceable",
+      "rationale": "材料清晰展示两项关键可观察项的连贯工作链及调整能力，证据充分支持中级以上水平。"
+    },
+    {
+      "sample_id": "SID-E9AC645210E69E0E48",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-42F467A1FDF6392364",
+          "verbatim_quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "explicit learning outcomes, assessment alignment"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_improvement",
+      "rationale": "核心成果完整覆盖两项关键可观察项，并体现多轮改进与共享机制，证据确凿。"
+    },
+    {
+      "sample_id": "SID-26BA042AFCF8228F4A",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-38FBD3CB76B296E573",
+          "verbatim_quote": "本人在自填汇总中声明：task allocation 与 verification protocol 均已完成。本页仅记录本人陈述，未附相应成果片段。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "self_declaration_only",
+      "rationale": "仅存自填声明且明确注明未附成果片段，缺乏可核查的关键可观察项实质证据。"
+    },
+    {
+      "sample_id": "SID-E23C7ACB9639649575",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-2261D4B956F37DD145",
+          "verbatim_quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。已用多轮证据持续迭代，并形成可共享的做法。",
+          "observable": "data interpretation, decision trace"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_improvement",
+      "rationale": "成果材料明确呈现两项关键可观察项，具备多轮迭代与共享特征，证据充分且等级最高。"
+    },
+    {
+      "sample_id": "SID-8A6245940E9DD1DE30",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-8C4D8891D216FCC6B4",
+          "verbatim_quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traceable",
+      "rationale": "材料完整展示两项关键可观察项的连贯工作链及调整能力，证据可归属且无冲突。"
+    },
+    {
+      "sample_id": "SID-4814EFD01D65E037AA",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-B5DEB469E75EE8C619",
+          "verbatim_quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_confirmed",
+      "rationale": "核心成果明确呈现两项关键可观察项并形成基本做法，证据链条完整且可核查。"
+    },
+    {
+      "sample_id": "SID-5BD734D26A529E16CB",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-F748881F96D4EB088C",
+          "verbatim_quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_confirmed",
+      "rationale": "材料清晰覆盖两项关键可观察项，描述符合基本做法标准，证据充分且无独立冲突。"
+    }
+  ]
+}

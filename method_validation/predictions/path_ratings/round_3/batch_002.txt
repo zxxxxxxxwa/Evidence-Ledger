@@ -1,0 +1,102 @@
+```json
+{
+  "ratings": [
+    {
+      "blind_output_id": "R6ZRMDXKN559",
+      "target_match": 2,
+      "prerequisite_coherence": 4,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "资源链条（能力框架→伦理→风险管理）逻辑严密且与AI责任主题契合，但步骤描述为通用占位符，未体现针对A_RESP指标的具体应用场景与操作指引。"
+    },
+    {
+      "blind_output_id": "RDU7CRP22T6U",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "Data Carpentry与DigCompEdu均适用于数据能力主题，但两者无明确先修或递进关系；步骤文本完全模板化，缺乏结合具体数据工具或分析任务的执行细节。"
+    },
+    {
+      "blind_output_id": "RC9VUUCDM6LF",
+      "target_match": 2,
+      "prerequisite_coherence": 4,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "资源顺序符合先修声明（框架→反思工具），有助于数据能力自评；但步骤未说明如何将DigCompEdu进阶描述转化为具体的数据实践任务。"
+    },
+    {
+      "blind_output_id": "RWWJV4G9EQVW",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "OSF与EQUATOR资源组合有效支撑科研共享与报告规范主题；步骤描述高度重复，未指明在R_COMM指标下如何具体应用版本管理或报告标准。"
+    },
+    {
+      "blind_output_id": "R6EUCKCGQRBU",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "资源偏向课程设计与数字能力整体框架，与反馈（T_FEEDBACK）指标的直接关联较弱；步骤未提供收集、分析或应用教学反馈的具体路径。"
+    },
+    {
+      "blind_output_id": "RVLZSUBQ2GKT",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "路径顺序与资源元数据严重冲突：NIST风险管理手册明确要求先修伦理建议书，但路径将其置于第一步之前，破坏逻辑递进；步骤同样缺乏针对性。"
+    },
+    {
+      "blind_output_id": "R53JCR244QS9",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "第二步资源EU-CHECKIN-HE标注的先修资源为DigCompEdu框架，但该框架未包含在本路径中；自我反思工具与“对齐”指标的操作映射不清晰。"
+    },
+    {
+      "blind_output_id": "RC5KSQJKMPGV",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "NIST手册列出伦理资源为先修条件但路径中缺失；课程设计与AI工作流指标的契合度有限，步骤未体现工作流诊断或优化的具体动作。"
+    },
+    {
+      "blind_output_id": "RMGJC2M2NYW2",
+      "target_match": 3,
+      "prerequisite_coherence": 5,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源序列严格遵循先修声明（CFT→ETHICS→NIST PLAYBOOK），形成完整的AI治理与风险管理工作流进阶；步骤虽为模板，但资源链本身提供了清晰的实施路线图。"
+    },
+    {
+      "blind_output_id": "RAG98YY2XXEV",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "资源组合有效支撑科研交流与开放科学主题；步骤文本为通用占位符，未区分OSF协作分享与EQUATOR报告规范在不同R_COMM场景下的具体应用。"
+    },
+    {
+      "blind_output_id": "RW9T9ZNMEUC9",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 2,
+      "brief_reason": "步骤顺序与先修声明直接矛盾：CAST UDL指南明确要求先修CMU课程设计指南，但路径将其置于第一步；通用步骤未能体现包容性反馈设计的具体策略。"
+    },
+    {
+      "blind_output_id": "RW23QDTZQJ43",
+      "target_match": 4,
+      "prerequisite_coherence": 5,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源序列完美遵循先修逻辑，构建“课程设计→通用学习设计→无障碍规划→数字能力框架”的合理进阶，高度契合D_RESOURCE指标；步骤描述仍较抽象，但资源路径具备强可操作性。"
+    }
+  ]
+}
+```

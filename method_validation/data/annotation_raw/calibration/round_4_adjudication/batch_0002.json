@@ -1,0 +1,184 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-C25B5217529FC2C990",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-C6ECD01823D23FCA35",
+          "verbatim_quote": "复核未发现可核查的 rubric or criteria，且 feedback loop 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "observable": "rubric or criteria / feedback loop"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_conflict",
+      "rationale": "独立复核明确指出关键指标未建立且与提交结论直接相反，形成不可调和冲突。"
+    },
+    {
+      "sample_id": "SID-7F7475CBB4BBD23C00",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-8BE68DD1094F6E5C88",
+          "verbatim_quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "explicit learning outcomes / assessment alignment"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traceable_adjustable",
+      "rationale": "核心材料明确呈现两项关键指标，工作链连贯可追溯且能按对象调整，符合第三层级标准。"
+    },
+    {
+      "sample_id": "SID-950A596F2D5DFF9202",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-7149205A5492BFEFC5",
+          "verbatim_quote": "围绕“研究问题与方法匹配”展开，记录了 limitations、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "research gap / question-method fit (缺失)"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_evidence",
+      "rationale": "档案仅提及主题名称及非关键指标，缺失两项核心可观察项的直接证据与设计链。"
+    },
+    {
+      "sample_id": "SID-44741EC29769D2B7E4",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-FA609739568AC1D378",
+          "verbatim_quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "explicit learning outcomes / assessment alignment"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_established",
+      "rationale": "核心材料明确呈现两项关键指标并形成基本做法，符合作答要求。"
+    },
+    {
+      "sample_id": "SID-03B8BC67734334EF12",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-10ED2571D97A7E6290",
+          "verbatim_quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "research gap / question-method fit"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traceable_adjustable",
+      "rationale": "项目成果明确呈现两项关键指标，描述为连贯可追溯且能按对象调整，符合第三层级标准。"
+    },
+    {
+      "sample_id": "SID-AC84EE9C204EEDC42E",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-2E872C143A01C45FC7",
+          "verbatim_quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "rubric or criteria / feedback loop"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_improvement_shareable",
+      "rationale": "材料明确呈现两项关键可观察项，具备多轮改进与可复用分享特征，达最高等级。"
+    },
+    {
+      "sample_id": "SID-D1A086A0848F572AE8",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-0452810B78D299DB44",
+          "verbatim_quote": "复核未发现可核查的 task allocation，且 verification protocol 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "observable": "task allocation / verification protocol"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_conflict",
+      "rationale": "独立复核明确指出关键指标未建立且与提交结论直接相反，形成不可调和冲突。"
+    },
+    {
+      "sample_id": "SID-F6BEB6B7F18957BFD7",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-871CF908E3AFF60FBE",
+          "verbatim_quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "data interpretation / decision trace"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_improvement_shareable",
+      "rationale": "课件材料完整覆盖两项关键可观察项，具备多轮改进与可复用分享特征，达最高等级。"
+    },
+    {
+      "sample_id": "SID-AEE995160E554A5AC9",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-AA130EEEE880F73649",
+          "verbatim_quote": "围绕“学术表达与个人贡献”展开，记录了 audience adaptation、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "claim-evidence coherence / contribution statement (缺失)"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_evidence",
+      "rationale": "现有材料均指向其他指标或未展开具体设计链，缺失目标关键可观察项的证据。"
+    },
+    {
+      "sample_id": "SID-CAFFE00980F7F1DDFB",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-32B2B618B50AA2169A",
+          "verbatim_quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "risk assessment / privacy or copyright safeguard"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_improvement_shareable",
+      "rationale": "成果材料明确呈现两项关键指标并描述为多轮改进、可复用分享，符合最高层级标准。"
+    },
+    {
+      "sample_id": "SID-41821DC49EF8E24FCC",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-49999FFEAAA46EC52F",
+          "verbatim_quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "selection rationale / resource adaptation"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_established",
+      "rationale": "课件材料明确呈现两项关键指标并形成基本做法，符合作答要求。"
+    },
+    {
+      "sample_id": "SID-C7D487277B6569DCBE",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-C303197343253E8F10",
+          "verbatim_quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "claim-evidence coherence / contribution statement"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_improvement_shareable",
+      "rationale": "项目材料完整覆盖两项关键可观察项，具备多轮改进与可复用分享特征，达最高等级。"
+    }
+  ]
+}

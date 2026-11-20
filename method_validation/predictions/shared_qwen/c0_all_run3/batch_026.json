@@ -1,0 +1,480 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-AE0F330F731D6CE4BE",
+      "evidence": [
+        {
+          "doc_id": "DOC-2261D4B956F37DD145",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据",
+          "family_key": "SRC-D7F6F6DA27BD72",
+          "polarity": "support",
+          "observables": [
+            "data interpretation"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-2261D4B956F37DD145",
+          "quote": "同时呈现 decision trace：逐项记录设计选择和核验结果",
+          "family_key": "SRC-D7F6F6DA27BD72",
+          "polarity": "support",
+          "observables": [
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-83C8695B48C59DAE81",
+          "quote": "该项工作围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期",
+          "family_key": "SRC-D7F6F6DA27BD72",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-D7F6F6DA27BD72"
+        ],
+        "reason_code": "strong_data_decision_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-AC47E70EBE7D341CD0",
+      "evidence": [
+        {
+          "doc_id": "DOC-D950A8AA6473F17D53",
+          "quote": "材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据",
+          "family_key": "SRC-7FD96470B50BC8",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-D950A8AA6473F17D53",
+          "quote": "同时呈现 assessment alignment：逐项记录设计选择和核验结果",
+          "family_key": "SRC-7FD96470B50BC8",
+          "polarity": "support",
+          "observables": [
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-1EC512E41EC6BBCF5A",
+          "quote": "该项工作围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale、会议日期",
+          "family_key": "SRC-7FD96470B50BC8",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-7FD96470B50BC8"
+        ],
+        "reason_code": "solid_alignment_with_basic_practice"
+      }
+    },
+    {
+      "sample_id": "SID-E4889E3E9417A2CE0F",
+      "evidence": [
+        {
+          "doc_id": "DOC-F220721FA8EAF50058",
+          "quote": "材料明确呈现 data interpretation：给出对象、目的与判断依据",
+          "family_key": "SRC-4A2F10FD41DAE5",
+          "polarity": "support",
+          "observables": [
+            "data interpretation"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-F220721FA8EAF50058",
+          "quote": "同时呈现 decision trace：逐项记录设计选择和核验结果",
+          "family_key": "SRC-4A2F10FD41DAE5",
+          "polarity": "support",
+          "observables": [
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-F2A4DE42BC535A5C9F",
+          "quote": "该项工作围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期",
+          "family_key": "SRC-4A2F10FD41DAE5",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-4A2F10FD41DAE5"
+        ],
+        "reason_code": "coherent_chain_for_data_decisions"
+      }
+    },
+    {
+      "sample_id": "SID-61797D2C5520A1D5DE",
+      "evidence": [
+        {
+          "doc_id": "DOC-8C4D8891D216FCC6B4",
+          "quote": "材料明确呈现 research gap：给出对象、目的与判断依据",
+          "family_key": "SRC-7D5B31C367EC69",
+          "polarity": "support",
+          "observables": [
+            "research gap"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-8C4D8891D216FCC6B4",
+          "quote": "同时呈现 question-method fit：逐项记录设计选择和核验结果",
+          "family_key": "SRC-7D5B31C367EC69",
+          "polarity": "support",
+          "observables": [
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-E92DF5A17703798777",
+          "quote": "该项工作围绕“研究问题与方法匹配”展开，记录了 limitations、会议日期",
+          "family_key": "SRC-7D5B31C367EC69",
+          "polarity": "context",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-7D5B31C367EC69"
+        ],
+        "reason_code": "strong_method_question_matching"
+      }
+    },
+    {
+      "sample_id": "SID-FAADBC70EC658F22CB",
+      "evidence": [
+        {
+          "doc_id": "DOC-847C145FA85E2BA03E",
+          "quote": "材料明确呈现 risk assessment：给出对象、目的与判断依据",
+          "family_key": "SRC-0982D7ABCD6B07",
+          "polarity": "support",
+          "observables": [
+            "risk assessment"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-847C145FA85E2BA03E",
+          "quote": "同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果",
+          "family_key": "SRC-0982D7ABCD6B07",
+          "polarity": "support",
+          "observables": [
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-BDA03BDE40373CEDC2",
+          "quote": "该项工作围绕“AI 风险、隐私与版权治理”展开，记录了 bias check、会议日期",
+          "family_key": "SRC-0982D7ABCD6B07",
+          "polarity": "context",
+          "observables": [
+            "bias check"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-0982D7ABCD6B07"
+        ],
+        "reason_code": "robust_governance_workflow"
+      }
+    },
+    {
+      "sample_id": "SID-054E1A668F0707318F",
+      "evidence": [
+        {
+          "doc_id": "DOC-142A358AA628D7C141",
+          "quote": "材料明确呈现 data interpretation：给出对象、目的与判断依据",
+          "family_key": "SRC-D8FA8C058737B1",
+          "polarity": "support",
+          "observables": [
+            "data interpretation"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-142A358AA628D7C141",
+          "quote": "同时呈现 decision trace：逐项记录设计选择和核验结果",
+          "family_key": "SRC-D8FA8C058737B1",
+          "polarity": "support",
+          "observables": [
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-645735E02E7D3241ED",
+          "quote": "该项工作围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期",
+          "family_key": "SRC-D8FA8C058737B1",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-D8FA8C058737B1"
+        ],
+        "reason_code": "clear_data_driven_process"
+      }
+    },
+    {
+      "sample_id": "SID-FD1B4577344AB18069",
+      "evidence": [
+        {
+          "doc_id": "DOC-21F74AF2D941398315",
+          "quote": "该项工作围绕“学习评价与反馈设计”展开，记录了 formative check、会议日期",
+          "family_key": "SRC-B4681AB84B59D0",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-B4681AB84B59D0"
+        ],
+        "reason_code": "limited_to_summary_only"
+      }
+    },
+    {
+      "sample_id": "SID-67B5F7A6FACED82A9F",
+      "evidence": [
+        {
+          "doc_id": "DOC-52612CAB18762E4F66",
+          "quote": "该项工作围绕“人机协同流程设计”展开，记录了 error handling、会议日期",
+          "family_key": "SRC-6F0A44463D74F0",
+          "polarity": "context",
+          "observables": [
+            "error handling"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-6F0A44463D74F0"
+        ],
+        "reason_code": "summary_level_evidence_only"
+      }
+    },
+    {
+      "sample_id": "SID-DB00826E7BF1B519C4",
+      "evidence": [
+        {
+          "doc_id": "DOC-EF38A35F5365331629",
+          "quote": "材料明确呈现 rubric or criteria：给出对象、目的与判断依据",
+          "family_key": "SRC-C9DBCAE3AA6EFB",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-EF38A35F5365331629",
+          "quote": "同时呈现 feedback loop：逐项记录设计选择和核验结果",
+          "family_key": "SRC-C9DBCAE3AA6EFB",
+          "polarity": "support",
+          "observables": [
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-4DC4E0AEB1631F08B8",
+          "quote": "该项工作围绕“学习评价与反馈设计”展开，记录了 formative check、会议日期",
+          "family_key": "SRC-C9DBCAE3AA6EFB",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-C9DBCAE3AA6EFB"
+        ],
+        "reason_code": "solid_feedback_design_practice"
+      }
+    },
+    {
+      "sample_id": "SID-EB5A295537EA1EB200",
+      "evidence": [
+        {
+          "doc_id": "DOC-89EF0C94564CF7F053",
+          "quote": "材料明确呈现 data interpretation：给出对象、目的与判断依据",
+          "family_key": "SRC-729E353F7121CF",
+          "polarity": "support",
+          "observables": [
+            "data interpretation"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-89EF0C94564CF7F053",
+          "quote": "同时呈现 decision trace：逐项记录设计选择和核验结果",
+          "family_key": "SRC-729E353F7121CF",
+          "polarity": "support",
+          "observables": [
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-0B26840A744F71D755",
+          "quote": "该项工作围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期",
+          "family_key": "SRC-729E353F7121CF",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-729E353F7121CF"
+        ],
+        "reason_code": "consistent_data_decision_chain"
+      }
+    },
+    {
+      "sample_id": "SID-0D1C91B6BC90FE55E1",
+      "evidence": [
+        {
+          "doc_id": "DOC-D12D11839F3D5DD1FA",
+          "quote": "材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据",
+          "family_key": "SRC-7E415079F780D7",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-D12D11839F3D5DD1FA",
+          "quote": "同时呈现 assessment alignment：逐项记录设计选择和核验结果",
+          "family_key": "SRC-7E415079F780D7",
+          "polarity": "support",
+          "observables": [
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-81970A52C6C21E932C",
+          "quote": "该项工作围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale、会议日期",
+          "family_key": "SRC-7E415079F780D7",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-7E415079F780D7"
+        ],
+        "reason_code": "loose_alignment_relationships"
+      }
+    },
+    {
+      "sample_id": "SID-511BC6C7E4550F4D0F",
+      "evidence": [
+        {
+          "doc_id": "DOC-258F908EF1E095453A",
+          "quote": "材料明确呈现 rubric or criteria：给出对象、目的与判断依据",
+          "family_key": "SRC-F4C6625A9CD6DD",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-258F908EF1E095453A",
+          "quote": "同时呈现 feedback loop：逐项记录设计选择和核验结果",
+          "family_key": "SRC-F4C6625A9CD6DD",
+          "polarity": "support",
+          "observables": [
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-33DA611D4F223C15D1",
+          "quote": "该项工作围绕“学习评价与反馈设计”展开，记录了 formative check、会议日期",
+          "family_key": "SRC-F4C6625A9CD6DD",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-F4C6625A9CD6DD"
+        ],
+        "reason_code": "iterative_feedback_mechanism"
+      }
+    }
+  ]
+}

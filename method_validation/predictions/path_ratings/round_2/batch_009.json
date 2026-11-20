@@ -1,0 +1,92 @@
+{
+  "ratings": [
+    {
+      "blind_output_id": "RYTGF8AB4X8G",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "步骤1与步骤2文本完全重复，未针对T_ALIGN指标定制，缺乏难度递进与逻辑先修；任务与证据描述为通用占位符，可操作性弱；资源来源可识别且摘要相关，但与步骤建议的关联仅停留在表面连接。"
+    },
+    {
+      "blind_output_id": "RCAUYBK2B8BM",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "路径步骤为固定模板，Step1与Step2内容一致，未体现D_RESOURCE指标所需的进阶逻辑；实践任务与完成证据缺乏具体操作标准，可执行性不足；所列资源机构明确、链接可查，但支撑关系较浅。"
+    },
+    {
+      "blind_output_id": "RKRNW5QY2PYZ",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "步骤描述完全雷同，未结合D_RESOURCE指标设计差异化活动，先修与递进关系缺失；任务与证据过于笼统，难以直接指导实践；资源信息完整可溯源，但仅以模板化语句建立联系。"
+    },
+    {
+      "blind_output_id": "RHMN88VPXRKG",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "步骤1与Step2内容重复，未围绕A_RESP指标展开针对性进阶设计；任务与产出缺乏具体评价维度，执行指引模糊；NIST与UNESCO资源权威可查，但路径未说明如何将其建议转化为具体行动。"
+    },
+    {
+      "blind_output_id": "RF64WFYAC2MW",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "路径采用统一模板，Step1与Step2无实质差异，未体现D_DATA指标的数据处理进阶要求；任务与证据描述空泛，可执行性受限；Data Carpentry等资源丰富可识别，但与应用步骤的衔接说明不足。"
+    },
+    {
+      "blind_output_id": "RR4HW8ADYF8E",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "步骤内容完全复制模板，未针对R_QUESTION指标设计递进活动；实践任务与完成证据缺乏具体操作指引；EQUATOR与UNESCO资源来源清晰，但路径仅以泛化语句关联，支撑力度有限。"
+    },
+    {
+      "blind_output_id": "RRPQSCTKUEY4",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "Step1与Step2描述一致，未结合A_RESP指标构建合理先修与难度阶梯；任务与证据为通用占位符，落地执行困难；所列AI伦理与风险管理资源可识别，但路径未展示如何跨越证据边界进行转化。"
+    },
+    {
+      "blind_output_id": "RM87NDG4PHM3",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "路径步骤为固定模板，无指标特异性与难度递进；任务与完成证据缺乏具体操作标准与验收依据；Data Carpentry等资源信息完整可查，但仅以模板化建议建立联系，支撑关系较弱。"
+    },
+    {
+      "blind_output_id": "R96MSJPVBT7H",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "Step1与Step2内容重复，未围绕R_COMM指标设计沟通协作进阶；任务与证据描述空泛，可执行性不足；OSF与EQUATOR资源来源明确，但路径未说明如何利用规范工具支持具体汇报行为。"
+    },
+    {
+      "blind_output_id": "RYK5MLR24X4T",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "路径采用统一模板，Step1与Step2无实质差异，未体现D_DATA指标的数据能力进阶；任务与产出缺乏具体操作指引；所列数据技能框架资源可识别，但应用建议过于笼统。"
+    },
+    {
+      "blind_output_id": "RVJ5MXABCTBL",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "步骤1与Step2完全一致，未结合D_RESOURCE指标设计合理先修与递进；实践任务与完成证据为通用占位符，执行标准模糊；W3C与DigCompEdu资源权威可查，但路径仅以模板化语句关联，支撑有限。"
+    }
+  ]
+}

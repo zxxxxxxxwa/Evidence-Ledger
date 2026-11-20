@@ -1,0 +1,102 @@
+```json
+{
+  "ratings": [
+    {
+      "blind_output_id": "RVMTP9QMUD4A",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤文本为统一占位符，未体现T_FEEDBACK指标的具体指向或资源特定版本/章节，路径陈述与资源实际内容缺乏一致性映射；任务与产出描述泛化，难以直接执行；但所列资源均来源权威、链接有效、摘要准确，可识别且具备基础支持力。"
+    },
+    {
+      "blind_output_id": "RH2ANMHQ4R8M",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤文本为统一占位符，未体现D_RESOURCE指标的具体指向或资源特定版本/章节，路径陈述与资源实际内容缺乏一致性映射；任务与产出描述泛化，难以直接执行；但所列资源均来源权威、链接有效、摘要准确，可识别且具备基础支持力。"
+    },
+    {
+      "blind_output_id": "RQD9DVCD8ZUC",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤文本为统一占位符，未体现T_ALIGN指标的具体指向或资源特定版本/章节，路径陈述与资源实际内容缺乏一致性映射；任务与产出描述泛化，难以直接执行；但所列资源均来源权威、链接有效、摘要准确，可识别且具备基础支持力。"
+    },
+    {
+      "blind_output_id": "RVFCKFC78XLR",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤文本为统一占位符，未体现T_FEEDBACK指标的具体指向或资源特定版本/章节，路径陈述与资源实际内容缺乏一致性映射；任务与产出描述泛化，难以直接执行；但所列资源均来源权威、链接有效、摘要准确，可识别且具备基础支持力。"
+    },
+    {
+      "blind_output_id": "RTXQKVDCJKR2",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤文本为统一占位符，未体现D_DATA指标的具体指向或资源特定版本/章节，路径陈述与资源实际内容缺乏一致性映射；任务与产出描述泛化，难以直接执行；但所列资源均来源权威、链接有效、摘要准确，可识别且具备基础支持力。"
+    },
+    {
+      "blind_output_id": "REFZYM5QJZ63",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤文本为统一占位符，未体现D_DATA指标的具体指向或资源特定版本/章节，路径陈述与资源实际内容缺乏一致性映射；任务与产出描述泛化，难以直接执行；但所列资源均来源权威、链接有效、摘要准确，可识别且具备基础支持力。"
+    },
+    {
+      "blind_output_id": "R8B78TTDEDGJ",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤文本为统一占位符，未体现R_QUESTION指标的具体指向或资源特定版本/章节，路径陈述与资源实际内容缺乏一致性映射；任务与产出描述泛化，难以直接执行；但所列资源均来源权威、链接有效、摘要准确，可识别且具备基础支持力。"
+    },
+    {
+      "blind_output_id": "R6V6AC6G2AR7",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤文本为统一占位符，未体现A_RESP指标的具体指向或资源特定版本/章节，路径陈述与资源实际内容缺乏一致性映射；任务与产出描述泛化，难以直接执行；但所列资源均来源权威、链接有效、摘要准确，可识别且具备基础支持力。"
+    },
+    {
+      "blind_output_id": "R74JFXZUXQRL",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤文本为统一占位符，未体现T_FEEDBACK指标的具体指向或资源特定版本/章节，路径陈述与资源实际内容缺乏一致性映射；任务与产出描述泛化，难以直接执行；但所列资源均来源权威、链接有效、摘要准确，可识别且具备基础支持力。"
+    },
+    {
+      "blind_output_id": "R357HZ5EJGWH",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤文本为统一占位符，未体现T_ALIGN指标的具体指向或资源特定版本/章节，路径陈述与资源实际内容缺乏一致性映射；任务与产出描述泛化，难以直接执行；但所列资源均来源权威、链接有效、摘要准确，可识别且具备基础支持力。"
+    },
+    {
+      "blind_output_id": "RR473TL4K2AH",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤文本为统一占位符，未体现D_RESOURCE指标的具体指向或资源特定版本/章节，路径陈述与资源实际内容缺乏一致性映射；任务与产出描述泛化，难以直接执行；但所列资源均来源权威、链接有效、摘要准确，可识别且具备基础支持力。"
+    },
+    {
+      "blind_output_id": "RSC7CE344CTL",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤文本为统一占位符，未体现A_RESP指标的具体指向或资源特定版本/章节，路径陈述与资源实际内容缺乏一致性映射；任务与产出描述泛化，难以直接执行；但所列资源均来源权威、链接有效、摘要准确，可识别且具备基础支持力。"
+    }
+  ]
+}
+```

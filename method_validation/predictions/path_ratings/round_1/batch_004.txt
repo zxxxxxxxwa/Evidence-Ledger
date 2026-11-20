@@ -1,0 +1,102 @@
+```json
+{
+  "ratings": [
+    {
+      "blind_output_id": "RUYEKL9ADA2R",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 3,
+      "source_support": 4,
+      "brief_reason": "CMU资源契合目标对齐，DigCompEdu关联较弱；步骤全为通用模板且无递进，任务“应用一个要点”缺乏具体操作指引与评价标准，可执行性受限。"
+    },
+    {
+      "blind_output_id": "RS6F547JGWG3",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 3,
+      "source_support": 4,
+      "brief_reason": "EQUATOR规范贴合研究问题指标，AI伦理资源偏离核心；步骤无实质递进，产出证据要求模糊，教师难以把握对齐程度与执行边界。"
+    },
+    {
+      "blind_output_id": "RH8SC3ETZKZY",
+      "target_match": 4,
+      "prerequisite_coherence": 2,
+      "executability": 3,
+      "source_support": 4,
+      "brief_reason": "Data Carpentry直接支持数据技能发展，DigCompEdu为辅；路径呈平行资源堆叠，缺乏先修逻辑，任务未说明如何根据学科条件筛选内容并落地。"
+    },
+    {
+      "blind_output_id": "RBUQXCCF2K9V",
+      "target_match": 3,
+      "prerequisite_coherence": 3,
+      "executability": 3,
+      "source_support": 4,
+      "brief_reason": "EQUATOR贴合研究问题，AI框架资源关联度一般；虽有内部先修标注，但三步内容完全重复，无法支撑“发展进阶”目标，活动设计无效。"
+    },
+    {
+      "blind_output_id": "R8RM84TZNXSU",
+      "target_match": 4,
+      "prerequisite_coherence": 2,
+      "executability": 3,
+      "source_support": 4,
+      "brief_reason": "风险管理框架与课程指南均契合工作流优化目标；资源间存在合理先修关系，但教学步骤未体现具体流程演进，仅靠时长区分无实际意义。"
+    },
+    {
+      "blind_output_id": "RGVB2TLQTM2Y",
+      "target_match": 4,
+      "prerequisite_coherence": 4,
+      "executability": 3,
+      "source_support": 5,
+      "brief_reason": "三大资源高度聚焦AI责任与伦理治理，先修链条清晰（CFT→ETHICS→NIST）；步骤模板化导致具体执行细节不足，未将框架要求转化为可操作的响应动作。"
+    },
+    {
+      "blind_output_id": "RCJFDXEHUV2U",
+      "target_match": 5,
+      "prerequisite_coherence": 3,
+      "executability": 3,
+      "source_support": 5,
+      "brief_reason": "课程设计与自我反思工具精准服务于目标对齐；资源摘要明确，但步骤设计未展现从理论审查到实践对齐的深化过程，任务产出较笼统。"
+    },
+    {
+      "blind_output_id": "R8VWW4QQ3XWD",
+      "target_match": 4,
+      "prerequisite_coherence": 3,
+      "executability": 3,
+      "source_support": 5,
+      "brief_reason": "AI能力框架与伦理建议书紧密对应责任发展目标；具备基础先修逻辑，但两步内容重复，缺乏从认知到实践的责任落实阶梯，活动可执行性一般。"
+    },
+    {
+      "blind_output_id": "RDYNE6GEBDDP",
+      "target_match": 4,
+      "prerequisite_coherence": 4,
+      "executability": 3,
+      "source_support": 5,
+      "brief_reason": "伦理规范与风险管理手册形成完整的责任治理闭环；先修关系明确，但步骤内容重复，任务“保留结果”过于宽泛，难评估责任履行情况。"
+    },
+    {
+      "blind_output_id": "RZM4MSU667C3",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 3,
+      "source_support": 4,
+      "brief_reason": "EQUATOR规范直接支持研究问题指标，AI伦理资源关联度低；步骤无递进设计，任务未指明如何结合报告规范提出或修正研究问题，执行指引不足。"
+    },
+    {
+      "blind_output_id": "R2MA9FMD44RE",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 3,
+      "source_support": 4,
+      "brief_reason": "课程指南涵盖反馈策略，数字框架提供技术支撑，整体匹配度中等；路径为独立资源组合，缺乏反馈收集、分析、应用的迭代过程，活动设计扁平。"
+    },
+    {
+      "blind_output_id": "RH9VDXF3TMQG",
+      "target_match": 4,
+      "prerequisite_coherence": 4,
+      "executability": 3,
+      "source_support": 5,
+      "brief_reason": "UDL指南与课程设计指南高度契合反馈优化目标，且具备明确的先修顺序；步骤模板化限制了具体反馈场景的落地指导，未利用UDL检查点设计差异化活动。"
+    }
+  ]
+}
+```

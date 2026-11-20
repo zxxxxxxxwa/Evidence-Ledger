@@ -1,0 +1,292 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-E67E4576CC1AC1F53D",
+      "evidence": [
+        {
+          "doc_id": "DOC-74D08D2DBD887E71C8",
+          "quote": "材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-756CB0B44890F4",
+          "polarity": "support",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-756CB0B44890F4"
+        ],
+        "reason_code": "strong_workflow_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-C739AF04B81085B353",
+      "evidence": [
+        {
+          "doc_id": "DOC-1A684075706AA54E7D",
+          "quote": "材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-F1B7765BB27782",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-F1B7765BB27782"
+        ],
+        "reason_code": "strong_data_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-01CA187BAE33374B07",
+      "evidence": [
+        {
+          "doc_id": "DOC-565C4D05F538BF674C",
+          "quote": "材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-07C2302D08917F",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-07C2302D08917F"
+        ],
+        "reason_code": "strong_comm_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-07BFB9146A42DF95BE",
+      "evidence": [
+        {
+          "doc_id": "DOC-969F5C124B43D3BD3D",
+          "quote": "材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-CA85BF3749F22B",
+          "polarity": "support",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.85
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-CA85BF3749F22B"
+        ],
+        "reason_code": "basic_workflow_practices"
+      }
+    },
+    {
+      "sample_id": "SID-7D57BBB15372443B3C",
+      "evidence": [
+        {
+          "doc_id": "DOC-428C61DA78E5EC9CFA",
+          "quote": "材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-55B08EA7889A9E",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.85
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-55B08EA7889A9E"
+        ],
+        "reason_code": "basic_resource_design"
+      }
+    },
+    {
+      "sample_id": "SID-93F38EA287ECD16853",
+      "evidence": [
+        {
+          "doc_id": "DOC-3637ED1710CB3D365E",
+          "quote": "材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-7698A6A6EA58F4",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-7698A6A6EA58F4"
+        ],
+        "reason_code": "scattered_research_elements"
+      }
+    },
+    {
+      "sample_id": "SID-0ABD91F0B95A493150",
+      "evidence": [
+        {
+          "doc_id": "DOC-D9972D722CB0BA2B6A",
+          "quote": "材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-5FDDFAF2A211C9",
+          "polarity": "support",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-5FDDFAF2A211C9"
+        ],
+        "reason_code": "strong_ai_governance"
+      }
+    },
+    {
+      "sample_id": "SID-1EEEE3666D301B8FC7",
+      "evidence": [
+        {
+          "doc_id": "DOC-AA5EF5FE14994B58E6",
+          "quote": "材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-0F0C2CDF5F6CB3",
+          "polarity": "support",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-0F0C2CDF5F6CB3"
+        ],
+        "reason_code": "strong_workflow_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-E77CDCC681A4AAF12F",
+      "evidence": [
+        {
+          "doc_id": "DOC-AA5EF5FE14994B58E6",
+          "quote": "材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-0F0C2CDF5F6CB3",
+          "polarity": "support",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-0F0C2CDF5F6CB3"
+        ],
+        "reason_code": "strong_workflow_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-3D2DB3061973B43FDE",
+      "evidence": [
+        {
+          "doc_id": "DOC-95908697831972F8B5",
+          "quote": "材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-DCDA96A4BF7885",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-DCDA96A4BF7885"
+        ],
+        "reason_code": "strong_feedback_design"
+      }
+    },
+    {
+      "sample_id": "SID-D79ADB1EFCF5AD5E1F",
+      "evidence": [
+        {
+          "doc_id": "DOC-1BC08AC0D44FC66B53",
+          "quote": "材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-4344A120BF9CCF",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-4344A120BF9CCF"
+        ],
+        "reason_code": "scattered_research_elements"
+      }
+    },
+    {
+      "sample_id": "SID-EC0F4FACA93A91E2D2",
+      "evidence": [
+        {
+          "doc_id": "DOC-CBD980699870EEED0B",
+          "quote": "材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-33308150BE3ABF",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-33308150BE3ABF"
+        ],
+        "reason_code": "strong_feedback_design"
+      }
+    }
+  ]
+}

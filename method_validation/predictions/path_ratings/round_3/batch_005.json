@@ -1,0 +1,100 @@
+{
+  "ratings": [
+    {
+      "blind_output_id": "RBXFH8XYKCBF",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "CMU课程设计与T_ALIGN指标契合，但DigCompEdu侧重数字能力而非对齐流程；两项资源均标注无先修，步骤间无逻辑递进；实践任务为通用模板，缺乏具体操作指引；来源真实可查，摘要准确但未能直接支撑步骤执行。"
+    },
+    {
+      "blind_output_id": "R2FU9KS4UQ9Y",
+      "target_match": 4,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "AI能力框架与风险管理手册契合A_WORKFLOW目标，但NIST手册明确要求UNESCO-AI-ETHICS为先修资源，该资源未在路径中提供，导致路径依赖断裂；步骤内容完全重复；来源权威且链接有效。"
+    },
+    {
+      "blind_output_id": "R6SUZ76GFGJH",
+      "target_match": 4,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "单步路径无法评估递进性，但EQUATOR报告规范工具高度契合R_QUESTION指标；任务描述空泛，未说明如何检索或应用规范；来源为国际公认学术规范机构，元数据完整，支持度高。"
+    },
+    {
+      "blind_output_id": "RDQS59FGP3Z8",
+      "target_match": 4,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源链呈现部分递进（CMU→CAST→W3C），符合无障碍设计学习路径，但末项DigCompEdu无明确衔接说明；步骤文本未随资源变化而更新，缺乏进阶设计；所有来源版本清晰，摘要与实际功能一致。"
+    },
+    {
+      "blind_output_id": "RNQWR8AWM828",
+      "target_match": 4,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "严重违背先修逻辑：第一步使用依赖UNESCO-AI-ETHICS的NIST手册，第二步才提供该伦理资源，学习顺序与资源标注的先修要求完全颠倒；任务描述通用化；来源可靠但路径编排存在事实性矛盾。"
+    },
+    {
+      "blind_output_id": "RLCTWJ5K6NS2",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "与首条路径结构相同，资源匹配度中等；无先修依赖导致步骤间缺乏逻辑关联；实践任务模板化；来源信息完整可验证，但未能细化执行标准。"
+    },
+    {
+      "blind_output_id": "RNF2V5GZVFYA",
+      "target_match": 4,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "数据技能课程与数字能力框架契合D_DATA指标，但两者均无先修要求，顺序随意且未体现能力累积；任务缺乏学科适配说明；来源官方背景强，摘要准确，支持基础认知建立。"
+    },
+    {
+      "blind_output_id": "RG887E2T8GFA",
+      "target_match": 4,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源组合与前条一致仅顺序互换，同样缺乏明确的进阶依赖关系；步骤内容重复；来源权威且链接有效，事实核查基础良好。"
+    },
+    {
+      "blind_output_id": "R48LLGYZEKWH",
+      "target_match": 4,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "同前两条D_DATA路径，资源选择合理但路径编排未体现能力进阶；任务描述通用化；来源信息规范，链接可直达官方页面，支持度高。"
+    },
+    {
+      "blind_output_id": "RLS7BZBW3JWK",
+      "target_match": 4,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "与第四条路径完全一致，资源链具备一定设计递进性，但步骤文本未随资源变化而更新；任务可操作性低；来源版本明确，摘要与实际功能一致。"
+    },
+    {
+      "blind_output_id": "RZ2LPEMBMPEW",
+      "target_match": 5,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "EQUATOR报告规范与COPE出版伦理高度契合R_COMM指标，独立资源适合分步掌握；步骤内容雷同削弱了连贯性评价；来源为学术出版核心机构，元数据完整，支持力强。"
+    },
+    {
+      "blind_output_id": "RJKRY7G3BDF2",
+      "target_match": 4,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "同第七条路径，资源匹配数据指标但无先修约束导致进阶模糊；任务描述缺乏具体执行标准；来源信息完整，链接可直达官方页面，事实核查基础扎实。"
+    }
+  ]
+}

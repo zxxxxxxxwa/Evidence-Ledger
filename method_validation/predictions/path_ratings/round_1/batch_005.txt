@@ -1,0 +1,102 @@
+```json
+{
+  "ratings": [
+    {
+      "blind_output_id": "RBXFH8XYKCBF",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 3,
+      "source_support": 5,
+      "brief_reason": "资源契合课程对齐目标，但步骤描述高度模板化且无实质递进；任务与产出较笼统，来源真实可查。"
+    },
+    {
+      "blind_output_id": "R2FU9KS4UQ9Y",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 3,
+      "source_support": 5,
+      "brief_reason": "AI框架资源支持工作流建设，但步骤完全重复且先修引用未在实际路径中落实；任务描述通用。"
+    },
+    {
+      "blind_output_id": "R6SUZ76GFGJH",
+      "target_match": 4,
+      "prerequisite_coherence": 3,
+      "executability": 3,
+      "source_support": 5,
+      "brief_reason": "单步路径较单薄，但EQUATOR工具直接支持研究规范审查；任务描述仍偏模板化。"
+    },
+    {
+      "blind_output_id": "RDQS59FGP3Z8",
+      "target_match": 4,
+      "prerequisite_coherence": 2,
+      "executability": 3,
+      "source_support": 5,
+      "brief_reason": "资源组合系统覆盖课程设计与无障碍，但路径步骤完全重复且未体现预设的先修逻辑；可执行性依赖教师自行解读。"
+    },
+    {
+      "blind_output_id": "RNQWR8AWM828",
+      "target_match": 4,
+      "prerequisite_coherence": 2,
+      "executability": 3,
+      "source_support": 5,
+      "brief_reason": "伦理与风险管理资源高度契合责任目标，但路径结构僵化，先修关系未在步骤中落实。"
+    },
+    {
+      "blind_output_id": "RLCTWJ5K6NS2",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 3,
+      "source_support": 5,
+      "brief_reason": "同首项，资源匹配对齐目标，但步骤模板化严重，缺乏针对性设计与递进。"
+    },
+    {
+      "blind_output_id": "RNF2V5GZVFYA",
+      "target_match": 4,
+      "prerequisite_coherence": 2,
+      "executability": 3,
+      "source_support": 5,
+      "brief_reason": "数据技能资源直接支撑D_DATA指标，但路径未体现能力进阶；任务描述过于宽泛。"
+    },
+    {
+      "blind_output_id": "RG887E2T8GFA",
+      "target_match": 4,
+      "prerequisite_coherence": 2,
+      "executability": 3,
+      "source_support": 5,
+      "brief_reason": "资源顺序调整不影响内容实质；同样存在步骤重复、任务笼统的问题。"
+    },
+    {
+      "blind_output_id": "R48LLGYZEKWH",
+      "target_match": 4,
+      "prerequisite_coherence": 2,
+      "executability": 3,
+      "source_support": 5,
+      "brief_reason": "与前两项一致，路径结构未能根据具体指标差异化定制，资源支持度高。"
+    },
+    {
+      "blind_output_id": "RLS7BZBW3JWK",
+      "target_match": 4,
+      "prerequisite_coherence": 2,
+      "executability": 3,
+      "source_support": 5,
+      "brief_reason": "资源体系完整，但路径文本完全复制模板，未展现资源间的逻辑衔接与实操指引。"
+    },
+    {
+      "blind_output_id": "RZ2LPEMBMPEW",
+      "target_match": 4,
+      "prerequisite_coherence": 3,
+      "executability": 3,
+      "source_support": 5,
+      "brief_reason": "出版伦理与研究规范资源契合交流传播目标；路径为平行结构，缺乏深度递进。"
+    },
+    {
+      "blind_output_id": "RJKRY7G3BDF2",
+      "target_match": 4,
+      "prerequisite_coherence": 2,
+      "executability": 3,
+      "source_support": 5,
+      "brief_reason": "资源选择合理，但路径设计同质化高，任务与证据要求未结合数据素养特点细化。"
+    }
+  ]
+}
+```

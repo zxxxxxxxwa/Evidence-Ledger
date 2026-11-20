@@ -1,0 +1,15 @@
+{
+  "request_sha256": "673df186b6d78fbc0e76b42c8e70cacb235c3b202fd1a04aa6fbce8a606f28d1",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "error",
+      "type": "RemoteDisconnected",
+      "message": "Remote end closed connection without response"
+    },
+    {
+      "attempt": 2,
+      "status": "success"
+    }
+  ]
+}

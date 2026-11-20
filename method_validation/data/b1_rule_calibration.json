@@ -1,0 +1,2113 @@
+{
+  "artifact_type": "b1_rule_calibration",
+  "version": "M1-B1-CAL-2026-11-19.1",
+  "development_only": true,
+  "group_field": "teacher_cluster|split_cluster|cluster_id",
+  "folds": 3,
+  "clusters": 36,
+  "records": 216,
+  "selection_seed": 20261118,
+  "group_assignment_rule": "sha256_sorted_round_robin",
+  "cluster_fold_assignment": {
+    "TC-A273008E380174": 0,
+    "TC-A3B2E65630DC25": 1,
+    "TC-2AD59D08D41682": 2,
+    "TC-2D2A3194A09603": 0,
+    "TC-0C230980D1A971": 1,
+    "TC-1FAAE661AD4BB7": 2,
+    "TC-0372C80F4BD88D": 0,
+    "TC-CB8ED6ED16B0B9": 1,
+    "TC-8583A77A0319EB": 2,
+    "TC-5E39A8682DDE72": 0,
+    "TC-4C91E1281A1185": 1,
+    "TC-AFF18DD40B20B4": 2,
+    "TC-64671540ECFF14": 0,
+    "TC-A1D34E9B7F55C0": 1,
+    "TC-8B6EB38289C8A5": 2,
+    "TC-6F6106FFD66BBC": 0,
+    "TC-09AEBB8B0AC08D": 1,
+    "TC-72F107AA62221D": 2,
+    "TC-D20B6BB485C4C2": 0,
+    "TC-52D63BB091E685": 1,
+    "TC-A91996DD472803": 2,
+    "TC-D084CF6FE15849": 0,
+    "TC-392D2D36003C16": 1,
+    "TC-34548F987547DD": 2,
+    "TC-AFBE6C22B22898": 0,
+    "TC-1552B5D8BF2ED4": 1,
+    "TC-E6AEBBFDCCA12A": 2,
+    "TC-E747C838F337CB": 0,
+    "TC-CA5214F23981D9": 1,
+    "TC-98769F4B4B6715": 2,
+    "TC-86844633A915E8": 0,
+    "TC-51AF8668E8D268": 1,
+    "TC-5BD233920AE587": 2,
+    "TC-E2CB0F65B19AAC": 0,
+    "TC-2DEA268DE48A91": 1,
+    "TC-E41B1A48941FA2": 2
+  },
+  "selection_rule": "raw mean state macro-F1 + 0.15 * raw conditional QWK",
+  "displayed_proportions": "Jeffreys posterior means; QWK shrunk toward zero by n/(n+1); selection uses raw metrics reconstructed from retained confusion counts",
+  "indicator_material_mapping": {
+    "T_ALIGN": "lesson_plan",
+    "T_FEEDBACK": "lesson_plan",
+    "D_DATA": "courseware",
+    "D_RESOURCE": "courseware",
+    "R_QUESTION": "project",
+    "R_COMM": "project",
+    "A_WORKFLOW": "teaching_outcome",
+    "A_RESP": "teaching_outcome"
+  },
+  "weight_profiles": {
+    "strict": {
+      "material": {
+        "primary": 1.0,
+        "secondary": 0.55,
+        "other": 0.25
+      },
+      "contribution": {
+        "sole": 1.0,
+        "lead": 1.0,
+        "substantial": 1.0,
+        "limited": 0.6,
+        "unclear": 0.35
+      }
+    },
+    "balanced": {
+      "material": {
+        "primary": 1.0,
+        "secondary": 0.7,
+        "other": 0.35
+      },
+      "contribution": {
+        "sole": 1.0,
+        "lead": 1.0,
+        "substantial": 1.0,
+        "limited": 0.7,
+        "unclear": 0.45
+      }
+    },
+    "flat": {
+      "material": {
+        "primary": 1.0,
+        "secondary": 0.85,
+        "other": 0.55
+      },
+      "contribution": {
+        "sole": 1.0,
+        "lead": 1.0,
+        "substantial": 1.0,
+        "limited": 0.8,
+        "unclear": 0.55
+      }
+    }
+  },
+  "candidates": [
+    {
+      "config": {
+        "weight_profile": "strict",
+        "support_threshold": 0.45,
+        "evidence_quantity_threshold": 0.8,
+        "conflict_threshold": 0.35
+      },
+      "folds": [
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                47,
+                0,
+                1
+              ],
+              [
+                1,
+                11,
+                0
+              ],
+              [
+                0,
+                0,
+                12
+              ]
+            ]
+          },
+          "state_macro_f1": 0.9384378936759888,
+          "conditional_qwk": 0.8313481441827265,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                13,
+                3,
+                0,
+                0
+              ],
+              [
+                3,
+                9,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                8,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                8
+              ]
+            ]
+          },
+          "conditional_coverage": 0.9693877551020408,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 47,
+            "gold_estimable_total": 48
+          },
+          "fold": 0,
+          "validation_clusters": 12
+        },
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                47,
+                0,
+                1
+              ],
+              [
+                0,
+                12,
+                0
+              ],
+              [
+                0,
+                0,
+                12
+              ]
+            ]
+          },
+          "state_macro_f1": 0.9556152769211189,
+          "conditional_qwk": 0.8935376610846943,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                8,
+                0,
+                0,
+                0
+              ],
+              [
+                9,
+                11,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                11,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                8
+              ]
+            ]
+          },
+          "conditional_coverage": 0.9693877551020408,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 47,
+            "gold_estimable_total": 48
+          },
+          "fold": 1,
+          "validation_clusters": 12
+        },
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                48,
+                0,
+                0
+              ],
+              [
+                0,
+                12,
+                0
+              ],
+              [
+                0,
+                0,
+                12
+              ]
+            ]
+          },
+          "state_macro_f1": 0.9709576138147566,
+          "conditional_qwk": 0.6253035990284832,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                5,
+                3,
+                0,
+                0
+              ],
+              [
+                0,
+                8,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                12,
+                0
+              ],
+              [
+                0,
+                9,
+                0,
+                11
+              ]
+            ]
+          },
+          "conditional_coverage": 0.9897959183673469,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 48,
+            "gold_estimable_total": 48
+          },
+          "fold": 2,
+          "validation_clusters": 12
+        }
+      ],
+      "mean_state_macro_f1": 0.9550035948039548,
+      "mean_conditional_qwk": 0.7833964680986347
+    },
+    {
+      "config": {
+        "weight_profile": "strict",
+        "support_threshold": 0.6,
+        "evidence_quantity_threshold": 1.0,
+        "conflict_threshold": 0.55
+      },
+      "folds": [
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                47,
+                0,
+                1
+              ],
+              [
+                1,
+                11,
+                0
+              ],
+              [
+                0,
+                0,
+                12
+              ]
+            ]
+          },
+          "state_macro_f1": 0.9384378936759888,
+          "conditional_qwk": 0.8313481441827265,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                13,
+                3,
+                0,
+                0
+              ],
+              [
+                3,
+                9,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                8,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                8
+              ]
+            ]
+          },
+          "conditional_coverage": 0.9693877551020408,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 47,
+            "gold_estimable_total": 48
+          },
+          "fold": 0,
+          "validation_clusters": 12
+        },
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                47,
+                0,
+                1
+              ],
+              [
+                0,
+                12,
+                0
+              ],
+              [
+                0,
+                0,
+                12
+              ]
+            ]
+          },
+          "state_macro_f1": 0.9556152769211189,
+          "conditional_qwk": 0.8935376610846943,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                8,
+                0,
+                0,
+                0
+              ],
+              [
+                9,
+                11,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                11,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                8
+              ]
+            ]
+          },
+          "conditional_coverage": 0.9693877551020408,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 47,
+            "gold_estimable_total": 48
+          },
+          "fold": 1,
+          "validation_clusters": 12
+        },
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                48,
+                0,
+                0
+              ],
+              [
+                0,
+                12,
+                0
+              ],
+              [
+                0,
+                0,
+                12
+              ]
+            ]
+          },
+          "state_macro_f1": 0.9709576138147566,
+          "conditional_qwk": 0.6253035990284832,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                5,
+                3,
+                0,
+                0
+              ],
+              [
+                0,
+                8,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                12,
+                0
+              ],
+              [
+                0,
+                9,
+                0,
+                11
+              ]
+            ]
+          },
+          "conditional_coverage": 0.9897959183673469,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 48,
+            "gold_estimable_total": 48
+          },
+          "fold": 2,
+          "validation_clusters": 12
+        }
+      ],
+      "mean_state_macro_f1": 0.9550035948039548,
+      "mean_conditional_qwk": 0.7833964680986347
+    },
+    {
+      "config": {
+        "weight_profile": "strict",
+        "support_threshold": 0.75,
+        "evidence_quantity_threshold": 1.2,
+        "conflict_threshold": 0.75
+      },
+      "folds": [
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                17,
+                30,
+                1
+              ],
+              [
+                0,
+                12,
+                0
+              ],
+              [
+                1,
+                6,
+                5
+              ]
+            ]
+          },
+          "state_macro_f1": 0.4893105629348514,
+          "conditional_qwk": 0.9444444444444444,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                6,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                5,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ]
+            ]
+          },
+          "conditional_coverage": 0.35714285714285715,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 17,
+            "gold_estimable_total": 48
+          },
+          "fold": 0,
+          "validation_clusters": 12
+        },
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                17,
+                30,
+                1
+              ],
+              [
+                0,
+                12,
+                0
+              ],
+              [
+                2,
+                9,
+                1
+              ]
+            ]
+          },
+          "state_macro_f1": 0.3597872538089929,
+          "conditional_qwk": 0.9444444444444444,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                5,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                8,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                2,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ]
+            ]
+          },
+          "conditional_coverage": 0.35714285714285715,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 17,
+            "gold_estimable_total": 48
+          },
+          "fold": 1,
+          "validation_clusters": 12
+        },
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                15,
+                33,
+                0
+              ],
+              [
+                0,
+                12,
+                0
+              ],
+              [
+                1,
+                9,
+                2
+              ]
+            ]
+          },
+          "state_macro_f1": 0.3832813428401664,
+          "conditional_qwk": 0.9375,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                2,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                5,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                3,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                5
+              ]
+            ]
+          },
+          "conditional_coverage": 0.3163265306122449,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 15,
+            "gold_estimable_total": 48
+          },
+          "fold": 2,
+          "validation_clusters": 12
+        }
+      ],
+      "mean_state_macro_f1": 0.41079305319467024,
+      "mean_conditional_qwk": 0.9421296296296297
+    },
+    {
+      "config": {
+        "weight_profile": "balanced",
+        "support_threshold": 0.45,
+        "evidence_quantity_threshold": 0.8,
+        "conflict_threshold": 0.35
+      },
+      "folds": [
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                47,
+                0,
+                1
+              ],
+              [
+                1,
+                11,
+                0
+              ],
+              [
+                0,
+                0,
+                12
+              ]
+            ]
+          },
+          "state_macro_f1": 0.9384378936759888,
+          "conditional_qwk": 0.8313481441827265,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                13,
+                3,
+                0,
+                0
+              ],
+              [
+                3,
+                9,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                8,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                8
+              ]
+            ]
+          },
+          "conditional_coverage": 0.9693877551020408,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 47,
+            "gold_estimable_total": 48
+          },
+          "fold": 0,
+          "validation_clusters": 12
+        },
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                47,
+                0,
+                1
+              ],
+              [
+                0,
+                12,
+                0
+              ],
+              [
+                0,
+                0,
+                12
+              ]
+            ]
+          },
+          "state_macro_f1": 0.9556152769211189,
+          "conditional_qwk": 0.8856663957740757,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                8,
+                0,
+                0,
+                0
+              ],
+              [
+                10,
+                10,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                11,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                8
+              ]
+            ]
+          },
+          "conditional_coverage": 0.9693877551020408,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 47,
+            "gold_estimable_total": 48
+          },
+          "fold": 1,
+          "validation_clusters": 12
+        },
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                48,
+                0,
+                0
+              ],
+              [
+                0,
+                12,
+                0
+              ],
+              [
+                0,
+                0,
+                12
+              ]
+            ]
+          },
+          "state_macro_f1": 0.9709576138147566,
+          "conditional_qwk": 0.6253035990284832,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                5,
+                3,
+                0,
+                0
+              ],
+              [
+                0,
+                8,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                12,
+                0
+              ],
+              [
+                0,
+                9,
+                0,
+                11
+              ]
+            ]
+          },
+          "conditional_coverage": 0.9897959183673469,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 48,
+            "gold_estimable_total": 48
+          },
+          "fold": 2,
+          "validation_clusters": 12
+        }
+      ],
+      "mean_state_macro_f1": 0.9550035948039548,
+      "mean_conditional_qwk": 0.7807727129950951
+    },
+    {
+      "config": {
+        "weight_profile": "balanced",
+        "support_threshold": 0.6,
+        "evidence_quantity_threshold": 1.0,
+        "conflict_threshold": 0.55
+      },
+      "folds": [
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                47,
+                0,
+                1
+              ],
+              [
+                1,
+                11,
+                0
+              ],
+              [
+                0,
+                0,
+                12
+              ]
+            ]
+          },
+          "state_macro_f1": 0.9384378936759888,
+          "conditional_qwk": 0.8313481441827265,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                13,
+                3,
+                0,
+                0
+              ],
+              [
+                3,
+                9,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                8,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                8
+              ]
+            ]
+          },
+          "conditional_coverage": 0.9693877551020408,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 47,
+            "gold_estimable_total": 48
+          },
+          "fold": 0,
+          "validation_clusters": 12
+        },
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                47,
+                0,
+                1
+              ],
+              [
+                0,
+                12,
+                0
+              ],
+              [
+                0,
+                0,
+                12
+              ]
+            ]
+          },
+          "state_macro_f1": 0.9556152769211189,
+          "conditional_qwk": 0.8856663957740757,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                8,
+                0,
+                0,
+                0
+              ],
+              [
+                10,
+                10,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                11,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                8
+              ]
+            ]
+          },
+          "conditional_coverage": 0.9693877551020408,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 47,
+            "gold_estimable_total": 48
+          },
+          "fold": 1,
+          "validation_clusters": 12
+        },
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                48,
+                0,
+                0
+              ],
+              [
+                0,
+                12,
+                0
+              ],
+              [
+                0,
+                0,
+                12
+              ]
+            ]
+          },
+          "state_macro_f1": 0.9709576138147566,
+          "conditional_qwk": 0.6253035990284832,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                5,
+                3,
+                0,
+                0
+              ],
+              [
+                0,
+                8,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                12,
+                0
+              ],
+              [
+                0,
+                9,
+                0,
+                11
+              ]
+            ]
+          },
+          "conditional_coverage": 0.9897959183673469,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 48,
+            "gold_estimable_total": 48
+          },
+          "fold": 2,
+          "validation_clusters": 12
+        }
+      ],
+      "mean_state_macro_f1": 0.9550035948039548,
+      "mean_conditional_qwk": 0.7807727129950951
+    },
+    {
+      "config": {
+        "weight_profile": "balanced",
+        "support_threshold": 0.75,
+        "evidence_quantity_threshold": 1.2,
+        "conflict_threshold": 0.75
+      },
+      "folds": [
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                17,
+                30,
+                1
+              ],
+              [
+                0,
+                12,
+                0
+              ],
+              [
+                1,
+                6,
+                5
+              ]
+            ]
+          },
+          "state_macro_f1": 0.4893105629348514,
+          "conditional_qwk": 0.9444444444444444,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                6,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                5,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ]
+            ]
+          },
+          "conditional_coverage": 0.35714285714285715,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 17,
+            "gold_estimable_total": 48
+          },
+          "fold": 0,
+          "validation_clusters": 12
+        },
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                17,
+                30,
+                1
+              ],
+              [
+                0,
+                12,
+                0
+              ],
+              [
+                2,
+                9,
+                1
+              ]
+            ]
+          },
+          "state_macro_f1": 0.3597872538089929,
+          "conditional_qwk": 0.913978494623656,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                5,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                7,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                2,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ]
+            ]
+          },
+          "conditional_coverage": 0.35714285714285715,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 17,
+            "gold_estimable_total": 48
+          },
+          "fold": 1,
+          "validation_clusters": 12
+        },
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                15,
+                33,
+                0
+              ],
+              [
+                0,
+                12,
+                0
+              ],
+              [
+                1,
+                9,
+                2
+              ]
+            ]
+          },
+          "state_macro_f1": 0.3832813428401664,
+          "conditional_qwk": 0.9375,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                2,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                5,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                3,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                5
+              ]
+            ]
+          },
+          "conditional_coverage": 0.3163265306122449,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 15,
+            "gold_estimable_total": 48
+          },
+          "fold": 2,
+          "validation_clusters": 12
+        }
+      ],
+      "mean_state_macro_f1": 0.41079305319467024,
+      "mean_conditional_qwk": 0.9319743130227002
+    },
+    {
+      "config": {
+        "weight_profile": "flat",
+        "support_threshold": 0.45,
+        "evidence_quantity_threshold": 0.8,
+        "conflict_threshold": 0.35
+      },
+      "folds": [
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                47,
+                0,
+                1
+              ],
+              [
+                2,
+                10,
+                0
+              ],
+              [
+                0,
+                0,
+                12
+              ]
+            ]
+          },
+          "state_macro_f1": 0.9201739618406285,
+          "conditional_qwk": 0.8313481441827265,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                13,
+                3,
+                0,
+                0
+              ],
+              [
+                3,
+                9,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                8,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                8
+              ]
+            ]
+          },
+          "conditional_coverage": 0.9693877551020408,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 47,
+            "gold_estimable_total": 48
+          },
+          "fold": 0,
+          "validation_clusters": 12
+        },
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                47,
+                0,
+                1
+              ],
+              [
+                2,
+                10,
+                0
+              ],
+              [
+                0,
+                0,
+                12
+              ]
+            ]
+          },
+          "state_macro_f1": 0.9201739618406285,
+          "conditional_qwk": 0.86479640604091,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                8,
+                0,
+                0,
+                0
+              ],
+              [
+                10,
+                10,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                8,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                8
+              ]
+            ]
+          },
+          "conditional_coverage": 0.9693877551020408,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 47,
+            "gold_estimable_total": 48
+          },
+          "fold": 1,
+          "validation_clusters": 12
+        },
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                48,
+                0,
+                0
+              ],
+              [
+                1,
+                11,
+                0
+              ],
+              [
+                0,
+                0,
+                12
+              ]
+            ]
+          },
+          "state_macro_f1": 0.9537788137788138,
+          "conditional_qwk": 0.6253035990284832,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                5,
+                3,
+                0,
+                0
+              ],
+              [
+                0,
+                8,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                12,
+                0
+              ],
+              [
+                0,
+                9,
+                0,
+                11
+              ]
+            ]
+          },
+          "conditional_coverage": 0.9897959183673469,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 48,
+            "gold_estimable_total": 48
+          },
+          "fold": 2,
+          "validation_clusters": 12
+        }
+      ],
+      "mean_state_macro_f1": 0.9313755791533569,
+      "mean_conditional_qwk": 0.7738160497507066
+    },
+    {
+      "config": {
+        "weight_profile": "flat",
+        "support_threshold": 0.6,
+        "evidence_quantity_threshold": 1.0,
+        "conflict_threshold": 0.55
+      },
+      "folds": [
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                47,
+                0,
+                1
+              ],
+              [
+                1,
+                11,
+                0
+              ],
+              [
+                0,
+                0,
+                12
+              ]
+            ]
+          },
+          "state_macro_f1": 0.9384378936759888,
+          "conditional_qwk": 0.8313481441827265,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                13,
+                3,
+                0,
+                0
+              ],
+              [
+                3,
+                9,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                8,
+                0
+              ],
+              [
+                0,
+                3,
+                0,
+                8
+              ]
+            ]
+          },
+          "conditional_coverage": 0.9693877551020408,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 47,
+            "gold_estimable_total": 48
+          },
+          "fold": 0,
+          "validation_clusters": 12
+        },
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                47,
+                0,
+                1
+              ],
+              [
+                0,
+                12,
+                0
+              ],
+              [
+                0,
+                0,
+                12
+              ]
+            ]
+          },
+          "state_macro_f1": 0.9556152769211189,
+          "conditional_qwk": 0.86479640604091,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                8,
+                0,
+                0,
+                0
+              ],
+              [
+                10,
+                10,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                8,
+                3
+              ],
+              [
+                0,
+                0,
+                0,
+                8
+              ]
+            ]
+          },
+          "conditional_coverage": 0.9693877551020408,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 47,
+            "gold_estimable_total": 48
+          },
+          "fold": 1,
+          "validation_clusters": 12
+        },
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                48,
+                0,
+                0
+              ],
+              [
+                0,
+                12,
+                0
+              ],
+              [
+                0,
+                0,
+                12
+              ]
+            ]
+          },
+          "state_macro_f1": 0.9709576138147566,
+          "conditional_qwk": 0.6253035990284832,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                5,
+                3,
+                0,
+                0
+              ],
+              [
+                0,
+                8,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                12,
+                0
+              ],
+              [
+                0,
+                9,
+                0,
+                11
+              ]
+            ]
+          },
+          "conditional_coverage": 0.9897959183673469,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 48,
+            "gold_estimable_total": 48
+          },
+          "fold": 2,
+          "validation_clusters": 12
+        }
+      ],
+      "mean_state_macro_f1": 0.9550035948039548,
+      "mean_conditional_qwk": 0.7738160497507066
+    },
+    {
+      "config": {
+        "weight_profile": "flat",
+        "support_threshold": 0.75,
+        "evidence_quantity_threshold": 1.2,
+        "conflict_threshold": 0.75
+      },
+      "folds": [
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                17,
+                30,
+                1
+              ],
+              [
+                0,
+                12,
+                0
+              ],
+              [
+                0,
+                0,
+                12
+              ]
+            ]
+          },
+          "state_macro_f1": 0.6315808523519966,
+          "conditional_qwk": 0.9444444444444444,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                4,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                6,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                5,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ]
+            ]
+          },
+          "conditional_coverage": 0.35714285714285715,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 17,
+            "gold_estimable_total": 48
+          },
+          "fold": 0,
+          "validation_clusters": 12
+        },
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                17,
+                30,
+                1
+              ],
+              [
+                0,
+                12,
+                0
+              ],
+              [
+                0,
+                0,
+                12
+              ]
+            ]
+          },
+          "state_macro_f1": 0.6315808523519966,
+          "conditional_qwk": 0.913978494623656,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                5,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                7,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                2,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                2
+              ]
+            ]
+          },
+          "conditional_coverage": 0.35714285714285715,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 17,
+            "gold_estimable_total": 48
+          },
+          "fold": 1,
+          "validation_clusters": 12
+        },
+        {
+          "validation_records": 72,
+          "state_confusion": {
+            "labels": [
+              "E",
+              "I",
+              "C"
+            ],
+            "matrix": [
+              [
+                15,
+                33,
+                0
+              ],
+              [
+                0,
+                12,
+                0
+              ],
+              [
+                0,
+                0,
+                12
+              ]
+            ]
+          },
+          "state_macro_f1": 0.6207301173402868,
+          "conditional_qwk": 0.9375,
+          "conditional_level_confusion": {
+            "labels": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "matrix": [
+              [
+                2,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                5,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                3,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                5
+              ]
+            ]
+          },
+          "conditional_coverage": 0.3163265306122449,
+          "conditional_coverage_counts": {
+            "eligible_level_predictions": 15,
+            "gold_estimable_total": 48
+          },
+          "fold": 2,
+          "validation_clusters": 12
+        }
+      ],
+      "mean_state_macro_f1": 0.6279639406814267,
+      "mean_conditional_qwk": 0.9319743130227002
+    }
+  ],
+  "selected_config": {
+    "weight_profile": "strict",
+    "support_threshold": 0.45,
+    "evidence_quantity_threshold": 0.8,
+    "conflict_threshold": 0.35
+  },
+  "development_input_sha256": "a3b6e88769b7269adaf6ef4892a7806d497f05d2e5f64518ed132540471d052f",
+  "development_reference_sha256": "dea86fd366ca8303218d5c73a5e08c7119f3f6d7ce90cc3b8fc2a3b1dc4927a2"
+}

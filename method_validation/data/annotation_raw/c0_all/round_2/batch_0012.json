@@ -1,0 +1,184 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-5509B5B2F090FFE78F",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-C4EEA06849E6AB609B",
+          "verbatim_quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_claim_contribution",
+      "rationale": "核心成果材料直接对应两项关键可观察项，描述为基本做法并附操作说明，证据充分无冲突。"
+    },
+    {
+      "sample_id": "SID-3B1DA9CFBF34D15515",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-F25387025407485D7D",
+          "verbatim_quote": "围绕“数字资源设计”展开，记录了 accessibility、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_design_chain_evidence",
+      "rationale": "仅存归档摘要且明确声明未展开具体设计链，缺乏支撑两项关键可观察项的直接证据。"
+    },
+    {
+      "sample_id": "SID-AE0F330F731D6CE4BE",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-2261D4B956F37DD145",
+          "verbatim_quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。已用多轮证据持续迭代，并形成可共享的做法。",
+          "observable": "data interpretation, decision trace"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_iterative_shared",
+      "rationale": "成果材料完整覆盖两项关键指标，明确记载多轮迭代与共享机制，达到最高能力等级。"
+    },
+    {
+      "sample_id": "SID-698E522E363F79A872",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-948FA5807A62AFBA78",
+          "verbatim_quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_workflow_allocation_verification",
+      "rationale": "专项成果材料清晰对应两项关键可观察项，定性为基本做法并附步骤说明，证据确凿。"
+    },
+    {
+      "sample_id": "SID-DD845938D98413B6A0",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-353F65E73A88574618",
+          "verbatim_quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_improvement_reusable",
+      "rationale": "核心材料完整呈现两项关键指标，明确记载多轮改进与复用分享机制，符合最高等级标准。"
+    },
+    {
+      "sample_id": "SID-C80DD752A0F8E044B1",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-FD89B709505B03D4FF",
+          "verbatim_quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "explicit learning outcomes, assessment alignment"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "single_attempt_loose_relation",
+      "rationale": "成果材料直接对应两项关键指标，但明确表述仅为单次尝试且关系松散，符合零散单次等级。"
+    },
+    {
+      "sample_id": "SID-A953AE177CDADB3A57",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-7DCB187CFB2616DF80",
+          "verbatim_quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "rubric or criteria, feedback loop"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_tracable_adaptable",
+      "rationale": "专项材料完整覆盖两项关键可观察项，明确记载连贯工作链与对象适应性调整，达连贯可追溯等级。"
+    },
+    {
+      "sample_id": "SID-9FCECF51C26506E755",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-88571C1B7F4C0E7DB9",
+          "verbatim_quote": "围绕“研究问题与方法匹配”展开，记录了 limitations、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_direct_evidence_r_question",
+      "rationale": "仅存在未展开设计链的归档摘要，缺乏针对两项关键可观察项的直接成果材料，证据不足。"
+    },
+    {
+      "sample_id": "SID-3634C49397D0E9597F",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-2ADD7237F543C2FC9A",
+          "verbatim_quote": "围绕“学术表达与个人贡献”展开，记录了 audience adaptation、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_direct_evidence_r_comm",
+      "rationale": "仅存未展开设计链的归档摘要，无法核实两项关键可观察项的具体实践与贡献陈述，证据不足。"
+    },
+    {
+      "sample_id": "SID-D7DBA97DA4543C85AD",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-72108F86186722BCB7",
+          "verbatim_quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_tracable_resource_adaptation",
+      "rationale": "核心材料完整对应两项关键指标，明确记载连贯工作链与对象适应性调整，符合连贯可追溯等级。"
+    },
+    {
+      "sample_id": "SID-2370B3A53C68A69849",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-F6A1C1922CBF19D9E3",
+          "verbatim_quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。目前只展示零散要素，尚未形成稳定的关系。",
+          "observable": "data interpretation, decision trace"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "scattered_elements_no_stable_relation",
+      "rationale": "成果材料直接覆盖两项关键指标，但明确表述仅为零散要素且未形成稳定关系，属零散单次水平。"
+    },
+    {
+      "sample_id": "SID-C83E38382292B43AD8",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-05BA076030DBA5287E",
+          "verbatim_quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_improvement_workflow",
+      "rationale": "专项材料完整呈现两项关键可观察项，明确记载多轮改进与复用分享机制，达最高能力等级。"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+```json
+{
+  "ratings": [
+    {
+      "blind_output_id": "RBXFH8XYKCBF",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "步骤为通用模板，未体现课程对齐的具体进阶任务；资源独立并列，缺乏先修逻辑；来源可识别但支持度有限。"
+    },
+    {
+      "blind_output_id": "R2FU9KS4UQ9Y",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "步骤顺序与资源先修声明矛盾（NIST前置要求UNESCO-AI-ETHICS）；任务描述空泛，无法评估工作流能力递进；来源可查。"
+    },
+    {
+      "blind_output_id": "R6SUZ76GFGJH",
+      "target_match": 1,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "单步路径且无具体研究问题设计动作；EQUATOR工具包侧重报告规范，对“问题形成”指标支持较弱；来源明确。"
+    },
+    {
+      "blind_output_id": "RDQS59FGP3Z8",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "四步结构呈现从课程设计到UDL再到无障碍的合理资源链；但步骤文本完全重复，未体现难度递进或具体产出标准；来源权威。"
+    },
+    {
+      "blind_output_id": "RNQWR8AWM828",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "步骤顺序与资源依赖关系倒置；缺乏AI响应伦理决策的具体情境任务；来源清晰可验证。"
+    },
+    {
+      "blind_output_id": "RLCTWJ5K6NS2",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "双资源并行无整合任务；步骤未跨越至目标对齐的证据边界；来源可识别。"
+    },
+    {
+      "blind_output_id": "RNF2V5GZVFYA",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "步骤未区分数据组织与分析的技能层级；两资源无先后依赖，难以支撑数据能力进阶；来源为标准参考。"
+    },
+    {
+      "blind_output_id": "RG887E2T8GFA",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "结构与RNF2V5GZVFYA相同，仅资源顺序调换；缺乏数据清洗到分析的难度梯度设计；来源明确。"
+    },
+    {
+      "blind_output_id": "R48LLGYZEKWH",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "模板化步骤掩盖了实际技能发展路径；资源并列使用未体现学习进阶；来源可信。"
+    },
+    {
+      "blind_output_id": "RLS7BZBW3JWK",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "资源链逻辑连贯，符合从宏观设计到微观无障碍的递进意图；但步骤内容高度同质化，未提供可操作的难度跃迁证据；来源权威。"
+    },
+    {
+      "blind_output_id": "RZ2LPEMBMPEW",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "步骤未涉及研究成果传播或学术交流的具体策略；COPE与EQUATOR侧重伦理与规范，对“沟通”指标的直接支持不足；来源可查。"
+    },
+    {
+      "blind_output_id": "RJKRY7G3BDF2",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "步骤描述无法映射数据能力进阶；资源无依赖关系，难以构成学习阶梯；来源为标准机构发布。"
+    }
+  ]
+}
+```

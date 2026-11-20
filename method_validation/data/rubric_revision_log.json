@@ -1,0 +1,102 @@
+{
+  "pilot_n": 12,
+  "rounds": 2,
+  "execution_type": "two_independent_blind_qwen_annotation_rounds",
+  "model": "qwen3.7-flash",
+  "temperatures": {
+    "1": 0.2,
+    "2": 0.25
+  },
+  "source_files": {
+    "blind_input": "method_validation/data/pilot_annotation_records.jsonl",
+    "round_1": "method_validation/data/pilot_annotation_round_1.jsonl",
+    "round_2": "method_validation/data/pilot_annotation_round_2.jsonl",
+    "raw_round_1": "method_validation/data/annotation_raw/pilot/round_1/",
+    "raw_round_2": "method_validation/data/annotation_raw/pilot/round_2/",
+    "comparison": "method_validation/data/pilot_annotation_comparison.json",
+    "post_round_reference": "method_validation/data/pilot_annotation_reference.jsonl",
+    "frozen_rubric": "method_validation/data/annotation_rubric.json"
+  },
+  "blindness": {
+    "input_file": "pilot_annotation_records.jsonl",
+    "construction_reference_opened_after_both_rounds": true,
+    "method_predictions_visible": false,
+    "condition_names_visible": false,
+    "teacher_clusters_visible": false
+  },
+  "observed_results": {
+    "state_exact_agreement": {
+      "raw_numerator": 12,
+      "raw_denominator": 12,
+      "jeffreys_rate": 0.9615384615384616
+    },
+    "level_exact_agreement_when_both_e": {
+      "raw_numerator": 9,
+      "raw_denominator": 9,
+      "jeffreys_rate": 0.95
+    },
+    "mean_evidence_doc_jaccard": {
+      "raw_numerator": 12.0,
+      "raw_denominator": 12,
+      "jeffreys_rate": 0.9615384615384616
+    },
+    "all_saved_quotes_exactly_located": true,
+    "issue_counts": {
+      "action_not_aligned_with_final_mapping": 4,
+      "round_action_disagreement": 2
+    }
+  },
+  "changes_before_freeze": [
+    {
+      "topic": "同源副本与来源独立性",
+      "observed_issue": "两轮证据文档选择不完全相同 0/12；草案未说明同一 source_ref 如何计数。",
+      "frozen_resolution": "共享 source_ref 的副本或转述只计一个证据家族；同源 OCR 反向句不能单独构成独立冲突。"
+    },
+    {
+      "topic": "时间演变与当前冲突",
+      "observed_issue": "两轮状态分歧 0/12，至少一轮与设计参考状态不同 0/12；草案未规定历史差异何时可解释为演变。",
+      "frozen_resolution": "旧记录只有在材料明确说明已被后续版本替代时才按发展演变解释。"
+    },
+    {
+      "topic": "状态到动作的安全路由",
+      "observed_issue": "模型原报动作与最终唯一映射不同 4/12；草案只列动作集合。",
+      "frozen_resolution": "E且1–2=strengthen；E且3–4=deepen_integrate；I=request_evidence；C=human_review。"
+    },
+    {
+      "topic": "非 E 状态不计能力等级",
+      "observed_issue": "非 E 仍报告等级 0/12；无论本次是否触发，草案未显式禁止。",
+      "frozen_resolution": "仅在 E 时给 1–4 级；I/C 的 level 必须为 null。"
+    },
+    {
+      "topic": "逐字证据与定位",
+      "observed_issue": "两轮证据选择不一致 0/12；草案要求逐字片段但未要求持久化字符定位。",
+      "frozen_resolution": "保存 doc_id、逐字片段、字符定位、可观察项和 source_ref；引文须通过原文精确匹配。"
+    }
+  ],
+  "final_frozen_rubric": {
+    "version": "M1-RUBRIC-2026-11-19.2",
+    "states": {
+      "E": "关键可观察项有可核查、可归属的证据，且无未解决的当前独立冲突",
+      "I": "关键证据缺失、代表性不足、贡献不可辨或材料不可用",
+      "C": "同一关键可观察项存在来源独立、时间上不能合理解释的相反证据"
+    },
+    "levels": {
+      "1": "要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+      "2": "已形成基本做法，并能说明部分选择理由与操作步骤。",
+      "3": "形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+      "4": "能够依据多轮证据持续改进，并形成可复用、可分享的机制。"
+    },
+    "actions": {
+      "strengthen": "E 且等级 1–2，目标匹配时补弱",
+      "deepen_integrate": "E 且等级 3–4，深化或整合",
+      "request_evidence": "I 时补证或低假设诊断",
+      "human_review": "C 时暂停针对性路径并人工核验"
+    },
+    "family_rule": "共享 source_ref 的副本与转述只计一个证据家族",
+    "temporal_rule": "仅当材料明确说明旧记录已被后续版本替代时按发展解释；否则当前独立结论相反为 C",
+    "contribution_rule": "只有可归属给档案主体的实质贡献才支持能力等级",
+    "evidence_rule": "每项证据保存现有文档 ID、逐字片段、字符定位、observable 和 source_ref",
+    "input_exclusion_rule": "标注与方法输入均不含构造角色、极性、可观察项标签、提示注入标记或证据家族真值"
+  },
+  "frozen_version": "M1-RUBRIC-2026-11-19.2"
+}

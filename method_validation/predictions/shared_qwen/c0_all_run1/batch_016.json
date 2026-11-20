@@ -1,0 +1,290 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-857C967910E762AE2D",
+      "evidence": [
+        {
+          "doc_id": "DOC-024FFC78E98C44B131",
+          "quote": "该项工作围绕“AI 风险、隐私与版权治理”展开，记录了 bias check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-D7B6511692B287",
+          "polarity": "context",
+          "observables": [
+            "bias check"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-D7B6511692B287"
+        ],
+        "reason_code": "partial_summary_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-706765B7CA81027F95",
+      "evidence": [
+        {
+          "doc_id": "DOC-AF4FA972C117A58A29",
+          "quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "family_key": "SRC-2F7E6EEFD87F67",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-2F7E6EEFD87F67"
+        ],
+        "reason_code": "coherent_design_chain"
+      }
+    },
+    {
+      "sample_id": "SID-435405F9E88A58AF9F",
+      "evidence": [
+        {
+          "doc_id": "DOC-BF67BE21CCB77DF5C7",
+          "quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "family_key": "SRC-D5C1834182E260",
+          "polarity": "support",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-D5C1834182E260"
+        ],
+        "reason_code": "coherent_design_chain"
+      }
+    },
+    {
+      "sample_id": "SID-1D99AB162AC8F35164",
+      "evidence": [
+        {
+          "doc_id": "DOC-879915FF8929AE67C5",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "family_key": "SRC-FCA44F7C95FA41",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-FCA44F7C95FA41"
+        ],
+        "reason_code": "coherent_design_chain"
+      }
+    },
+    {
+      "sample_id": "SID-1FB56BEC268093E2DF",
+      "evidence": [
+        {
+          "doc_id": "DOC-B9DBB073E68292A0D3",
+          "quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "family_key": "SRC-94D73A6794567E",
+          "polarity": "context",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-94D73A6794567E"
+        ],
+        "reason_code": "partial_summary_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-C43F010CB87FFDF8B5",
+      "evidence": [
+        {
+          "doc_id": "DOC-1AD93F4EBA65C79238",
+          "quote": "该项工作围绕“学术表达与个人贡献”展开，记录了 audience adaptation、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-4DBE4A82D92834",
+          "polarity": "context",
+          "observables": [
+            "audience adaptation"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-4DBE4A82D92834"
+        ],
+        "reason_code": "partial_summary_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-40624BAE3D8202DD3C",
+      "evidence": [
+        {
+          "doc_id": "DOC-9E9FA9C7909EDD2791",
+          "quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "family_key": "SRC-16BFFB57511DD6",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-16BFFB57511DD6"
+        ],
+        "reason_code": "coherent_design_chain"
+      }
+    },
+    {
+      "sample_id": "SID-FAADBC70EC658F22CB",
+      "evidence": [
+        {
+          "doc_id": "DOC-847C145FA85E2BA03E",
+          "quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "family_key": "SRC-0982D7ABCD6B07",
+          "polarity": "support",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-0982D7ABCD6B07"
+        ],
+        "reason_code": "coherent_design_chain"
+      }
+    },
+    {
+      "sample_id": "SID-5B53D681CDD9948EA7",
+      "evidence": [
+        {
+          "doc_id": "DOC-E2867C212182C48326",
+          "quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "family_key": "SRC-22A17613B95282",
+          "polarity": "context",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-22A17613B95282"
+        ],
+        "reason_code": "partial_summary_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-F4528DA347CAAED492",
+      "evidence": [
+        {
+          "doc_id": "DOC-5C6FE4FFF9793EB87B",
+          "quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "family_key": "SRC-65379501DC49D3",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-65379501DC49D3"
+        ],
+        "reason_code": "coherent_design_chain"
+      }
+    },
+    {
+      "sample_id": "SID-8692281A42A8632E25",
+      "evidence": [
+        {
+          "doc_id": "DOC-61AC42393A7B84A385",
+          "quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "family_key": "SRC-137110D69F0C2E",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-137110D69F0C2E"
+        ],
+        "reason_code": "coherent_design_chain"
+      }
+    },
+    {
+      "sample_id": "SID-E4889E3E9417A2CE0F",
+      "evidence": [
+        {
+          "doc_id": "DOC-F220721FA8EAF50058",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "family_key": "SRC-4A2F10FD41DAE5",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-4A2F10FD41DAE5"
+        ],
+        "reason_code": "coherent_design_chain"
+      }
+    }
+  ]
+}

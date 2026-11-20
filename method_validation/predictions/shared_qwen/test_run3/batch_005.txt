@@ -1,0 +1,252 @@
+{
+"records":[
+{
+"sample_id":"SID-01071A5A040EAAA520",
+"evidence":[
+{
+"doc_id":"DOC-2261D4B956F37DD145",
+"quote":"材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。",
+"family_key":"SRC-D7F6F6DA27BD72",
+"polarity":"support",
+"observables":["data interpretation","decision trace"],
+"extraction_confidence":0.9
+},
+{
+"doc_id":"DOC-83C8695B48C59DAE81",
+"quote":"该项工作围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期、版本号与后续安排；",
+"family_key":"SRC-D7F6F6DA27BD72",
+"polarity":"context",
+"observables":["privacy safeguard"],
+"extraction_confidence":0.6
+}
+],
+"generic":{"level":3,"self_confidence":0.8,"cited_family_keys":["SRC-D7F6F6DA27BD72"],"reason_code":"partial_coverage"}
+},
+{
+"sample_id":"SID-757B374B999B64F882",
+"evidence":[
+{
+"doc_id":"DOC-847C145FA85E2BA03E",
+"quote":"材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。",
+"family_key":"SRC-0982D7ABCD6B07",
+"polarity":"support",
+"observables":["risk assessment","privacy or copyright safeguard"],
+"extraction_confidence":0.9
+},
+{
+"doc_id":"DOC-BDA03BDE40373CEDC2",
+"quote":"该项工作围绕“AI 风险、隐私与版权治理”展开，记录了 bias check、会议日期、版本号与后续安排；",
+"family_key":"SRC-0982D7ABCD6B07",
+"polarity":"context",
+"observables":["bias check"],
+"extraction_confidence":0.6
+}
+],
+"generic":{"level":3,"self_confidence":0.8,"cited_family_keys":["SRC-0982D7ABCD6B07"],"reason_code":"partial_coverage"}
+},
+{
+"sample_id":"SID-DCD7CE1630485B35CB",
+"evidence":[
+{
+"doc_id":"DOC-85AE710632AFC49685",
+"quote":"该项工作围绕“学习评价与反馈设计”展开，记录了 formative check、会议日期、版本号与后续安排；",
+"family_key":"SRC-DF09ADC4578F67",
+"polarity":"context",
+"observables":["formative check"],
+"extraction_confidence":0.6
+}
+],
+"generic":{"level":2,"self_confidence":0.7,"cited_family_keys":["SRC-DF09ADC4578F67"],"reason_code":"single_observable"}
+},
+{
+"sample_id":"SID-628DAF145AF1731FDD",
+"evidence":[
+{
+"doc_id":"DOC-158F9515B2EA553C4C",
+"quote":"材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。",
+"family_key":"SRC-94C13807810A3D",
+"polarity":"support",
+"observables":["rubric or criteria","feedback loop"],
+"extraction_confidence":0.9
+},
+{
+"doc_id":"DOC-032C4199B22E79DFA6",
+"quote":"该项工作围绕“学习评价与反馈设计”展开，记录了 formative check、会议日期、版本号与后续安排；",
+"family_key":"SRC-94C13807810A3D",
+"polarity":"context",
+"observables":["formative check"],
+"extraction_confidence":0.6
+}
+],
+"generic":{"level":4,"self_confidence":0.9,"cited_family_keys":["SRC-94C13807810A3D"],"reason_code":"full_alignment"}
+},
+{
+"sample_id":"SID-90C85BAEBBFE237AC7",
+"evidence":[
+{
+"doc_id":"DOC-2EC9387BB61DFE8C70",
+"quote":"该项工作围绕“数字资源设计”展开，记录了 accessibility、会议日期、版本号与后续安排；",
+"family_key":"SRC-C16D5AAFBA3CC9",
+"polarity":"context",
+"observables":["accessibility"],
+"extraction_confidence":0.6
+}
+],
+"generic":{"level":2,"self_confidence":0.7,"cited_family_keys":["SRC-C16D5AAFBA3CC9"],"reason_code":"single_observable"}
+},
+{
+"sample_id":"SID-16D16C59EF643E2A6F",
+"evidence":[
+{
+"doc_id":"DOC-65214993DC9B64F467",
+"quote":"材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。",
+"family_key":"SRC-F055BAFFE0B0BF",
+"polarity":"support",
+"observables":["risk assessment","privacy or copyright safeguard"],
+"extraction_confidence":0.9
+},
+{
+"doc_id":"DOC-19F42CDC511CE54959",
+"quote":"该项工作围绕“AI 风险、隐私与版权治理”展开，记录了 bias check、会议日期、版本号与后续安排；",
+"family_key":"SRC-F055BAFFE0B0BF",
+"polarity":"context",
+"observables":["bias check"],
+"extraction_confidence":0.6
+}
+],
+"generic":{"level":3,"self_confidence":0.8,"cited_family_keys":["SRC-F055BAFFE0B0BF"],"reason_code":"partial_coverage"}
+},
+{
+"sample_id":"SID-E23C7ACB9639649575",
+"evidence":[
+{
+"doc_id":"DOC-2261D4B956F37DD145",
+"quote":"材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。",
+"family_key":"SRC-D7F6F6DA27BD72",
+"polarity":"support",
+"observables":["data interpretation","decision trace"],
+"extraction_confidence":0.9
+},
+{
+"doc_id":"DOC-83C8695B48C59DAE81",
+"quote":"该项工作围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期、版本号与后续安排；",
+"family_key":"SRC-D7F6F6DA27BD72",
+"polarity":"context",
+"observables":["privacy safeguard"],
+"extraction_confidence":0.6
+}
+],
+"generic":{"level":3,"self_confidence":0.8,"cited_family_keys":["SRC-D7F6F6DA27BD72"],"reason_code":"partial_coverage"}
+},
+{
+"sample_id":"SID-2AB5A111D3255FA5E4",
+"evidence":[
+{
+"doc_id":"DOC-2261D4B956F37DD145",
+"quote":"材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。",
+"family_key":"SRC-D7F6F6DA27BD72",
+"polarity":"support",
+"observables":["data interpretation","decision trace"],
+"extraction_confidence":0.9
+},
+{
+"doc_id":"DOC-83C8695B48C59DAE81",
+"quote":"该项工作围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期、版本号与后续安排；",
+"family_key":"SRC-D7F6F6DA27BD72",
+"polarity":"context",
+"observables":["privacy safeguard"],
+"extraction_confidence":0.6
+}
+],
+"generic":{"level":3,"self_confidence":0.8,"cited_family_keys":["SRC-D7F6F6DA27BD72"],"reason_code":"partial_coverage"}
+},
+{
+"sample_id":"SID-BAE9643DCB31895682",
+"evidence":[
+{
+"doc_id":"DOC-0F50B0FC4F86641C71",
+"quote":"材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。",
+"family_key":"SRC-451746478B142B",
+"polarity":"support",
+"observables":["selection rationale","resource adaptation"],
+"extraction_confidence":0.9
+},
+{
+"doc_id":"DOC-91A62C84147604B79D",
+"quote":"该项工作围绕“数字资源设计”展开，记录了 accessibility、会议日期、版本号与后续安排；",
+"family_key":"SRC-451746478B142B",
+"polarity":"context",
+"observables":["accessibility"],
+"extraction_confidence":0.6
+}
+],
+"generic":{"level":3,"self_confidence":0.8,"cited_family_keys":["SRC-451746478B142B"],"reason_code":"partial_coverage"}
+},
+{
+"sample_id":"SID-C7C65B8BF9B48F666C",
+"evidence":[
+{
+"doc_id":"DOC-BFAE45E9FBBE0599EF",
+"quote":"材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。",
+"family_key":"SRC-FD55E387B28E83",
+"polarity":"support",
+"observables":["claim-evidence coherence","contribution statement"],
+"extraction_confidence":0.8
+},
+{
+"doc_id":"DOC-1AF40FD8D66830D0DA",
+"quote":"该项工作围绕“学术表达与个人贡献”展开，记录了 audience adaptation、会议日期、版本号与后续安排；",
+"family_key":"SRC-FD55E387B28E83",
+"polarity":"context",
+"observables":["audience adaptation"],
+"extraction_confidence":0.6
+}
+],
+"generic":{"level":3,"self_confidence":0.8,"cited_family_keys":["SRC-FD55E387B28E83"],"reason_code":"partial_coverage"}
+},
+{
+"sample_id":"SID-4A6ECF1C61C8FEDBE0",
+"evidence":[
+{
+"doc_id":"DOC-BB2EDECFEA54A866E7",
+"quote":"材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。",
+"family_key":"SRC-771A80395E3CEF",
+"polarity":"support",
+"observables":["data interpretation","decision trace"],
+"extraction_confidence":0.8
+},
+{
+"doc_id":"DOC-1A69B2EA23498A0B4B",
+"quote":"该项工作围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期、版本号与后续安排；",
+"family_key":"SRC-771A80395E3CEF",
+"polarity":"context",
+"observables":["privacy safeguard"],
+"extraction_confidence":0.6
+}
+],
+"generic":{"level":3,"self_confidence":0.8,"cited_family_keys":["SRC-771A80395E3CEF"],"reason_code":"partial_coverage"}
+},
+{
+"sample_id":"SID-8BBEFCF8844027006A",
+"evidence":[
+{
+"doc_id":"DOC-03A8FFF8EDDAE7A720",
+"quote":"材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。",
+"family_key":"SRC-2D1B8856FE0FB7",
+"polarity":"support",
+"observables":["claim-evidence coherence","contribution statement"],
+"extraction_confidence":0.9
+},
+{
+"doc_id":"DOC-4B281BE03BC9EE269A",
+"quote":"该项工作围绕“学术表达与个人贡献”展开，记录了 audience adaptation、会议日期、版本号与后续安排；",
+"family_key":"SRC-2D1B8856FE0FB7",
+"polarity":"context",
+"observables":["audience adaptation"],
+"extraction_confidence":0.6
+}
+],
+"generic":{"level":3,"self_confidence":0.8,"cited_family_keys":["SRC-2D1B8856FE0FB7"],"reason_code":"partial_coverage"}
+}
+]
+}

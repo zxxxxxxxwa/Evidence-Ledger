@@ -1,0 +1,400 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-47827E210DC41A9D84",
+      "evidence": [
+        {
+          "doc_id": "DOC-565C4D05F538BF674C",
+          "quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据",
+          "family_key": "SRC-07C2302D08917F",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-565C4D05F538BF674C",
+          "quote": "同时呈现 contribution statement：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链",
+          "family_key": "SRC-07C2302D08917F",
+          "polarity": "support",
+          "observables": [
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-07C2302D08917F"
+        ],
+        "reason_code": "coherent_chain_contribution"
+      }
+    },
+    {
+      "sample_id": "SID-1EEEE3666D301B8FC7",
+      "evidence": [
+        {
+          "doc_id": "DOC-AA5EF5FE14994B58E6",
+          "quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据",
+          "family_key": "SRC-0F0C2CDF5F6CB3",
+          "polarity": "support",
+          "observables": [
+            "task allocation"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-AA5EF5FE14994B58E6",
+          "quote": "同时呈现 verification protocol：逐项记录设计选择和核验结果。能够依据多轮证据持续改进",
+          "family_key": "SRC-0F0C2CDF5F6CB3",
+          "polarity": "support",
+          "observables": [
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-0F0C2CDF5F6CB3"
+        ],
+        "reason_code": "iterative_workflow_design"
+      }
+    },
+    {
+      "sample_id": "SID-7E8FC9798116FC6BBA",
+      "evidence": [
+        {
+          "doc_id": "DOC-4EB9C026683DEE7A76",
+          "quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据",
+          "family_key": "SRC-BDCE4BF497AC26",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-4EB9C026683DEE7A76",
+          "quote": "同时呈现 contribution statement：逐项记录设计选择和核验结果。能够依据多轮证据持续改进",
+          "family_key": "SRC-BDCE4BF497AC26",
+          "polarity": "support",
+          "observables": [
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-BDCE4BF497AC26"
+        ],
+        "reason_code": "sustained_improvement_claim"
+      }
+    },
+    {
+      "sample_id": "SID-8D443629D5A4CFC117",
+      "evidence": [
+        {
+          "doc_id": "DOC-72108F86186722BCB7",
+          "quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据",
+          "family_key": "SRC-8052198A1FDA2F",
+          "polarity": "support",
+          "observables": [
+            "selection rationale"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-72108F86186722BCB7",
+          "quote": "同时呈现 resource adaptation：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链",
+          "family_key": "SRC-8052198A1FDA2F",
+          "polarity": "support",
+          "observables": [
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-8052198A1FDA2F"
+        ],
+        "reason_code": "traceable_resource_design"
+      }
+    },
+    {
+      "sample_id": "SID-001A1CA52AC9C00DD1",
+      "evidence": [
+        {
+          "doc_id": "DOC-969F5C124B43D3BD3D",
+          "quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据",
+          "family_key": "SRC-CA85BF3749F22B",
+          "polarity": "support",
+          "observables": [
+            "task allocation"
+          ],
+          "extraction_confidence": 0.85
+        },
+        {
+          "doc_id": "DOC-969F5C124B43D3BD3D",
+          "quote": "同时呈现 verification protocol：逐项记录设计选择和核验结果。已形成基本做法",
+          "family_key": "SRC-CA85BF3749F22B",
+          "polarity": "support",
+          "observables": [
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.85
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-CA85BF3749F22B"
+        ],
+        "reason_code": "basic_task_verification"
+      }
+    },
+    {
+      "sample_id": "SID-DE31A56D9B72B4815A",
+      "evidence": [
+        {
+          "doc_id": "DOC-1BC08AC0D44FC66B53",
+          "quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据",
+          "family_key": "SRC-4344A120BF9CCF",
+          "polarity": "support",
+          "observables": [
+            "research gap"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-1BC08AC0D44FC66B53",
+          "quote": "同时呈现 question-method fit：逐项记录设计选择和核验结果。目前只展示零散要素",
+          "family_key": "SRC-4344A120BF9CCF",
+          "polarity": "context",
+          "observables": [
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.75,
+        "cited_family_keys": [
+          "SRC-4344A120BF9CCF"
+        ],
+        "reason_code": "fragmented_research_gap"
+      }
+    },
+    {
+      "sample_id": "SID-0CB1798A5B772FC96A",
+      "evidence": [
+        {
+          "doc_id": "DOC-D9972D722CB0BA2B6A",
+          "quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据",
+          "family_key": "SRC-5FDDFAF2A211C9",
+          "polarity": "support",
+          "observables": [
+            "risk assessment"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-D9972D722CB0BA2B6A",
+          "quote": "同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。能够依据多轮证据持续改进",
+          "family_key": "SRC-5FDDFAF2A211C9",
+          "polarity": "support",
+          "observables": [
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-5FDDFAF2A211C9"
+        ],
+        "reason_code": "iterative_risk_safeguard"
+      }
+    },
+    {
+      "sample_id": "SID-35AD21ED334BDF8437",
+      "evidence": [
+        {
+          "doc_id": "DOC-AD48E1CF52B7E2A217",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据",
+          "family_key": "SRC-2D3F085699DA29",
+          "polarity": "support",
+          "observables": [
+            "data interpretation"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-AD48E1CF52B7E2A217",
+          "quote": "同时呈现 decision trace：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散",
+          "family_key": "SRC-2D3F085699DA29",
+          "polarity": "context",
+          "observables": [
+            "decision trace"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.75,
+        "cited_family_keys": [
+          "SRC-2D3F085699DA29"
+        ],
+        "reason_code": "loose_data_trace"
+      }
+    },
+    {
+      "sample_id": "SID-9939C4AB82A8A78B5F",
+      "evidence": [
+        {
+          "doc_id": "DOC-C26C844EB1E7433E20",
+          "quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据",
+          "family_key": "SRC-500019EB43FF39",
+          "polarity": "support",
+          "observables": [
+            "task allocation"
+          ],
+          "extraction_confidence": 0.85
+        },
+        {
+          "doc_id": "DOC-C26C844EB1E7433E20",
+          "quote": "同时呈现 verification protocol：逐项记录设计选择和核验结果。已形成基本做法",
+          "family_key": "SRC-500019EB43FF39",
+          "polarity": "support",
+          "observables": [
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.85
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-500019EB43FF39"
+        ],
+        "reason_code": "basic_task_verification"
+      }
+    },
+    {
+      "sample_id": "SID-DEE2E9904100444CB4",
+      "evidence": [
+        {
+          "doc_id": "DOC-4EB9C026683DEE7A76",
+          "quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据",
+          "family_key": "SRC-BDCE4BF497AC26",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-4EB9C026683DEE7A76",
+          "quote": "同时呈现 contribution statement：逐项记录设计选择和核验结果。能够依据多轮证据持续改进",
+          "family_key": "SRC-BDCE4BF497AC26",
+          "polarity": "support",
+          "observables": [
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-BDCE4BF497AC26"
+        ],
+        "reason_code": "sustained_improvement_claim"
+      }
+    },
+    {
+      "sample_id": "SID-CA67F4E1B5EAD52E59",
+      "evidence": [
+        {
+          "doc_id": "DOC-A21F2A541386A0EF18",
+          "quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据",
+          "family_key": "SRC-521266A5F77E64",
+          "polarity": "support",
+          "observables": [
+            "research gap"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-A21F2A541386A0EF18",
+          "quote": "同时呈现 question-method fit：逐项记录设计选择和核验结果。能够依据多轮证据持续改进",
+          "family_key": "SRC-521266A5F77E64",
+          "polarity": "support",
+          "observables": [
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-521266A5F77E64"
+        ],
+        "reason_code": "iterative_question_fit"
+      }
+    },
+    {
+      "sample_id": "SID-1C1514F36D5099BBC3",
+      "evidence": [
+        {
+          "doc_id": "DOC-DB5AF4899C24C96133",
+          "quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据",
+          "family_key": "SRC-7F40CF219FC443",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-DB5AF4899C24C96133",
+          "quote": "同时呈现 contribution statement：逐项记录设计选择和核验结果。能够依据多轮证据持续改进",
+          "family_key": "SRC-7F40CF219FC443",
+          "polarity": "support",
+          "observables": [
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-7F40CF219FC443"
+        ],
+        "reason_code": "sustained_improvement_claim"
+      }
+    }
+  ]
+}

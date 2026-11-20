@@ -1,0 +1,19 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-03FF7EDAD639BE01C1",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-2961342E084BB183F3",
+          "verbatim_quote": "本人在自填汇总中声明：task allocation 与 verification protocol 均已完成。本页仅记录本人陈述，未附相应成果片段。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_observable_evidence",
+      "rationale": "仅存申请人自填声明，材料明确记载未附具体设计链与成果片段，关键可观察项无可核查实质证据。"
+    }
+  ]
+}

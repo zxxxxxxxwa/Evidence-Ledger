@@ -1,0 +1,345 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-1A4A9795041031CE7F",
+      "evidence": [
+        {
+          "doc_id": "DOC-B5DEB469E75EE8C619",
+          "quote": "材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-F5F5846BC91EB4",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-FE5949D2061551E6C0",
+          "quote": "该项工作围绕“学术表达与个人贡献”展开，记录了 audience adaptation",
+          "family_key": "SRC-F5F5846BC91EB4",
+          "polarity": "context",
+          "observables": [
+            "audience adaptation"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-F5F5846BC91EB4"
+        ],
+        "reason_code": "basic_claims_contribution_established"
+      }
+    },
+    {
+      "sample_id": "SID-5447CC5950FACBF8DD",
+      "evidence": [
+        {
+          "doc_id": "DOC-917B41ED166423E3E0",
+          "quote": "材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-C358354C136B8C",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.95
+        },
+        {
+          "doc_id": "DOC-2E7502F846809A33CC",
+          "quote": "能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "family_key": "SRC-C358354C136B8C",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-C358354C136B8C"
+        ],
+        "reason_code": "advanced_iterative_mechanisms"
+      }
+    },
+    {
+      "sample_id": "SID-55621BD0E804E6779A",
+      "evidence": [
+        {
+          "doc_id": "DOC-BA5E3EC8A07D07C284",
+          "quote": "该项工作围绕“AI 风险、隐私与版权治理”展开，记录了 privacy safeguard",
+          "family_key": "SRC-C4D7C794E70BBA",
+          "polarity": "context",
+          "observables": [
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.4
+        },
+        {
+          "doc_id": "DOC-2D38D1ED2202302E8C",
+          "quote": "该项工作围绕“AI 风险、隐私与版权治理”展开，记录了 bias check",
+          "family_key": "SRC-38D4BB671B77EE",
+          "polarity": "context",
+          "observables": [
+            "bias check"
+          ],
+          "extraction_confidence": 0.4
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-C4D7C794E70BBA",
+          "SRC-38D4BB671B77EE"
+        ],
+        "reason_code": "insufficient_direct_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-8921651877A2BF6A7B",
+      "evidence": [
+        {
+          "doc_id": "DOC-8ABE55100A8C0BFF4B",
+          "quote": "该项工作围绕“数字资源设计”展开，记录了 accessibility",
+          "family_key": "SRC-2489A625D6C8DA",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.4
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-2489A625D6C8DA"
+        ],
+        "reason_code": "no_substantive_material"
+      }
+    },
+    {
+      "sample_id": "SID-7B5DE60249979850A6",
+      "evidence": [
+        {
+          "doc_id": "DOC-FF81FD15832F0705C7",
+          "quote": "材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-3D32E454473A2D",
+          "polarity": "support",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-BD461302CA538CD34E",
+          "quote": "复核未发现可核查的 task allocation，且 verification protocol 的记录与已提交结论相反",
+          "family_key": "SRC-73B84F260C2DD3",
+          "polarity": "contradict",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.75,
+        "cited_family_keys": [
+          "SRC-3D32E454473A2D",
+          "SRC-73B84F260C2DD3"
+        ],
+        "reason_code": "strong_workflow_evidence_despite_review"
+      }
+    },
+    {
+      "sample_id": "SID-029C3969F76C2436DD",
+      "evidence": [
+        {
+          "doc_id": "DOC-D32ABEEBB604E22C42",
+          "quote": "材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-38D4BB671B77EE",
+          "polarity": "support",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-E368A26BE9F2C494B5",
+          "quote": "复核未发现可核查的 risk assessment，且 privacy or copyright safeguard 的记录与已提交结论相反",
+          "family_key": "SRC-AF14467A138F3E",
+          "polarity": "contradict",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-38D4BB671B77EE",
+          "SRC-AF14467A138F3E"
+        ],
+        "reason_code": "advanced_risk_governance"
+      }
+    },
+    {
+      "sample_id": "SID-3D01CB21042859546A",
+      "evidence": [
+        {
+          "doc_id": "DOC-48D934272CBADBAB48",
+          "quote": "材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-FC544487FD060B",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.85
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-FC544487FD060B"
+        ],
+        "reason_code": "basic_claims_contribution"
+      }
+    },
+    {
+      "sample_id": "SID-956CE5D604FA262766",
+      "evidence": [
+        {
+          "doc_id": "DOC-158F9515B2EA553C4C",
+          "quote": "材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-94C13807810A3D",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-94C13807810A3D"
+        ],
+        "reason_code": "iterative_feedback_loop"
+      }
+    },
+    {
+      "sample_id": "SID-6358A4472F20748ABD",
+      "evidence": [
+        {
+          "doc_id": "DOC-1A69B2EA23498A0B4B",
+          "quote": "该项工作围绕“数据支持的教学决策”展开，记录了 privacy safeguard",
+          "family_key": "SRC-771A80395E3CEF",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.4
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-771A80395E3CEF"
+        ],
+        "reason_code": "no_substantive_material"
+      }
+    },
+    {
+      "sample_id": "SID-D9854CCA130B9427BF",
+      "evidence": [
+        {
+          "doc_id": "DOC-C64966D5F6154A7D6E",
+          "quote": "材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-EC301EB1E345B5",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-EC301EB1E345B5"
+        ],
+        "reason_code": "coherent_workchain_claims"
+      }
+    },
+    {
+      "sample_id": "SID-06F5A6A2D83A60029B",
+      "evidence": [
+        {
+          "doc_id": "DOC-3C117293EA7E5B046C",
+          "quote": "材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-A4EE67F1B05E59",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.85
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-A4EE67F1B05E59"
+        ],
+        "reason_code": "basic_feedback_criteria"
+      }
+    },
+    {
+      "sample_id": "SID-87C03FEB411241C3BA",
+      "evidence": [
+        {
+          "doc_id": "DOC-C69B2F4397819222F8",
+          "quote": "材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-ED1F9111B20919",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-ED1F9111B20919"
+        ],
+        "reason_code": "adaptive_resource_design"
+      }
+    }
+  ]
+}

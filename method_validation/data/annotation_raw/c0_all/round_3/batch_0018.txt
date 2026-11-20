@@ -1,0 +1,204 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-A541D2D2930471D5E0",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-591D840DE10C1326E5",
+          "verbatim_quote": "围绕“数字资源设计”展开，记录了 accessibility、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "selection rationale"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_observables",
+      "rationale": "档案摘要仅记录通用管理项，未展开selection rationale与resource adaptation的具体设计链。"
+    },
+    {
+      "sample_id": "SID-AE5B32F972A3D38F0A",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-41C7EFB652CBE84D5B",
+          "verbatim_quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "data interpretation"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_established",
+      "rationale": "材料直接呈现两项关键可观察项并描述基本做法与操作逻辑。"
+    },
+    {
+      "sample_id": "SID-5292D22B11E3843191",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-AA5EF5FE14994B58E6",
+          "verbatim_quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "task allocation"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_iterative_shareable",
+      "rationale": "材料明确展示多轮迭代改进与可复用分享机制，符合最高等级标准。"
+    },
+    {
+      "sample_id": "SID-D98FDE498431C073C0",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-47A5A9C957C8115212",
+          "verbatim_quote": "复核未发现可核查的 risk assessment，且 privacy or copyright safeguard 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "observable": "risk assessment"
+        },
+        {
+          "doc_id": "DOC-CE3FF05CB502BCAB65",
+          "verbatim_quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "risk assessment"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_review_conflict",
+      "rationale": "独立后期复核判定关键做法尚未建立，与成果材料声称的连贯工作链存在不可调和的独立冲突。"
+    },
+    {
+      "sample_id": "SID-69454CFB3DAC7A8B77",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-340D2C3288E1F8AAE3",
+          "verbatim_quote": "围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "explicit learning outcomes"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_observables",
+      "rationale": "唯一相关档案摘要仅记录关联理由，未提供explicit learning outcomes与assessment alignment的可核查片段。"
+    },
+    {
+      "sample_id": "SID-0E3D28642D555BF35E",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-185D91580769671188",
+          "verbatim_quote": "围绕“学习评价与反馈设计”展开，记录了 formative check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "rubric or criteria"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_observables",
+      "rationale": "档案摘要仅记录formative check，缺失rubric or criteria与feedback loop的具体设计链证据。"
+    },
+    {
+      "sample_id": "SID-2EFB6A3FAE6595B888",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-77FDC034507938F531",
+          "verbatim_quote": "复核未发现可核查的 research gap，且 question-method fit 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "observable": "research gap"
+        },
+        {
+          "doc_id": "DOC-A03735A4A97098B649",
+          "verbatim_quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "research gap"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_review_conflict",
+      "rationale": "独立后期复核判定关键做法尚未建立，与成果材料声称的连贯可追溯工作链存在独立冲突。"
+    },
+    {
+      "sample_id": "SID-4C024C27A367630E12",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-1FD6A127925479EDA3",
+          "verbatim_quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "claim-evidence coherence"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_established",
+      "rationale": "材料直接呈现两项关键可观察项并描述基本做法与操作逻辑。"
+    },
+    {
+      "sample_id": "SID-84F73A7DED2F4AD901",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-C661D172D7CAA82A69",
+          "verbatim_quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "selection rationale"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "scattered_single_attempt",
+      "rationale": "关键可观察项已记录但关系松散，证据表现局限于单次尝试。"
+    },
+    {
+      "sample_id": "SID-C2EEFF9803DAA20CDA",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-DDEA772A851D923489",
+          "verbatim_quote": "复核未发现可核查的 data interpretation，且 decision trace 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "observable": "data interpretation"
+        },
+        {
+          "doc_id": "DOC-D2F2F6D1B104626DC4",
+          "verbatim_quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "data interpretation"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_review_conflict",
+      "rationale": "独立后期复核判定关键做法尚未建立，与成果材料声称的单次尝试设计存在独立冲突。"
+    },
+    {
+      "sample_id": "SID-F4571838D546BE7C64",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-E4C42693DE68CE96D1",
+          "verbatim_quote": "复核未发现可核查的 task allocation，且 verification protocol 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "observable": "task allocation"
+        },
+        {
+          "doc_id": "DOC-A4AEAAEB00123E0F5B",
+          "verbatim_quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "task allocation"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_review_conflict",
+      "rationale": "独立后期复核判定关键做法尚未建立，与成果材料声称的基本做法存在独立冲突。"
+    },
+    {
+      "sample_id": "SID-03A2C18956E07302CF",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-ADE0BA8AB12A31A9E9",
+          "verbatim_quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "risk assessment"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_established",
+      "rationale": "材料直接呈现两项关键可观察项并描述基本做法与操作逻辑。"
+    }
+  ]
+}

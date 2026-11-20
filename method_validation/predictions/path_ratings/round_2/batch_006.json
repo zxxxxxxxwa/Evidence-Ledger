@@ -1,0 +1,100 @@
+{
+  "ratings": [
+    {
+      "blind_output_id": "RM6XA3VC7NMR",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤模板完全重复，未体现课程对齐的具体操作与难度递进；资源（DigCompEdu/CMU）真实权威，摘要准确，建议未越过证据边界。"
+    },
+    {
+      "blind_output_id": "RQTWA6YXY87P",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "步骤内容空泛，缺乏研究问题设计的逻辑链条；资源（EQUATOR/UNESCO AI Ethics）来源可查，但AI伦理对研究问题的直接支持度有限，建议合理。"
+    },
+    {
+      "blind_output_id": "RSW2ZLRXNY6Z",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤无实质区分，未展现工作流优化的递进关系；NIST RMF与CMU指南契合流程管理主题，资源支持度高，建议未越界。"
+    },
+    {
+      "blind_output_id": "RBMWK9SJ67PM",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "路径未针对反馈机制构建展开，步骤同质化严重；DigCompEdu与CMU指南属通用框架，对反馈指标的支持中等，建议保守安全。"
+    },
+    {
+      "blind_output_id": "R3QWJLS2QT9L",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "同前，步骤未体现对齐进阶；资源匹配课程审查需求，来源清晰，但路径设计缺乏可操作性与递进逻辑。"
+    },
+    {
+      "blind_output_id": "RRWU2KH9CR67",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "步骤未覆盖沟通策略，递进缺失；EQUATOR与COPE聚焦报告规范与伦理，对沟通支持有限但来源可信，建议未超边界。"
+    },
+    {
+      "blind_output_id": "RFMKSBA7KJVA",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "步骤模板化，未体现资源开发阶梯；W3C WAI与DigCompEdu相关，但先修指向路径外资源，连贯性不足，建议稳妥。"
+    },
+    {
+      "blind_output_id": "RDKJNZ2NPLMS",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤重复，未体现反馈改进逻辑；CAST UDL与CMU指南为教育设计权威，资源支持度高，建议未越过证据边界。"
+    },
+    {
+      "blind_output_id": "RV6DD74HY8ZB",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "路径未展现数据能力发展序列；Data Carpentry与DigCompEdu来源明确，但步骤脱节，执行细节模糊，建议合理。"
+    },
+    {
+      "blind_output_id": "R7DQSLUNR9P9",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤无区分度；DigCompEdu配套CheckIn工具精准对应资源目标，资源支持度高，但路径设计空洞，建议未越界。"
+    },
+    {
+      "blind_output_id": "R2NK9S6ZDB3A",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "虽有三步且资源存在先修链，但步骤文本完全一致，未体现工作流进阶；UNESCO与NIST资源权威，支持度高，建议保守。"
+    },
+    {
+      "blind_output_id": "RWVPXTF6P9CG",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "步骤未针对负责任使用设计；UNESCO AI框架与伦理建议书来源可靠，但路径缺乏针对性与递进，建议未超出证据范围。"
+    }
+  ]
+}

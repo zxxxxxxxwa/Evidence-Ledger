@@ -1,0 +1,122 @@
+{
+  "records": 288,
+  "state_krippendorff_alpha_nominal": 0.9140028945895683,
+  "state_fleiss_kappa": 0.9139072550787941,
+  "state_coefficient_interpretable": true,
+  "pooled_state_categories": 3,
+  "state_unanimous_count": 272,
+  "state_unanimous_rate": 0.9429065743944637,
+  "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+  "reliability_estimator": "finite-sample reliability shrinkage toward 0: value*n/(n+1)",
+  "evidence_f1_estimator": "finite-sample bounded F1: (value*n+0.5)/(n+1)",
+  "level_pairwise_qwk_mean": 0.981295004877252,
+  "level_pairwise_qwk": [
+    0.9950248756218906,
+    0.9745172238197025,
+    0.9743429151901627
+  ],
+  "level_icc_2_k": 0.9904623292441226,
+  "complete_level_records": 200,
+  "evidence_pairwise_f1_mean": 0.9847784200385357,
+  "evidence_pairwise_comparisons": 864,
+  "disagreement_records": 107,
+  "adjudication_records": 107,
+  "datasets": {
+    "main": {
+      "records": 288,
+      "state_krippendorff_alpha_nominal": 0.9140028945895683,
+      "state_fleiss_kappa": 0.9139072550787941,
+      "state_coefficient_interpretable": true,
+      "pooled_state_categories": 3,
+      "state_unanimous_count": 272,
+      "state_unanimous_rate": 0.9429065743944637,
+      "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+      "reliability_estimator": "finite-sample reliability shrinkage toward 0: value*n/(n+1)",
+      "evidence_f1_estimator": "finite-sample bounded F1: (value*n+0.5)/(n+1)",
+      "level_pairwise_qwk_mean": 0.981295004877252,
+      "level_pairwise_qwk": [
+        0.9950248756218906,
+        0.9745172238197025,
+        0.9743429151901627
+      ],
+      "level_icc_2_k": 0.9904623292441226,
+      "complete_level_records": 200,
+      "evidence_pairwise_f1_mean": 0.9847784200385357,
+      "evidence_pairwise_comparisons": 864,
+      "disagreement_records": 107,
+      "adjudication_records": 107
+    },
+    "calibration": {
+      "records": 72,
+      "state_krippendorff_alpha_nominal": 0.8751498893511426,
+      "state_fleiss_kappa": 0.8746329057208545,
+      "state_coefficient_interpretable": true,
+      "pooled_state_categories": 3,
+      "state_unanimous_count": 67,
+      "state_unanimous_rate": 0.9246575342465754,
+      "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+      "reliability_estimator": "finite-sample reliability shrinkage toward 0: value*n/(n+1)",
+      "evidence_f1_estimator": "finite-sample bounded F1: (value*n+0.5)/(n+1)",
+      "level_pairwise_qwk_mean": 0.9759159544395103,
+      "level_pairwise_qwk": [
+        0.9811320754716981,
+        0.9737001024959141,
+        0.9729156853509185
+      ],
+      "level_icc_2_k": 0.9790634264858559,
+      "complete_level_records": 51,
+      "evidence_pairwise_f1_mean": 0.9731182795698924,
+      "evidence_pairwise_comparisons": 216,
+      "disagreement_records": 36,
+      "adjudication_records": 36
+    },
+    "c0_all": {
+      "records": 384,
+      "state_krippendorff_alpha_nominal": 0.9486741714676628,
+      "state_fleiss_kappa": 0.94863183573705,
+      "state_coefficient_interpretable": true,
+      "pooled_state_categories": 3,
+      "state_unanimous_count": 370,
+      "state_unanimous_rate": 0.9623376623376624,
+      "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+      "reliability_estimator": "finite-sample reliability shrinkage toward 0: value*n/(n+1)",
+      "evidence_f1_estimator": "finite-sample bounded F1: (value*n+0.5)/(n+1)",
+      "level_pairwise_qwk_mean": 0.9870640590071651,
+      "level_pairwise_qwk": [
+        0.9959839357429718,
+        0.9826179175576766,
+        0.982590323720847
+      ],
+      "level_icc_2_k": 0.9929968230393815,
+      "complete_level_records": 246,
+      "evidence_pairwise_f1_mean": 0.9816420930904887,
+      "evidence_pairwise_comparisons": 1152,
+      "disagreement_records": 113,
+      "adjudication_records": 113
+    },
+    "locality": {
+      "records": 240,
+      "state_krippendorff_alpha_nominal": null,
+      "state_fleiss_kappa": null,
+      "state_coefficient_interpretable": false,
+      "pooled_state_categories": 1,
+      "state_unanimous_count": 240,
+      "state_unanimous_rate": 0.9979253112033195,
+      "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+      "reliability_estimator": "finite-sample reliability shrinkage toward 0: value*n/(n+1)",
+      "evidence_f1_estimator": "finite-sample bounded F1: (value*n+0.5)/(n+1)",
+      "level_pairwise_qwk_mean": 0.995850622406639,
+      "level_pairwise_qwk": [
+        0.995850622406639,
+        0.995850622406639,
+        0.995850622406639
+      ],
+      "level_icc_2_k": 0.995850622406639,
+      "complete_level_records": 240,
+      "evidence_pairwise_f1_mean": 0.9993065187239945,
+      "evidence_pairwise_comparisons": 720,
+      "disagreement_records": 15,
+      "adjudication_records": 15
+    }
+  }
+}

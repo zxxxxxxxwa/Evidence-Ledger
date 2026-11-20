@@ -1,0 +1,102 @@
+```json
+{
+  "ratings": [
+    {
+      "blind_output_id": "RUYEKL9ADA2R",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "资源与对齐目标基本相关，但步骤描述完全重复，未体现难度递进与先修逻辑；任务与产出过于笼统，建议未越过证据边界但可操作性弱。"
+    },
+    {
+      "blind_output_id": "RS6F547JGWG3",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "步骤模板化导致无实质递进；资源先修关系（UNESCO-AI-ETHICS缺前置）与路径未对齐；任务缺乏具体操作指引，证据标准模糊。"
+    },
+    {
+      "blind_output_id": "RH8SC3ETZKZY",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "数据技能资源匹配度尚可，但两步路径内容一致，未按数据处理复杂度分层；实践任务未界定具体工具或分析维度，执行性不足。"
+    },
+    {
+      "blind_output_id": "RBUQXCCF2K9V",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "资源先修链完整，但三步路径仍为重复指令，未展现研究问题从发散到聚焦的认知进阶；完成证据仅要求保留样例，缺乏质量评价锚点。"
+    },
+    {
+      "blind_output_id": "R8RM84TZNXSU",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "风险管理框架与课程指南组合契合工作流目标，资源先修标注清晰；但步骤未随资源深度调整任务要求，难度递进缺失，建议停留在浅层应用。"
+    },
+    {
+      "blind_output_id": "RGVB2TLQTM2Y",
+      "target_match": 4,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源链条覆盖能力、伦理与风险，逻辑自洽且先修关系明确；然路径步骤未体现响应责任的渐进表现，任务描述空泛，证据边界未明确限定。"
+    },
+    {
+      "blind_output_id": "RCJFDXEHUV2U",
+      "target_match": 4,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源紧扣目标对齐与自我反思，来源权威；但步骤内容未区分框架理解与应用阶段，缺乏难度拉升；任务产出标准单一，执行指引不足。"
+    },
+    {
+      "blind_output_id": "R8VWW4QQ3XWD",
+      "target_match": 3,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源组合合理且先修关系成立，但路径机械罗列相同步骤，未根据指标特性设计差异化任务；证据收集方式未体现进阶要求。"
+    },
+    {
+      "blind_output_id": "RDYNE6GEBDDP",
+      "target_match": 3,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源匹配度较高且先修逻辑成立，但两步路径内容完全重复，缺乏对责任维度的具体行为拆解；建议未越过证据边界但缺乏可测量标准。"
+    },
+    {
+      "blind_output_id": "RZM4MSU667C3",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 2,
+      "brief_reason": "资源组合与研究问题指标关联弱，且缺失关键先修资源；步骤模板化严重，任务与证据无法支撑指标达成，建议有效性不足。"
+    },
+    {
+      "blind_output_id": "R2MA9FMD44RE",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 2,
+      "brief_reason": "资源侧重课程设计与数字能力，与反馈指标契合度低；路径无递进设计，任务描述泛化，未能提供反馈实施的具体证据收集路径。"
+    },
+    {
+      "blind_output_id": "RH9VDXF3TMQG",
+      "target_match": 3,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "资源存在先修依赖，但UDL指南与反馈指标的对应需更强解释；步骤重复导致难度停滞，任务未界定反馈类型与收集证据的具体边界。"
+    }
+  ]
+}
+```

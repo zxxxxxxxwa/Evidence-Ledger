@@ -1,0 +1,184 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-E5E59797410766FF82",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-9E080A18B8A61F8016",
+          "verbatim_quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "single_attempt_level1",
+      "rationale": "关键可观察项有明确记录且归属清晰，但自评指出关系松散仅单次尝试，符合等级1标准。"
+    },
+    {
+      "sample_id": "SID-DF04ABC915B37B3F4A",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-91A62C84147604B79D",
+          "verbatim_quote": "围绕“数字资源设计”展开，记录了 accessibility、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。 本人在自填汇总中声明：selection rationale 与 resource adaptation 均已完成。本页仅记录本人陈述，未附相应成果片段。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "self_declaration_no_fragment",
+      "rationale": "目标指标仅有自填声明，缺乏具体成果片段支撑关键可观察项，属证据不足。"
+    },
+    {
+      "sample_id": "SID-03489BA64CF7C95194",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-7156352BA451E4D7D2",
+          "verbatim_quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "explicit learning outcomes, assessment alignment"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traceable_adjustable",
+      "rationale": "关键可观察项记录完整，工作链连贯可追溯且能按需调整，符合等级3标准。"
+    },
+    {
+      "sample_id": "SID-ED85F10F3FB94819D9",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-CFB7152C42592AE207",
+          "verbatim_quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "data interpretation, decision trace"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traceable_adjustable",
+      "rationale": "关键可观察项有明确呈现与核验记录，工作链连贯可追溯并能调整，达等级3。"
+    },
+    {
+      "sample_id": "SID-C77C037CE3B6B50ED2",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-105FA1031A13D4DBFD",
+          "verbatim_quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traceable_adjustable",
+      "rationale": "关键可观察项记录清晰，工作链连贯可追溯且能依据对象调整，符合等级3。"
+    },
+    {
+      "sample_id": "SID-BCC46CA193F48D52A7",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-A443AAD8BE122D1BAE",
+          "verbatim_quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "single_attempt_level1",
+      "rationale": "关键可观察项有记录但自评指出关系松散仅单次尝试，符合等级1。"
+    },
+    {
+      "sample_id": "SID-965ED03005C6D9889C",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-D1C65F213F0CDC17A8",
+          "verbatim_quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "rubric or criteria, feedback loop"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traceable_adjustable",
+      "rationale": "关键可观察项明确呈现并逐项核验，工作链连贯可追溯且能调整，达等级3。"
+    },
+    {
+      "sample_id": "SID-F53ACDEFE037FD4CA9",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-2434230AFD581FD4C5",
+          "verbatim_quote": "成果编号 SRC-A021501A327B6B 的归档摘要。该项工作围绕“研究问题与方法匹配”展开，记录了 limitations、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_document",
+      "rationale": "目标指标缺乏直接呈现关键可观察项的成果材料，仅有归档摘要，属证据不足。"
+    },
+    {
+      "sample_id": "SID-0BBA4B4F5E49201825",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-6183867DB30664D231",
+          "verbatim_quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traceable_adjustable",
+      "rationale": "关键可观察项明确呈现并逐项核验，工作链连贯可追溯且能调整，符合等级3。"
+    },
+    {
+      "sample_id": "SID-5358163ED007A83863",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-3B6FC5F363F348188C",
+          "verbatim_quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "explicit learning outcomes, assessment alignment"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "single_attempt_level1",
+      "rationale": "关键可观察项有记录但自评指出关系松散仅单次尝试，符合等级1。"
+    },
+    {
+      "sample_id": "SID-78D8A0095C394D316C",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-03A8FFF8EDDAE7A720",
+          "verbatim_quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_improvement_shareable",
+      "rationale": "关键可观察项明确呈现，且能依据多轮证据持续改进并分享，达等级4。"
+    },
+    {
+      "sample_id": "SID-9007DEFF5F4BF0B5AF",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-2D59B04B142DE867C7",
+          "verbatim_quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "rubric or criteria, feedback loop"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_with_reasons",
+      "rationale": "关键可观察项已建立基本做法并能说明部分理由与步骤，符合等级2。"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-CC0DF9C074C7279CCE",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-F5567D6A9A6E4EAFB8",
+          "verbatim_quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "explicit learning outcomes, assessment alignment"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "t_align_l3",
+      "rationale": "核心成果材料明确呈现两项关键可观察项，描述达连贯可追溯并可调整标准。"
+    },
+    {
+      "sample_id": "SID-13C45DDB43CE2B0BA1",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-C4B63C69B5C6C48DCA",
+          "verbatim_quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "rubric or criteria, feedback loop"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "t_feedback_l3",
+      "rationale": "成果材料直接对应两项关键指标，定性描述达到连贯可追溯并可调适水平。"
+    },
+    {
+      "sample_id": "SID-3403CDF9EBC146D431",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-DEB2FBED53DD6754EE",
+          "verbatim_quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "r_question_l2",
+      "rationale": "关键可观察项有明确呈现，但自评描述为关系松散且仅单次尝试，符合基本做法等级2。"
+    },
+    {
+      "sample_id": "SID-9BDD1B114CE37B4572",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-565C4D05F538BF674C",
+          "verbatim_quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "r_comm_l3",
+      "rationale": "核心材料完整覆盖两项关键指标，描述达连贯可追溯并可调整标准。"
+    },
+    {
+      "sample_id": "SID-44F40761B1B545847D",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-E0B1EAB5ED2855F325",
+          "verbatim_quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "d_resource_l2",
+      "rationale": "关键指标已呈现，但材料自述关系松散且仅单次尝试，属基本做法等级2。"
+    },
+    {
+      "sample_id": "SID-1E241D2F2C617606F9",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-D89C8EA0020C964C81",
+          "verbatim_quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。已经建立基础流程，并能解释若干选择与步骤。",
+          "observable": "data interpretation, decision trace"
+        },
+        {
+          "doc_id": "DOC-17DD2073A112EE49E8",
+          "verbatim_quote": "复核未发现可核查的 data interpretation，且 decision trace 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。材料来源独立于 SRC-677DB483C1DE62，复核日期晚于所提交成果。",
+          "observable": "data interpretation, decision trace"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "d_data_conflict",
+      "rationale": "正向成果材料与独立复核记录对同一关键可观察项给出相反结论，时间上无法合理解释，构成关键独立证据冲突。"
+    },
+    {
+      "sample_id": "SID-4D132CDB13EF927F48",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-27343608574410BC81",
+          "verbatim_quote": "本人在自填汇总中声明：task allocation 与 verification protocol 均已完成。本页仅记录本人陈述，未附相应成果片段。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "a_workflow_i",
+      "rationale": "关键可观察项仅有自填声明，未附实际成果片段支撑，证据不足需补充。"
+    },
+    {
+      "sample_id": "SID-A6DE0F39DAFC6DD9C9",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-A443AAD8BE122D1BAE",
+          "verbatim_quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "a_resp_l2",
+      "rationale": "关键指标已明确呈现，但材料自述关系松散且仅单次尝试，符合基本做法等级2。"
+    },
+    {
+      "sample_id": "SID-4168593882A3300A46",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-9EBD00BF50AD3E07F9",
+          "verbatim_quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "explicit learning outcomes, assessment alignment"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "t_align_l2",
+      "rationale": "核心材料完整覆盖两项关键指标，描述为基本做法并能说明理由，符合等级2。"
+    },
+    {
+      "sample_id": "SID-4D9065555842177E9E",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-32DC3868893F490393",
+          "verbatim_quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "rubric or criteria, feedback loop"
+        },
+        {
+          "doc_id": "DOC-19A5D129F1F1AECCC3",
+          "verbatim_quote": "复核未发现可核查的 rubric or criteria，且 feedback loop 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。材料来源独立于 SRC-4AC7A633C8C74F，复核日期晚于所提交成果。",
+          "observable": "rubric or criteria, feedback loop"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "t_feedback_c",
+      "rationale": "正向成果材料与独立复核记录对同一关键可观察项给出相反结论，且复核时间晚于提交，构成关键独立证据冲突。"
+    },
+    {
+      "sample_id": "SID-120B1FDD870B24A4AD",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-8CD2FB09E699AB2F1D",
+          "verbatim_quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "r_question_l2",
+      "rationale": "关键可观察项已明确呈现，描述为基本做法并能说明理由，符合等级2。"
+    },
+    {
+      "sample_id": "SID-9838530C1F67818DA6",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-9DAED653850C2B1B68",
+          "verbatim_quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "claim-evidence coherence, contribution statement"
+        },
+        {
+          "doc_id": "DOC-A7385D60C718B972FC",
+          "verbatim_quote": "复核未发现可核查的 claim-evidence coherence，且 contribution statement 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。材料来源独立于 SRC-6B0A9A4031C446，复核日期晚于所提交成果。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "r_comm_c",
+      "rationale": "正向成果材料与独立复核记录对同一关键可观察项给出相反结论，且复核时间晚于提交，构成关键独立证据冲突。"
+    }
+  ]
+}

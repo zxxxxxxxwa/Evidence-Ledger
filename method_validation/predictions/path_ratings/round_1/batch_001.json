@@ -1,0 +1,100 @@
+{
+  "ratings": [
+    {
+      "blind_output_id": "R3CEZLGQ67M3",
+      "target_match": 3,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "Data Carpentry与DigCompEdu契合数据能力指标，但步骤文本完全重复，未体现针对该指标的具体应用逻辑。"
+    },
+    {
+      "blind_output_id": "RFPAGHZAECWS",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "EQUATOR规范与UNESCO AI框架对研究提问指标仅部分相关；步骤描述为通用模板，缺乏递进设计。"
+    },
+    {
+      "blind_output_id": "RAPCCZDWBWYA",
+      "target_match": 3,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "OSF与EQUATOR工具支持科研协作与共享流程，但路径未说明如何将工具特性转化为沟通行为改进。"
+    },
+    {
+      "blind_output_id": "RB8UFXEUN6WM",
+      "target_match": 3,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "NIST AI RMF与UNESCO伦理建议书高度契合AI责任目标；步骤间无逻辑递进，任务描述空泛。"
+    },
+    {
+      "blind_output_id": "RYEMBK7W62Z9",
+      "target_match": 4,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "CMU课程设计与DigCompEdu直接支持教学对齐目标；但各步骤内容雷同，未展现审查与调整的进阶过程。"
+    },
+    {
+      "blind_output_id": "R6G9LAG66L2L",
+      "target_match": 3,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源适用于反馈策略设计，但路径未明确反馈收集、分析与回应的具体环节，步骤重复度高。"
+    },
+    {
+      "blind_output_id": "R8MGXJ6Z55TG",
+      "target_match": 3,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "UDL与W3C无障碍指南覆盖资源开发需求；步骤描述完全一致，缺乏从理念到落地的阶梯安排。"
+    },
+    {
+      "blind_output_id": "R929R4UZLWZ5",
+      "target_match": 2,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源偏向报告规范与伦理审查，与研究提问指标关联较弱；路径结构僵化，未提供针对性指导。"
+    },
+    {
+      "blind_output_id": "RWZTRCHRVD9E",
+      "target_match": 3,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "CMU指南支持教学对齐，但步骤文本未区分目标设定、评价设计与策略匹配的递进关系。"
+    },
+    {
+      "blind_output_id": "R633S5QLX9QU",
+      "target_match": 3,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源精准对应AI责任指标；但步骤描述完全相同，无法支撑风险识别到治理落地的进阶。"
+    },
+    {
+      "blind_output_id": "RCCDYKKZHQDH",
+      "target_match": 3,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "UDL与CMU资源有助于设计包容性反馈，但任务未明确反馈形式、受众与迭代机制，步骤无差异。"
+    },
+    {
+      "blind_output_id": "R8TAFB6PCP3J",
+      "target_match": 3,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "NIST框架与CMU指南可辅助工作流优化；步骤内容高度同质化，缺乏流程诊断与重构的递进设计。"
+    }
+  ]
+}

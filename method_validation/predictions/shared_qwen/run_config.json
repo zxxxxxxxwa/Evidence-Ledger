@@ -1,0 +1,21 @@
+{
+  "model": "qwen3.7-flash",
+  "temperature": 0.3,
+  "max_tokens": 24000,
+  "timeout_seconds": 180,
+  "batch_size": 12,
+  "runs": [
+    1,
+    2,
+    3
+  ],
+  "prompt_file": "method_validation/data/shared_llm_prompt.txt",
+  "input_files": {
+    "calibration": "calibration_records.jsonl",
+    "test": "final_test_records.jsonl",
+    "c0_all": "c0_all_indicator_records.jsonl",
+    "locality": "locality_records.jsonl"
+  },
+  "reference_files_loaded": [],
+  "blinding": "opaque sample IDs; intervention and teacher-cluster map excluded"
+}

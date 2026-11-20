@@ -1,0 +1,197 @@
+{
+  "criterion": "maximum_balanced_accuracy_subject_to_minimum_coverage_then_higher_coverage_then_higher_threshold",
+  "target_coverage": 0.8,
+  "displayed_proportions": "Jeffreys posterior means; raw numerators and denominators retained; selection and coverage eligibility use raw counts",
+  "confidence_aggregation": "median_of_three_frozen_runs",
+  "selected_threshold": 0.7,
+  "selected_coverage": 0.8561643835616438,
+  "selected_balanced_accuracy": 0.7048979591836735,
+  "selected_raw_counts": {
+    "true_positive": 48,
+    "positive_total": 48,
+    "true_negative": 10,
+    "negative_total": 24,
+    "correct": 58,
+    "total": 72,
+    "selected": 62
+  },
+  "records": 72,
+  "candidates": [
+    {
+      "threshold": 0.0,
+      "balanced_accuracy": 0.5048979591836734,
+      "accuracy": 0.6643835616438356,
+      "coverage": 0.9931506849315068,
+      "raw_counts": {
+        "true_positive": 48,
+        "positive_total": 48,
+        "true_negative": 0,
+        "negative_total": 24,
+        "correct": 48,
+        "total": 72,
+        "selected": 72
+      },
+      "coverage_eligible": true
+    },
+    {
+      "threshold": 0.6,
+      "balanced_accuracy": 0.5048979591836734,
+      "accuracy": 0.6643835616438356,
+      "coverage": 0.9931506849315068,
+      "raw_counts": {
+        "true_positive": 48,
+        "positive_total": 48,
+        "true_negative": 0,
+        "negative_total": 24,
+        "correct": 48,
+        "total": 72,
+        "selected": 72
+      },
+      "coverage_eligible": true
+    },
+    {
+      "threshold": 0.6499999999999999,
+      "balanced_accuracy": 0.7048979591836735,
+      "accuracy": 0.8013698630136986,
+      "coverage": 0.8561643835616438,
+      "raw_counts": {
+        "true_positive": 48,
+        "positive_total": 48,
+        "true_negative": 10,
+        "negative_total": 24,
+        "correct": 58,
+        "total": 72,
+        "selected": 62
+      },
+      "coverage_eligible": true
+    },
+    {
+      "threshold": 0.7,
+      "balanced_accuracy": 0.7048979591836735,
+      "accuracy": 0.8013698630136986,
+      "coverage": 0.8561643835616438,
+      "raw_counts": {
+        "true_positive": 48,
+        "positive_total": 48,
+        "true_negative": 10,
+        "negative_total": 24,
+        "correct": 58,
+        "total": 72,
+        "selected": 62
+      },
+      "coverage_eligible": true
+    },
+    {
+      "threshold": 0.725,
+      "balanced_accuracy": 0.7534693877551021,
+      "accuracy": 0.7876712328767124,
+      "coverage": 0.678082191780822,
+      "raw_counts": {
+        "true_positive": 41,
+        "positive_total": 48,
+        "true_negative": 16,
+        "negative_total": 24,
+        "correct": 57,
+        "total": 72,
+        "selected": 49
+      },
+      "coverage_eligible": false
+    },
+    {
+      "threshold": 0.75,
+      "balanced_accuracy": 0.7534693877551021,
+      "accuracy": 0.7876712328767124,
+      "coverage": 0.678082191780822,
+      "raw_counts": {
+        "true_positive": 41,
+        "positive_total": 48,
+        "true_negative": 16,
+        "negative_total": 24,
+        "correct": 57,
+        "total": 72,
+        "selected": 49
+      },
+      "coverage_eligible": false
+    },
+    {
+      "threshold": 0.775,
+      "balanced_accuracy": 0.8028571428571428,
+      "accuracy": 0.8013698630136986,
+      "coverage": 0.5821917808219178,
+      "raw_counts": {
+        "true_positive": 38,
+        "positive_total": 48,
+        "true_negative": 20,
+        "negative_total": 24,
+        "correct": 58,
+        "total": 72,
+        "selected": 42
+      },
+      "coverage_eligible": false
+    },
+    {
+      "threshold": 0.8,
+      "balanced_accuracy": 0.8028571428571428,
+      "accuracy": 0.8013698630136986,
+      "coverage": 0.5821917808219178,
+      "raw_counts": {
+        "true_positive": 38,
+        "positive_total": 48,
+        "true_negative": 20,
+        "negative_total": 24,
+        "correct": 58,
+        "total": 72,
+        "selected": 42
+      },
+      "coverage_eligible": false
+    },
+    {
+      "threshold": 0.825,
+      "balanced_accuracy": 0.566938775510204,
+      "accuracy": 0.4452054794520548,
+      "coverage": 0.14383561643835616,
+      "raw_counts": {
+        "true_positive": 9,
+        "positive_total": 48,
+        "true_negative": 23,
+        "negative_total": 24,
+        "correct": 32,
+        "total": 72,
+        "selected": 10
+      },
+      "coverage_eligible": false
+    },
+    {
+      "threshold": 0.85,
+      "balanced_accuracy": 0.566938775510204,
+      "accuracy": 0.4452054794520548,
+      "coverage": 0.14383561643835616,
+      "raw_counts": {
+        "true_positive": 9,
+        "positive_total": 48,
+        "true_negative": 23,
+        "negative_total": 24,
+        "correct": 32,
+        "total": 72,
+        "selected": 10
+      },
+      "coverage_eligible": false
+    },
+    {
+      "threshold": 1.0,
+      "balanced_accuracy": 0.4951020408163265,
+      "accuracy": 0.3356164383561644,
+      "coverage": 0.00684931506849315,
+      "raw_counts": {
+        "true_positive": 0,
+        "positive_total": 48,
+        "true_negative": 24,
+        "negative_total": 24,
+        "correct": 24,
+        "total": 72,
+        "selected": 0
+      },
+      "coverage_eligible": false
+    }
+  ]
+}

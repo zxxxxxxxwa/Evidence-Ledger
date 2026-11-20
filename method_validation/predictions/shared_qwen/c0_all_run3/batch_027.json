@@ -1,0 +1,312 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-EF70E8C85F0DD90A13",
+      "evidence": [
+        {
+          "doc_id": "DOC-7C93F2861F5C8F346B",
+          "quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-FA671375D93329",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-35EF2DF9B1CF07F885",
+          "quote": "复核未发现可核查的 rubric or criteria，且 feedback loop 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "family_key": "SRC-42DFCBE6CB4D1A",
+          "polarity": "contradict",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.75,
+        "cited_family_keys": [
+          "SRC-FA671375D93329",
+          "SRC-42DFCBE6CB4D1A"
+        ],
+        "reason_code": "conflicting_support_and_contradiction"
+      }
+    },
+    {
+      "sample_id": "SID-C80DD752A0F8E044B1",
+      "evidence": [
+        {
+          "doc_id": "DOC-FD89B709505B03D4FF",
+          "quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "family_key": "SRC-70A33025ED6967",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.85
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-70A33025ED6967"
+        ],
+        "reason_code": "limited_depth_single_attempt"
+      }
+    },
+    {
+      "sample_id": "SID-890889C6D90A047680",
+      "evidence": [
+        {
+          "doc_id": "DOC-1A99FCBDB6ABD27F13",
+          "quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "family_key": "SRC-48A3EA88F6DDCC",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-48A3EA88F6DDCC"
+        ],
+        "reason_code": "coherent_chain_adjustable"
+      }
+    },
+    {
+      "sample_id": "SID-5C2BC2C188A7287010",
+      "evidence": [
+        {
+          "doc_id": "DOC-D1C65F213F0CDC17A8",
+          "quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "family_key": "SRC-FF8EA18E73A3BE",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-FF8EA18E73A3BE"
+        ],
+        "reason_code": "coherent_chain_adjustable"
+      }
+    },
+    {
+      "sample_id": "SID-AFAE811D3A1141540E",
+      "evidence": [
+        {
+          "doc_id": "DOC-04C83B521D170C2454",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "family_key": "SRC-CDAE73C55A33D4",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-CDAE73C55A33D4"
+        ],
+        "reason_code": "coherent_chain_adjustable"
+      }
+    },
+    {
+      "sample_id": "SID-C05106DEC33A1054F8",
+      "evidence": [
+        {
+          "doc_id": "DOC-CE37E369214069F2F1",
+          "quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "family_key": "SRC-79495D6A0F518E",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.95
+        }
+      ],
+      "generic": {
+        "level": 4,
+        "self_confidence": 0.9,
+        "cited_family_keys": [
+          "SRC-79495D6A0F518E"
+        ],
+        "reason_code": "iterative_improvement_reusable_mechanism"
+      }
+    },
+    {
+      "sample_id": "SID-8DFA8749A9912420A7",
+      "evidence": [
+        {
+          "doc_id": "DOC-6FE7E21477C926C320",
+          "quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "family_key": "SRC-9D7B9934ECB506",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.85
+        },
+        {
+          "doc_id": "DOC-C4E9E4CCC31638620A",
+          "quote": "复核未发现可核查的 selection rationale，且 resource adaptation 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "family_key": "SRC-CBB31B85B24362",
+          "polarity": "contradict",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-9D7B9934ECB506",
+          "SRC-CBB31B85B24362"
+        ],
+        "reason_code": "basic_practice_with_contradiction"
+      }
+    },
+    {
+      "sample_id": "SID-F6C61A1940CF52C7AB",
+      "evidence": [],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.9,
+        "cited_family_keys": [],
+        "reason_code": "no_substantive_evidence_for_target"
+      }
+    },
+    {
+      "sample_id": "SID-9E3732F6DA15639A0D",
+      "evidence": [],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.9,
+        "cited_family_keys": [],
+        "reason_code": "no_substantive_evidence_for_target"
+      }
+    },
+    {
+      "sample_id": "SID-B5E5F37F50891EFF9A",
+      "evidence": [
+        {
+          "doc_id": "DOC-D3EA5B2867F3650993",
+          "quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "family_key": "SRC-6B5486D0EE379A",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.95
+        }
+      ],
+      "generic": {
+        "level": 4,
+        "self_confidence": 0.9,
+        "cited_family_keys": [
+          "SRC-6B5486D0EE379A"
+        ],
+        "reason_code": "iterative_improvement_reusable_mechanism"
+      }
+    },
+    {
+      "sample_id": "SID-A219F4E59485B6B5B2",
+      "evidence": [
+        {
+          "doc_id": "DOC-3106B17278CA4DC5C5",
+          "quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "family_key": "SRC-D1261AF4F823F9",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.85
+        },
+        {
+          "doc_id": "DOC-6745BF907AF7056584",
+          "quote": "复核未发现可核查的 selection rationale，且 resource adaptation 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "family_key": "SRC-39830D59764F16",
+          "polarity": "contradict",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-D1261AF4F823F9",
+          "SRC-39830D59764F16"
+        ],
+        "reason_code": "basic_practice_with_contradiction"
+      }
+    },
+    {
+      "sample_id": "SID-25CB8B290DE4FA10E4",
+      "evidence": [
+        {
+          "doc_id": "DOC-9875B471D66BFD6230",
+          "quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "family_key": "SRC-E20D79F64B2AC0",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.85
+        },
+        {
+          "doc_id": "DOC-2CD300DCEE5B19B3DC",
+          "quote": "复核未发现可核查的 selection rationale，且 resource adaptation 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "family_key": "SRC-21FB654889B259",
+          "polarity": "contradict",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-E20D79F64B2AC0",
+          "SRC-21FB654889B259"
+        ],
+        "reason_code": "basic_practice_with_contradiction"
+      }
+    }
+  ]
+}

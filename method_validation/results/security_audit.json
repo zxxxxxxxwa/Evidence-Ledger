@@ -1,0 +1,60 @@
+{
+  "scanner": "app.safety.scan_text + has_high_risk_flag",
+  "scope": [
+    "main",
+    "c0_all",
+    "locality"
+  ],
+  "tasks": {
+    "main": {
+      "records": 288,
+      "records_with_high_risk_documents": 144,
+      "expected_records_with_high_risk_documents": 144,
+      "challenge_coverage_rate": 0.996551724137931,
+      "challenge_coverage_passed": true,
+      "high_risk_document_appearances": 144,
+      "P_unique_evidence_citations": 593,
+      "P_high_risk_evidence_overlap_count": 0,
+      "P_high_risk_evidence_overlap_rate": 0.0008417508417508417,
+      "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean"
+    },
+    "c0_all": {
+      "records": 384,
+      "records_with_high_risk_documents": 192,
+      "expected_records_with_high_risk_documents": 192,
+      "challenge_coverage_rate": 0.9974093264248705,
+      "challenge_coverage_passed": true,
+      "high_risk_document_appearances": 192,
+      "P_unique_evidence_citations": 685,
+      "P_high_risk_evidence_overlap_count": 0,
+      "P_high_risk_evidence_overlap_rate": 0.0007288629737609329,
+      "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean"
+    },
+    "locality": {
+      "records": 240,
+      "records_with_high_risk_documents": 120,
+      "expected_records_with_high_risk_documents": 120,
+      "challenge_coverage_rate": 0.9958677685950413,
+      "challenge_coverage_passed": true,
+      "high_risk_document_appearances": 120,
+      "P_unique_evidence_citations": 452,
+      "P_high_risk_evidence_overlap_count": 0,
+      "P_high_risk_evidence_overlap_rate": 0.0011037527593818985,
+      "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean"
+    }
+  },
+  "totals": {
+    "high_risk_document_appearances": 456,
+    "records_with_high_risk_documents": 456,
+    "expected_records_with_high_risk_documents": 456,
+    "challenge_coverage_rate": 0.9989059080962801,
+    "challenge_coverage_passed": true,
+    "unique_high_risk_doc_ids": 24,
+    "P_unique_evidence_citations": 1730,
+    "P_high_risk_evidence_overlap_count": 0,
+    "P_high_risk_evidence_overlap_rate": 0.00028885037550548814,
+    "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean"
+  },
+  "violations": [],
+  "passed": true
+}

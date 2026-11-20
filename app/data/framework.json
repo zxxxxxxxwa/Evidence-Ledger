@@ -1,0 +1,271 @@
+{
+  "version": "2026-11-18.1",
+  "status": "implementation mapping; not an empirically validated scale",
+  "sources": [
+    {
+      "id": "digcompedu",
+      "title": "European Framework for the Digital Competence of Educators",
+      "url": "https://joint-research-centre.ec.europa.eu/digcompedu_en"
+    },
+    {
+      "id": "unesco_ai_cft",
+      "title": "UNESCO AI Competency Framework for Teachers",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000391104"
+    },
+    {
+      "id": "higher_ed_professional",
+      "title": "Higher-education teacher professional capability synthesis",
+      "url": null,
+      "note": "Project-local synthesis; indicator behavior anchors require later expert calibration."
+    }
+  ],
+  "dimensions": [
+    {"id": "teaching", "title_en": "Teaching", "title_zh": "教学能力"},
+    {"id": "research", "title_en": "Research", "title_zh": "科研能力"},
+    {"id": "digital", "title_en": "Digital practice", "title_zh": "数字技术应用能力"},
+    {"id": "ai", "title_en": "AI practice", "title_zh": "人工智能应用能力"}
+  ],
+  "indicators": [
+    {
+      "id": "T_ALIGN",
+      "dimension": "teaching",
+      "title_en": "Constructive alignment",
+      "title_zh": "目标—活动—评价对齐",
+      "description_en": "Aligns learning outcomes, learning activities, assessment and feedback.",
+      "description_zh": "使学习目标、学习活动、评价与反馈形成可解释的一致关系。",
+      "framework_mappings": ["DigCompEdu 3.1/3.2/4.1", "Higher-ed teaching design"],
+      "observables": ["explicit learning outcomes", "activity-to-outcome rationale", "assessment alignment", "revision evidence"],
+      "evidence_types": ["lesson_plan", "slides", "teaching_achievement"],
+      "critical_observables": ["explicit learning outcomes", "assessment alignment"],
+      "min_independent_families": 1,
+      "contribution_required": false,
+      "anchors": {
+        "1": {"en": "Elements are present but their relationship is unclear.", "zh": "要素存在，但相互关系不清。"},
+        "2": {"en": "Some outcomes, activities and assessment are explicitly linked.", "zh": "部分目标、活动和评价建立了明确联系。"},
+        "3": {"en": "The design is coherently aligned and adapted to learner needs.", "zh": "设计整体对齐，并能适应学习者需要。"},
+        "4": {"en": "Alignment is iteratively improved using evidence and reflection.", "zh": "能依据证据和反思持续改进对齐设计。"}
+      }
+    },
+    {
+      "id": "T_LEARN",
+      "dimension": "teaching",
+      "title_en": "Learning design and inclusion",
+      "title_zh": "学习活动设计与包容性支持",
+      "description_en": "Designs active learning and supports varied learner needs.",
+      "description_zh": "设计主动学习活动，并支持不同学习者的需要。",
+      "framework_mappings": ["DigCompEdu 3.3/3.4/5.1/5.2", "Higher-ed inclusive teaching"],
+      "observables": ["active learning task", "scaffolding", "accessibility adaptation", "learner choice"],
+      "evidence_types": ["lesson_plan", "slides", "teaching_achievement"],
+      "critical_observables": ["active learning task"],
+      "min_independent_families": 1,
+      "contribution_required": false,
+      "anchors": {
+        "1": {"en": "Activities mainly transmit content with little learner adaptation.", "zh": "活动以内容传递为主，较少适应学习者差异。"},
+        "2": {"en": "Uses structured participation or basic scaffolding.", "zh": "采用结构化参与或基本支架。"},
+        "3": {"en": "Combines active learning with purposeful differentiation.", "zh": "将主动学习与有目的的差异化支持结合。"},
+        "4": {"en": "Co-designs and iteratively improves inclusive learning experiences.", "zh": "共同设计并迭代改进包容性学习体验。"}
+      }
+    },
+    {
+      "id": "T_FEEDBACK",
+      "dimension": "teaching",
+      "title_en": "Assessment and feedback",
+      "title_zh": "学习评价与反馈",
+      "description_en": "Uses assessment evidence to provide actionable feedback and improve teaching.",
+      "description_zh": "利用评价证据提供可执行反馈并改进教学。",
+      "framework_mappings": ["DigCompEdu 4.1/4.2/4.3", "Higher-ed assessment literacy"],
+      "observables": ["rubric or criteria", "formative check", "feedback loop", "evidence-informed adjustment"],
+      "evidence_types": ["lesson_plan", "slides", "teaching_achievement"],
+      "critical_observables": ["rubric or criteria", "feedback loop"],
+      "min_independent_families": 1,
+      "contribution_required": false,
+      "anchors": {
+        "1": {"en": "Assessment records outcomes but offers limited diagnostic feedback.", "zh": "评价记录结果，但诊断性反馈有限。"},
+        "2": {"en": "Uses criteria and provides some actionable feedback.", "zh": "使用评价标准并提供部分可执行反馈。"},
+        "3": {"en": "Integrates formative evidence and feedback into learning decisions.", "zh": "将形成性证据和反馈整合进学习决策。"},
+        "4": {"en": "Builds a sustained feedback system and evaluates its effects.", "zh": "形成持续反馈系统并评价其作用。"}
+      }
+    },
+    {
+      "id": "R_QUESTION",
+      "dimension": "research",
+      "title_en": "Research question and design",
+      "title_zh": "研究问题与研究设计",
+      "description_en": "Frames researchable questions and selects designs that can answer them.",
+      "description_zh": "提出可研究的问题，并选择能够回答问题的研究设计。",
+      "framework_mappings": ["Higher-ed research capability"],
+      "observables": ["research gap", "question-method fit", "sampling logic", "limitations"],
+      "evidence_types": ["paper", "research_project"],
+      "critical_observables": ["research gap", "question-method fit"],
+      "min_independent_families": 1,
+      "contribution_required": true,
+      "anchors": {
+        "1": {"en": "A topic is stated but the question or design logic is weak.", "zh": "提出了主题，但问题或设计逻辑较弱。"},
+        "2": {"en": "Defines a researchable question with a broadly suitable design.", "zh": "界定了可研究问题，并采用大体合适的设计。"},
+        "3": {"en": "Justifies question, method and limitations coherently.", "zh": "连贯论证问题、方法和局限。"},
+        "4": {"en": "Develops rigorous designs for complex or novel questions.", "zh": "能针对复杂或新颖问题形成严谨设计。"}
+      }
+    },
+    {
+      "id": "R_ANALYSIS",
+      "dimension": "research",
+      "title_en": "Data, analysis and research integrity",
+      "title_zh": "数据分析与科研诚信",
+      "description_en": "Uses appropriate analytic procedures and manages data and ethics responsibly.",
+      "description_zh": "采用合适的分析程序，并负责任地管理数据与伦理。",
+      "framework_mappings": ["Higher-ed research capability", "Research integrity"],
+      "observables": ["analysis rationale", "data provenance", "ethics procedure", "reproducibility practice"],
+      "evidence_types": ["paper", "research_project"],
+      "critical_observables": ["analysis rationale", "data provenance"],
+      "min_independent_families": 1,
+      "contribution_required": true,
+      "anchors": {
+        "1": {"en": "Reports analysis with limited rationale or traceability.", "zh": "报告了分析，但理由或可追溯性有限。"},
+        "2": {"en": "Uses suitable analysis and addresses basic ethics requirements.", "zh": "使用合适分析并满足基本伦理要求。"},
+        "3": {"en": "Documents analytic choices, provenance and integrity safeguards.", "zh": "记录分析选择、数据来源和诚信保障。"},
+        "4": {"en": "Advances transparent and reproducible practice in complex work.", "zh": "在复杂研究中推进透明、可复现的实践。"}
+      }
+    },
+    {
+      "id": "R_COMM",
+      "dimension": "research",
+      "title_en": "Scholarly communication and collaboration",
+      "title_zh": "学术表达与科研协作",
+      "description_en": "Communicates claims with evidence and makes personal contribution visible in collaborative work.",
+      "description_zh": "以证据支持学术论断，并在协作成果中明确个人贡献。",
+      "framework_mappings": ["Higher-ed research capability", "Professional engagement"],
+      "observables": ["claim-evidence coherence", "audience adaptation", "contribution statement", "open or collaborative practice"],
+      "evidence_types": ["paper", "research_project", "teaching_achievement"],
+      "critical_observables": ["claim-evidence coherence", "contribution statement"],
+      "min_independent_families": 1,
+      "contribution_required": true,
+      "anchors": {
+        "1": {"en": "Communicates outputs but contribution and evidence links are unclear.", "zh": "能够呈现成果，但贡献和证据联系不清。"},
+        "2": {"en": "Presents coherent claims and identifies a personal role.", "zh": "形成连贯论断并说明个人角色。"},
+        "3": {"en": "Adapts communication and manages collaboration transparently.", "zh": "能适配传播对象并透明管理协作。"},
+        "4": {"en": "Leads ethical, open and influential scholarly communication.", "zh": "引领合乎伦理、开放且有影响力的学术传播。"}
+      }
+    },
+    {
+      "id": "D_RESOURCE",
+      "dimension": "digital",
+      "title_en": "Digital resources",
+      "title_zh": "数字资源选择与制作",
+      "description_en": "Selects, creates, adapts and shares digital resources responsibly.",
+      "description_zh": "负责任地选择、制作、改编和分享数字资源。",
+      "framework_mappings": ["DigCompEdu 2.1/2.2/2.3"],
+      "observables": ["selection rationale", "resource adaptation", "copyright or licensing", "accessibility"],
+      "evidence_types": ["slides", "lesson_plan", "teaching_achievement"],
+      "critical_observables": ["selection rationale", "resource adaptation"],
+      "min_independent_families": 1,
+      "contribution_required": false,
+      "anchors": {
+        "1": {"en": "Uses digital resources with limited adaptation or governance.", "zh": "使用数字资源，但改编或治理有限。"},
+        "2": {"en": "Selects and adapts resources for a defined purpose.", "zh": "为明确目的选择并改编资源。"},
+        "3": {"en": "Creates accessible resources and manages rights responsibly.", "zh": "制作可访问资源并负责任地管理权利。"},
+        "4": {"en": "Builds and shares sustainable, reusable resource practices.", "zh": "形成并分享可持续、可复用的资源实践。"}
+      }
+    },
+    {
+      "id": "D_ENV",
+      "dimension": "digital",
+      "title_en": "Digital learning environment",
+      "title_zh": "数字化学习环境组织",
+      "description_en": "Orchestrates digital tools, interaction and collaboration around learning goals.",
+      "description_zh": "围绕学习目标组织数字工具、互动与协作。",
+      "framework_mappings": ["DigCompEdu 3.1/3.2/3.3"],
+      "observables": ["tool-purpose fit", "interaction design", "collaborative workflow", "contingency plan"],
+      "evidence_types": ["slides", "lesson_plan", "teaching_achievement"],
+      "critical_observables": ["tool-purpose fit", "interaction design"],
+      "min_independent_families": 1,
+      "contribution_required": false,
+      "anchors": {
+        "1": {"en": "Adds tools without a clear learning workflow.", "zh": "加入工具，但缺少清晰学习流程。"},
+        "2": {"en": "Matches selected tools to specific activities.", "zh": "将所选工具与具体活动匹配。"},
+        "3": {"en": "Orchestrates interaction, collaboration and support coherently.", "zh": "连贯组织互动、协作与支持。"},
+        "4": {"en": "Optimizes resilient digital learning ecosystems across contexts.", "zh": "跨情境优化具有韧性的数字学习生态。"}
+      }
+    },
+    {
+      "id": "D_DATA",
+      "dimension": "digital",
+      "title_en": "Data-informed teaching",
+      "title_zh": "数据支持的教学决策",
+      "description_en": "Interprets learning data with appropriate privacy and validity safeguards.",
+      "description_zh": "在隐私和效度保障下解释学习数据并支持教学决策。",
+      "framework_mappings": ["DigCompEdu 4.2/4.3", "DigCompEdu 6.4"],
+      "observables": ["data interpretation", "decision trace", "privacy safeguard", "bias or validity check"],
+      "evidence_types": ["lesson_plan", "teaching_achievement", "research_project"],
+      "critical_observables": ["data interpretation", "decision trace"],
+      "min_independent_families": 1,
+      "contribution_required": false,
+      "anchors": {
+        "1": {"en": "Views data descriptively without a clear decision link.", "zh": "描述性查看数据，但与决策联系不清。"},
+        "2": {"en": "Uses basic data patterns to adjust teaching.", "zh": "利用基本数据模式调整教学。"},
+        "3": {"en": "Triangulates data and documents privacy-aware decisions.", "zh": "综合多类数据并记录具有隐私意识的决策。"},
+        "4": {"en": "Evaluates and improves data-informed decision systems.", "zh": "评价并改进数据支持的决策系统。"}
+      }
+    },
+    {
+      "id": "A_FOUND",
+      "dimension": "ai",
+      "title_en": "AI foundations and selection",
+      "title_zh": "人工智能理解与工具选择",
+      "description_en": "Understands relevant AI capabilities and limits and selects tools for a justified purpose.",
+      "description_zh": "理解相关人工智能的能力与局限，并为明确目的合理选用工具。",
+      "framework_mappings": ["UNESCO AI CFT: AI foundations and applications", "UNESCO AI CFT: Human-centred mindset"],
+      "observables": ["capability-limit explanation", "tool selection rationale", "human oversight", "context fit"],
+      "evidence_types": ["lesson_plan", "slides", "research_project", "teaching_achievement"],
+      "critical_observables": ["capability-limit explanation", "tool selection rationale"],
+      "min_independent_families": 1,
+      "contribution_required": false,
+      "anchors": {
+        "1": {"en": "Uses AI tools with little explanation of fit or limits.", "zh": "使用 AI 工具，但较少说明适配性或局限。"},
+        "2": {"en": "Explains basic limits and selects a tool for a defined task.", "zh": "说明基本局限，并为明确任务选择工具。"},
+        "3": {"en": "Compares options and designs appropriate human oversight.", "zh": "比较不同方案并设计恰当的人类监督。"},
+        "4": {"en": "Shapes context-sensitive AI strategy and supports others' judgment.", "zh": "形成情境化 AI 策略并支持他人判断。"}
+      }
+    },
+    {
+      "id": "A_WORKFLOW",
+      "dimension": "ai",
+      "title_en": "Human–AI workflow and verification",
+      "title_zh": "人机协同流程与输出核验",
+      "description_en": "Designs human–AI workflows and verifies output against appropriate sources or criteria.",
+      "description_zh": "设计人机协同流程，并依据合适来源或标准核验输出。",
+      "framework_mappings": ["UNESCO AI CFT: AI pedagogy", "UNESCO AI CFT: AI for professional development"],
+      "observables": ["task allocation", "verification protocol", "error handling", "iteration record"],
+      "evidence_types": ["lesson_plan", "research_project", "teaching_achievement"],
+      "critical_observables": ["task allocation", "verification protocol"],
+      "min_independent_families": 1,
+      "contribution_required": false,
+      "anchors": {
+        "1": {"en": "Accepts AI output with limited checking or role definition.", "zh": "接受 AI 输出，但核验或角色界定有限。"},
+        "2": {"en": "Uses a basic verification step and keeps human control.", "zh": "采用基本核验步骤并保持人类控制。"},
+        "3": {"en": "Designs a traceable workflow with systematic verification.", "zh": "设计可追溯流程并进行系统核验。"},
+        "4": {"en": "Evaluates and improves complex human–AI workflows across tasks.", "zh": "跨任务评价并改进复杂人机协同流程。"}
+      }
+    },
+    {
+      "id": "A_RESP",
+      "dimension": "ai",
+      "title_en": "Responsible AI and learner agency",
+      "title_zh": "负责任的人工智能与学习者主体性",
+      "description_en": "Manages bias, privacy, copyright, accessibility and learner agency in AI-supported work.",
+      "description_zh": "在 AI 支持的工作中管理偏差、隐私、版权、可访问性与学习者主体性。",
+      "framework_mappings": ["UNESCO AI CFT: Ethics of AI", "DigCompEdu 5/6"],
+      "observables": ["risk assessment", "privacy or copyright safeguard", "bias check", "learner disclosure and choice"],
+      "evidence_types": ["lesson_plan", "slides", "research_project", "teaching_achievement"],
+      "critical_observables": ["risk assessment", "privacy or copyright safeguard"],
+      "min_independent_families": 1,
+      "contribution_required": false,
+      "anchors": {
+        "1": {"en": "Recognizes some risks but has no explicit safeguard.", "zh": "意识到部分风险，但缺少明确保障。"},
+        "2": {"en": "Applies basic privacy, copyright or disclosure safeguards.", "zh": "采用基本的隐私、版权或披露保障。"},
+        "3": {"en": "Integrates risk, accessibility and learner agency into design.", "zh": "将风险、可访问性和学习者主体性整合进设计。"},
+        "4": {"en": "Leads participatory governance and evaluates emerging risks.", "zh": "引领参与式治理并评价新兴风险。"}
+      }
+    }
+  ]
+}
+

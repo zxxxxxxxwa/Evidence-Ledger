@@ -1,0 +1,379 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-87572E6E727174EE40",
+      "evidence": [
+        {
+          "doc_id": "DOC-F7CAF233BC98F78495",
+          "quote": "该项工作围绕“学术表达与个人贡献”展开，记录了 audience adaptation",
+          "family_key": "SRC-C358354C136B8C",
+          "polarity": "context",
+          "observables": [
+            "audience adaptation"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-2E7502F846809A33CC",
+          "quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement",
+          "family_key": "SRC-C358354C136B8C",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-C358354C136B8C"
+        ],
+        "reason_code": "strong_claim_evidence_support"
+      }
+    },
+    {
+      "sample_id": "SID-CAC53B2888137BBF72",
+      "evidence": [
+        {
+          "doc_id": "DOC-914897954D88545957",
+          "quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation",
+          "family_key": "SRC-C16D5AAFBA3CC9",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-2EC9387BB61DFE8C70",
+          "quote": "该项工作围绕“数字资源设计”展开，记录了 accessibility",
+          "family_key": "SRC-C16D5AAFBA3CC9",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-C16D5AAFBA3CC9"
+        ],
+        "reason_code": "solid_resource_design_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-71794D08ED2609217D",
+      "evidence": [
+        {
+          "doc_id": "DOC-5ADE488F8E515324FF",
+          "quote": "该项工作围绕“AI 风险、隐私与版权治理”展开，记录了 bias check",
+          "family_key": "SRC-C9B4428FA80604",
+          "polarity": "context",
+          "observables": [
+            "bias check"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-C9B4428FA80604"
+        ],
+        "reason_code": "limited_context_only"
+      }
+    },
+    {
+      "sample_id": "SID-95160634FE8B122F48",
+      "evidence": [
+        {
+          "doc_id": "DOC-D7BB4FC0C04F15F118",
+          "quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop",
+          "family_key": "SRC-40CB339FD1FCB0",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-E71C3B83BDCC0BA0FE",
+          "quote": "该项工作围绕“学习评价与反馈设计”展开，记录了 formative check",
+          "family_key": "SRC-40CB339FD1FCB0",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-40CB339FD1FCB0"
+        ],
+        "reason_code": "strong_feedback_loop_support"
+      }
+    },
+    {
+      "sample_id": "SID-8F0EA4FECBD0B35293",
+      "evidence": [
+        {
+          "doc_id": "DOC-D0455EE53AE7A363F4",
+          "quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol",
+          "family_key": "SRC-251B3687E0BFB5",
+          "polarity": "support",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-E772F3F0B82D776CAE",
+          "quote": "该项工作围绕“人机协同流程设计”展开，记录了 error handling",
+          "family_key": "SRC-251B3687E0BFB5",
+          "polarity": "context",
+          "observables": [
+            "error handling"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-251B3687E0BFB5"
+        ],
+        "reason_code": "clear_workflow_protocol_support"
+      }
+    },
+    {
+      "sample_id": "SID-D8CB6D6617D12C5D2E",
+      "evidence": [
+        {
+          "doc_id": "DOC-0667DA5864119DE924",
+          "quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment",
+          "family_key": "SRC-F566F22B6F7FEC",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-447D2E198697C2058D",
+          "quote": "该项工作围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale",
+          "family_key": "SRC-F566F22B6F7FEC",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-F566F22B6F7FEC"
+        ],
+        "reason_code": "robust_alignment_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-1F9FEF79A118D4E880",
+      "evidence": [
+        {
+          "doc_id": "DOC-A0A84DE7B29BEB468C",
+          "quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop",
+          "family_key": "SRC-E20B9A7EB5CD58",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-C538E20AA46B175803",
+          "quote": "该项工作围绕“学习评价与反馈设计”展开，记录了 formative check",
+          "family_key": "SRC-E20B9A7EB5CD58",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-E20B9A7EB5CD58"
+        ],
+        "reason_code": "partial_feedback_elements"
+      }
+    },
+    {
+      "sample_id": "SID-6B3562B4170FDD4E68",
+      "evidence": [
+        {
+          "doc_id": "DOC-0BC7DC32558C0CE65F",
+          "quote": "该项工作围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale",
+          "family_key": "SRC-9E90817BFA2236",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.5,
+        "cited_family_keys": [
+          "SRC-9E90817BFA2236"
+        ],
+        "reason_code": "summary_only_no_materials"
+      }
+    },
+    {
+      "sample_id": "SID-A219F4E59485B6B5B2",
+      "evidence": [
+        {
+          "doc_id": "DOC-3106B17278CA4DC5C5",
+          "quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation",
+          "family_key": "SRC-D1261AF4F823F9",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-1DAF89100E68011BC9",
+          "quote": "该项工作围绕“数字资源设计”展开，记录了 accessibility",
+          "family_key": "SRC-D1261AF4F823F9",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-D1261AF4F823F9"
+        ],
+        "reason_code": "solid_resource_design_support"
+      }
+    },
+    {
+      "sample_id": "SID-3388E8485B20D288F0",
+      "evidence": [
+        {
+          "doc_id": "DOC-F706D5C3F4637476B1",
+          "quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment",
+          "family_key": "SRC-7721936CDC9AB1",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-3D2893428A011D7B47",
+          "quote": "该项工作围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale",
+          "family_key": "SRC-7721936CDC9AB1",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-7721936CDC9AB1"
+        ],
+        "reason_code": "strong_alignment_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-C92165BD814F8E34D6",
+      "evidence": [
+        {
+          "doc_id": "DOC-8366EDC8C7B77E200C",
+          "quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard",
+          "family_key": "SRC-80FE7258A2AA8E",
+          "polarity": "support",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-026CBB233E3229060E",
+          "quote": "该项工作围绕“AI 风险、隐私与版权治理”展开，记录了 bias check",
+          "family_key": "SRC-80FE7258A2AA8E",
+          "polarity": "context",
+          "observables": [
+            "bias check"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-80FE7258A2AA8E"
+        ],
+        "reason_code": "comprehensive_ai_governance_support"
+      }
+    },
+    {
+      "sample_id": "SID-F6C61A1940CF52C7AB",
+      "evidence": [
+        {
+          "doc_id": "DOC-1F4F9D32A21E803DB4",
+          "quote": "该项工作围绕“AI 风险、隐私与版权治理”展开，记录了 bias check",
+          "family_key": "SRC-EAA558C1DECB6A",
+          "polarity": "context",
+          "observables": [
+            "bias check"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.5,
+        "cited_family_keys": [
+          "SRC-EAA558C1DECB6A"
+        ],
+        "reason_code": "summary_only_no_materials"
+      }
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-3977CACB210146D13C",
+      "evidence": [
+        {
+          "doc_id": "DOC-00C0171E2821E9ECA1",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-40CE5312FE2426",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-04D77F9953045A08BF",
+          "quote": "本人在自填汇总中声明：data interpretation 与 decision trace 均已完成。",
+          "family_key": "SRC-40CE5312FE2426",
+          "polarity": "context",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-40CE5312FE2426"
+        ],
+        "reason_code": "partial_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-E26643B5BA77F31B6C",
+      "evidence": [
+        {
+          "doc_id": "DOC-E2C02246CC7FF94A30",
+          "quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-D3B44307F7664C",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-80FC1FE1024E478546",
+          "quote": "该项工作围绕“学习评价与反馈设计”展开，记录了 formative check、会议日期、版本号与后续安排；",
+          "family_key": "SRC-D3B44307F7664C",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-D3B44307F7664C"
+        ],
+        "reason_code": "partial_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-4CF6631CDE51942CD7",
+      "evidence": [
+        {
+          "doc_id": "DOC-478162F8DCED407A35",
+          "quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-E1AD5C55BF70A8",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-658F7BC29587A1E915",
+          "quote": "该项工作围绕“学术表达与个人贡献”展开，记录了 audience adaptation、会议日期、版本号与后续安排；",
+          "family_key": "SRC-E1AD5C55BF70A8",
+          "polarity": "context",
+          "observables": [
+            "audience adaptation"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-E1AD5C55BF70A8"
+        ],
+        "reason_code": "partial_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-EC826AF518527BBA37",
+      "evidence": [
+        {
+          "doc_id": "DOC-5FAC211D59E399717E",
+          "quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-B3B29485C878CB",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-D85865EA8076F54F52",
+          "quote": "该项工作围绕“研究问题与方法匹配”展开，记录了 limitations、会议日期、版本号与后续安排；",
+          "family_key": "SRC-B3B29485C878CB",
+          "polarity": "context",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-B3B29485C878CB"
+        ],
+        "reason_code": "partial_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-C153059E9956B892DC",
+      "evidence": [
+        {
+          "doc_id": "DOC-763A1EA35051B24061",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-31498C8B80C3A6",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-17EF10438D79C3AD23",
+          "quote": "该项工作围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期、版本号与后续安排；",
+          "family_key": "SRC-31498C8B80C3A6",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-31498C8B80C3A6"
+        ],
+        "reason_code": "partial_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-2370B3A53C68A69849",
+      "evidence": [
+        {
+          "doc_id": "DOC-F6A1C1922CBF19D9E3",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-EC6761FF48BF35",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-78E2B09FFD7B048974",
+          "quote": "该项工作围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期、版本号与后续安排；",
+          "family_key": "SRC-EC6761FF48BF35",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-EC6761FF48BF35"
+        ],
+        "reason_code": "partial_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-2EFB6A3FAE6595B888",
+      "evidence": [
+        {
+          "doc_id": "DOC-A03735A4A97098B649",
+          "quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-8807C16D60A354",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-ADFA317B87BE8811D1",
+          "quote": "该项工作围绕“研究问题与方法匹配”展开，记录了 limitations、会议日期、版本号与后续安排；",
+          "family_key": "SRC-8807C16D60A354",
+          "polarity": "context",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-8807C16D60A354"
+        ],
+        "reason_code": "partial_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-054E1A668F0707318F",
+      "evidence": [
+        {
+          "doc_id": "DOC-142A358AA628D7C141",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-D8FA8C058737B1",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-645735E02E7D3241ED",
+          "quote": "该项工作围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期、版本号与后续安排；",
+          "family_key": "SRC-D8FA8C058737B1",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-D8FA8C058737B1"
+        ],
+        "reason_code": "partial_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-CF500D97B9468CD4FE",
+      "evidence": [
+        {
+          "doc_id": "DOC-1DEA662A5CCF04D636",
+          "quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-DF68377A8CB10F",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-030B008BBA83680732",
+          "quote": "该项工作围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale、会议日期、版本号与后续安排；",
+          "family_key": "SRC-DF68377A8CB10F",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-DF68377A8CB10F"
+        ],
+        "reason_code": "partial_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-287211A99D1BAA1622",
+      "evidence": [
+        {
+          "doc_id": "DOC-D85662E2AD0FE9431D",
+          "quote": "该项工作围绕“学习评价与反馈设计”展开，记录了 formative check、会议日期、版本号与后续安排；",
+          "family_key": "SRC-04879DA9A16517",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-04879DA9A16517"
+        ],
+        "reason_code": "minimal_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-A497687FDC85938898",
+      "evidence": [
+        {
+          "doc_id": "DOC-7B70DFA891B6D04573",
+          "quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-0AA9C89C600466",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-923AE3B616AECF8C0B",
+          "quote": "该项工作围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale、会议日期、版本号与后续安排；",
+          "family_key": "SRC-0AA9C89C600466",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-0AA9C89C600466"
+        ],
+        "reason_code": "partial_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-47831AB821F6D6FD19",
+      "evidence": [
+        {
+          "doc_id": "DOC-2AA238B7A4FEF769BB",
+          "quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-FF86A763F289B4",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-91F5F71F77F347954C",
+          "quote": "该项工作围绕“学术表达与个人贡献”展开，记录了 audience adaptation、会议日期、版本号与后续安排；",
+          "family_key": "SRC-FF86A763F289B4",
+          "polarity": "context",
+          "observables": [
+            "audience adaptation"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-FF86A763F289B4"
+        ],
+        "reason_code": "partial_evidence"
+      }
+    }
+  ]
+}

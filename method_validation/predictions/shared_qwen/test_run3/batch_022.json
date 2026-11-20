@@ -1,0 +1,413 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-BC172A2CD1C66D60A2",
+      "evidence": [
+        {
+          "doc_id": "DOC-923AE3B616AECF8C0B",
+          "quote": "该项工作围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale",
+          "family_key": "SRC-0AA9C89C600466",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-0AA9C89C600466"
+        ],
+        "reason_code": "partial_coverage"
+      }
+    },
+    {
+      "sample_id": "SID-D8C6294F994A9F7CBE",
+      "evidence": [
+        {
+          "doc_id": "DOC-4D53C5131205E73379",
+          "quote": "围绕“学术表达与个人贡献”展开，记录了 audience adaptation",
+          "family_key": "SRC-FC544487FD060B",
+          "polarity": "context",
+          "observables": [
+            "audience adaptation"
+          ],
+          "extraction_confidence": 0.6
+        },
+        {
+          "doc_id": "DOC-FB880F1BE3D3C6B93A",
+          "quote": "复核未发现可核查的 claim-evidence coherence，且 contribution statement 的记录与已提交结论相反",
+          "family_key": "SRC-6BAB97801FBFB3",
+          "polarity": "contradict",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-48D934272CBADBAB48",
+          "quote": "材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement",
+          "family_key": "SRC-FC544487FD060B",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-FC544487FD060B",
+          "SRC-6BAB97801FBFB3"
+        ],
+        "reason_code": "mixed_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-319FD4BD4C1A29B7B8",
+      "evidence": [
+        {
+          "doc_id": "DOC-DE3A60B3B0B80A88A7",
+          "quote": "该项工作围绕“人机协同流程设计”展开，记录了 error handling",
+          "family_key": "SRC-D719ED29AC0B3C",
+          "polarity": "context",
+          "observables": [
+            "error handling"
+          ],
+          "extraction_confidence": 0.5
+        },
+        {
+          "doc_id": "DOC-53CBA8B0FCA016A7E5",
+          "quote": "未发现 task allocation，verification protocol 尚未建立。该行与同一成果原件相应段落相反。",
+          "family_key": "SRC-D719ED29AC0B3C",
+          "polarity": "contradict",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.7
+        },
+        {
+          "doc_id": "DOC-8D2173C0C187545004",
+          "quote": "材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol",
+          "family_key": "SRC-D719ED29AC0B3C",
+          "polarity": "support",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-D719ED29AC0B3C"
+        ],
+        "reason_code": "format_discrepancy"
+      }
+    },
+    {
+      "sample_id": "SID-804A5BB9A1B994F438",
+      "evidence": [
+        {
+          "doc_id": "DOC-97D7A7F5E3E0B5B7F0",
+          "quote": "该项工作围绕“数字资源设计”展开，记录了 accessibility",
+          "family_key": "SRC-ED1F9111B20919",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-ED1F9111B20919"
+        ],
+        "reason_code": "summary_only"
+      }
+    },
+    {
+      "sample_id": "SID-A83E7E225983442BB6",
+      "evidence": [
+        {
+          "doc_id": "DOC-4FD8080ACEE25C7662",
+          "quote": "该项工作围绕“人机协同流程设计”展开，记录了 error handling",
+          "family_key": "SRC-BDB2EB779D0274",
+          "polarity": "context",
+          "observables": [
+            "error handling"
+          ],
+          "extraction_confidence": 0.5
+        },
+        {
+          "doc_id": "DOC-6611949603F7BFADE4",
+          "quote": "材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol",
+          "family_key": "SRC-BDB2EB779D0274",
+          "polarity": "support",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-BDB2EB779D0274"
+        ],
+        "reason_code": "basic_practice"
+      }
+    },
+    {
+      "sample_id": "SID-245EBCB0ACB60B362E",
+      "evidence": [
+        {
+          "doc_id": "DOC-662FB838D8278992BE",
+          "quote": "材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit",
+          "family_key": "SRC-A3426E770E257A",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.7
+        },
+        {
+          "doc_id": "DOC-1798D474F15C9342DF",
+          "quote": "该项工作围绕“研究问题与方法匹配”展开，记录了 limitations",
+          "family_key": "SRC-A3426E770E257A",
+          "polarity": "context",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-A3426E770E257A"
+        ],
+        "reason_code": "loose_relations"
+      }
+    },
+    {
+      "sample_id": "SID-1F5AA032F5F88DA0B4",
+      "evidence": [
+        {
+          "doc_id": "DOC-C661D172D7CAA82A69",
+          "quote": "材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation",
+          "family_key": "SRC-2489A625D6C8DA",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.7
+        },
+        {
+          "doc_id": "DOC-52DE5B7DD7BA3309A0",
+          "quote": "未发现 selection rationale，resource adaptation 尚未建立。该行与同一成果原件相应段落相反。",
+          "family_key": "SRC-2489A625D6C8DA",
+          "polarity": "contradict",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.7
+        },
+        {
+          "doc_id": "DOC-8ABE55100A8C0BFF4B",
+          "quote": "该项工作围绕“数字资源设计”展开，记录了 accessibility",
+          "family_key": "SRC-2489A625D6C8DA",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-2489A625D6C8DA"
+        ],
+        "reason_code": "conflicting_formats"
+      }
+    },
+    {
+      "sample_id": "SID-AB1817071DBC5FAABD",
+      "evidence": [
+        {
+          "doc_id": "DOC-7AAADA71C3C7FD8ED6",
+          "quote": "该项工作围绕“AI 风险、隐私与版权治理”展开，记录了 bias check",
+          "family_key": "SRC-9B4D247B09EBA8",
+          "polarity": "context",
+          "observables": [
+            "bias check"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-9B4D247B09EBA8"
+        ],
+        "reason_code": "summary_only"
+      }
+    },
+    {
+      "sample_id": "SID-13C9CE281ACD6B3B2F",
+      "evidence": [
+        {
+          "doc_id": "DOC-E114A245CACF91FD79",
+          "quote": "该项工作围绕“学习评价与反馈设计”展开，记录了 formative check",
+          "family_key": "SRC-70EF413B7AD7E8",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.5
+        },
+        {
+          "doc_id": "DOC-2D59B04B142DE867C7",
+          "quote": "材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop",
+          "family_key": "SRC-70EF413B7AD7E8",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-70EF413B7AD7E8"
+        ],
+        "reason_code": "basic_practice"
+      }
+    },
+    {
+      "sample_id": "SID-4A09EBE0ABF287E60F",
+      "evidence": [
+        {
+          "doc_id": "DOC-6019606BEE9F2E965D",
+          "quote": "材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol",
+          "family_key": "SRC-D81AD402036C53",
+          "polarity": "support",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-9A9C4CEE2BDA1E3C24",
+          "quote": "该项工作围绕“人机协同流程设计”展开，记录了 error handling",
+          "family_key": "SRC-D81AD402036C53",
+          "polarity": "context",
+          "observables": [
+            "error handling"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-D81AD402036C53"
+        ],
+        "reason_code": "coherent_chain"
+      }
+    },
+    {
+      "sample_id": "SID-0BD314CE22D77C5EAB",
+      "evidence": [
+        {
+          "doc_id": "DOC-662FB838D8278992BE",
+          "quote": "材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit",
+          "family_key": "SRC-A3426E770E257A",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.7
+        },
+        {
+          "doc_id": "DOC-1798D474F15C9342DF",
+          "quote": "该项工作围绕“研究问题与方法匹配”展开，记录了 limitations",
+          "family_key": "SRC-A3426E770E257A",
+          "polarity": "context",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-A3426E770E257A"
+        ],
+        "reason_code": "loose_relations"
+      }
+    },
+    {
+      "sample_id": "SID-965ED03005C6D9889C",
+      "evidence": [
+        {
+          "doc_id": "DOC-70FEEAA68776EC0ED2",
+          "quote": "该项工作围绕“学习评价与反馈设计”展开，记录了 formative check",
+          "family_key": "SRC-FF8EA18E73A3BE",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.5
+        },
+        {
+          "doc_id": "DOC-D1C65F213F0CDC17A8",
+          "quote": "材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop",
+          "family_key": "SRC-FF8EA18E73A3BE",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-FF8EA18E73A3BE"
+        ],
+        "reason_code": "coherent_chain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-919435AE2E185EF573",
+      "evidence": [
+        {
+          "doc_id": "DOC-70FEEAA68776EC0ED2",
+          "quote": "记录了 formative check、会议日期、版本号与后续安排",
+          "family_key": "SRC-FF8EA18E73A3BE",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-FF8EA18E73A3BE"
+        ],
+        "reason_code": "direct_evidence_present"
+      }
+    },
+    {
+      "sample_id": "SID-261EC0E49A4D279733",
+      "evidence": [
+        {
+          "doc_id": "DOC-03A8FFF8EDDAE7A720",
+          "quote": "材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-2D1B8856FE0FB7",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-2D1B8856FE0FB7"
+        ],
+        "reason_code": "direct_evidence_present"
+      }
+    },
+    {
+      "sample_id": "SID-6CD3F9D371FA24284B",
+      "evidence": [
+        {
+          "doc_id": "DOC-42F467A1FDF6392364",
+          "quote": "材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-5DE4A52D11E8C4",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-5DE4A52D11E8C4"
+        ],
+        "reason_code": "direct_evidence_present"
+      }
+    },
+    {
+      "sample_id": "SID-BC02FD192B61904147",
+      "evidence": [
+        {
+          "doc_id": "DOC-8137E93386601499FD",
+          "quote": "记录了 privacy safeguard、会议日期、版本号与后续安排",
+          "family_key": "SRC-CAB54546721563",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-CAB54546721563"
+        ],
+        "reason_code": "direct_evidence_present"
+      }
+    },
+    {
+      "sample_id": "SID-318E79B50A8881B610",
+      "evidence": [
+        {
+          "doc_id": "DOC-ED187460ADABBA81FC",
+          "quote": "材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-1CE87236B9560F",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-1CE87236B9560F"
+        ],
+        "reason_code": "direct_evidence_present"
+      }
+    },
+    {
+      "sample_id": "SID-AF0F82DC2757115FE5",
+      "evidence": [
+        {
+          "doc_id": "DOC-8C4D8891D216FCC6B4",
+          "quote": "材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-7D5B31C367EC69",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-7D5B31C367EC69"
+        ],
+        "reason_code": "direct_evidence_present"
+      }
+    },
+    {
+      "sample_id": "SID-041BCB50421947B1DF",
+      "evidence": [
+        {
+          "doc_id": "DOC-FF81FD15832F0705C7",
+          "quote": "材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-3D32E454473A2D",
+          "polarity": "support",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-3D32E454473A2D"
+        ],
+        "reason_code": "direct_evidence_present"
+      }
+    },
+    {
+      "sample_id": "SID-C9C5797965A116394B",
+      "evidence": [
+        {
+          "doc_id": "DOC-50C3A3074D56EB07B2",
+          "quote": "材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-F5F5846BC91EB4",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-F5F5846BC91EB4"
+        ],
+        "reason_code": "direct_evidence_present"
+      }
+    },
+    {
+      "sample_id": "SID-2DB60BAF76186B078C",
+      "evidence": [
+        {
+          "doc_id": "DOC-105FA1031A13D4DBFD",
+          "quote": "材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-9159027117F765",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-9159027117F765"
+        ],
+        "reason_code": "direct_evidence_present"
+      }
+    },
+    {
+      "sample_id": "SID-49485C95F2913D4976",
+      "evidence": [
+        {
+          "doc_id": "DOC-DCB60CC87AC4FA4CF7",
+          "quote": "记录了 audience adaptation、会议日期、版本号与后续安排",
+          "family_key": "SRC-EC301EB1E345B5",
+          "polarity": "context",
+          "observables": [
+            "audience adaptation"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-EC301EB1E345B5"
+        ],
+        "reason_code": "direct_evidence_present"
+      }
+    },
+    {
+      "sample_id": "SID-C2F64B57A2AAEAEB39",
+      "evidence": [
+        {
+          "doc_id": "DOC-A7B6ADBD38227D1E02",
+          "quote": "材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-56636A432F23CF",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-56636A432F23CF"
+        ],
+        "reason_code": "direct_evidence_present"
+      }
+    },
+    {
+      "sample_id": "SID-63AC1D6E62BF7678DB",
+      "evidence": [
+        {
+          "doc_id": "DOC-50C3A3074D56EB07B2",
+          "quote": "材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-F5F5846BC91EB4",
+          "polarity": "support",
+          "observables": [
+            "claim-evidence coherence",
+            "contribution statement"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-F5F5846BC91EB4"
+        ],
+        "reason_code": "direct_evidence_present"
+      }
+    }
+  ]
+}

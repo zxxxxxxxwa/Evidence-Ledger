@@ -1,0 +1,49 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-583C3D90479E80C713",
+      "state": "I",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-4B281BE03BC9EE269A",
+          "verbatim_quote": "摘要未展开附件中的具体设计链。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_evidence",
+      "rationale": "关键可观察项缺乏实质性成果支撑，仅存归档摘要且明确未展开设计链，证据不足。"
+    },
+    {
+      "sample_id": "SID-1CFE717B24CAED0A76",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-87CF728B8FAF8FC1DF",
+          "verbatim_quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "rubric or criteria, feedback loop"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice",
+      "rationale": "材料明确呈现两项关键可观察项并描述为基本做法，符合等级2标准，予以确认强化。"
+    },
+    {
+      "sample_id": "SID-0BD314CE22D77C5EAB",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-662FB838D8278992BE",
+          "verbatim_quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "single_attempt_gap",
+      "rationale": "文本明确界定关系松散且仅单次尝试，符合基础水平（等级1），予以确认。"
+    }
+  ]
+}

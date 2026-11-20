@@ -1,0 +1,194 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-DC4F2ABEA94D9B5074",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-662FB838D8278992BE",
+          "verbatim_quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "research gap"
+        },
+        {
+          "doc_id": "DOC-5E41FB427D0EF881DD",
+          "verbatim_quote": "复核未发现可核查的 research gap，且 question-method fit 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "observable": "question-method fit"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_conflict",
+      "rationale": "独立复核对同一关键可观察项作出相反判定且时间逻辑无法调和，触发人工审查。"
+    },
+    {
+      "sample_id": "SID-45C6EB318EF55FA0F7",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-BD382A5D118A4CFE31",
+          "verbatim_quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "rubric or criteria"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "single_attempt",
+      "rationale": "仅见单次尝试记录，缺乏连贯追溯与多轮改进证据支撑。"
+    },
+    {
+      "sample_id": "SID-EDAA1933223635ABA8",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-DE3A60B3B0B80A88A7",
+          "verbatim_quote": "围绕“人机协同流程设计”展开，记录了 error handling、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "task allocation"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_observable",
+      "rationale": "现有材料均未明确呈现目标指标要求的 task allocation 与 verification protocol 关键可观察项。"
+    },
+    {
+      "sample_id": "SID-214E87847979DF43AD",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-DA123EAA1A8E75967C",
+          "verbatim_quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。已用多轮证据持续迭代，并形成可共享的做法。",
+          "observable": "risk assessment"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_shareable",
+      "rationale": "材料明确展示多轮迭代与可共享机制，符合最高能力等级标准。"
+    },
+    {
+      "sample_id": "SID-57A3A477430380CE9C",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-C661D172D7CAA82A69",
+          "verbatim_quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "selection rationale"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "single_attempt",
+      "rationale": "仅有单次尝试记录，缺乏连贯追溯与多轮改进证据。"
+    },
+    {
+      "sample_id": "SID-486408E102A8FB5694",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-089965F1223F74444A",
+          "verbatim_quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。工作链较完整，可依据对象作调整并追溯理由。",
+          "observable": "research gap"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "traceable_adaptable",
+      "rationale": "材料呈现完整工作链及可调适追溯特征，达到连贯可追溯等级。"
+    },
+    {
+      "sample_id": "SID-93D37BA0B091A0AD41",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-DD86FE5E89F7F7FD88",
+          "verbatim_quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "research gap"
+        },
+        {
+          "doc_id": "DOC-550E3274D5B4734803",
+          "verbatim_quote": "复核未发现可核查的 research gap，且 question-method fit 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "observable": "question-method fit"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_conflict",
+      "rationale": "独立复核对同一关键可观察项作出相反判定，且时间逻辑无法调和，触发人工审查。"
+    },
+    {
+      "sample_id": "SID-2F572A4CF18A2E59A5",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-48D934272CBADBAB48",
+          "verbatim_quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "claim-evidence coherence"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "single_attempt",
+      "rationale": "仅见单次尝试记录，缺乏进一步整合或迭代的证据支撑。"
+    },
+    {
+      "sample_id": "SID-55621BD0E804E6779A",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-2D38D1ED2202302E8C",
+          "verbatim_quote": "围绕“AI 风险、隐私与版权治理”展开，记录了 bias check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "risk assessment"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_observable",
+      "rationale": "档案中未见针对 risk assessment 与 privacy or copyright safeguard 的关键可观察项描述。"
+    },
+    {
+      "sample_id": "SID-6CBD954709FEBCCB07",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-71E1A2231487EAEF10",
+          "verbatim_quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "data interpretation"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "single_attempt",
+      "rationale": "材料仅体现单次尝试特征，未达到连贯追溯或多轮改进标准。"
+    },
+    {
+      "sample_id": "SID-855579FDB6942E2076",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-158F9515B2EA553C4C",
+          "verbatim_quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "rubric or criteria"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_shareable",
+      "rationale": "明确记载多轮迭代与可分享机制，符合最高能力等级要求。"
+    },
+    {
+      "sample_id": "SID-C7C65B8BF9B48F666C",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-BFAE45E9FBBE0599EF",
+          "verbatim_quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "claim-evidence coherence"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "single_attempt",
+      "rationale": "仅存单次尝试记录，缺乏进一步整合或迭代的证据支撑。"
+    }
+  ]
+}

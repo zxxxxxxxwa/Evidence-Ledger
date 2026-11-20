@@ -1,0 +1,184 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-1C1514F36D5099BBC3",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-DB5AF4899C24C96133",
+          "verbatim_quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。 本人负责核心设计、实施与修订。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "level_4_multi_round",
+      "rationale": "Direct evidence confirms multi-round improvement and reusable mechanisms for the target indicator."
+    },
+    {
+      "sample_id": "SID-73D73686CCFAB3013D",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-478162F8DCED407A35",
+          "verbatim_quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。 本人负责核心设计、实施与修订。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_confirmed",
+      "rationale": "Documents confirm basic practice with explained rationale for the target indicator."
+    },
+    {
+      "sample_id": "SID-7BE1344A0C000816E7",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-D4F5A4F853A26A0EA4",
+          "verbatim_quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。 本人负责核心设计、实施与修订。",
+          "observable": "data interpretation, decision trace"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "level_3_coherent_traceable",
+      "rationale": "Evidence shows a coherent, traceable workflow with adaptation capability for the target indicator."
+    },
+    {
+      "sample_id": "SID-BCB2D5A45287C00773",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-0CDD3DFAFC96151C63",
+          "verbatim_quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。 本人负责核心设计、实施与修订。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "level_1_single_attempt",
+      "rationale": "Evidence confirms sporadic single-attempt implementation of the target indicator."
+    },
+    {
+      "sample_id": "SID-C4AF7B8B06E249D628",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-A21F2A541386A0EF18",
+          "verbatim_quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。 本人负责核心设计、实施与修订。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "level_4_multi_round",
+      "rationale": "Direct evidence demonstrates multi-round improvement and shareable mechanisms for the target indicator."
+    },
+    {
+      "sample_id": "SID-F9F216661F592FC860",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-75BEA1E341EF8AAB94",
+          "verbatim_quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。 本人负责核心设计、实施与修订。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "level_3_coherent_traceable",
+      "rationale": "Evidence indicates a coherent, traceable workflow with adaptation for the target indicator."
+    },
+    {
+      "sample_id": "SID-2BBF88FE01826E1734",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-D12D11839F3D5DD1FA",
+          "verbatim_quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。 本人负责核心设计、实施与修订。",
+          "observable": "explicit learning outcomes, assessment alignment"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "level_1_single_attempt",
+      "rationale": "Documents show single-attempt implementation of the target indicator's core components."
+    },
+    {
+      "sample_id": "SID-E67E4576CC1AC1F53D",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-74D08D2DBD887E71C8",
+          "verbatim_quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。工作链较完整，可依据对象作调整并追溯理由。 本人负责核心设计、实施与修订。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "level_3_coherent_traceable",
+      "rationale": "Evidence supports a coherent, traceable workflow with adjustment capabilities for the target indicator."
+    },
+    {
+      "sample_id": "SID-D92F0146AC901EC467",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-1ED169F893389FB461",
+          "verbatim_quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。 本人负责核心设计、实施与修订。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_confirmed",
+      "rationale": "Confirms basic practice with explained rationale for the target indicator."
+    },
+    {
+      "sample_id": "SID-E1189475016028B799",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-B811D6B97889CD0C48",
+          "verbatim_quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。 本人负责核心设计、实施与修订。",
+          "observable": "explicit learning outcomes, assessment alignment"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "level_4_multi_round",
+      "rationale": "Direct evidence shows multi-round improvement and shareable mechanisms for the target indicator."
+    },
+    {
+      "sample_id": "SID-4A2C52BEBA6DE04F9D",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-4EB9C026683DEE7A76",
+          "verbatim_quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。 本人负责核心设计、实施与修订。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "level_4_multi_round",
+      "rationale": "Evidence confirms multi-round iterative improvement and reusable sharing mechanisms for the target indicator."
+    },
+    {
+      "sample_id": "SID-CC6DFAA3E417E2376D",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-B18BF010CE55313F1A",
+          "verbatim_quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。 本人负责核心设计、实施与修订。",
+          "observable": "explicit learning outcomes, assessment alignment"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "level_1_single_attempt",
+      "rationale": "Documents indicate a single-attempt implementation with loose relational structure for the target indicator."
+    }
+  ]
+}

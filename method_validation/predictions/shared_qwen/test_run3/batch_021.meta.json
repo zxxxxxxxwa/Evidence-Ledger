@@ -1,0 +1,15 @@
+{
+  "request_sha256": "3fd9a2386a1b7b9e8b9bc9728f03b37acaa1f8d8baa1cb64a3e1e875c41c979f",
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "error",
+      "type": "ValueError",
+      "message": "sample IDs mismatch: got 12 expected 12"
+    },
+    {
+      "attempt": 2,
+      "status": "success"
+    }
+  ]
+}

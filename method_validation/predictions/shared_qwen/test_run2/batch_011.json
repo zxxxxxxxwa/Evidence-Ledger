@@ -1,0 +1,446 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-6CD3F9D371FA24284B",
+      "evidence": [
+        {
+          "doc_id": "DOC-1D62DAA614E3B56B6F",
+          "quote": "围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale",
+          "family_key": "SRC-5DE4A52D11E8C4",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.6
+        },
+        {
+          "doc_id": "DOC-42F467A1FDF6392364",
+          "quote": "材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果",
+          "family_key": "SRC-5DE4A52D11E8C4",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-89EC294A52E35665BF",
+          "quote": "材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果",
+          "family_key": "SRC-5DE4A52D11E8C4",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-5DE4A52D11E8C4"
+        ],
+        "reason_code": "strong_alignment_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-27B131546003E63DA7",
+      "evidence": [
+        {
+          "doc_id": "DOC-158F9515B2EA553C4C",
+          "quote": "材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果",
+          "family_key": "SRC-94C13807810A3D",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-032C4199B22E79DFA6",
+          "quote": "围绕“学习评价与反馈设计”展开，记录了 formative check",
+          "family_key": "SRC-94C13807810A3D",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-94C13807810A3D"
+        ],
+        "reason_code": "strong_feedback_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-676CDD592EB3CB0A38",
+      "evidence": [
+        {
+          "doc_id": "DOC-1A69B2EA23498A0B4B",
+          "quote": "围绕“数据支持的教学决策”展开，记录了 privacy safeguard",
+          "family_key": "SRC-771A80395E3CEF",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.6
+        },
+        {
+          "doc_id": "DOC-34B2B23C0214316F40",
+          "quote": "材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果",
+          "family_key": "SRC-771A80395E3CEF",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.7
+        },
+        {
+          "doc_id": "DOC-BB2EDECFEA54A866E7",
+          "quote": "材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果",
+          "family_key": "SRC-771A80395E3CEF",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-771A80395E3CEF"
+        ],
+        "reason_code": "partial_data_alignment"
+      }
+    },
+    {
+      "sample_id": "SID-62CAF405F771100F3B",
+      "evidence": [
+        {
+          "doc_id": "DOC-468094D7705682AB5F",
+          "quote": "围绕“学习评价与反馈设计”展开，记录了 formative check",
+          "family_key": "SRC-A4EE67F1B05E59",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.6
+        },
+        {
+          "doc_id": "DOC-3C117293EA7E5B046C",
+          "quote": "材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果",
+          "family_key": "SRC-A4EE67F1B05E59",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.7
+        },
+        {
+          "doc_id": "DOC-DF30FADB593F444910",
+          "quote": "复核未发现可核查的 rubric or criteria，且 feedback loop 的记录与已提交结论相反",
+          "family_key": "SRC-A31DA9537FA241",
+          "polarity": "contradict",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.75,
+        "cited_family_keys": [
+          "SRC-A4EE67F1B05E59",
+          "SRC-A31DA9537FA241"
+        ],
+        "reason_code": "conflicting_review_status"
+      }
+    },
+    {
+      "sample_id": "SID-D723793C993653B971",
+      "evidence": [
+        {
+          "doc_id": "DOC-3A83808EE9C753702E",
+          "quote": "围绕“人机协同流程设计”展开，记录了 error handling",
+          "family_key": "SRC-8D91E59E06A3B9",
+          "polarity": "context",
+          "observables": [
+            "error handling"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-8D91E59E06A3B9"
+        ],
+        "reason_code": "insufficient_workflow_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-2927091F47641ACBA5",
+      "evidence": [
+        {
+          "doc_id": "DOC-2EC9387BB61DFE8C70",
+          "quote": "围绕“数字资源设计”展开，记录了 accessibility",
+          "family_key": "SRC-C16D5AAFBA3CC9",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.6
+        },
+        {
+          "doc_id": "DOC-914897954D88545957",
+          "quote": "材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果",
+          "family_key": "SRC-C16D5AAFBA3CC9",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-C16D5AAFBA3CC9"
+        ],
+        "reason_code": "strong_resource_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-8A6245940E9DD1DE30",
+      "evidence": [
+        {
+          "doc_id": "DOC-E92DF5A17703798777",
+          "quote": "围绕“研究问题与方法匹配”展开，记录了 limitations",
+          "family_key": "SRC-7D5B31C367EC69",
+          "polarity": "context",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.6
+        },
+        {
+          "doc_id": "DOC-8C4D8891D216FCC6B4",
+          "quote": "材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果",
+          "family_key": "SRC-7D5B31C367EC69",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-7D5B31C367EC69"
+        ],
+        "reason_code": "strong_question_alignment"
+      }
+    },
+    {
+      "sample_id": "SID-ACE468940E66ED9132",
+      "evidence": [
+        {
+          "doc_id": "DOC-A0917744F6100E822C",
+          "quote": "围绕“人机协同流程设计”展开，记录了 error handling",
+          "family_key": "SRC-3D32E454473A2D",
+          "polarity": "context",
+          "observables": [
+            "error handling"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-3D32E454473A2D"
+        ],
+        "reason_code": "insufficient_workflow_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-99BA2583392533A581",
+      "evidence": [
+        {
+          "doc_id": "DOC-D1C65F213F0CDC17A8",
+          "quote": "材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果",
+          "family_key": "SRC-FF8EA18E73A3BE",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-70FEEAA68776EC0ED2",
+          "quote": "围绕“学习评价与反馈设计”展开，记录了 formative check",
+          "family_key": "SRC-FF8EA18E73A3BE",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-FF8EA18E73A3BE"
+        ],
+        "reason_code": "strong_feedback_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-03489BA64CF7C95194",
+      "evidence": [
+        {
+          "doc_id": "DOC-923AE3B616AECF8C0B",
+          "quote": "围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale",
+          "family_key": "SRC-0AA9C89C600466",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.6
+        },
+        {
+          "doc_id": "DOC-7156352BA451E4D7D2",
+          "quote": "材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果",
+          "family_key": "SRC-0AA9C89C600466",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-7B70DFA891B6D04573",
+          "quote": "材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果",
+          "family_key": "SRC-0AA9C89C600466",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-0AA9C89C600466"
+        ],
+        "reason_code": "strong_alignment_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-BC172A2CD1C66D60A2",
+      "evidence": [
+        {
+          "doc_id": "DOC-923AE3B616AECF8C0B",
+          "quote": "围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale",
+          "family_key": "SRC-0AA9C89C600466",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.6
+        },
+        {
+          "doc_id": "DOC-7156352BA451E4D7D2",
+          "quote": "材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果",
+          "family_key": "SRC-0AA9C89C600466",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-7B70DFA891B6D04573",
+          "quote": "材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果",
+          "family_key": "SRC-0AA9C89C600466",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-0AA9C89C600466"
+        ],
+        "reason_code": "strong_alignment_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-C7DE3DC40C682C4CBF",
+      "evidence": [
+        {
+          "doc_id": "DOC-3A83808EE9C753702E",
+          "quote": "围绕“人机协同流程设计”展开，记录了 error handling",
+          "family_key": "SRC-8D91E59E06A3B9",
+          "polarity": "context",
+          "observables": [
+            "error handling"
+          ],
+          "extraction_confidence": 0.6
+        },
+        {
+          "doc_id": "DOC-7F830574A6EBFDB9C9",
+          "quote": "材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果",
+          "family_key": "SRC-8D91E59E06A3B9",
+          "polarity": "support",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-8D91E59E06A3B9"
+        ],
+        "reason_code": "strong_workflow_evidence"
+      }
+    }
+  ]
+}

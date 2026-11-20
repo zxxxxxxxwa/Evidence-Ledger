@@ -1,0 +1,184 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-4E8592ED79D88E5CFE",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-915302EAA0847C8974",
+          "verbatim_quote": "摘要未展开附件中的具体设计链。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_observables",
+      "rationale": "仅存归档摘要明确说明未展开具体设计链，缺乏针对关键可观察项的实质性证据。"
+    },
+    {
+      "sample_id": "SID-723093BC33FECCE296",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-9BC5EA547766B47D20",
+          "verbatim_quote": "形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traceable_adjustable",
+      "rationale": "核心成果材料明确呈现两项关键可观察项，且工作链连贯可追溯并具备调整能力。"
+    },
+    {
+      "sample_id": "SID-C5BEEF3F853701F90A",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-530B92BCC6B6EC2D0D",
+          "verbatim_quote": "能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_improvement_reusable",
+      "rationale": "成果材料完整覆盖关键可观察项，并明确体现多轮改进及可复用分享机制。"
+    },
+    {
+      "sample_id": "SID-69791F31A37399BBBA",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-6611949603F7BFADE4",
+          "verbatim_quote": "已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_established",
+      "rationale": "成果材料明确呈现两项关键可观察项，已建立基本做法并能说明部分理由与步骤。"
+    },
+    {
+      "sample_id": "SID-9356702E359CD51BB9",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-C69B2F4397819222F8",
+          "verbatim_quote": "能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_improvement_reusable",
+      "rationale": "核心成果直接对应目标指标，明确呈现关键可观察项并具备多轮改进与共享机制。"
+    },
+    {
+      "sample_id": "SID-9BA62D61A9375BC9E5",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-6019606BEE9F2E965D",
+          "verbatim_quote": "形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traceable_adjustable",
+      "rationale": "成果材料完整覆盖关键可观察项，工作链连贯可追溯且支持按需调整。"
+    },
+    {
+      "sample_id": "SID-525ABD494C27337D98",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-1D62DAA614E3B56B6F",
+          "verbatim_quote": "摘要未展开附件中的具体设计链。",
+          "observable": "explicit learning outcomes, assessment alignment"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_observables",
+      "rationale": "仅存归档摘要明确说明未展开具体设计链，缺乏针对关键可观察项的实质性证据。"
+    },
+    {
+      "sample_id": "SID-03ED659F8C34E246C9",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-7DA684E6447F171F4F",
+          "verbatim_quote": "要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "scattered_single_attempt",
+      "rationale": "成果材料明确呈现关键可观察项，但关系松散，仅体现零散单次尝试。"
+    },
+    {
+      "sample_id": "SID-01071A5A040EAAA520",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-2261D4B956F37DD145",
+          "verbatim_quote": "已用多轮证据持续迭代，并形成可共享的做法。",
+          "observable": "data interpretation, decision trace"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_improvement_reusable",
+      "rationale": "核心成果直接对应目标指标，明确呈现关键可观察项并具备多轮迭代与共享机制。"
+    },
+    {
+      "sample_id": "SID-AF0F82DC2757115FE5",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-8C4D8891D216FCC6B4",
+          "verbatim_quote": "形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traceable_adjustable",
+      "rationale": "成果材料完整覆盖关键可观察项，工作链连贯可追溯且支持按需调整。"
+    },
+    {
+      "sample_id": "SID-F84926DC613A6FE3CD",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-B5DEB469E75EE8C619",
+          "verbatim_quote": "已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_established",
+      "rationale": "成果材料明确呈现关键可观察项，已建立基本做法并能说明部分理由与步骤。"
+    },
+    {
+      "sample_id": "SID-ABCDC655C7F6D96842",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-F748881F96D4EB088C",
+          "verbatim_quote": "已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_established",
+      "rationale": "成果材料明确呈现关键可观察项，已建立基本做法并能说明部分理由与步骤。"
+    }
+  ]
+}

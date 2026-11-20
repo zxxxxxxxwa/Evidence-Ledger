@@ -1,0 +1,99 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-32B92496A2996BD146",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-EEBC1D0A32D9672594",
+          "verbatim_quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。目前只展示零散要素，尚未形成稳定的关系。 本人负责核心设计、实施与修订。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "fragmented_elements",
+      "rationale": "材料明确呈现两项关键可观察项，但仅展示零散要素未形成稳定关系，符合等级1特征。"
+    },
+    {
+      "sample_id": "SID-F23B629FDB16084E36",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-FE18470F6112763E7B",
+          "verbatim_quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。 本人负责核心设计、实施与修订。",
+          "observable": "claim-evidence coherence, contribution statement"
+        },
+        {
+          "doc_id": "DOC-933A0F320A8757DB22",
+          "verbatim_quote": "复核未发现可核查的 claim-evidence coherence，且 contribution statement 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。材料来源独立于 SRC-003A36DCC2D129，复核日期晚于所提交成果。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_conflict",
+      "rationale": "自陈材料声称达成高水准，但独立复核明确指出未发现可核查证据且结论相反，构成关键独立冲突。"
+    },
+    {
+      "sample_id": "SID-50AE56D323E44E8044",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-458E576B89BEF2B03E",
+          "verbatim_quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。 本人负责核心设计、实施与修订。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "single_attempt",
+      "rationale": "材料明确呈现两项关键可观察项，但关系松散且仅停留单次尝试，符合等级1特征。"
+    },
+    {
+      "sample_id": "SID-A4AE59750435D1E445",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-ED327B798B4477DD7A",
+          "verbatim_quote": "围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。 本人在自填汇总中声明：data interpretation 与 decision trace 均已完成。本页仅记录本人陈述，未附相应成果片段。",
+          "observable": "data interpretation, decision trace"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_evidence",
+      "rationale": "仅存自填声明且明确说明未附成果片段，关键可观察项缺乏可核查实质证据。"
+    },
+    {
+      "sample_id": "SID-1443D2947F558549EA",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-7F830574A6EBFDB9C9",
+          "verbatim_quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。 本人负责核心设计、实施与修订。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traced_chain",
+      "rationale": "材料明确呈现两项关键可观察项，已形成连贯可追溯工作链并能依对象调整，符合等级3特征。"
+    },
+    {
+      "sample_id": "SID-FAADBC70EC658F22CB",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-847C145FA85E2BA03E",
+          "verbatim_quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。 本人负责核心设计、实施与修订。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traced_chain",
+      "rationale": "材料明确呈现两项关键可观察项，已形成连贯可追溯工作链并能依对象调整，符合等级3特征。"
+    }
+  ]
+}

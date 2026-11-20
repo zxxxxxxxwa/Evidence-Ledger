@@ -1,0 +1,456 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-0DAE0A040694C7D970",
+      "evidence": [
+        {
+          "doc_id": "DOC-0FC8905C0A6160E7C6",
+          "quote": "复核未发现可核查的 research gap，且 question-method fit 的记录与已提交结论相反",
+          "family_key": "SRC-5BEC6154031E53",
+          "polarity": "contradict",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-D47CF347C5F30A9234",
+          "quote": "材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-CCD64FA142E1C7",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-2D4970F0207CA86F16",
+          "quote": "该项工作围绕“研究问题与方法匹配”展开，记录了 limitations",
+          "family_key": "SRC-CCD64FA142E1C7",
+          "polarity": "context",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.7
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-5BEC6154031E53",
+          "SRC-CCD64FA142E1C7"
+        ],
+        "reason_code": "mixed_evidence_independent_review_contradicts"
+      }
+    },
+    {
+      "sample_id": "SID-9FFEC8DDA5F947187E",
+      "evidence": [
+        {
+          "doc_id": "DOC-E108A5DE34F1C75DA7",
+          "quote": "材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-6114DF995C675D",
+          "polarity": "support",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-B36E63E29CB502EF9E",
+          "quote": "该项工作围绕“人机协同流程设计”展开，记录了 error handling",
+          "family_key": "SRC-6114DF995C675D",
+          "polarity": "context",
+          "observables": [
+            "error handling"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-6114DF995C675D"
+        ],
+        "reason_code": "partial_workflow_documentation"
+      }
+    },
+    {
+      "sample_id": "SID-9E921D134969676420",
+      "evidence": [
+        {
+          "doc_id": "DOC-D8604CFD665809081F",
+          "quote": "该项工作围绕“研究问题与方法匹配”展开，记录了 limitations",
+          "family_key": "SRC-A308EE98A010B1",
+          "polarity": "context",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-A308EE98A010B1"
+        ],
+        "reason_code": "minimal_relevant_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-F4571838D546BE7C64",
+      "evidence": [
+        {
+          "doc_id": "DOC-A4AEAAEB00123E0F5B",
+          "quote": "材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-4A825219C2CC7D",
+          "polarity": "support",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-E4C42693DE68CE96D1",
+          "quote": "复核未发现可核查的 task allocation，且 verification protocol 的记录与已提交结论相反",
+          "family_key": "SRC-3D656DF8B9CC35",
+          "polarity": "contradict",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-AA8442CB545D1C1EA8",
+          "quote": "该项工作围绕“人机协同流程设计”展开，记录了 error handling",
+          "family_key": "SRC-4A825219C2CC7D",
+          "polarity": "context",
+          "observables": [
+            "error handling"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-4A825219C2CC7D",
+          "SRC-3D656DF8B9CC35"
+        ],
+        "reason_code": "conflicting_workflow_reviews"
+      }
+    },
+    {
+      "sample_id": "SID-8EA98C6A6949C92C73",
+      "evidence": [
+        {
+          "doc_id": "DOC-3F6CF8D525A41B3C5D",
+          "quote": "材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-310BF1FBB5782A",
+          "polarity": "support",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.7
+        },
+        {
+          "doc_id": "DOC-7C236BD591E76A6211",
+          "quote": "该项工作围绕“人机协同流程设计”展开，记录了 error handling",
+          "family_key": "SRC-310BF1FBB5782A",
+          "polarity": "context",
+          "observables": [
+            "error handling"
+          ],
+          "extraction_confidence": 0.5
+        },
+        {
+          "doc_id": "DOC-0A91B8033FE4895884",
+          "quote": "已由成果编号 SRC-310BF1FBB5782A 的 2025 年现行版本明确替代。",
+          "family_key": "SRC-C4D0756733565A",
+          "polarity": "context",
+          "observables": [],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-310BF1FBB5782A",
+          "SRC-C4D0756733565A"
+        ],
+        "reason_code": "fragmented_workflow_elements"
+      }
+    },
+    {
+      "sample_id": "SID-6191DD0788F0856ECB",
+      "evidence": [
+        {
+          "doc_id": "DOC-D55648810139E9B827",
+          "quote": "材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-0926376F8A2AB1",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-BA71983C342C7F6986",
+          "quote": "该项工作围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale",
+          "family_key": "SRC-0926376F8A2AB1",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-0926376F8A2AB1"
+        ],
+        "reason_code": "coherent_alignment_chain"
+      }
+    },
+    {
+      "sample_id": "SID-8692281A42A8632E25",
+      "evidence": [
+        {
+          "doc_id": "DOC-61AC42393A7B84A385",
+          "quote": "材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-137110D69F0C2E",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-C210BC256B0AA7891D",
+          "quote": "复核未发现可核查的 selection rationale，且 resource adaptation 的记录与已提交结论相反",
+          "family_key": "SRC-C2BF89D188DF48",
+          "polarity": "contradict",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-2BBF67DC11645823D8",
+          "quote": "该项工作围绕“数字资源设计”展开，记录了 accessibility",
+          "family_key": "SRC-137110D69F0C2E",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-137110D69F0C2E",
+          "SRC-C2BF89D188DF48"
+        ],
+        "reason_code": "resource_design_conflict"
+      }
+    },
+    {
+      "sample_id": "SID-81A101B47B3F50FAF9",
+      "evidence": [
+        {
+          "doc_id": "DOC-329F248246985C4157",
+          "quote": "材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-39ADC180306AA1",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.7
+        },
+        {
+          "doc_id": "DOC-115541E487042721B3",
+          "quote": "该项工作围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale",
+          "family_key": "SRC-39ADC180306AA1",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-39ADC180306AA1"
+        ],
+        "reason_code": "fragmented_alignment_elements"
+      }
+    },
+    {
+      "sample_id": "SID-285D714161924DD787",
+      "evidence": [
+        {
+          "doc_id": "DOC-D6565D505E6736A21E",
+          "quote": "材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-66B30AA4BC80F4",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-08119EED92CD987828",
+          "quote": "该项工作围绕“研究问题与方法匹配”展开，记录了 limitations",
+          "family_key": "SRC-66B30AA4BC80F4",
+          "polarity": "context",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.6
+        },
+        {
+          "doc_id": "DOC-05FFD7D0125594BF28",
+          "quote": "已由成果编号 SRC-66B30AA4BC80F4 的 2025 年现行版本明确替代。",
+          "family_key": "SRC-13CBA99DF67360",
+          "polarity": "context",
+          "observables": [],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-66B30AA4BC80F4",
+          "SRC-13CBA99DF67360"
+        ],
+        "reason_code": "historical_revision_superseded"
+      }
+    },
+    {
+      "sample_id": "SID-8582E8901514D4BE67",
+      "evidence": [
+        {
+          "doc_id": "DOC-EA1BCB7A54166A5572",
+          "quote": "该项工作围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale",
+          "family_key": "SRC-E1CEA9C1BC8781",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-E1CEA9C1BC8781"
+        ],
+        "reason_code": "minimal_relevant_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-4D9065555842177E9E",
+      "evidence": [
+        {
+          "doc_id": "DOC-32DC3868893F490393",
+          "quote": "材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-4AC7A633C8C74F",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-19A5D129F1F1AECCC3",
+          "quote": "复核未发现可核查的 rubric or criteria，且 feedback loop 的记录与已提交结论相反",
+          "family_key": "SRC-AD08EC9A17A803",
+          "polarity": "contradict",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-0691852808D5E48798",
+          "quote": "该项工作围绕“学习评价与反馈设计”展开，记录了 formative check",
+          "family_key": "SRC-4AC7A633C8C74F",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-4AC7A633C8C74F",
+          "SRC-AD08EC9A17A803"
+        ],
+        "reason_code": "feedback_design_conflict"
+      }
+    },
+    {
+      "sample_id": "SID-12FE450313F833F53B",
+      "evidence": [
+        {
+          "doc_id": "DOC-CFB7152C42592AE207",
+          "quote": "材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-E0E64FECD1C978",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-F3A71DFF0AE214E55E",
+          "quote": "该项工作围绕“数据支持的教学决策”展开，记录了 privacy safeguard",
+          "family_key": "SRC-E0E64FECD1C978",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.6
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-E0E64FECD1C978"
+        ],
+        "reason_code": "coherent_data_decision_chain"
+      }
+    }
+  ]
+}

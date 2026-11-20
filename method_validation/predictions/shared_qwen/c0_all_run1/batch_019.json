@@ -1,0 +1,402 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-954382F14479E191E9",
+      "evidence": [
+        {
+          "doc_id": "DOC-BA5E3EC8A07D07C284",
+          "quote": "记录了 privacy safeguard",
+          "family_key": "SRC-C4D7C794E70BBA",
+          "polarity": "support",
+          "observables": [
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-2D38D1ED2202302E8C",
+          "quote": "记录了 bias check",
+          "family_key": "SRC-38D4BB671B77EE",
+          "polarity": "support",
+          "observables": [
+            "bias check"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-D32ABEEBB604E22C42",
+          "quote": "材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-38D4BB671B77EE",
+          "polarity": "support",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-C4D7C794E70BBA",
+          "SRC-38D4BB671B77EE"
+        ],
+        "reason_code": "comprehensive_support"
+      }
+    },
+    {
+      "sample_id": "SID-EB5A295537EA1EB200",
+      "evidence": [
+        {
+          "doc_id": "DOC-0B26840A744F71D755",
+          "quote": "记录了 privacy safeguard",
+          "family_key": "SRC-729E353F7121CF",
+          "polarity": "support",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-89EF0C94564CF7F053",
+          "quote": "材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-729E353F7121CF",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-729E353F7121CF"
+        ],
+        "reason_code": "strong_direct_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-4BAC04536BD0BD95D6",
+      "evidence": [
+        {
+          "doc_id": "DOC-FE5949D2061551E6C0",
+          "quote": "记录了 activity-to-outcome rationale",
+          "family_key": "SRC-D5C9C923D61103",
+          "polarity": "support",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-D5C9C923D61103"
+        ],
+        "reason_code": "partial_support_single_obs"
+      }
+    },
+    {
+      "sample_id": "SID-14F95B3CE85F99EB5D",
+      "evidence": [
+        {
+          "doc_id": "DOC-3FCC7A99E884540F58",
+          "quote": "材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-DF13EFC93741D0",
+          "polarity": "support",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-88AF4D137FBA7A184E",
+          "quote": "记录了 error handling",
+          "family_key": "SRC-DF13EFC93741D0",
+          "polarity": "support",
+          "observables": [
+            "error handling"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-DF13EFC93741D0"
+        ],
+        "reason_code": "comprehensive_support"
+      }
+    },
+    {
+      "sample_id": "SID-0DAE0A040694C7D970",
+      "evidence": [
+        {
+          "doc_id": "DOC-D47CF347C5F30A9234",
+          "quote": "材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-CCD64FA142E1C7",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-2D4970F0207CA86F16",
+          "quote": "记录了 limitations",
+          "family_key": "SRC-CCD64FA142E1C7",
+          "polarity": "support",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.8
+        },
+        {
+          "doc_id": "DOC-0FC8905C0A6160E7C6",
+          "quote": "复核未发现可核查的 research gap，且 question-method fit 的记录与已提交结论相反",
+          "family_key": "SRC-5BEC6154031E53",
+          "polarity": "contradict",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.85
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.75,
+        "cited_family_keys": [
+          "SRC-CCD64FA142E1C7",
+          "SRC-5BEC6154031E53"
+        ],
+        "reason_code": "mixed_evidence_with_contradiction"
+      }
+    },
+    {
+      "sample_id": "SID-BBEA162136BC234C64",
+      "evidence": [
+        {
+          "doc_id": "DOC-3F5BE041A5F6D0BFF3",
+          "quote": "记录了 limitations",
+          "family_key": "SRC-14E7C631972CE9",
+          "polarity": "support",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-14E7C631972CE9"
+        ],
+        "reason_code": "minimal_support"
+      }
+    },
+    {
+      "sample_id": "SID-9F6FE97FFACC826E03",
+      "evidence": [
+        {
+          "doc_id": "DOC-A9B1B5F7941C14A494",
+          "quote": "材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-95445455F96EBE",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-5D6F3E11A0589B6D05",
+          "quote": "记录了 privacy safeguard",
+          "family_key": "SRC-95445455F96EBE",
+          "polarity": "support",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-95445455F96EBE"
+        ],
+        "reason_code": "strong_direct_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-318366E67E5614F5FD",
+      "evidence": [
+        {
+          "doc_id": "DOC-113FFBC812EB56ECFC",
+          "quote": "材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-5993A401EC369C",
+          "polarity": "support",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-358FAF196759C27F60",
+          "quote": "记录了 bias check",
+          "family_key": "SRC-5993A401EC369C",
+          "polarity": "support",
+          "observables": [
+            "bias check"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-5993A401EC369C"
+        ],
+        "reason_code": "comprehensive_support"
+      }
+    },
+    {
+      "sample_id": "SID-12FE450313F833F53B",
+      "evidence": [
+        {
+          "doc_id": "DOC-CFB7152C42592AE207",
+          "quote": "材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-E0E64FECD1C978",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-F3A71DFF0AE214E55E",
+          "quote": "记录了 privacy safeguard",
+          "family_key": "SRC-E0E64FECD1C978",
+          "polarity": "support",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-E0E64FECD1C978"
+        ],
+        "reason_code": "strong_direct_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-85B4CD0C49199E88FB",
+      "evidence": [
+        {
+          "doc_id": "DOC-FC7394D75D1E540F90",
+          "quote": "材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-834B3D7EC6C25B",
+          "polarity": "support",
+          "observables": [
+            "research gap",
+            "question-method fit"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-900972091ADB31F438",
+          "quote": "记录了 limitations",
+          "family_key": "SRC-834B3D7EC6C25B",
+          "polarity": "support",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-834B3D7EC6C25B"
+        ],
+        "reason_code": "comprehensive_support"
+      }
+    },
+    {
+      "sample_id": "SID-5C2BC2C188A7287010",
+      "evidence": [
+        {
+          "doc_id": "DOC-D1C65F213F0CDC17A8",
+          "quote": "材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-FF8EA18E73A3BE",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        },
+        {
+          "doc_id": "DOC-70FEEAA68776EC0ED2",
+          "quote": "记录了 formative check",
+          "family_key": "SRC-FF8EA18E73A3BE",
+          "polarity": "support",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.85,
+        "cited_family_keys": [
+          "SRC-FF8EA18E73A3BE"
+        ],
+        "reason_code": "comprehensive_support"
+      }
+    },
+    {
+      "sample_id": "SID-9E3732F6DA15639A0D",
+      "evidence": [
+        {
+          "doc_id": "DOC-31FD7EC4E2C7881654",
+          "quote": "记录了 accessibility",
+          "family_key": "SRC-D9CA31A98F99BF",
+          "polarity": "support",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.8
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-D9CA31A98F99BF"
+        ],
+        "reason_code": "minimal_support"
+      }
+    }
+  ]
+}

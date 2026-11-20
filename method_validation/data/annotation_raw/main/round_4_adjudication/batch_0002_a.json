@@ -1,0 +1,99 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-C5BEEF3F853701F90A",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-530B92BCC6B6EC2D0D",
+          "verbatim_quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_improvement_shareable",
+      "rationale": "核心成果明确呈现两项关键可观察项，并具备多轮迭代改进与可复用分享机制，符合高水平达成标准。"
+    },
+    {
+      "sample_id": "SID-69791F31A37399BBBA",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-6611949603F7BFADE4",
+          "verbatim_quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_established",
+      "rationale": "材料清晰呈现两项关键可观察项的基本做法与步骤说明，虽未体现多轮迭代或共享机制，但已满足基础达成要求。"
+    },
+    {
+      "sample_id": "SID-9356702E359CD51BB9",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-C69B2F4397819222F8",
+          "verbatim_quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "selection rationale, resource adaptation"
+        },
+        {
+          "doc_id": "DOC-1B3CEF1239861653D2",
+          "verbatim_quote": "复核未发现可核查的 selection rationale，且 resource adaptation 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_conflict",
+      "rationale": "自评材料与独立复核对同一关键可观察项存在直接且时间上无法合理解释的相反结论，需人工介入审查原始证据链。"
+    },
+    {
+      "sample_id": "SID-9BA62D61A9375BC9E5",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-6019606BEE9F2E965D",
+          "verbatim_quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traceable_adjustable",
+      "rationale": "成果完整呈现两项关键可观察项，工作链连贯可追溯且支持按需调整，达到中级整合水平。"
+    },
+    {
+      "sample_id": "SID-525ABD494C27337D98",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-1D62DAA614E3B56B6F",
+          "verbatim_quote": "该项工作围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "explicit learning outcomes, assessment alignment"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_evidence",
+      "rationale": "关键可观察项缺乏实质性成果支撑，现有材料仅为未展开具体设计链的归档摘要，需补充直接证据。"
+    },
+    {
+      "sample_id": "SID-03ED659F8C34E246C9",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-7DA684E6447F171F4F",
+          "verbatim_quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "scattered_single_attempt",
+      "rationale": "材料明确呈现两项关键可观察项，但要素关系松散且仅停留于单次尝试，符合基础起步特征。"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "generator_version": "M1-DATA-2026-11-19.2",
+  "seed": 20261118,
+  "method_input_gold_separation": true,
+  "intended_api_batch_size": 12,
+  "batch_teacher_collision_checks": true,
+  "source_provenance": {
+    "documents": "rule-authored test materials",
+    "persons_and_institutions": "no real person or institution identifiers",
+    "public_copyrighted_text": "none"
+  },
+  "development_teachers": 36,
+  "calibration_teachers": 12,
+  "test_teachers": 48,
+  "development_records": 216,
+  "calibration_records": 72,
+  "main_test_records": 288,
+  "c0_all_indicator_records": 384,
+  "locality_records": 240,
+  "main_conditions": [
+    "C0",
+    "T-del",
+    "T-dup",
+    "T-irr",
+    "T-order",
+    "T-conflict"
+  ],
+  "indicator_ids": [
+    "T_ALIGN",
+    "T_FEEDBACK",
+    "R_QUESTION",
+    "R_COMM",
+    "D_RESOURCE",
+    "D_DATA",
+    "A_WORKFLOW",
+    "A_RESP"
+  ],
+  "input_document_fields": [
+    "doc_id",
+    "title",
+    "material_type",
+    "source_ref",
+    "source_date",
+    "contribution_level",
+    "text"
+  ],
+  "construction_only_fields": [
+    "teacher_cluster",
+    "condition",
+    "gold_state",
+    "gold_level",
+    "gold_action",
+    "gold_reason_code",
+    "gold_evidence_doc_ids",
+    "gold_evidence_units"
+  ],
+  "reference_distributions": {
+    "main": {
+      "states": {
+        "E": 192,
+        "I": 48,
+        "C": 48
+      },
+      "conditions": {
+        "C0": 48,
+        "T-del": 48,
+        "T-dup": 48,
+        "T-irr": 48,
+        "T-order": 48,
+        "T-conflict": 48
+      }
+    },
+    "c0_all": {
+      "states": {
+        "E": 240,
+        "C": 48,
+        "I": 96
+      },
+      "conditions": {
+        "C0": 384
+      }
+    },
+    "locality": {
+      "states": {
+        "E": 240
+      },
+      "conditions": {
+        "T-del": 48,
+        "T-dup": 48,
+        "T-irr": 48,
+        "T-order": 48,
+        "T-conflict": 48
+      }
+    },
+    "calibration": {
+      "states": {
+        "E": 48,
+        "I": 12,
+        "C": 12
+      },
+      "conditions": {
+        "C0": 12,
+        "T-del": 12,
+        "T-dup": 12,
+        "T-irr": 12,
+        "T-order": 12,
+        "T-conflict": 12
+      }
+    }
+  }
+}

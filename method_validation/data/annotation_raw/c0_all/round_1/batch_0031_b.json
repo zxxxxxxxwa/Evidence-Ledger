@@ -1,0 +1,119 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-69EE4CD9A8332A351F",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-0C7FAD26AFCA6A5859",
+          "verbatim_quote": "成果编号 SRC-7474C8219E5099 的归档摘要。该项工作围绕“数据支持的教学决策”展开，记录了 privacy safeguard、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "privacy safeguard"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_key_observables",
+      "rationale": "关键可观察项 data interpretation 与 decision trace 证据缺失，仅存隐私保护摘要且明确说明未展开设计链。"
+    },
+    {
+      "sample_id": "SID-EA3824333176F50C5D",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-74D08D2DBD887E71C8",
+          "verbatim_quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。工作链较完整，可依据对象作调整并追溯理由。",
+          "observable": "task allocation"
+        },
+        {
+          "doc_id": "DOC-74D08D2DBD887E71C8",
+          "verbatim_quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。工作链较完整，可依据对象作调整并追溯理由。",
+          "observable": "verification protocol"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_adjustable",
+      "rationale": "关键可观察项有明确呈现与核验记录，工作链完整可调整追溯，符合三级标准。"
+    },
+    {
+      "sample_id": "SID-C92165BD814F8E34D6",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-8366EDC8C7B77E200C",
+          "verbatim_quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "risk assessment"
+        },
+        {
+          "doc_id": "DOC-ED53CD9F19103200E2",
+          "verbatim_quote": "复核未发现可核查的 risk assessment，且 privacy or copyright safeguard 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "observable": "risk assessment"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_conflict",
+      "rationale": "自陈材料与独立复核对同一关键可观察项存在相反结论，需人工审查。"
+    },
+    {
+      "sample_id": "SID-6F2C557E5453AC9287",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-C7BD28377DD0720F3B",
+          "verbatim_quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "explicit learning outcomes"
+        },
+        {
+          "doc_id": "DOC-C7BD28377DD0720F3B",
+          "verbatim_quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "assessment alignment"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "scattered_single_attempt",
+      "rationale": "关键可观察项有记录但关系松散，仅达单次尝试水平。"
+    },
+    {
+      "sample_id": "SID-E79636D0E876052E31",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-19D607624471AEF427",
+          "verbatim_quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "rubric or criteria"
+        },
+        {
+          "doc_id": "DOC-19D607624471AEF427",
+          "verbatim_quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "feedback loop"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_established",
+      "rationale": "关键可观察项已形成基本做法并能说明理由步骤，符合二级标准。"
+    },
+    {
+      "sample_id": "SID-B34811872C6C3A520A",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-B2046A215D6D0D7829",
+          "verbatim_quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。已经建立基础流程，并能解释若干选择与步骤。",
+          "observable": "research gap"
+        },
+        {
+          "doc_id": "DOC-8E42674201FB54A01E",
+          "verbatim_quote": "复核未发现可核查的 research gap，且 question-method fit 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "observable": "research gap"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_conflict",
+      "rationale": "自陈材料与独立复核对同一关键可观察项存在相反结论，需人工审查。"
+    }
+  ]
+}

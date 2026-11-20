@@ -1,0 +1,67 @@
+{
+  "design": "three independent method-blind LLM rating rounds",
+  "model": "qwen3.7-flash",
+  "temperature": 0.25,
+  "dimensions": [
+    "target_match",
+    "prerequisite_coherence",
+    "executability",
+    "source_support"
+  ],
+  "summary": {
+    "B1": {
+      "unique_paths": 24,
+      "ratings": 72,
+      "target_match": 2.5277777777777777,
+      "prerequisite_coherence": 2.361111111111111,
+      "executability": 1.8888888888888888,
+      "source_support": 3.7916666666666665,
+      "overall": 2.642361111111111
+    },
+    "B2": {
+      "unique_paths": 24,
+      "ratings": 72,
+      "target_match": 2.3472222222222223,
+      "prerequisite_coherence": 1.8194444444444444,
+      "executability": 1.875,
+      "source_support": 3.6527777777777777,
+      "overall": 2.423611111111111
+    },
+    "B3": {
+      "unique_paths": 24,
+      "ratings": 72,
+      "target_match": 2.1805555555555554,
+      "prerequisite_coherence": 1.6666666666666667,
+      "executability": 1.7222222222222223,
+      "source_support": 3.388888888888889,
+      "overall": 2.2395833333333335
+    },
+    "P": {
+      "unique_paths": 24,
+      "ratings": 72,
+      "target_match": 2.3194444444444446,
+      "prerequisite_coherence": 2.1805555555555554,
+      "executability": 1.75,
+      "source_support": 3.6805555555555554,
+      "overall": 2.482638888888889
+    },
+    "P_minus_Family": {
+      "unique_paths": 0,
+      "ratings": 0,
+      "target_match": null,
+      "prerequisite_coherence": null,
+      "executability": null,
+      "source_support": null,
+      "overall": null
+    },
+    "P_minus_Route": {
+      "unique_paths": 24,
+      "ratings": 72,
+      "target_match": 2.4305555555555554,
+      "prerequisite_coherence": 2.125,
+      "executability": 1.9166666666666667,
+      "source_support": 3.8333333333333335,
+      "overall": 2.576388888888889
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-8798F4E1005427B2E9",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-81C61802591564C912",
+          "verbatim_quote": "摘要未展开附件中的具体设计链。",
+          "observable": "data interpretation, decision trace"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_observable",
+      "rationale": "目标指标关键可观察项在现有材料中缺失或未展开。"
+    },
+    {
+      "sample_id": "SID-2FC9F8D54C5AFCD8AF",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-10F9A6441C5D36C434",
+          "verbatim_quote": "摘要未展开附件中的具体设计链。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_observable",
+      "rationale": "目标指标所需关键可观察项无对应实质材料支撑。"
+    },
+    {
+      "sample_id": "SID-0725F4993DC1E14E2B",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-12734CC7B9E2BAF899",
+          "verbatim_quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        },
+        {
+          "doc_id": "DOC-378D3F54215ED1C3EB",
+          "verbatim_quote": "复核未发现可核查的 risk assessment，且 privacy or copyright safeguard 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "conflicting_independent_review",
+      "rationale": "独立复核明确指出关键可观察项未获核查，与自陈成果材料存在直接矛盾。"
+    },
+    {
+      "sample_id": "SID-C05106DEC33A1054F8",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-CE37E369214069F2F1",
+          "verbatim_quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "explicit learning outcomes, assessment alignment"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "high_level_evidence",
+      "rationale": "材料完整呈现两项关键可观察项，且明确具备多轮迭代与可复用分享特征。"
+    },
+    {
+      "sample_id": "SID-EF70E8C85F0DD90A13",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-7C93F2861F5C8F346B",
+          "verbatim_quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "rubric or criteria, feedback loop"
+        },
+        {
+          "doc_id": "DOC-35EF2DF9B1CF07F885",
+          "verbatim_quote": "复核未发现可核查的 rubric or criteria，且 feedback loop 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。",
+          "observable": "rubric or criteria, feedback loop"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "conflicting_independent_review",
+      "rationale": "独立复核否定关键可观察项的可核查性，与自陈高水平材料形成独立冲突。"
+    },
+    {
+      "sample_id": "SID-9E921D134969676420",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-D8604CFD665809081F",
+          "verbatim_quote": "摘要未展开附件中的具体设计链。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_observable",
+      "rationale": "目标指标关键可观察项在提供材料中完全缺失。"
+    },
+    {
+      "sample_id": "SID-C668779870E13EB3D5",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-42734FD5B9C96E0744",
+          "verbatim_quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "high_level_evidence",
+      "rationale": "材料完整呈现两项关键可观察项，并明确具备多轮迭代与可复用分享机制。"
+    },
+    {
+      "sample_id": "SID-CAC53B2888137BBF72",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-914897954D88545957",
+          "verbatim_quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。工作链较完整，可依据对象作调整并追溯理由。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traceable_adjustable",
+      "rationale": "材料完整呈现关键可观察项，工作链连贯可追溯且能依据对象需要作调整。"
+    },
+    {
+      "sample_id": "SID-65F3A751BB61562725",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-F98BB8B6C42E92F6CA",
+          "verbatim_quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "data interpretation, decision trace"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_established",
+      "rationale": "材料明确呈现两项关键可观察项，已形成基本做法并能说明部分选择理由。"
+    },
+    {
+      "sample_id": "SID-6F612B85D0E6DB08DA",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-E3C194373943A33D6A",
+          "verbatim_quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "basic_practice_established",
+      "rationale": "材料明确呈现两项关键可观察项，已形成基本做法并能说明部分选择理由。"
+    },
+    {
+      "sample_id": "SID-FD14C763EB84667841",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-1EBD03137FFCF9CB9C",
+          "verbatim_quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traceable_adjustable",
+      "rationale": "材料完整呈现关键可观察项，工作链连贯可追溯且能依据对象需要作调整。"
+    },
+    {
+      "sample_id": "SID-6191DD0788F0856ECB",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-D55648810139E9B827",
+          "verbatim_quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "explicit learning outcomes, assessment alignment"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traceable_adjustable",
+      "rationale": "材料完整呈现关键可观察项，工作链连贯可追溯且能依据对象需要作调整。"
+    }
+  ]
+}

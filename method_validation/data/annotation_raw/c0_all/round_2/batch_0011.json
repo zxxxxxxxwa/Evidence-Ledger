@@ -1,0 +1,184 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-D1AB6BE50471AF18D3",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-41B8FBC3AF84030334",
+          "verbatim_quote": "复核未发现可核查的 research gap，且 question-method fit 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。材料来源独立于 SRC-96A2B72779E074，复核日期晚于所提交成果。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_conflict",
+      "rationale": "独立复核明确指出关键可观察项缺失且与提交结论相反，构成关键独立证据冲突。"
+    },
+    {
+      "sample_id": "SID-2DB60C1EB2C02BD4F7",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-359B00F52C3D94923D",
+          "verbatim_quote": "围绕“学术表达与个人贡献”展开，记录了 audience adaptation、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_evidence",
+      "rationale": "缺乏针对 claim-evidence coherence 与 contribution statement 的可核查证据，现有材料仅记录归档摘要或未展开设计链。"
+    },
+    {
+      "sample_id": "SID-2BA58F8B1D7C98B97C",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-105FA1031A13D4DBFD",
+          "verbatim_quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traced_adaptable",
+      "rationale": "材料明确呈现两项关键可观察项，工作链连贯可追溯且能依据对象调整，符合等级3标准。"
+    },
+    {
+      "sample_id": "SID-7CB41E33BDC490EE29",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-BB2EDECFEA54A866E7",
+          "verbatim_quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "data interpretation, decision trace"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "single_attempt",
+      "rationale": "关键可观察项有记录但关系松散且仅单次尝试，符合等级1标准。"
+    },
+    {
+      "sample_id": "SID-8F0EA4FECBD0B35293",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-A94873BE29EACE57BB",
+          "verbatim_quote": "复核未发现可核查的 task allocation，且 verification protocol 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。材料来源独立于 SRC-251B3687E0BFB5，复核日期晚于所提交成果。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_conflict",
+      "rationale": "独立复核明确指出关键可观察项缺失且与提交结论相反，构成关键独立证据冲突。"
+    },
+    {
+      "sample_id": "SID-8C9CF5FBFF333210A4",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-8F92530FF77B927218",
+          "verbatim_quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "risk assessment, privacy or copyright safeguard"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "single_attempt",
+      "rationale": "关键可观察项有记录但关系松散且仅单次尝试，符合等级1标准。"
+    },
+    {
+      "sample_id": "SID-3BF117061224963807",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-6C587B138AE293BCF2",
+          "verbatim_quote": "复核未发现可核查的 explicit learning outcomes，且 assessment alignment 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。材料来源独立于 SRC-43D97D7F87C394，复核日期晚于所提交成果。",
+          "observable": "explicit learning outcomes, assessment alignment"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_conflict",
+      "rationale": "独立复核指出关键可观察项缺失且与提交结论相反，构成关键独立证据冲突。"
+    },
+    {
+      "sample_id": "SID-7E5967D4003F266C3E",
+      "state": "I",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-E6CCE408C7E67F0EF2",
+          "verbatim_quote": "围绕“学习评价与反馈设计”展开，记录了 formative check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "rubric or criteria, feedback loop"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_evidence",
+      "rationale": "缺乏针对 rubric or criteria 与 feedback loop 的可核查证据，现有材料仅记录归档摘要或未展开设计链。"
+    },
+    {
+      "sample_id": "SID-F5E96C71CC6375362A",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-D28AD07299EBB1C1C4",
+          "verbatim_quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "coherent_traced_adaptable",
+      "rationale": "材料明确呈现两项关键可观察项，工作链连贯可追溯且能依据对象调整，符合等级3标准。"
+    },
+    {
+      "sample_id": "SID-D8D205590C88D9CBB4",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-4EB9C026683DEE7A76",
+          "verbatim_quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "multi_round_reusable",
+      "rationale": "关键可观察项完整呈现，具备多轮改进及可复用分享特征，符合等级4标准。"
+    },
+    {
+      "sample_id": "SID-499BF55DE5F0289364",
+      "state": "C",
+      "level": null,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-310620C0F5B66E688A",
+          "verbatim_quote": "复核未发现可核查的 selection rationale，且 resource adaptation 的记录与已提交结论相反；复核者据现行版本判断关键做法尚未建立。材料来源独立于 SRC-D522AC2A56BA64，复核日期晚于所提交成果。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "human_review",
+      "reason_code": "independent_conflict",
+      "rationale": "独立复核明确指出关键可观察项缺失且与提交结论相反，构成关键独立证据冲突。"
+    },
+    {
+      "sample_id": "SID-9F6FE97FFACC826E03",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-A9B1B5F7941C14A494",
+          "verbatim_quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "data interpretation, decision trace"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "single_attempt",
+      "rationale": "关键可观察项有记录但关系松散且仅单次尝试，符合等级1标准。"
+    }
+  ]
+}

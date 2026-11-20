@@ -1,0 +1,102 @@
+```json
+{
+  "ratings": [
+    {
+      "blind_output_id": "RVMTP9QMUD4A",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "路径步骤为通用模板，未针对T_FEEDBACK指标进行差异化设计，匹配度低；步骤内容完全重复，无逻辑递进；任务描述过于抽象，缺乏具体操作指引；所引CAST与CMU资源为权威公开指南，来源清晰可查，但与抽象任务的衔接说明不足。"
+    },
+    {
+      "blind_output_id": "RH2ANMHQ4R8M",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "路径步骤为通用模板，未针对D_RESOURCE指标定制，匹配度低；四步内容高度雷同，缺乏合理递进；实践任务与产出描述模糊，可操作性弱；所列W3C、DigCompEdu等资源来源明确、链接有效，但资源与步骤的关联逻辑未阐明。"
+    },
+    {
+      "blind_output_id": "RQD9DVCD8ZUC",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "路径未体现T_ALIGN指标要求的具体对齐动作，仅用模板语句替代，匹配度低；步骤间无先后依赖或能力进阶；任务缺乏具体对象与方法，执行困难；EU与CMU资源信息完整可追溯，但未能支撑抽象的任务描述。"
+    },
+    {
+      "blind_output_id": "RVFCKFC78XLR",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "路径步骤未结合T_FEEDBACK指标设计反馈收集或迭代环节，匹配度低；两步内容重复，无递进结构；“应用一个要点”缺乏具体指向，产出标准不清晰；CAST与CMU资源权威且可查，但资源推荐与任务脱节。"
+    },
+    {
+      "blind_output_id": "RTXQKVDCJKR2",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "路径未回应D_DATA指标的数据处理或分析需求，匹配度低；步骤为固定模板，无先修与进阶逻辑；任务与证据描述空泛，难以落地执行；EU与Data Carpentry资源来源清晰，但未能具体指导数据类实践。"
+    },
+    {
+      "blind_output_id": "REFZYM5QJZ63",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "路径未针对D_DATA指标设计数据反思或应用流程，匹配度低；两步内容一致，缺乏递进；任务描述过于笼统，执行标准不明；EU框架与CheckIn工具来源可识别，但资源功能与抽象任务未建立有效联系。"
+    },
+    {
+      "blind_output_id": "R8B78TTDEDGJ",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "路径未体现R_QUESTION指标的研究提问或规范检索特征，匹配度低；三步内容重复，无逻辑序列；实践任务缺乏具体情境与操作指引；EQUATOR与UNESCO资源权威可查，但资源推荐与任务脱节。"
+    },
+    {
+      "blind_output_id": "R6V6AC6G2AR7",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "路径未结合A_RESP指标设计责任履行或伦理响应机制，匹配度低；步骤为固定模板，无能力进阶；任务与产出描述抽象，执行性差；NIST与UNESCO风险管理资源来源清晰，但未能支撑具体行动建议。"
+    },
+    {
+      "blind_output_id": "R74JFXZUXQRL",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "路径未针对T_FEEDBACK指标设计反馈循环或改进策略，匹配度低；两步内容完全相同，无递进关系；任务描述空泛，缺乏可操作细节；CMU与EU资源信息完整可追溯，但资源与步骤关联说明缺失。"
+    },
+    {
+      "blind_output_id": "R357HZ5EJGWH",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "路径未体现T_ALIGN指标的课程对齐或目标校准过程，匹配度低；步骤为通用模板，无逻辑先后；实践任务与证据标准模糊，执行困难；CMU与EU工具来源明确，但资源用途与抽象任务未有效对接。"
+    },
+    {
+      "blind_output_id": "RR473TL4K2AH",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "路径未针对D_RESOURCE指标设计资源筛选或整合路径，匹配度低；两步内容重复，缺乏递进；任务描述过于宽泛，难以具体执行；W3C与EU资源权威可查，但资源推荐与任务脱节。"
+    },
+    {
+      "blind_output_id": "RSC7CE344CTL",
+      "target_match": 1,
+      "prerequisite_coherence": 1,
+      "executability": 1,
+      "source_support": 4,
+      "brief_reason": "路径未结合A_RESP指标设计责任落实或风险应对流程，匹配度低；步骤为固定模板，无先修与进阶逻辑；任务与产出描述空泛，执行性弱；NIST与UNESCO资源来源清晰可识别，但未能具体支撑行动建议。"
+    }
+  ]
+}
+```

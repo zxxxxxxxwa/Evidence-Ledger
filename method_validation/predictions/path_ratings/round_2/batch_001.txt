@@ -1,0 +1,102 @@
+```json
+{
+  "ratings": [
+    {
+      "blind_output_id": "R3CEZLGQ67M3",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤全为通用模板，未针对数据指标设计具体任务；资源真实可查但步骤间无难度递进与先修逻辑；任务与证据描述过于宽泛，易越过实际可操作边界。"
+    },
+    {
+      "blind_output_id": "RFPAGHZAECWS",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "路径未体现提问能力发展的认知阶梯；资源具备一定先修关联（CFT至ETHICS），但步骤文本完全重复，缺乏递进设计；任务缺乏操作细节与情境限定。"
+    },
+    {
+      "blind_output_id": "RAPCCZDWBWYA",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤模板化严重，未能贴合沟通协作指标；所选资源偏向科研管理与报告规范，与沟通能力直接关联弱；步骤无递进，任务笼统。"
+    },
+    {
+      "blind_output_id": "RB8UFXEUN6WM",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源先修链（伦理规范→风险管理手册）逻辑清晰，契合责任指标；但路径步骤仍为模板化重复，未展现从理论理解到工具应用的进阶过程，任务空泛。"
+    },
+    {
+      "blind_output_id": "RYEMBK7W62Z9",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "课程设计与数字框架资源支持对齐目标，但步骤未体现目标-评价-教学策略的对齐流程；步骤间无复杂度提升，任务描述缺乏具体操作指引。"
+    },
+    {
+      "blind_output_id": "R6G9LAG66L2L",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源适用于反馈设计，但路径未提供具体的反馈实施或迭代步骤；步骤完全一致，缺乏从设计到收集再到调整反馈的递进，证据边界模糊。"
+    },
+    {
+      "blind_output_id": "R8MGXJ6Z55TG",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源链呈现“课程设计→UDL→Web无障碍”的合理递进，契合资源开发指标；但四个步骤文本完全相同，未反映难度跨越，任务缺乏针对性。"
+    },
+    {
+      "blind_output_id": "R929R4UZLWZ5",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤模板化严重，未区分研究问题设计的具体要求；资源引用规范且可查，但路径内部缺乏探究深度的递进，任务可操作性低。"
+    },
+    {
+      "blind_output_id": "RWZTRCHRVD9E",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "结构与前次对齐路径一致，资源匹配度尚可，但步骤无差异化设计，无法支撑教学目标对齐的复杂认知过程，证据标准过于宽泛。"
+    },
+    {
+      "blind_output_id": "R633S5QLX9QU",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源先修关系符合AI责任管理逻辑，但路径步骤未体现从伦理审查到风险管理工具应用的技能迁移，任务描述空泛，难验证实际成效。"
+    },
+    {
+      "blind_output_id": "RCCDYKKZHQDH",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源顺序存在交叉（UDL与课程设计），整体属教学设计范畴；步骤重复导致反馈指标的核心要素未被覆盖，缺乏递进与具体操作指引。"
+    },
+    {
+      "blind_output_id": "R8TAFB6PCP3J",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源涵盖AI风险与课程设计，但未明确如何整合至工作流程优化；步骤无递进，任务过于宽泛，难以界定工作流改进的证据边界。"
+    }
+  ]
+}
+```

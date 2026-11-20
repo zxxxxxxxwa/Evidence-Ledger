@@ -1,0 +1,10 @@
+{
+  "request_sha256": "c5329f2a48af45a8c44c760bd76f40ba03e4ea9c70a4bbf360e6386cf6eb1936",
+  "model": "qwen3.7-flash",
+  "temperature": 0.25,
+  "max_tokens": 16000,
+  "timeout_seconds": 180,
+  "blind_output_ids": [
+    "RSRYX92MBNF3"
+  ]
+}

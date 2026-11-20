@@ -1,0 +1,49 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-96ED941FC6CE6CEB41",
+      "state": "I",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-032C4199B22E79DFA6",
+          "verbatim_quote": "该项工作围绕“学习评价与反馈设计”展开，记录了 formative check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "rubric or criteria, feedback loop"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_design_chain",
+      "rationale": "仅存归档摘要提及主题与次要项，明确声明未展开具体设计链，缺乏关键可观察项的直接证据。"
+    },
+    {
+      "sample_id": "SID-8B84A6FA9BF1DDD9CB",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-BFAE45E9FBBE0599EF",
+          "verbatim_quote": "围绕“学术表达与个人贡献”，材料明确呈现 claim-evidence coherence：给出对象、目的与判断依据；同时呈现 contribution statement：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。",
+          "observable": "claim-evidence coherence, contribution statement"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "single_attempt_loose_relation",
+      "rationale": "材料明确呈现两项关键指标，但自述关系松散且仅单次尝试，需深化整合以形成稳定做法。"
+    },
+    {
+      "sample_id": "SID-8EAF9FFAA88A8C4DD4",
+      "state": "I",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-92ECF4CF768921F8C6",
+          "verbatim_quote": "该项工作围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "observable": "explicit learning outcomes, assessment alignment"
+        }
+      ],
+      "action": "request_evidence",
+      "reason_code": "missing_critical_design_chain",
+      "rationale": "仅存归档摘要提及主题与次要项，明确声明未展开具体设计链，缺乏关键可观察项的直接证据。"
+    }
+  ]
+}

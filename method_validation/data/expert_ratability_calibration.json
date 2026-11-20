@@ -1,0 +1,149 @@
+{
+  "artifact_type": "ratability_calibration",
+  "version": "M1-CAL-2026-11-19.2",
+  "expert_calibrated": true,
+  "source_manifest": {
+    "created_at": "2026-11-19T00:00:00+08:00",
+    "framework_version": "2026-11-18.1",
+    "method": "pooled_logistic_on_blind_qwen_features_with_separate_calibration_reference",
+    "data_fingerprint": "8e5401dbc69d126d3f4a310a146118c9cb4fbf599d4b6fe9308db79afbe7b2e3"
+  },
+  "indicator_policies": {
+    "A_RESP": {
+      "min_independent_families": 1,
+      "contribution_required": false,
+      "ratability_model": {
+        "type": "logistic",
+        "intercept": 0.22224252,
+        "coefficients": {
+          "family_count": -1.84030931,
+          "log1p_family_count": -0.63672573,
+          "critical_coverage": 3.63033681,
+          "attributable_family_fraction": 0.37771382,
+          "temporally_relevant_family_fraction": 0.3760692,
+          "conflict_pair_count": -2.12827279
+        },
+        "threshold": 0.61085609
+      }
+    },
+    "A_WORKFLOW": {
+      "min_independent_families": 1,
+      "contribution_required": false,
+      "ratability_model": {
+        "type": "logistic",
+        "intercept": 0.22224252,
+        "coefficients": {
+          "family_count": -1.84030931,
+          "log1p_family_count": -0.63672573,
+          "critical_coverage": 3.63033681,
+          "attributable_family_fraction": 0.37771382,
+          "temporally_relevant_family_fraction": 0.3760692,
+          "conflict_pair_count": -2.12827279
+        },
+        "threshold": 0.61085609
+      }
+    },
+    "D_DATA": {
+      "min_independent_families": 1,
+      "contribution_required": false,
+      "ratability_model": {
+        "type": "logistic",
+        "intercept": 0.22224252,
+        "coefficients": {
+          "family_count": -1.84030931,
+          "log1p_family_count": -0.63672573,
+          "critical_coverage": 3.63033681,
+          "attributable_family_fraction": 0.37771382,
+          "temporally_relevant_family_fraction": 0.3760692,
+          "conflict_pair_count": -2.12827279
+        },
+        "threshold": 0.61085609
+      }
+    },
+    "D_RESOURCE": {
+      "min_independent_families": 1,
+      "contribution_required": false,
+      "ratability_model": {
+        "type": "logistic",
+        "intercept": 0.22224252,
+        "coefficients": {
+          "family_count": -1.84030931,
+          "log1p_family_count": -0.63672573,
+          "critical_coverage": 3.63033681,
+          "attributable_family_fraction": 0.37771382,
+          "temporally_relevant_family_fraction": 0.3760692,
+          "conflict_pair_count": -2.12827279
+        },
+        "threshold": 0.61085609
+      }
+    },
+    "R_COMM": {
+      "min_independent_families": 1,
+      "contribution_required": true,
+      "ratability_model": {
+        "type": "logistic",
+        "intercept": 0.22224252,
+        "coefficients": {
+          "family_count": -1.84030931,
+          "log1p_family_count": -0.63672573,
+          "critical_coverage": 3.63033681,
+          "attributable_family_fraction": 0.37771382,
+          "temporally_relevant_family_fraction": 0.3760692,
+          "conflict_pair_count": -2.12827279
+        },
+        "threshold": 0.61085609
+      }
+    },
+    "R_QUESTION": {
+      "min_independent_families": 1,
+      "contribution_required": true,
+      "ratability_model": {
+        "type": "logistic",
+        "intercept": 0.22224252,
+        "coefficients": {
+          "family_count": -1.84030931,
+          "log1p_family_count": -0.63672573,
+          "critical_coverage": 3.63033681,
+          "attributable_family_fraction": 0.37771382,
+          "temporally_relevant_family_fraction": 0.3760692,
+          "conflict_pair_count": -2.12827279
+        },
+        "threshold": 0.61085609
+      }
+    },
+    "T_ALIGN": {
+      "min_independent_families": 1,
+      "contribution_required": false,
+      "ratability_model": {
+        "type": "logistic",
+        "intercept": 0.22224252,
+        "coefficients": {
+          "family_count": -1.84030931,
+          "log1p_family_count": -0.63672573,
+          "critical_coverage": 3.63033681,
+          "attributable_family_fraction": 0.37771382,
+          "temporally_relevant_family_fraction": 0.3760692,
+          "conflict_pair_count": -2.12827279
+        },
+        "threshold": 0.61085609
+      }
+    },
+    "T_FEEDBACK": {
+      "min_independent_families": 1,
+      "contribution_required": false,
+      "ratability_model": {
+        "type": "logistic",
+        "intercept": 0.22224252,
+        "coefficients": {
+          "family_count": -1.84030931,
+          "log1p_family_count": -0.63672573,
+          "critical_coverage": 3.63033681,
+          "attributable_family_fraction": 0.37771382,
+          "temporally_relevant_family_fraction": 0.3760692,
+          "conflict_pair_count": -2.12827279
+        },
+        "threshold": 0.61085609
+      }
+    }
+  }
+}

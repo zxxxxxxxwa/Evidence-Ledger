@@ -1,0 +1,100 @@
+{
+  "ratings": [
+    {
+      "blind_output_id": "RM6XA3VC7NMR",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "路径步骤为通用占位文本，未针对T_ALIGN指标定制具体内容；任务描述宽泛（仅‘应用一个要点’），缺乏操作细节；资源本身权威且链接可查，但路径陈述与资源实际内容缺乏显式映射，一致性不足。"
+    },
+    {
+      "blind_output_id": "RQTWA6YXY87P",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "步骤文本完全模板化，未体现R_QUESTION指标所需的提问设计或研究规范审查逻辑；实践任务与证据要求过于笼统；EQUATOR与UNESCO资源真实有效，但路径未说明如何从中提取关键要素，源文一致性一般。"
+    },
+    {
+      "blind_output_id": "RSW2ZLRXNY6Z",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "流程类指标(A_WORKFLOW)需明确环节衔接，但路径仅提供重复性步骤描述；任务缺乏具体工作流拆解动作；NIST与CMU资源可识别且摘要准确，但路径文本未展示资源工具如何嵌入流程，支持度中等。"
+    },
+    {
+      "blind_output_id": "RBMWK9SJ67PM",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "T_FEEDBACK指标需聚焦反馈机制设计，路径却使用通用连接话术；实践任务未规定反馈类型、对象或迭代方式；所引DigCompEdu与CMU指南来源可靠，但路径陈述与资源功能匹配度低。"
+    },
+    {
+      "blind_output_id": "R3QWJLS2QT9L",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "同属T_ALIGN指标，路径结构与前序一致，未提供差异化进阶设计；任务与证据要求重复且模糊；资源列表完整可验证，但路径未体现资源版本或具体章节的调用逻辑，一致性有限。"
+    },
+    {
+      "blind_output_id": "RRWU2KH9CR67",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "R_COMM指标涉及沟通协作，路径仍套用通用模板；缺乏针对沟通场景的任务设定；COPE与EQUATOR资源真实可查，但路径陈述未说明如何利用规范促进团队沟通，源文对齐弱。"
+    },
+    {
+      "blind_output_id": "RFMKSBA7KJVA",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "D_RESOURCE指标需体现资源筛选与适配逻辑，路径未给出评估维度或选择标准；任务过于抽象；W3C与DigCompEdu来源清晰，但路径未展示资源版本或具体模块的引用依据，一致性不足。"
+    },
+    {
+      "blind_output_id": "RDKJNZ2NPLMS",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "T_FEEDBACK路径再次使用模板步骤，未结合UDL指南细化反馈策略；实践要求未指定反馈形式或受众；CAST与CMU资源可识别且摘要正确，但路径文本与资源实操建议脱节，支持度中等。"
+    },
+    {
+      "blind_output_id": "RV6DD74HY8ZB",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "D_DATA指标需明确数据处理技能进阶，路径仍为通用描述；任务未限定数据清洗/分析的具体环节；Data Carpentry与DigCompEdu来源权威，但路径未体现资源课程与教师实际数据工作的对接逻辑，一致性一般。"
+    },
+    {
+      "blind_output_id": "R7DQSLUNR9P9",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "D_RESOURCE路径依赖DigCompEdu与CheckIn工具，但步骤未说明如何利用反思工具定位资源缺口；任务描述空洞；资源链接与发布者准确，但路径陈述未展示工具版本或具体使用场景，源文匹配弱。"
+    },
+    {
+      "blind_output_id": "R2NK9S6ZDB3A",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "A_WORKFLOW含三步，但各步文本完全重复，未体现流程递进；任务未区分治理、识别、测量等环节；UNESCO与NIST资源真实可查，但路径未将框架步骤与资源章节对应，一致性不足。"
+    },
+    {
+      "blind_output_id": "RWVPXTF6P9CG",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 1,
+      "source_support": 3,
+      "brief_reason": "A_RESP指标需响应伦理或政策要求，路径仍用通用话术；缺乏针对响应机制的具体任务设计；UNESCO双资源来源可靠，但路径未说明如何将能力框架转化为实际响应行动，源文对齐度低。"
+    }
+  ]
+}

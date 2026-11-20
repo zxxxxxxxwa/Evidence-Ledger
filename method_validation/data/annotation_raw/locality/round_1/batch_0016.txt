@@ -1,0 +1,184 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-6B8A482B2CF990E1F7",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-95908697831972F8B5",
+          "verbatim_quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。已用多轮证据持续迭代，并形成可共享的做法。 本人负责核心设计、实施与修订。",
+          "observable": "rubric or criteria, feedback loop"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "level_4_multi_round_shareable",
+      "rationale": "材料明确呈现两项关键可观察项，且描述多轮迭代与可共享做法，符合等级4标准。"
+    },
+    {
+      "sample_id": "SID-3D1BC59A53E8FDB390",
+      "state": "E",
+      "level": 4,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-99D5DE13864A9AC829",
+          "verbatim_quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。能够依据多轮证据持续改进，并形成可复用、可分享的机制。 本人负责核心设计、实施与修订。",
+          "observable": "data interpretation, decision trace"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "level_4_multi_round_shareable",
+      "rationale": "成果材料完整呈现两项关键指标，并明确说明多轮改进与可复用分享机制，达到等级4。"
+    },
+    {
+      "sample_id": "SID-DF841E71E2F7FE5261",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-72108F86186722BCB7",
+          "verbatim_quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。 本人负责核心设计、实施与修订。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "level_3_coherent_adjustable",
+      "rationale": "材料清晰呈现两项关键可观察项，工作链连贯可追溯且能按需调整，符合等级3特征。"
+    },
+    {
+      "sample_id": "SID-93F38EA287ECD16853",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-3637ED1710CB3D365E",
+          "verbatim_quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。 本人负责核心设计、实施与修订。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "level_1_single_attempt",
+      "rationale": "材料明确呈现两项关键指标，但明确指出关系松散且仅单次尝试，符合等级1标准。"
+    },
+    {
+      "sample_id": "SID-D36CE845599A95E364",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-CF379377674953CB12",
+          "verbatim_quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。 本人负责核心设计、实施与修订。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "level_2_basic_practice",
+      "rationale": "材料明确呈现两项关键可观察项，描述为基本做法并能说明部分理由与步骤，符合等级2标准。"
+    },
+    {
+      "sample_id": "SID-3840F2F5A335D502C2",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-C26C844EB1E7433E20",
+          "verbatim_quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。 本人负责核心设计、实施与修订。",
+          "observable": "task allocation, verification protocol"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "level_2_basic_practice",
+      "rationale": "材料明确呈现两项关键指标，界定为基本做法并可说明部分理由与步骤，符合等级2标准。"
+    },
+    {
+      "sample_id": "SID-BE29EA810A8D45ECBA",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-458E576B89BEF2B03E",
+          "verbatim_quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。 本人负责核心设计、实施与修订。",
+          "observable": "selection rationale, resource adaptation"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "level_1_single_attempt",
+      "rationale": "材料明确呈现两项关键指标，但指出关系松散且仅单次尝试，符合等级1标准。"
+    },
+    {
+      "sample_id": "SID-74304026A06BA48B7F",
+      "state": "E",
+      "level": 3,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-F5567D6A9A6E4EAFB8",
+          "verbatim_quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。形成连贯、可追溯的工作链，并能依据对象需要作调整。 本人负责核心设计、实施与修订。",
+          "observable": "explicit learning outcomes, assessment alignment"
+        }
+      ],
+      "action": "deepen_integrate",
+      "reason_code": "level_3_coherent_adjustable",
+      "rationale": "材料完整呈现两项关键指标，工作链连贯可追溯且能按需调整，符合等级3标准。"
+    },
+    {
+      "sample_id": "SID-379361B927564F972E",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-F98BB8B6C42E92F6CA",
+          "verbatim_quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。 本人负责核心设计、实施与修订。",
+          "observable": "data interpretation, decision trace"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "level_2_basic_practice",
+      "rationale": "材料明确呈现两项关键指标，界定为基本做法并可说明部分理由与步骤，符合等级2标准。"
+    },
+    {
+      "sample_id": "SID-862A79B458006C2BEB",
+      "state": "E",
+      "level": 2,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-BFDAC39FF61363E422",
+          "verbatim_quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。已形成基本做法，并能说明部分选择理由与操作步骤。 本人负责核心设计、实施与修订。",
+          "observable": "explicit learning outcomes, assessment alignment"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "level_2_basic_practice",
+      "rationale": "材料明确呈现两项关键指标，描述为基本做法并可说明部分理由与步骤，符合等级2标准。"
+    },
+    {
+      "sample_id": "SID-4253128A706038387F",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-1BC08AC0D44FC66B53",
+          "verbatim_quote": "围绕“研究问题与方法匹配”，材料明确呈现 research gap：给出对象、目的与判断依据；同时呈现 question-method fit：逐项记录设计选择和核验结果。目前只展示零散要素，尚未形成稳定的关系。 本人负责核心设计、实施与修订。",
+          "observable": "research gap, question-method fit"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "level_1_fragmented_unstable",
+      "rationale": "材料明确呈现两项关键指标，但指出仅展示零散要素且未形成稳定关系，符合等级1标准。"
+    },
+    {
+      "sample_id": "SID-D7C63A74FA6E5E4A3A",
+      "state": "E",
+      "level": 1,
+      "evidence_units": [
+        {
+          "doc_id": "DOC-AD48E1CF52B7E2A217",
+          "verbatim_quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。要素虽有记录，但关系仍较松散，主要停留在单次尝试。 本人负责核心设计、实施与修订。",
+          "observable": "data interpretation, decision trace"
+        }
+      ],
+      "action": "strengthen",
+      "reason_code": "level_1_single_attempt",
+      "rationale": "材料明确呈现两项关键指标，但明确指出关系松散且仅单次尝试，符合等级1标准。"
+    }
+  ]
+}

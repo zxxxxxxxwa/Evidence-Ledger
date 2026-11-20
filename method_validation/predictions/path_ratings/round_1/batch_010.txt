@@ -1,0 +1,14 @@
+```json
+{
+  "ratings": [
+    {
+      "blind_output_id": "RSRYX92MBNF3",
+      "target_match": 4,
+      "prerequisite_coherence": 3,
+      "executability": 4,
+      "source_support": 5,
+      "brief_reason": "路径直接呼应D_RESOURCE指标与‘形成可执行发展进阶’的目标，步骤明确指向将外部框架与反思工具转化为实践行动。但两步任务描述完全重复，未体现难度提升或能力递进，先修逻辑在 pedagogy 层面偏弱。任务、产出物（带日期样例与理由）与时长设定具体，教师可直接落地执行。所引资源均为欧盟委员会JRC官方发布，链接可查且摘要精准对应建议用途，对数字教育资源建设具有强支撑力。"
+    }
+  ]
+}
+```

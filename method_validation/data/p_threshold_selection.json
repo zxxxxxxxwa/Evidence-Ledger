@@ -1,0 +1,173 @@
+{
+  "criterion": "balanced_accuracy_then_accuracy_then_coverage",
+  "displayed_proportions": "Jeffreys posterior means; raw numerators and denominators retained; selection uses raw counts",
+  "selected_threshold": 0.6108560943508878,
+  "records": 72,
+  "candidates": [
+    {
+      "threshold": 0.0,
+      "balanced_accuracy": 0.5048979591836734,
+      "accuracy": 0.6643835616438356,
+      "coverage": 0.9931506849315068,
+      "raw_counts": {
+        "true_positive": 48,
+        "positive_total": 48,
+        "true_negative": 0,
+        "negative_total": 24,
+        "correct": 48,
+        "total": 72,
+        "selected": 72
+      }
+    },
+    {
+      "threshold": 0.12987733545512423,
+      "balanced_accuracy": 0.5048979591836734,
+      "accuracy": 0.6643835616438356,
+      "coverage": 0.9931506849315068,
+      "raw_counts": {
+        "true_positive": 48,
+        "positive_total": 48,
+        "true_negative": 0,
+        "negative_total": 24,
+        "correct": 48,
+        "total": 72,
+        "selected": 72
+      }
+    },
+    {
+      "threshold": 0.15646272036795358,
+      "balanced_accuracy": 0.7448979591836735,
+      "accuracy": 0.8287671232876712,
+      "coverage": 0.8287671232876712,
+      "raw_counts": {
+        "true_positive": 48,
+        "positive_total": 48,
+        "true_negative": 12,
+        "negative_total": 24,
+        "correct": 60,
+        "total": 72,
+        "selected": 60
+      }
+    },
+    {
+      "threshold": 0.18304810528078294,
+      "balanced_accuracy": 0.7448979591836735,
+      "accuracy": 0.8287671232876712,
+      "coverage": 0.8287671232876712,
+      "raw_counts": {
+        "true_positive": 48,
+        "positive_total": 48,
+        "true_negative": 12,
+        "negative_total": 24,
+        "correct": 60,
+        "total": 72,
+        "selected": 60
+      }
+    },
+    {
+      "threshold": 0.19813369707995887,
+      "balanced_accuracy": 0.7648979591836735,
+      "accuracy": 0.8424657534246576,
+      "coverage": 0.815068493150685,
+      "raw_counts": {
+        "true_positive": 48,
+        "positive_total": 48,
+        "true_negative": 13,
+        "negative_total": 24,
+        "correct": 61,
+        "total": 72,
+        "selected": 59
+      }
+    },
+    {
+      "threshold": 0.21321928887913483,
+      "balanced_accuracy": 0.7648979591836735,
+      "accuracy": 0.8424657534246576,
+      "coverage": 0.815068493150685,
+      "raw_counts": {
+        "true_positive": 48,
+        "positive_total": 48,
+        "true_negative": 13,
+        "negative_total": 24,
+        "correct": 61,
+        "total": 72,
+        "selected": 59
+      }
+    },
+    {
+      "threshold": 0.2620143340647313,
+      "balanced_accuracy": 0.9448979591836735,
+      "accuracy": 0.9657534246575342,
+      "coverage": 0.6917808219178082,
+      "raw_counts": {
+        "true_positive": 48,
+        "positive_total": 48,
+        "true_negative": 22,
+        "negative_total": 24,
+        "correct": 70,
+        "total": 72,
+        "selected": 50
+      }
+    },
+    {
+      "threshold": 0.31080937925032776,
+      "balanced_accuracy": 0.9448979591836735,
+      "accuracy": 0.9657534246575342,
+      "coverage": 0.6917808219178082,
+      "raw_counts": {
+        "true_positive": 48,
+        "positive_total": 48,
+        "true_negative": 22,
+        "negative_total": 24,
+        "correct": 70,
+        "total": 72,
+        "selected": 50
+      }
+    },
+    {
+      "threshold": 0.6108560943508878,
+      "balanced_accuracy": 0.9848979591836735,
+      "accuracy": 0.9931506849315068,
+      "coverage": 0.6643835616438356,
+      "raw_counts": {
+        "true_positive": 48,
+        "positive_total": 48,
+        "true_negative": 24,
+        "negative_total": 24,
+        "correct": 72,
+        "total": 72,
+        "selected": 48
+      }
+    },
+    {
+      "threshold": 0.9109028094514479,
+      "balanced_accuracy": 0.9848979591836735,
+      "accuracy": 0.9931506849315068,
+      "coverage": 0.6643835616438356,
+      "raw_counts": {
+        "true_positive": 48,
+        "positive_total": 48,
+        "true_negative": 24,
+        "negative_total": 24,
+        "correct": 72,
+        "total": 72,
+        "selected": 48
+      }
+    },
+    {
+      "threshold": 1.0,
+      "balanced_accuracy": 0.4951020408163265,
+      "accuracy": 0.3356164383561644,
+      "coverage": 0.00684931506849315,
+      "raw_counts": {
+        "true_positive": 0,
+        "positive_total": 48,
+        "true_negative": 24,
+        "negative_total": 24,
+        "correct": 24,
+        "total": 72,
+        "selected": 0
+      }
+    }
+  ]
+}

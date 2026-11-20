@@ -1,0 +1,102 @@
+```json
+{
+  "ratings": [
+    {
+      "blind_output_id": "RQNJ4MVQMLGW",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源与反馈指标基本相关，但步骤完全重复，无难度递进；先修标注与实际步骤顺序脱节；任务产出缺乏证据边界约束。"
+    },
+    {
+      "blind_output_id": "RWP5GWFESMCB",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "无障碍与数字框架资源匹配资源开发指标，但先修指向路径外资源导致逻辑断裂；步骤无进阶设计，建议超出单一资源支撑边界。"
+    },
+    {
+      "blind_output_id": "RF7R4FGT9A7A",
+      "target_match": 4,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "课程设计与反思工具契合对齐指标，具备初步递进；但步骤文本未随资源深化而变化，执行细节不足。"
+    },
+    {
+      "blind_output_id": "R8LDU2Q39D7V",
+      "target_match": 4,
+      "prerequisite_coherence": 4,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "能力框架至伦理规范的先修链完整，符合责任进阶逻辑；但实践任务仍为模板化描述，未体现责任行为的证据要求。"
+    },
+    {
+      "blind_output_id": "RPN3HEJC689M",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "数字能力与数据实操资源平行并列，缺乏从认知到分析的难度梯度；步骤无差异化，建议未跨越证据边界但支撑力弱。"
+    },
+    {
+      "blind_output_id": "RZX259JRR62N",
+      "target_match": 3,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "单步路径仅依赖报告规范工具，虽无先修冲突但无法体现研究问题设计的进阶；任务描述过于宽泛。"
+    },
+    {
+      "blind_output_id": "RE9M23WHP6DG",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "双资源均涉评价反馈，但无先后逻辑与难度区分；步骤高度同质，建议未基于证据状态细化。"
+    },
+    {
+      "blind_output_id": "R2VK2UEB6ADT",
+      "target_match": 2,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "引入AI伦理资源偏离研究问题核心指标；先修链断裂且主题混杂；任务泛化，证据边界不清。"
+    },
+    {
+      "blind_output_id": "RJCX4KF2RHAB",
+      "target_match": 4,
+      "prerequisite_coherence": 5,
+      "executability": 2,
+      "source_support": 5,
+      "brief_reason": "三阶资源严格遵循“框架-伦理-风险管理”先修关系，递进清晰且高度契合流程治理目标；但步骤文本未同步升级，执行指引仍显单薄。"
+    },
+    {
+      "blind_output_id": "RAAQHHHQT3EM",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "开源协作与报告规范资源匹配沟通指标，但呈平行关系无递进；步骤无区分度，建议停留在通用层面。"
+    },
+    {
+      "blind_output_id": "R2G2J7AR4R8D",
+      "target_match": 3,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源先修要求“伦理前置”，但路径步骤顺序倒置，严重违背先修逻辑；任务模板化，建议脱离证据基础。"
+    },
+    {
+      "blind_output_id": "RJLXNREUSB66",
+      "target_match": 3,
+      "prerequisite_coherence": 4,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "框架到自查工具的依赖关系合理，符合资源规划进阶；但步骤未体现从宏观标准到微观应用的能力跃迁，执行边界模糊。"
+    }
+  ]
+}
+```

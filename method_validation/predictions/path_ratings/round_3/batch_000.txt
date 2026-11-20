@@ -1,0 +1,102 @@
+```json
+{
+  "ratings": [
+    {
+      "blind_output_id": "RY8JBZMCTKUK",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤文本为通用模板，未针对R_QUESTION指标提供具体映射或差异化设计；EQUATOR资源真实权威且摘要准确，但实践任务过于宽泛，资源与步骤间的直接支撑关系未明确展示。"
+    },
+    {
+      "blind_output_id": "RJ6KUD594S68",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "路径结构完整但内容高度模板化，未体现D_DATA指标特性；DigCompEdu框架与CheckIn工具来源可靠、先修逻辑清晰，但任务描述缺乏具体执行指引与产出标准。"
+    },
+    {
+      "blind_output_id": "R2BJ8X2ARGE7",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤未结合A_RESP指标进行定制化说明；UNESCO能力框架与伦理建议书均为真实权威来源，摘要描述准确，但“应用一个要点”等任务表述过于抽象，可操作性有限。"
+    },
+    {
+      "blind_output_id": "RWMUK9DY3SYZ",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "路径沿用固定模板，未针对D_DATA指标展开具体进阶设计；DigCompEdu与Data Carpentry资源真实可查、领域相关性强，但步骤间递进关系仅依赖资源列表标注，文本层面缺乏连贯性。"
+    },
+    {
+      "blind_output_id": "RFGBQCC8RTKF",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "三步流程结构一致但未贴合A_RESP指标的具体要求；UNESCO与NIST资源均为国际公认规范，来源可识别且摘要无误，但任务与证据描述高度同质化，难以评估实际执行效果。"
+    },
+    {
+      "blind_output_id": "R3JC6KPV2H37",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "内容与RFGBQCC8RTKF完全一致，模板化特征明显，未体现A_RESP指标的个性化发展路径；资源引用规范、链接有效，但步骤文本未展示资源如何具体支撑指标达成。"
+    },
+    {
+      "blind_output_id": "R82RDBFNBQ2P",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤未针对T_FEEDBACK指标提供反馈机制或评价对齐的具体方法；CMU课程设计与DigCompEdu资源真实可用，但任务描述停留在通用层面，缺乏可操作的反馈收集与迭代步骤。"
+    },
+    {
+      "blind_output_id": "R4C9EF3G464H",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "路径结构与其他AI伦理类条目相同，未结合A_WORKFLOW指标优化工作流设计；资源引用准确、先修链完整，但实践任务与完成证据缺乏与工作流改进直接相关的量化或质性指标。"
+    },
+    {
+      "blind_output_id": "RLSAGXF3SAK8",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤未体现R_COMM指标所需的协作或传播策略；OSF指南与EQUATOR工具均为开放科学领域权威资源，来源清晰，但任务描述过于笼统，未说明如何利用资源促进学术交流或成果共享。"
+    },
+    {
+      "blind_output_id": "RQQQW2A84D9W",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "路径模板化严重，未针对R_QUESTION指标提出研究问题构建或验证的具体方法；EQUATOR与伦理建议书资源真实有效，但步骤间缺乏针对研究设计迭进的逻辑衔接说明。"
+    },
+    {
+      "blind_output_id": "R7QELR6XZRLR",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "步骤未结合T_ALIGN指标提供课程目标-评价-教学的对齐检查清单或工具；CMU指南与DigCompEdu反思工具来源可靠，但任务描述未指明如何输出对齐审查结果，可执行性受限。"
+    },
+    {
+      "blind_output_id": "RCAD9EV2BW44",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "内容与RLSAGXF3SAK8一致，模板未适配R_COMM指标的实际交流场景；OSF与EQUATOR资源引用规范、链接可验证，但实践任务与证据要求缺乏对学术传播或合作成果的针对性设计。"
+    }
+  ]
+}
+```

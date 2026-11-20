@@ -1,0 +1,280 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-7F89A30ABC0A9A6779",
+      "evidence": [
+        {
+          "doc_id": "DOC-37BCC99053B391A985",
+          "quote": "围绕“研究问题与方法匹配”展开，记录了 limitations",
+          "family_key": "SRC-1044F6B8209AE6",
+          "polarity": "context",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-1044F6B8209AE6"
+        ],
+        "reason_code": "limited_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-69454CFB3DAC7A8B77",
+      "evidence": [
+        {
+          "doc_id": "DOC-340D2C3288E1F8AAE3",
+          "quote": "围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale",
+          "family_key": "SRC-84AE3457A9A884",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-84AE3457A9A884"
+        ],
+        "reason_code": "limited_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-3977CACB210146D13C",
+      "evidence": [
+        {
+          "doc_id": "DOC-04D77F9953045A08BF",
+          "quote": "围绕“数据支持的教学决策”展开，记录了 privacy safeguard",
+          "family_key": "SRC-40CE5312FE2426",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-40CE5312FE2426"
+        ],
+        "reason_code": "limited_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-FD1B4577344AB18069",
+      "evidence": [
+        {
+          "doc_id": "DOC-21F74AF2D941398315",
+          "quote": "围绕“学习评价与反馈设计”展开，记录了 formative check",
+          "family_key": "SRC-B4681AB84B59D0",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-B4681AB84B59D0"
+        ],
+        "reason_code": "limited_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-9FCECF51C26506E755",
+      "evidence": [
+        {
+          "doc_id": "DOC-88571C1B7F4C0E7DB9",
+          "quote": "围绕“研究问题与方法匹配”展开，记录了 limitations",
+          "family_key": "SRC-291573C02EA806",
+          "polarity": "context",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-291573C02EA806"
+        ],
+        "reason_code": "limited_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-962CCB80C62C339D12",
+      "evidence": [
+        {
+          "doc_id": "DOC-FED8D9C5C299EAE961",
+          "quote": "围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale",
+          "family_key": "SRC-460EFA592BF5FA",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-460EFA592BF5FA"
+        ],
+        "reason_code": "limited_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-5B53D681CDD9948EA7",
+      "evidence": [
+        {
+          "doc_id": "DOC-C68778CB26A7CA4C57",
+          "quote": "围绕“人机协同流程设计”展开，记录了 error handling",
+          "family_key": "SRC-22A17613B95282",
+          "polarity": "context",
+          "observables": [
+            "error handling"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-22A17613B95282"
+        ],
+        "reason_code": "limited_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-AE0F330F731D6CE4BE",
+      "evidence": [
+        {
+          "doc_id": "DOC-83C8695B48C59DAE81",
+          "quote": "围绕“数据支持的教学决策”展开，记录了 privacy safeguard",
+          "family_key": "SRC-D7F6F6DA27BD72",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-D7F6F6DA27BD72"
+        ],
+        "reason_code": "limited_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-BDC27972EC6BBA1B83",
+      "evidence": [
+        {
+          "doc_id": "DOC-8CC34F276B9CE78697",
+          "quote": "围绕“人机协同流程设计”展开，记录了 error handling",
+          "family_key": "SRC-E0A0CA77C3BB8D",
+          "polarity": "context",
+          "observables": [
+            "error handling"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-E0A0CA77C3BB8D"
+        ],
+        "reason_code": "limited_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-2B043CCC8225669EF4",
+      "evidence": [
+        {
+          "doc_id": "DOC-CA80798BD882FF47F5",
+          "quote": "围绕“学习评价与反馈设计”展开，记录了 formative check",
+          "family_key": "SRC-0E0D03F45ABE1B",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-0E0D03F45ABE1B"
+        ],
+        "reason_code": "limited_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-0E3D28642D555BF35E",
+      "evidence": [
+        {
+          "doc_id": "DOC-185D91580769671188",
+          "quote": "围绕“学习评价与反馈设计”展开，记录了 formative check",
+          "family_key": "SRC-C598D4025B963D",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-C598D4025B963D"
+        ],
+        "reason_code": "limited_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-7F7D95026F97DC6C88",
+      "evidence": [
+        {
+          "doc_id": "DOC-B36719141505D800D5",
+          "quote": "围绕“数据支持的教学决策”展开，记录了 privacy safeguard",
+          "family_key": "SRC-9F34E3BDFF7E4E",
+          "polarity": "context",
+          "observables": [
+            "privacy safeguard"
+          ],
+          "extraction_confidence": 0.5
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.6,
+        "cited_family_keys": [
+          "SRC-9F34E3BDFF7E4E"
+        ],
+        "reason_code": "limited_evidence"
+      }
+    }
+  ]
+}

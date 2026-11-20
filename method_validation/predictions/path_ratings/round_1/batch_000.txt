@@ -1,0 +1,102 @@
+```json
+{
+  "ratings": [
+    {
+      "blind_output_id": "RY8JBZMCTKUK",
+      "target_match": 3,
+      "prerequisite_coherence": 4,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "EQUATOR规范资源与研究问题指标匹配，单步设计逻辑自洽；但实践任务与证据描述为通用占位文本，缺乏针对研究设计的细化指引，执行性偏弱。"
+    },
+    {
+      "blind_output_id": "RJ6KUD594S68",
+      "target_match": 3,
+      "prerequisite_coherence": 4,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "DigCompEdu框架与高校CheckIn工具递进合理，契合数字能力发展；但两步实践任务完全一致且表述空泛，未体现数据素养提升的具体操作路径。"
+    },
+    {
+      "blind_output_id": "R2BJ8X2ARGE7",
+      "target_match": 3,
+      "prerequisite_coherence": 4,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "UNESCO AI能力框架与伦理建议书组合契合AI责任目标，先修关系明确；活动描述高度模板化，未说明如何将伦理原则转化为具体教学/科研行为。"
+    },
+    {
+      "blind_output_id": "RWMUK9DY3SYZ",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "两项资源均标注无先修，步骤呈平行并列而非递进关系；实践任务重复且模糊，缺乏数据清洗或分析的具体技能训练设计。"
+    },
+    {
+      "blind_output_id": "RFGBQCC8RTKF",
+      "target_match": 3,
+      "prerequisite_coherence": 5,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "三步资源形成清晰的AI责任与风险管理进阶链条（框架→伦理→NIST手册），先修逻辑严密；但实践任务仍为通用占位符，未结合具体治理场景，落地指导不足。"
+    },
+    {
+      "blind_output_id": "R3JC6KPV2H37",
+      "target_match": 3,
+      "prerequisite_coherence": 5,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "同RFGBQCC8RTKF，AI能力与伦理、风险管理资源衔接紧密，步骤递进合理；活动描述模板化导致执行指导性不足，难以评估实际成效。"
+    },
+    {
+      "blind_output_id": "R82RDBFNBQ2P",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "CMU课程设计指南与DigCompEdu框架并列提供，但缺乏步骤间的逻辑递进；任务描述泛化，未体现反馈收集、整理与响应的具体流程。"
+    },
+    {
+      "blind_output_id": "R4C9EF3G464H",
+      "target_match": 3,
+      "prerequisite_coherence": 5,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源链条完整覆盖AI工作流设计与管理；先修设定合理；但实践任务未结合具体教学或科研环节，可操作性受限，产出标准不明确。"
+    },
+    {
+      "blind_output_id": "RLSAGXF3SAK8",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "OSF指南与EQUATOR规范支持科研传播目标；但双资源无先修关系，步骤呈平行状态；任务描述缺乏针对性，未说明如何组织或发布研究成果。"
+    },
+    {
+      "blind_output_id": "RQQQW2A84D9W",
+      "target_match": 3,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "步骤2错误引用了未在资源列表中出现的UNESCO-AI-CFT作为先修，造成逻辑断层；任务描述模板化，执行指引缺失，影响路径完整性。"
+    },
+    {
+      "blind_output_id": "R7QELR6XZRLR",
+      "target_match": 3,
+      "prerequisite_coherence": 1,
+      "executability": 2,
+      "source_support": 3,
+      "brief_reason": "步骤2先修资源指向未列出的EU-DIGCOMPEDU-FRAMEWORK，存在逻辑矛盾；活动描述高度重复，无法支撑具体的课程目标对齐审查任务。"
+    },
+    {
+      "blind_output_id": "RCAD9EV2BW44",
+      "target_match": 3,
+      "prerequisite_coherence": 2,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源组合契合科研传播目标；步骤间无递进设计；实践任务为通用占位文本，缺乏具体操作标准与成果归档要求，执行性弱。"
+    }
+  ]
+}
+```

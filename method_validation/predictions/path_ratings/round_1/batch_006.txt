@@ -1,0 +1,102 @@
+```json
+{
+  "ratings": [
+    {
+      "blind_output_id": "RM6XA3VC7NMR",
+      "target_match": 3,
+      "prerequisite_coherence": 4,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源聚焦课程设计与数字能力，基本服务于对齐目标；步骤间无严格依赖，结构平行；实践任务表述空泛，缺乏具体操作指引与评价标准；来源权威可查。"
+    },
+    {
+      "blind_output_id": "RQTWA6YXY87P",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "报告规范与伦理资源与研究问题构建的关联较弱；步骤独立但主题跳跃；任务模板化严重，无法落地；资源信息完整可识别。"
+    },
+    {
+      "blind_output_id": "RSW2ZLRXNY6Z",
+      "target_match": 3,
+      "prerequisite_coherence": 4,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "风险管理手册与课程设计指南可辅助工作流优化，先修关系明确；但“应用要点”缺乏情境设定与交付物要求，执行颗粒度不足；来源清晰。"
+    },
+    {
+      "blind_output_id": "RBMWK9SJ67PM",
+      "target_match": 2,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "所选资源侧重宏观能力框架与课程设计，对反馈机制的直接支撑有限；步骤重复度高，未体现反馈设计的递进性；任务描述笼统；来源可查。"
+    },
+    {
+      "blind_output_id": "R3QWJLS2QT9L",
+      "target_match": 3,
+      "prerequisite_coherence": 4,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源契合课程对齐审查需求，步骤平行合理；但路径文本未展示如何将框架转化为具体对齐动作，任务可执行性弱；来源规范。"
+    },
+    {
+      "blind_output_id": "RRWU2KH9CR67",
+      "target_match": 4,
+      "prerequisite_coherence": 3,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "报告规范与伦理实践高度契合研究沟通目标；步骤独立；任务仍为通用指令，未指明如何撰写或审查具体成果；来源权威。"
+    },
+    {
+      "blind_output_id": "RFMKSBA7KJVA",
+      "target_match": 3,
+      "prerequisite_coherence": 4,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "无障碍资源与数字能力框架匹配设计目标，先修逻辑顺畅；但实践任务未规定具体检查点或修改动作，操作性一般；来源明确。"
+    },
+    {
+      "blind_output_id": "RDKJNZ2NPLMS",
+      "target_match": 3,
+      "prerequisite_coherence": 4,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "UDL指南与课程设计资源有助于构建包容性反馈，先修顺序合理；但步骤描述未能体现反馈策略的迭代过程，任务缺乏具体情境；来源可靠。"
+    },
+    {
+      "blind_output_id": "RV6DD74HY8ZB",
+      "target_match": 4,
+      "prerequisite_coherence": 3,
+      "executability": 3,
+      "source_support": 4,
+      "brief_reason": "数据技能课程直接支撑数据处理目标，实操基础较好；步骤平行；任务虽模板化，但结合Data Carpentry结构化课程可执行性略高；来源清晰。"
+    },
+    {
+      "blind_output_id": "R7DQSLUNR9P9",
+      "target_match": 3,
+      "prerequisite_coherence": 4,
+      "executability": 3,
+      "source_support": 4,
+      "brief_reason": "自评工具与能力框架配合良好，先修明确；反思任务具备一定可操作性，适合自我诊断；但需配套具体量表才能完全落地；来源权威。"
+    },
+    {
+      "blind_output_id": "R2NK9S6ZDB3A",
+      "target_match": 4,
+      "prerequisite_coherence": 5,
+      "executability": 3,
+      "source_support": 4,
+      "brief_reason": "资源构成“能力-伦理-风险”完整工作流链条，先修递进严谨；任务描述宏观，但依托框架可按阶段拆解执行；来源规范可查。"
+    },
+    {
+      "blind_output_id": "RWVPXTF6P9CG",
+      "target_match": 4,
+      "prerequisite_coherence": 4,
+      "executability": 2,
+      "source_support": 4,
+      "brief_reason": "资源精准对应AI责任与伦理目标，逻辑连贯；但实践任务未提供伦理困境案例或责任落实清单，难以直接执行；来源清晰。"
+    }
+  ]
+}
+```

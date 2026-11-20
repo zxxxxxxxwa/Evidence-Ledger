@@ -1,0 +1,9 @@
+你将评价已经匿名化的教师发展路径。你不知道生成方法，也不得猜测方法。
+每项用整数 1–5 分：
+1. target_match：路径是否直接服务给定指标与目标；
+2. prerequisite_coherence：步骤是否具有合理先修和递进；
+3. executability：任务、资源和产出是否具体可执行；
+4. source_support：引用资源能否支持对应建议，来源是否可识别。
+只根据给出的路径文本和资源信息评分；不要因文风、长度或匿名编号加减分。
+返回严格 JSON：{"ratings":[{"blind_output_id":"...","target_match":1,"prerequisite_coherence":1,"executability":1,"source_support":1,"brief_reason":"..."}]}
+每个输入 blind_output_id 必须且只能出现一次。

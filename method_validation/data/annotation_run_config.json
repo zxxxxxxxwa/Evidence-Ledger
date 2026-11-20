@@ -1,0 +1,46 @@
+{
+  "model": "qwen3.7-flash",
+  "rounds": [
+    1,
+    2,
+    3
+  ],
+  "adjudication_round": 4,
+  "temperatures": {
+    "1": 0.2,
+    "2": 0.25,
+    "3": 0.3,
+    "4": 0.1
+  },
+  "max_tokens": 24000,
+  "timeout_seconds": 180,
+  "workers": 32,
+  "batch_size": 12,
+  "force": false,
+  "datasets": [
+    "calibration",
+    "main",
+    "c0_all",
+    "locality"
+  ],
+  "plan": {
+    "calibration": {
+      "records": 72,
+      "batches_per_round": 6
+    },
+    "main": {
+      "records": 288,
+      "batches_per_round": 24
+    },
+    "c0_all": {
+      "records": 384,
+      "batches_per_round": 32
+    },
+    "locality": {
+      "records": 240,
+      "batches_per_round": 20
+    }
+  },
+  "construction_visible_to_primary_rounds": false,
+  "method_predictions_visible_to_any_round": false
+}

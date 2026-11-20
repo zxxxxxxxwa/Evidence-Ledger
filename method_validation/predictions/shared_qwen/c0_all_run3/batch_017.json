@@ -1,0 +1,287 @@
+{
+  "records": [
+    {
+      "sample_id": "SID-451F43719AECF8F396",
+      "evidence": [
+        {
+          "doc_id": "DOC-C69CEE9A7E6A13BAED",
+          "quote": "该项工作围绕“研究问题与方法匹配”展开，记录了 limitations、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-A94F7DADD57710",
+          "polarity": "context",
+          "observables": [
+            "limitations"
+          ],
+          "extraction_confidence": 0.3
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.2,
+        "cited_family_keys": [
+          "SRC-A94F7DADD57710"
+        ],
+        "reason_code": "no_substantive_evidence"
+      }
+    },
+    {
+      "sample_id": "SID-3F4F556F609BA4B845",
+      "evidence": [
+        {
+          "doc_id": "DOC-65214993DC9B64F467",
+          "quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-F055BAFFE0B0BF",
+          "polarity": "support",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-F055BAFFE0B0BF"
+        ],
+        "reason_code": "strong_support_present"
+      }
+    },
+    {
+      "sample_id": "SID-AFCBDC4BFEBB1E5A56",
+      "evidence": [
+        {
+          "doc_id": "DOC-9CC76178CD4A168137",
+          "quote": "该项工作围绕“人机协同流程设计”展开，记录了 error handling、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-CFBDDBD9F1D708",
+          "polarity": "context",
+          "observables": [
+            "error handling"
+          ],
+          "extraction_confidence": 0.2
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.3,
+        "cited_family_keys": [
+          "SRC-CFBDDBD9F1D708"
+        ],
+        "reason_code": "only_archive_summary"
+      }
+    },
+    {
+      "sample_id": "SID-6C237B33A923F72425",
+      "evidence": [
+        {
+          "doc_id": "DOC-1B3A89774239B14D37",
+          "quote": "围绕“学习评价与反馈设计”，材料明确呈现 rubric or criteria：给出对象、目的与判断依据；同时呈现 feedback loop：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-B1AA261323AD5D",
+          "polarity": "support",
+          "observables": [
+            "rubric or criteria",
+            "feedback loop"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-B1AA261323AD5D"
+        ],
+        "reason_code": "strong_support_present"
+      }
+    },
+    {
+      "sample_id": "SID-8EA7586548004E9993",
+      "evidence": [
+        {
+          "doc_id": "DOC-93D694FBD40CE103C9",
+          "quote": "该项工作围绕“数字资源设计”展开，记录了 accessibility、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-92A1A1F425A2B8",
+          "polarity": "context",
+          "observables": [
+            "accessibility"
+          ],
+          "extraction_confidence": 0.2
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.3,
+        "cited_family_keys": [
+          "SRC-92A1A1F425A2B8"
+        ],
+        "reason_code": "only_archive_summary"
+      }
+    },
+    {
+      "sample_id": "SID-F95907F49182403B5E",
+      "evidence": [
+        {
+          "doc_id": "DOC-D565FE1039810CFB3D",
+          "quote": "该项工作围绕“学习评价与反馈设计”展开，记录了 formative check、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-4CED83C4D64157",
+          "polarity": "context",
+          "observables": [
+            "formative check"
+          ],
+          "extraction_confidence": 0.2
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.3,
+        "cited_family_keys": [
+          "SRC-4CED83C4D64157"
+        ],
+        "reason_code": "only_archive_summary"
+      }
+    },
+    {
+      "sample_id": "SID-175CF83590DF560DB9",
+      "evidence": [
+        {
+          "doc_id": "DOC-9F838FD0A2CE209776",
+          "quote": "该项工作围绕“课程目标—活动—评价对齐”展开，记录了 activity-to-outcome rationale、会议日期、版本号与后续安排；摘要未展开附件中的具体设计链。",
+          "family_key": "SRC-C7303BEF8F39B8",
+          "polarity": "context",
+          "observables": [
+            "activity-to-outcome rationale"
+          ],
+          "extraction_confidence": 0.2
+        }
+      ],
+      "generic": {
+        "level": 1,
+        "self_confidence": 0.3,
+        "cited_family_keys": [
+          "SRC-C7303BEF8F39B8"
+        ],
+        "reason_code": "only_archive_summary"
+      }
+    },
+    {
+      "sample_id": "SID-8F0EA4FECBD0B35293",
+      "evidence": [
+        {
+          "doc_id": "DOC-D0455EE53AE7A363F4",
+          "quote": "围绕“人机协同流程设计”，材料明确呈现 task allocation：给出对象、目的与判断依据；同时呈现 verification protocol：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-251B3687E0BFB5",
+          "polarity": "support",
+          "observables": [
+            "task allocation",
+            "verification protocol"
+          ],
+          "extraction_confidence": 0.85
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-251B3687E0BFB5"
+        ],
+        "reason_code": "basic_practice_established"
+      }
+    },
+    {
+      "sample_id": "SID-505FBFE10364132918",
+      "evidence": [
+        {
+          "doc_id": "DOC-E9B5C21A0C11ABDC06",
+          "quote": "围绕“课程目标—活动—评价对齐”，材料明确呈现 explicit learning outcomes：给出对象、目的与判断依据；同时呈现 assessment alignment：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-627EA6A3336B05",
+          "polarity": "support",
+          "observables": [
+            "explicit learning outcomes",
+            "assessment alignment"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-627EA6A3336B05"
+        ],
+        "reason_code": "strong_support_present"
+      }
+    },
+    {
+      "sample_id": "SID-930445912205F89F52",
+      "evidence": [
+        {
+          "doc_id": "DOC-3D101DC12E590B4963",
+          "quote": "围绕“数字资源设计”，材料明确呈现 selection rationale：给出对象、目的与判断依据；同时呈现 resource adaptation：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-06C7ED65265D65",
+          "polarity": "support",
+          "observables": [
+            "selection rationale",
+            "resource adaptation"
+          ],
+          "extraction_confidence": 0.85
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.7,
+        "cited_family_keys": [
+          "SRC-06C7ED65265D65"
+        ],
+        "reason_code": "basic_practice_established"
+      }
+    },
+    {
+      "sample_id": "SID-AC2A8EC7C8E56F4144",
+      "evidence": [
+        {
+          "doc_id": "DOC-9E080A18B8A61F8016",
+          "quote": "围绕“AI 风险、隐私与版权治理”，材料明确呈现 risk assessment：给出对象、目的与判断依据；同时呈现 privacy or copyright safeguard：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-9B4D247B09EBA8",
+          "polarity": "support",
+          "observables": [
+            "risk assessment",
+            "privacy or copyright safeguard"
+          ],
+          "extraction_confidence": 0.75
+        }
+      ],
+      "generic": {
+        "level": 2,
+        "self_confidence": 0.65,
+        "cited_family_keys": [
+          "SRC-9B4D247B09EBA8"
+        ],
+        "reason_code": "basic_practice_established"
+      }
+    },
+    {
+      "sample_id": "SID-FA6E22815D93B2114D",
+      "evidence": [
+        {
+          "doc_id": "DOC-60995E61CFDF65AE93",
+          "quote": "围绕“数据支持的教学决策”，材料明确呈现 data interpretation：给出对象、目的与判断依据；同时呈现 decision trace：逐项记录设计选择和核验结果。",
+          "family_key": "SRC-BCD456B04425D6",
+          "polarity": "support",
+          "observables": [
+            "data interpretation",
+            "decision trace"
+          ],
+          "extraction_confidence": 0.9
+        }
+      ],
+      "generic": {
+        "level": 3,
+        "self_confidence": 0.8,
+        "cited_family_keys": [
+          "SRC-BCD456B04425D6"
+        ],
+        "reason_code": "strong_support_present"
+      }
+    }
+  ]
+}

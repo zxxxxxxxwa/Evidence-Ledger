@@ -1,0 +1,878 @@
+{
+  "metadata": {
+    "purpose": "descriptive only; no heterogeneity hypothesis tests",
+    "bootstrap_repetitions": 10000,
+    "bootstrap_cluster": "teacher_cluster",
+    "confidence_level": 0.95,
+    "rate_estimator": "Jeffreys Beta(0.5,0.5) posterior mean",
+    "T_del_interval": "Wilson 95% interval on one binary T-del result per teacher cluster",
+    "llm_model": "qwen3.7-flash",
+    "model_version_policy": "single frozen model version for all LLM methods"
+  },
+  "groupings": {
+    "field_group": {
+      "humanities": {
+        "teacher_clusters": 12,
+        "records": 72,
+        "methods": {
+          "B1": {
+            "state_macro_f1": 0.9556152769211189,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.927167387965936,
+              0.9709576138147566
+            ],
+            "T_del_EWR": 0.038461538461538464,
+            "T_del_EWR_count": 0,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.0,
+              0.24249400665524085
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.038461538461538464,
+              0.038461538461538464
+            ]
+          },
+          "B2": {
+            "state_macro_f1": 0.2650273224043716,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.2650273224043716,
+              0.2650273224043716
+            ],
+            "T_del_EWR": 0.9615384615384616,
+            "T_del_EWR_count": 12,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.7575059933447592,
+              1.0
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.9615384615384616,
+              0.9615384615384616
+            ]
+          },
+          "B3": {
+            "state_macro_f1": 0.4875086266390614,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.3954022988505747,
+              0.561498012055919
+            ],
+            "T_del_EWR": 0.5,
+            "T_del_EWR_count": 6,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.2537815976337061,
+              0.7462184023662939
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.2692307692307692,
+              0.7307692307692307
+            ]
+          },
+          "P": {
+            "state_macro_f1": 0.9709576138147566,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.9709576138147566,
+              0.9709576138147566
+            ],
+            "T_del_EWR": 0.038461538461538464,
+            "T_del_EWR_count": 0,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.0,
+              0.24249400665524085
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.038461538461538464,
+              0.038461538461538464
+            ]
+          }
+        }
+      },
+      "practice_health_arts": {
+        "teacher_clusters": 12,
+        "records": 72,
+        "methods": {
+          "B1": {
+            "state_macro_f1": 0.9709576138147566,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.9709576138147566,
+              0.9709576138147566
+            ],
+            "T_del_EWR": 0.038461538461538464,
+            "T_del_EWR_count": 0,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.0,
+              0.24249400665524085
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.038461538461538464,
+              0.038461538461538464
+            ]
+          },
+          "B2": {
+            "state_macro_f1": 0.2650273224043716,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.2650273224043716,
+              0.2650273224043716
+            ],
+            "T_del_EWR": 0.8076923076923077,
+            "T_del_EWR_count": 10,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.5519691377470267,
+              0.9530348578161462
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.5769230769230769,
+              0.9615384615384616
+            ]
+          },
+          "B3": {
+            "state_macro_f1": 0.46933573249362726,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.3736111111111111,
+              0.5412014885699096
+            ],
+            "T_del_EWR": 0.5,
+            "T_del_EWR_count": 6,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.2537815976337061,
+              0.7462184023662939
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.2692307692307692,
+              0.7307692307692307
+            ]
+          },
+          "P": {
+            "state_macro_f1": 0.9709576138147566,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.9709576138147566,
+              0.9709576138147566
+            ],
+            "T_del_EWR": 0.038461538461538464,
+            "T_del_EWR_count": 0,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.0,
+              0.24249400665524085
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.038461538461538464,
+              0.038461538461538464
+            ]
+          }
+        }
+      },
+      "social_science": {
+        "teacher_clusters": 12,
+        "records": 72,
+        "methods": {
+          "B1": {
+            "state_macro_f1": 0.8755169561621174,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.7455722939582337,
+              0.9709576138147566
+            ],
+            "T_del_EWR": 0.038461538461538464,
+            "T_del_EWR_count": 0,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.0,
+              0.24249400665524085
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.038461538461538464,
+              0.038461538461538464
+            ]
+          },
+          "B2": {
+            "state_macro_f1": 0.2650273224043716,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.2650273224043716,
+              0.2650273224043716
+            ],
+            "T_del_EWR": 0.5769230769230769,
+            "T_del_EWR_count": 7,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.31951131254954973,
+              0.8067396863412435
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.34615384615384615,
+              0.8076923076923077
+            ]
+          },
+          "B3": {
+            "state_macro_f1": 0.5108984582668793,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.4240165631469979,
+              0.5803571428571429
+            ],
+            "T_del_EWR": 0.4230769230769231,
+            "T_del_EWR_count": 5,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.19326031365875668,
+              0.6804886874504503
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.19230769230769232,
+              0.6538461538461539
+            ]
+          },
+          "P": {
+            "state_macro_f1": 0.9709576138147566,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.9709576138147566,
+              0.9709576138147566
+            ],
+            "T_del_EWR": 0.038461538461538464,
+            "T_del_EWR_count": 0,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.0,
+              0.24249400665524085
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.038461538461538464,
+              0.038461538461538464
+            ]
+          }
+        }
+      },
+      "stem": {
+        "teacher_clusters": 12,
+        "records": 72,
+        "methods": {
+          "B1": {
+            "state_macro_f1": 0.9201739618406285,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.858982021016983,
+              0.9709576138147566
+            ],
+            "T_del_EWR": 0.19230769230769232,
+            "T_del_EWR_count": 2,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.04696514218385378,
+              0.4480308622529734
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.038461538461538464,
+              0.4230769230769231
+            ]
+          },
+          "B2": {
+            "state_macro_f1": 0.2650273224043716,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.2650273224043716,
+              0.2650273224043716
+            ],
+            "T_del_EWR": 0.8846153846153846,
+            "T_del_EWR_count": 11,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.646120088858883,
+              0.9851349055950829
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.7307692307692307,
+              0.9615384615384616
+            ]
+          },
+          "B3": {
+            "state_macro_f1": 0.5412014885699096,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.46933573249362726,
+              0.5979579579579579
+            ],
+            "T_del_EWR": 0.34615384615384615,
+            "T_del_EWR_count": 4,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.13812009109121315,
+              0.6093779111272004
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.11538461538461539,
+              0.5769230769230769
+            ]
+          },
+          "P": {
+            "state_macro_f1": 0.9556152769211189,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.927167387965936,
+              0.9709576138147566
+            ],
+            "T_del_EWR": 0.038461538461538464,
+            "T_del_EWR_count": 0,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.0,
+              0.24249400665524085
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.038461538461538464,
+              0.038461538461538464
+            ]
+          }
+        }
+      }
+    },
+    "career_stage": {
+      "early": {
+        "teacher_clusters": 16,
+        "records": 96,
+        "methods": {
+          "B1": {
+            "state_macro_f1": 0.8906662080036692,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.7757543382543383,
+              0.9778280542986425
+            ],
+            "T_del_EWR": 0.08823529411764706,
+            "T_del_EWR_count": 1,
+            "T_del_EWR_denominator": 16,
+            "T_del_EWR_wilson_95ci": [
+              0.01111934476464252,
+              0.28328737570298945
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.029411764705882353,
+              0.20588235294117646
+            ]
+          },
+          "B2": {
+            "state_macro_f1": 0.2654320987654321,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.2654320987654321,
+              0.2654320987654321
+            ],
+            "T_del_EWR": 0.9117647058823529,
+            "T_del_EWR_count": 15,
+            "T_del_EWR_denominator": 16,
+            "T_del_EWR_wilson_95ci": [
+              0.7167126242970107,
+              0.9888806552353576
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.7941176470588235,
+              0.9705882352941176
+            ]
+          },
+          "B3": {
+            "state_macro_f1": 0.5491360280124838,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.4774193548387096,
+              0.5926238738738739
+            ],
+            "T_del_EWR": 0.2647058823529412,
+            "T_del_EWR_count": 4,
+            "T_del_EWR_denominator": 16,
+            "T_del_EWR_wilson_95ci": [
+              0.10182067491213048,
+              0.49498316535508774
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.08823529411764706,
+              0.5
+            ]
+          },
+          "P": {
+            "state_macro_f1": 0.9659805007274227,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.9436613547312945,
+              0.9778280542986425
+            ],
+            "T_del_EWR": 0.029411764705882353,
+            "T_del_EWR_count": 0,
+            "T_del_EWR_denominator": 16,
+            "T_del_EWR_wilson_95ci": [
+              0.0,
+              0.1936076805344365
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.029411764705882353,
+              0.029411764705882353
+            ]
+          }
+        }
+      },
+      "mid": {
+        "teacher_clusters": 16,
+        "records": 96,
+        "methods": {
+          "B1": {
+            "state_macro_f1": 0.9416842847075405,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.903004493327074,
+              0.9778280542986425
+            ],
+            "T_del_EWR": 0.08823529411764706,
+            "T_del_EWR_count": 1,
+            "T_del_EWR_denominator": 16,
+            "T_del_EWR_wilson_95ci": [
+              0.01111934476464252,
+              0.28328737570298945
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.029411764705882353,
+              0.20588235294117646
+            ]
+          },
+          "B2": {
+            "state_macro_f1": 0.2654320987654321,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.2654320987654321,
+              0.2654320987654321
+            ],
+            "T_del_EWR": 0.8529411764705882,
+            "T_del_EWR_count": 14,
+            "T_del_EWR_denominator": 16,
+            "T_del_EWR_wilson_95ci": [
+              0.639771727342413,
+              0.9650225122567595
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.6764705882352942,
+              0.9705882352941176
+            ]
+          },
+          "B3": {
+            "state_macro_f1": 0.4909222948438634,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.404320132927167,
+              0.557407808327921
+            ],
+            "T_del_EWR": 0.5,
+            "T_del_EWR_count": 8,
+            "T_del_EWR_denominator": 16,
+            "T_del_EWR_wilson_95ci": [
+              0.27999563610326017,
+              0.7200043638967398
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.2647058823529412,
+              0.7352941176470589
+            ]
+          },
+          "P": {
+            "state_macro_f1": 0.9778280542986425,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.9778280542986425,
+              0.9778280542986425
+            ],
+            "T_del_EWR": 0.029411764705882353,
+            "T_del_EWR_count": 0,
+            "T_del_EWR_denominator": 16,
+            "T_del_EWR_wilson_95ci": [
+              0.0,
+              0.1936076805344365
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.029411764705882353,
+              0.029411764705882353
+            ]
+          }
+        }
+      },
+      "senior": {
+        "teacher_clusters": 16,
+        "records": 96,
+        "methods": {
+          "B1": {
+            "state_macro_f1": 0.9778280542986425,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.9778280542986425,
+              0.9778280542986425
+            ],
+            "T_del_EWR": 0.029411764705882353,
+            "T_del_EWR_count": 0,
+            "T_del_EWR_denominator": 16,
+            "T_del_EWR_wilson_95ci": [
+              0.0,
+              0.1936076805344365
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.029411764705882353,
+              0.029411764705882353
+            ]
+          },
+          "B2": {
+            "state_macro_f1": 0.2654320987654321,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.2654320987654321,
+              0.2654320987654321
+            ],
+            "T_del_EWR": 0.6764705882352942,
+            "T_del_EWR_count": 11,
+            "T_del_EWR_denominator": 16,
+            "T_del_EWR_wilson_95ci": [
+              0.44404355834740666,
+              0.8583535614521796
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.4411764705882353,
+              0.8529411764705882
+            ]
+          },
+          "B3": {
+            "state_macro_f1": 0.4715284715284715,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.3782125047947833,
+              0.5491360280124838
+            ],
+            "T_del_EWR": 0.5588235294117647,
+            "T_del_EWR_count": 9,
+            "T_del_EWR_denominator": 16,
+            "T_del_EWR_wilson_95ci": [
+              0.331785563988119,
+              0.7690134759450765
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.3235294117647059,
+              0.7941176470588235
+            ]
+          },
+          "P": {
+            "state_macro_f1": 0.9778280542986425,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.9778280542986425,
+              0.9778280542986425
+            ],
+            "T_del_EWR": 0.029411764705882353,
+            "T_del_EWR_count": 0,
+            "T_del_EWR_denominator": 16,
+            "T_del_EWR_wilson_95ci": [
+              0.0,
+              0.1936076805344365
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.029411764705882353,
+              0.029411764705882353
+            ]
+          }
+        }
+      }
+    },
+    "dimension": {
+      "ai": {
+        "teacher_clusters": 12,
+        "records": 72,
+        "methods": {
+          "B1": {
+            "state_macro_f1": 0.9201739618406285,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.8571947297437493,
+              0.9709576138147566
+            ],
+            "T_del_EWR": 0.19230769230769232,
+            "T_del_EWR_count": 2,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.04696514218385378,
+              0.4480308622529734
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.038461538461538464,
+              0.4230769230769231
+            ]
+          },
+          "B2": {
+            "state_macro_f1": 0.2650273224043716,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.2650273224043716,
+              0.2650273224043716
+            ],
+            "T_del_EWR": 0.8076923076923077,
+            "T_del_EWR_count": 10,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.5519691377470267,
+              0.9530348578161462
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.5769230769230769,
+              0.9615384615384616
+            ]
+          },
+          "B3": {
+            "state_macro_f1": 0.46933573249362726,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.3736111111111111,
+              0.5412014885699096
+            ],
+            "T_del_EWR": 0.5769230769230769,
+            "T_del_EWR_count": 7,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.31951131254954973,
+              0.8067396863412435
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.34615384615384615,
+              0.8076923076923077
+            ]
+          },
+          "P": {
+            "state_macro_f1": 0.9556152769211189,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.927167387965936,
+              0.9709576138147566
+            ],
+            "T_del_EWR": 0.038461538461538464,
+            "T_del_EWR_count": 0,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.0,
+              0.24249400665524085
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.038461538461538464,
+              0.038461538461538464
+            ]
+          }
+        }
+      },
+      "digital": {
+        "teacher_clusters": 12,
+        "records": 72,
+        "methods": {
+          "B1": {
+            "state_macro_f1": 0.9410485347985348,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.9011579818031431,
+              0.9709576138147566
+            ],
+            "T_del_EWR": 0.038461538461538464,
+            "T_del_EWR_count": 0,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.0,
+              0.24249400665524085
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.038461538461538464,
+              0.038461538461538464
+            ]
+          },
+          "B2": {
+            "state_macro_f1": 0.2650273224043716,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.2650273224043716,
+              0.2650273224043716
+            ],
+            "T_del_EWR": 0.8076923076923077,
+            "T_del_EWR_count": 10,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.5519691377470267,
+              0.9530348578161462
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.5769230769230769,
+              0.9615384615384616
+            ]
+          },
+          "B3": {
+            "state_macro_f1": 0.5325125048095422,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.4502923976608187,
+              0.5979579579579579
+            ],
+            "T_del_EWR": 0.34615384615384615,
+            "T_del_EWR_count": 4,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.13812009109121315,
+              0.6093779111272004
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.11538461538461539,
+              0.5769230769230769
+            ]
+          },
+          "P": {
+            "state_macro_f1": 0.9709576138147566,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.9709576138147566,
+              0.9709576138147566
+            ],
+            "T_del_EWR": 0.038461538461538464,
+            "T_del_EWR_count": 0,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.0,
+              0.24249400665524085
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.038461538461538464,
+              0.038461538461538464
+            ]
+          }
+        }
+      },
+      "research": {
+        "teacher_clusters": 12,
+        "records": 72,
+        "methods": {
+          "B1": {
+            "state_macro_f1": 0.9709576138147566,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.9709576138147566,
+              0.9709576138147566
+            ],
+            "T_del_EWR": 0.038461538461538464,
+            "T_del_EWR_count": 0,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.0,
+              0.24249400665524085
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.038461538461538464,
+              0.038461538461538464
+            ]
+          },
+          "B2": {
+            "state_macro_f1": 0.2650273224043716,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.2650273224043716,
+              0.2650273224043716
+            ],
+            "T_del_EWR": 0.8846153846153846,
+            "T_del_EWR_count": 11,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.646120088858883,
+              0.9851349055950829
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.7307692307692307,
+              0.9615384615384616
+            ]
+          },
+          "B3": {
+            "state_macro_f1": 0.5412014885699096,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.46933573249362726,
+              0.5979579579579579
+            ],
+            "T_del_EWR": 0.2692307692307692,
+            "T_del_EWR_count": 3,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.08894166839405476,
+              0.5323053349335656
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.038461538461538464,
+              0.5
+            ]
+          },
+          "P": {
+            "state_macro_f1": 0.9709576138147566,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.9709576138147566,
+              0.9709576138147566
+            ],
+            "T_del_EWR": 0.038461538461538464,
+            "T_del_EWR_count": 0,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.0,
+              0.24249400665524085
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.038461538461538464,
+              0.038461538461538464
+            ]
+          }
+        }
+      },
+      "teaching": {
+        "teacher_clusters": 12,
+        "records": 72,
+        "methods": {
+          "B1": {
+            "state_macro_f1": 0.8910867078471746,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.7615600877950135,
+              0.9709576138147566
+            ],
+            "T_del_EWR": 0.038461538461538464,
+            "T_del_EWR_count": 0,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.0,
+              0.24249400665524085
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.038461538461538464,
+              0.038461538461538464
+            ]
+          },
+          "B2": {
+            "state_macro_f1": 0.2650273224043716,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.2650273224043716,
+              0.2650273224043716
+            ],
+            "T_del_EWR": 0.7307692307692307,
+            "T_del_EWR_count": 9,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.4676946650664343,
+              0.9110583316059452
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.5,
+              0.9615384615384616
+            ]
+          },
+          "B3": {
+            "state_macro_f1": 0.46206896551724136,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.36660389202762084,
+              0.5412014885699096
+            ],
+            "T_del_EWR": 0.5769230769230769,
+            "T_del_EWR_count": 7,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.31951131254954973,
+              0.8067396863412435
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.34615384615384615,
+              0.8076923076923077
+            ]
+          },
+          "P": {
+            "state_macro_f1": 0.9709576138147566,
+            "state_macro_f1_cluster_bootstrap_95ci": [
+              0.9709576138147566,
+              0.9709576138147566
+            ],
+            "T_del_EWR": 0.038461538461538464,
+            "T_del_EWR_count": 0,
+            "T_del_EWR_denominator": 12,
+            "T_del_EWR_wilson_95ci": [
+              0.0,
+              0.24249400665524085
+            ],
+            "T_del_EWR_cluster_bootstrap_95ci": [
+              0.038461538461538464,
+              0.038461538461538464
+            ]
+          }
+        }
+      }
+    }
+  }
+}
